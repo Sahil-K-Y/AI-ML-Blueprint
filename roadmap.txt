@@ -1,0 +1,204 @@
+Date Day Topic Description
+12-Jun-2026 1 Seaborn Revision distplot/histplot, boxplot, violinplot, pairplot, heatmap, correlation matrix
+13-Jun-2026 2 Seaborn Advanced catplot, FacetGrid, styling themes, custom palettes
+14-Jun-2026 3 EDA Intro .info, .describe, .shape, data types, missing value detection
+15-Jun-2026 4 Handling Missing Values mean/median/mode imputation, dropna, fillna strategies
+16-Jun-2026 5 Outlier Detection IQR method, Z-score method, boxplot-based outlier visualization
+17-Jun-2026 6 Univariate Analysis histograms, KDE plots, value_counts, distribution skewness
+18-Jun-2026 7 Bivariate Analysis scatterplots, correlation heatmap, groupby aggregations
+19-Jun-2026 8 Multivariate Analysis pairplot, pivot tables, crosstab analysis
+20-Jun-2026 9 Data Cleaning Pipeline renaming columns, dtype conversion, duplicate removal, string cleaning
+21-Jun-2026 10 EDA Capstone (Titanic) Full EDA workflow on Titanic dataset — missing values, outliers, univariate & bivariate analysis
+22-Jun-2026 11 Feature Encoding Label Encoding, One-Hot Encoding, Ordinal Encoding
+23-Jun-2026 12 Feature Scaling StandardScaler, MinMaxScaler, RobustScaler
+24-Jun-2026 13 Handling Skewed Data log transform, sqrt transform, Box-Cox transform
+25-Jun-2026 14 Feature Creation binning, interaction features, date-time feature extraction
+26-Jun-2026 15 Train/Test Split & CV train_test_split, cross-validation basics (K-Fold), data leakage prevention
+27-Jun-2026 16 Feature Engineering Capstone Encoding + scaling + feature creation pipeline on Titanic dataset
+28-Jun-2026 17 Linear Regression Theory hypothesis function, slope & intercept, line of best fit, assumptions
+29-Jun-2026 18 Cost Function (MSE) Mean Squared Error (MSE), intuition of minimizing error
+30-Jun-2026 19 Gradient Descent learning rate, convergence, visualizing cost reduction
+01-Jul-2026 20 Linear Regression Implementation sklearn LinearRegression, model.fit(), model.predict()
+02-Jul-2026 21 Model Evaluation R2 Score, Adjusted R2, MAE, RMSE
+03-Jul-2026 22 Multiple Linear Regression multicollinearity, VIF (Variance Inflation Factor)
+04-Jul-2026 23 Polynomial Regression PolynomialFeatures, overfitting vs underfitting visualization
+05-Jul-2026 24 Ridge & Lasso Theory L1 vs L2 regularization, alpha parameter, mathematical intuition
+06-Jul-2026 25 Ridge & Lasso Implementation sklearn Ridge/Lasso, grid search for alpha, feature selection
+07-Jul-2026 26 Elastic Net L1+L2 combination, l1_ratio, grid search implementation
+08-Jul-2026 27 House Price Prediction Project Build, train, evaluate Linear Regression model end-to-end
+09-Jul-2026 28 Streamlit Basics st.title, st.write, st.dataframe, st.sidebar, running a local app
+10-Jul-2026 29 Streamlit Input Widgets st.slider, st.selectbox, st.number_input, st.button for ML model input
+11-Jul-2026 30 Streamlit Project Deploy House Price Prediction model as interactive Streamlit web app
+12-Jul-2026 31 Logistic Regression Theory sigmoid function, decision boundary, odds & log-odds
+13-Jul-2026 32 Logistic Regression Cost Function log loss / cross-entropy, gradient descent for classification
+14-Jul-2026 33 Logistic Regression Implementation sklearn LogisticRegression, model.fit(), predict_proba, threshold tuning
+15-Jul-2026 34 Evaluation Metrics Confusion Matrix, Accuracy, Precision, Recall, F1-Score
+16-Jul-2026 35 ROC-AUC ROC Curve, AUC Score, handling class imbalance basics (class_weight)
+17-Jul-2026 36 SMOTE for Imbalanced Data Synthetic Minority Over-sampling Technique, code implementation
+18-Jul-2026 37 Titanic Project Complete Logistic Regression pipeline — EDA, feature engineering, model, evaluation
+19-Jul-2026 38 KNN Theory Euclidean Distance, Manhattan Distance, intuition of nearest neighbors
+20-Jul-2026 39 Choosing K elbow method, effect of K on bias-variance tradeoff
+21-Jul-2026 40 KNN Implementation sklearn KNeighborsClassifier, feature scaling importance for KNN
+22-Jul-2026 41 KNN Evaluation accuracy, confusion matrix, decision boundary visualization
+23-Jul-2026 42 KNN Project KNN classifier on Iris/Wine dataset with scaling and evaluation
+24-Jul-2026 43 K-Means Clustering theory, centroid calculation, WCSS metric
+25-Jul-2026 44 Elbow Method & Silhouette optimal k, silhouette score
+26-Jul-2026 45 DBSCAN Density-based clustering, epsilon, min_samples
+27-Jul-2026 46 PCA Principal Component Analysis — theory, explained variance, implementation
+28-Jul-2026 47 Customer Segmentation Project K-Means on Mall Customers dataset — end-to-end project
+29-Jul-2026 48 Decision Tree Theory Entropy, Information Gain, Gini Impurity
+30-Jul-2026 49 Decision Tree Construction recursive splitting, stopping criteria
+31-Jul-2026 50 Decision Tree Overfitting max_depth, min_samples_split, min_samples_leaf, pruning
+01-Aug-2026 51 Decision Tree Implementation sklearn DecisionTreeClassifier, plot_tree visualization
+02-Aug-2026 52 Decision Tree Feature Importance feature importance extraction and interpretation
+03-Aug-2026 53 Decision Tree Project Build and tune Decision Tree classifier, visualize tree
+04-Aug-2026 54 Random Forest Theory Bagging, Ensemble Learning intuition, why multiple trees reduce variance
+05-Aug-2026 55 Random Forest Bootstrap bootstrap sampling, feature randomness (max_features), out-of-bag (OOB) score
+06-Aug-2026 56 Random Forest Implementation sklearn RandomForestClassifier/Regressor
+07-Aug-2026 57 Random Forest Hyperparameter Tuning GridSearchCV, RandomizedSearchCV (n_estimators, max_depth)
+08-Aug-2026 58 Random Forest Feature Importance feature importance, comparison with Decision Tree performance
+09-Aug-2026 59 Customer Churn Project Random Forest model for churn prediction — full pipeline
+10-Aug-2026 60 XGBoost install, basic usage, hyperparameter tuning, feature importance
+11-Aug-2026 61 LightGBM Leaf-wise vs Level-wise growth strategy, implementation
+12-Aug-2026 62 CatBoost Symmetric trees, categorical feature handling, implementation
+13-Aug-2026 63 Optuna Basics Bayesian Optimization, defining search spaces, objective functions
+14-Aug-2026 64 Optuna Advanced study visualization, pruning trials, multi-stage sweeps
+15-Aug-2026 65 SVM Theory Hyperplane, Margin, Support Vectors, C parameter
+16-Aug-2026 66 SVM Kernel Trick RBF Kernel, Polynomial Kernel, gamma parameter
+17-Aug-2026 67 SVM Project Multi-class SVM on Wine dataset
+18-Aug-2026 68 Ensemble Methods: Voting Hard vs Soft Voting Classifiers
+19-Aug-2026 69 AdaBoost Theory Sequential boosting, weighted errors, step size
+20-Aug-2026 70 AdaBoost Implementation sklearn AdaBoostClassifier, tuning
+21-Aug-2026 71 Stacking & Blending Meta-models, out-of-fold predictions, stacking classifiers
+22-Aug-2026 72 Deep Learning Intro Neural Network basics, biological neuron analogy, perceptron model
+23-Aug-2026 73 ANN Layers input layer, hidden layers, output layer, weights & biases
+24-Aug-2026 74 Activation Functions Sigmoid, ReLU, Tanh, Softmax — when to use which
+25-Aug-2026 75 Forward Propagation matrix multiplication through layers, intuition walkthrough
+26-Aug-2026 76 Loss Functions MSE for regression, Cross-Entropy for classification
+27-Aug-2026 77 Backpropagation chain rule intuition, gradient descent for weight updates
+28-Aug-2026 78 ANN Implementation TensorFlow/Keras — Sequential model, Dense layers, compile, fit
+29-Aug-2026 79 Optimizers SGD, Adam, learning rate tuning, epochs & batch size
+30-Aug-2026 80 Regularization Dropout, Batch Normalization, EarlyStopping callback
+31-Aug-2026 81 ANN Project Bank Customer Churn classifier with Keras
+01-Sep-2026 82 model.save() / load_model() Saving and loading trained models with Keras (H5/SavedModel)
+02-Sep-2026 83 CNN Theory convolution, filters/kernels, stride
+03-Sep-2026 84 Padding & Pooling valid vs same padding, Max vs Average Pooling
+04-Sep-2026 85 Feature Maps visualization of edge and pattern detection
+05-Sep-2026 86 CNN Architecture stacking Conv2D, Pooling, Flatten, and Dense layers
+06-Sep-2026 87 CNN Implementation Keras building blocks for vision
+07-Sep-2026 88 Data Preprocessing normalization, reshaping, ImageDataGenerator
+08-Sep-2026 89 Data Augmentation rotation, flip, zoom, shift for image datasets
+09-Sep-2026 90 CNN Training MNIST digit classifier, validation split, loss curves
+10-Sep-2026 91 CNN Evaluation confusion matrix, visualizing misclassifications
+11-Sep-2026 92 Transfer Learning Pretrained models (VGG16, ResNet), fine-tuning vs freezing
+12-Sep-2026 93 Digit Classifier Project Complete CNN-based MNIST project
+13-Sep-2026 94 NLP Basics text data challenges, NLP pipeline overview
+14-Sep-2026 95 Text Preprocessing lowercasing, punctuation removal, tokenization
+15-Sep-2026 96 Stopwords & Stemming PorterStemmer vs WordNetLemmatizer
+16-Sep-2026 97 Bag of Words CountVectorizer, vocabulary building, sparse matrices
+17-Sep-2026 98 Cosine Similarity text similarity, document ranking implementation
+18-Sep-2026 99 N-grams unigrams, bigrams, trigrams for feature representation
+19-Sep-2026 100 Word Embeddings Word2Vec intuition, dense vector representation
+20-Sep-2026 101 TF-IDF Theory Term Frequency, Inverse Document Frequency
+21-Sep-2026 102 TF-IDF Implementation TfidfVectorizer: max_features, ngram_range
+22-Sep-2026 103 TF-IDF Comparison BoW vs TF-IDF on identical datasets
+23-Sep-2026 104 Naive Bayes Gaussian, Multinomial, Bernoulli theory and code
+24-Sep-2026 105 Naive Bayes Project Spam/Ham SMS classification with MultinomialNB
+25-Sep-2026 106 Sentiment Analysis: Overview IMDB/Twitter reviews dataset analysis
+26-Sep-2026 107 Sentiment Analysis: Cleaning regex, stopwords, lemmatization for reviews
+27-Sep-2026 108 Sentiment Analysis: Feature Extraction TF-IDF train-test split for text
+28-Sep-2026 109 Sentiment Analysis: Model Training Logistic Regression vs Naive Bayes
+29-Sep-2026 110 Sentiment Analysis: Evaluation precision, recall, F1, confusion matrix
+30-Sep-2026 111 Sentiment Analysis Project End-to-end classifier build
+01-Oct-2026 112 RNN Theory Recurrent Neural Networks, vanishing gradients
+02-Oct-2026 113 LSTM Theory Forget, Input, Output gates architecture
+03-Oct-2026 114 LSTM Code Sequence modeling on IMDB sentiment data
+04-Oct-2026 115 Attention Mechanism Scaled Dot-Product, Self-attention intuition
+05-Oct-2026 116 Transformer Basics Multi-head attention, Positional Encoding
+06-Oct-2026 117 Hugging Face Ecosystem Pipelines, Datasets, Transformers library
+07-Oct-2026 118 BERT Encoder-only architecture, Masked LM, fine-tuning
+08-Oct-2026 119 GPT Decoder-only pre-training, prompt engineering
+09-Oct-2026 120 RAG Retrieval-Augmented Generation workflow, LangChain
+10-Oct-2026 121 Vector Databases FAISS, ChromaDB setup and similarity search
+11-Oct-2026 122 RAG Project Chat With PDF (LangChain + Streamlit)
+12-Oct-2026 123 Ollama Running Llama 3 / Mistral locally
+13-Oct-2026 124 Full Stack AI: Architecture React + FastAPI + ML integration plan
+14-Oct-2026 125 Full Stack AI: Backend Setup FastAPI structure, routes, model loader
+15-Oct-2026 126 Full Stack AI: Prediction API Endpoints for Churn/Sentiment models
+16-Oct-2026 127 Full Stack AI: Frontend Connecting React to FastAPI via axios
+17-Oct-2026 128 Full Stack AI: UI Input forms and prediction display in React
+18-Oct-2026 129 Full Stack AI: MongoDB user prediction history integration
+19-Oct-2026 130 Full Stack AI: Authentication JWT implementation for secure access
+20-Oct-2026 131 Full Stack AI: Polish Loading states, responsive layout fixes
+21-Oct-2026 132 Full Stack AI: Testing End-to-end flow testing: UI to DB
+22-Oct-2026 133 Full Stack AI: Deployment Hosting on Vercel and Render
+23-Oct-2026 134 Full Stack AI: Documentation README, architecture diagrams, API docs
+24-Oct-2026 135 Full Stack AI: Final Polish Bug fixes and performance check
+25-Oct-2026 136 ML Pipelines: sklearn Pipeline Chaining preprocessing and models
+26-Oct-2026 137 ML Pipelines: ColumnTransformer Numeric vs Categorical handling
+27-Oct-2026 138 ML Pipelines: GridSearchCV Tuning Pipeline + ColumnTransformer
+28-Oct-2026 139 ML Pipelines: Serialization Saving models with joblib and pickle
+29-Oct-2026 140 FastAPI for ML Pydantic schemas for ML endpoints
+30-Oct-2026 141 FastAPI: Model Loading loading serialized models in FastAPI
+31-Oct-2026 142 FastAPI: Swagger & Testing API testing with Swagger UI/Postman
+01-Nov-2026 143 FastAPI: Streamlit Integration Frontend-Backend connection
+02-Nov-2026 144 Docker Basics Containerization, Dockerfile, .dockerignore
+03-Nov-2026 145 Docker Compose Multi-service (FastAPI + MongoDB)
+04-Nov-2026 146 MLflow Experiment tracking and model registry
+05-Nov-2026 147 Model Monitoring Data Drift, Model Drift, alerts
+06-Nov-2026 148 CI/CD Basics GitHub Actions: automated testing and deployment
+07-Nov-2026 149 Time Series Basics Trend, seasonality, stationarity
+08-Nov-2026 150 Moving Average Simple and Exponential Moving Averages
+09-Nov-2026 151 ARIMA Overview p, d, q parameters intuition
+10-Nov-2026 152 Prophet Forecasting Facebook Prophet implementation
+11-Nov-2026 153 GANs Generator vs Discriminator training loop
+12-Nov-2026 154 Autoencoders Vanilla, Denoising, and VAE
+13-Nov-2026 155 Reinforcement Learning Agents, Q-Learning, DQN overview
+14-Nov-2026 156 Feature Selection SelectKBest, RFE, mutual info
+15-Nov-2026 157 Model Calibration Platt Scaling, Isotonic Regression
+16-Nov-2026 158 Portfolio Building: Structure Site layout: About, Projects, Skills
+17-Nov-2026 159 Portfolio Building: Projects 1 House Price, Titanic, KNN, Decision Trees
+18-Nov-2026 160 Portfolio Building: Projects 2 CNN Digit Classifier, Sentiment Analysis
+19-Nov-2026 161 Portfolio Building: Flagship Full Stack AI App with live demo
+20-Nov-2026 162 Portfolio Building: Resume Alignment of skills with projects
+21-Nov-2026 163 Portfolio Building: Deployment Site deployment and link verification
+22-Nov-2026 164 ML Revision: Week 1 Linear/Logistic, KNN, Decision Tree, RF
+23-Nov-2026 165 ML Revision: Week 2 ANN, CNN, activations, optimizers
+24-Nov-2026 166 ML Revision: Week 3 NLP pipeline and sentiment model
+25-Nov-2026 167 ML Revision: Week 4 Deployment, Pipelines, FastAPI
+26-Nov-2026 168 Mock Project Review 1 House Price Prediction
+27-Nov-2026 169 Mock Project Review 2 Titanic Logistic Regression
+28-Nov-2026 170 Mock Project Review 3 Customer Churn pipeline
+29-Nov-2026 171 Mock Project Review 4 CNN Digit Classifier
+30-Nov-2026 172 Mock Project Review 5 Sentiment Analysis NLP
+01-Dec-2026 173 Mock Project Review 6 Full Stack AI Application
+02-Dec-2026 174 Interview Prep: ML Theory Bias-variance, overfitting, regularization
+03-Dec-2026 175 Interview Prep: DL Theory Backprop, CNN vs ANN, dropout
+04-Dec-2026 176 Interview Prep: Projects STAR format project explanations
+05-Dec-2026 177 Final Review Consolidation of all revision notes
+06-Dec-2026 178 Portfolio + Resume + LinkedIn Final polish, ATS-optimization
+07-Dec-2026 179 Buffer Revision: Ridge & Lasso alpha tuning and quizzes
+08-Dec-2026 180 Buffer Revision: Elastic Net grid search review and quiz
+09-Dec-2026 181 Buffer Revision: Cosine Similarity text ranking review and quiz
+10-Dec-2026 182 Buffer Revision: AdaBoost boosting logic and quiz
+11-Dec-2026 183 Buffer Revision: Stacking/Blending meta-models and quiz
+12-Dec-2026 184 Buffer Revision: Prophet seasonality review and quiz
+13-Dec-2026 185 Buffer Revision: Model Save/Load persistence review and quiz
+14-Dec-2026 186 Buffer Revision: Customer Segmentation K-Means review and quiz
+15-Dec-2026 187 Buffer Practice: Weak areas Targeted improvement sessions
+16-Dec-2026 188 Buffer Mock Test ML theory + coding practice
+17-Dec-2026 189 Buffer Mock Test Combined technical and theory exam
+18-Dec-2026 190 Buffer Mock Test High-intensity coding review
+19-Dec-2026 191 Buffer Mock Test Final performance benchmarking
+20-Dec-2026 192 Final Revision: Quick recap Summary of all topics (A-Z)
+21-Dec-2026 193 Final Revision: Quick recap Key concepts and formula sheet
+22-Dec-2026 194 Final Polish Portfolio, LinkedIn, and Resume checks
+23-Dec-2026 195 Rest / Light Practice Breathing room and light browsing
+24-Dec-2026 196 Rest / Light Practice Breathing room and mindset prep
+25-Dec-2026 197 Rest / Light Practice Final confidence building
+26-Dec-2026 198 Final Check All projects live and GitHub ready
+27-Dec-2026 199 Final Check Portfolio, LinkedIn, and Resume verification
+28-Dec-2026 200 Final Check Mock interview readiness
+29-Dec-2026 201 Final Check Mock interview readiness
+30-Dec-2026 202 Final Check Mock interview readiness
+31-Dec-2026 203 CELEBRATE! 100% AI/ML Ready – Internship Ready! 🎉
