@@ -18,13 +18,13 @@ This repository tracks my complete AI/ML learning journey — from foundational 
 
 | Month | Days | Topics |
 |-------|------|--------|
-| [June](./June) | 1–10 | Seaborn, EDA, Data Cleaning, Titanic Capstone |
-| [July](./July) | 11–30 | Feature Engineering, Linear Regression, Streamlit, Logistic Regression |
-| [August](./August) | 31–62 | KNN, K-Means, PCA, Decision Trees, Random Forest, XGBoost, Optuna |
-| [September](./September) | 63–93 | SVM, Ensemble, ANN, CNN, Transfer Learning |
-| [October](./October) | 94–135 | NLP, RNN, LSTM, Transformers, RAG, Full Stack AI |
-| [November](./November) | 136–163 | ML Pipelines, FastAPI, Docker, MLflow, Portfolio |
-| [December](./December) | 164–203 | Revision, Mock Projects, Interview Prep |
+| [June](./June) | 1–19 | Seaborn, EDA, Data Cleaning, Titanic Capstone, Linear Regression Theory |
+| [July](./July) | 20–50 | Linear Regression, Streamlit, Logistic Regression, KNN, K-Means, Decision Trees |
+| [August](./August) | 51–81 | Random Forest, XGBoost, Optuna, SVM, Ensemble, ANN, CNN |
+| [September](./September) | 82–111 | CNN, Transfer Learning, NLP, Naive Bayes, Sentiment Analysis |
+| [October](./October) | 112–142 | RNN, LSTM, Transformers, BERT, GPT, RAG, Full Stack AI |
+| [November](./November) | 143–172 | ML Pipelines, FastAPI, Docker, MLflow, Portfolio Building |
+| [December](./December) | 173–203 | Revision, Mock Projects, Interview Prep, Final Polish |
 
 ## ✅ Progress
 
@@ -42,7 +42,7 @@ This repository tracks my complete AI/ML learning journey — from foundational 
 | 9 | Data Cleaning Pipeline — renaming, dtype conversion, dedup | [📓](./June/Day%2009%20-%20Data%20Cleaning%20Pipeline.ipynb) |
 | 10 | EDA Capstone (Titanic) — full EDA workflow | [📓](./June/Day%2010%20-%20EDA%20Capstone%20Titanic.ipynb) |
 
-### July (Days 11–30) 🔜
+### June (Days 11–19) 🔜
 | Day | Topic |
 |-----|-------|
 | 11 | Feature Encoding — Label, One-Hot, Ordinal |
@@ -54,6 +54,10 @@ This repository tracks my complete AI/ML learning journey — from foundational 
 | 17 | Linear Regression Theory |
 | 18 | Cost Function (MSE) |
 | 19 | Gradient Descent |
+
+### July (Days 20–50) 🔜
+| Day | Topic |
+|-----|-------|
 | 20 | Linear Regression Implementation |
 | 21 | Model Evaluation — R², MAE, RMSE |
 | 22 | Multiple Linear Regression, VIF |
@@ -65,10 +69,6 @@ This repository tracks my complete AI/ML learning journey — from foundational 
 | 28 | Streamlit Basics |
 | 29 | Streamlit Input Widgets |
 | 30 | Streamlit Project — Deploy House Price App |
-
-### August (Days 31–62) 🔜
-| Day | Topic |
-|-----|-------|
 | 31 | Logistic Regression Theory |
 | 32 | Logistic Regression Cost Function |
 | 33 | Logistic Regression Implementation |
@@ -76,56 +76,122 @@ This repository tracks my complete AI/ML learning journey — from foundational 
 | 35 | ROC-AUC |
 | 36 | SMOTE for Imbalanced Data |
 | 37 | Titanic Project — Logistic Regression Pipeline |
-| 38–42 | KNN — Theory, Choosing K, Implementation, Evaluation, Project |
-| 43–45 | K-Means, Elbow Method, DBSCAN |
+| 38 | KNN Theory |
+| 39 | Choosing K |
+| 40 | KNN Implementation |
+| 41 | KNN Evaluation |
+| 42 | KNN Project |
+| 43 | K-Means Clustering |
+| 44 | Elbow Method & Silhouette |
+| 45 | DBSCAN |
 | 46 | PCA |
 | 47 | Customer Segmentation Project |
-| 48–53 | Decision Trees — Theory, Construction, Pruning, Implementation, Project |
-| 54–58 | Random Forest — Bagging, Bootstrap, Implementation, Hyperparameter Tuning |
+| 48 | Decision Tree Theory |
+| 49 | Decision Tree Construction |
+| 50 | Decision Tree Overfitting |
+
+### August (Days 51–81) 🔜
+| Day | Topic |
+|-----|-------|
+| 51 | Decision Tree Implementation |
+| 52 | Decision Tree Feature Importance |
+| 53 | Decision Tree Project |
+| 54 | Random Forest Theory |
+| 55 | Random Forest Bootstrap |
+| 56 | Random Forest Implementation |
+| 57 | RF Hyperparameter Tuning |
+| 58 | RF Feature Importance |
 | 59 | Customer Churn Project |
-| 60–62 | XGBoost, LightGBM, CatBoost, Optuna |
+| 60 | XGBoost |
+| 61 | LightGBM |
+| 62 | CatBoost |
+| 63 | Optuna Basics |
+| 64 | Optuna Advanced |
+| 65 | SVM Theory |
+| 66 | SVM Kernel Trick |
+| 67 | SVM Project |
+| 68 | Ensemble: Voting |
+| 69 | AdaBoost Theory |
+| 70 | AdaBoost Implementation |
+| 71 | Stacking & Blending |
+| 72 | Deep Learning Intro |
+| 73 | ANN Layers |
+| 74 | Activation Functions |
+| 75 | Forward Propagation |
+| 76 | Loss Functions |
+| 77 | Backpropagation |
+| 78 | ANN Implementation (Keras) |
+| 79 | Optimizers |
+| 80 | Regularization |
+| 81 | ANN Project — Churn Classifier |
 
-### September (Days 63–93) 🔜
+### September (Days 82–111) 🔜
 | Day | Topic |
 |-----|-------|
-| 63–64 | Optuna Advanced |
-| 65–67 | SVM — Theory, Kernel Trick, Project |
-| 68–71 | Ensemble — Voting, AdaBoost, Stacking |
-| 72–82 | Deep Learning — ANN, Backpropagation, Keras, Optimizers, Regularization, Project |
-| 83–93 | CNN — Convolution, Pooling, Architecture, Implementation, Augmentation, Transfer Learning, MNIST Project |
+| 82 | model.save() / load_model() |
+| 83 | CNN Theory |
+| 84 | Padding & Pooling |
+| 85 | Feature Maps |
+| 86 | CNN Architecture |
+| 87 | CNN Implementation |
+| 88 | Data Preprocessing |
+| 89 | Data Augmentation |
+| 90 | CNN Training — MNIST |
+| 91 | CNN Evaluation |
+| 92 | Transfer Learning |
+| 93 | Digit Classifier Project |
+| 94 | NLP Basics |
+| 95 | Text Preprocessing |
+| 96 | Stopwords & Stemming |
+| 97 | Bag of Words |
+| 98 | Cosine Similarity |
+| 99 | N-grams |
+| 100 | Word Embeddings |
+| 101 | TF-IDF Theory |
+| 102 | TF-IDF Implementation |
+| 103 | TF-IDF Comparison |
+| 104 | Naive Bayes |
+| 105 | Naive Bayes Project — Spam Detection |
+| 106 | Sentiment Analysis Overview |
+| 107 | Sentiment: Cleaning |
+| 108 | Sentiment: Feature Extraction |
+| 109 | Sentiment: Model Training |
+| 110 | Sentiment: Evaluation |
+| 111 | Sentiment Analysis Project |
 
-### October (Days 94–135) 🔜
+### October (Days 112–142) 🔜
 | Day | Topic |
 |-----|-------|
-| 94–103 | NLP — Text Preprocessing, BoW, TF-IDF, Word Embeddings |
-| 104–105 | Naive Bayes — Spam Detection |
-| 106–112 | Sentiment Analysis — Cleaning, Feature Extraction, Modeling, Evaluation |
-| 113–114 | RNN & LSTM |
-| 115–116 | Attention & Transformers |
-| 117–121 | Hugging Face, BERT, GPT, RAG |
-| 122–123 | Vector Databases, Chat with PDF |
-| 124 | Ollama — Local LLMs |
-| 125–135 | Full Stack AI — FastAPI, React, MongoDB, Auth, Deployment |
+| 112 | RNN Theory |
+| 113 | LSTM Theory |
+| 114 | LSTM Code |
+| 115 | Attention Mechanism |
+| 116 | Transformer Basics |
+| 117 | Hugging Face Ecosystem |
+| 118 | BERT |
+| 119 | GPT |
+| 120 | RAG |
+| 121 | Vector Databases |
+| 122 | RAG Project — Chat With PDF |
+| 123 | Ollama |
+| 124–135 | Full Stack AI — Architecture, FastAPI, React, MongoDB, Auth, Deployment, Testing, Docs |
 
-### November (Days 136–163) 🔜
+### November (Days 143–172) 🔜
 | Day | Topic |
 |-----|-------|
-| 136–139 | ML Pipelines — sklearn Pipeline, ColumnTransformer, GridSearchCV |
-| 140–143 | FastAPI for ML — Pydantic, Model Loading, Swagger, Streamlit Integration |
-| 144–146 | Docker, Docker Compose, MLflow |
-| 147–148 | Model Monitoring, CI/CD |
+| 143–148 | ML Pipelines, FastAPI for ML, Docker, MLflow, Monitoring, CI/CD |
 | 149–152 | Time Series — ARIMA, Prophet |
 | 153–155 | GANs, Autoencoders, RL |
 | 156–158 | Feature Selection, Model Calibration |
-| 159–163 | Portfolio Building — Site, Projects, Deployment |
+| 159–163 | Portfolio Building |
+| 164–172 | ML Revision (4 weeks) + Mock Project Reviews (5 projects) |
 
-### December (Days 164–203) 🔜
+### December (Days 173–203) 🔜
 | Day | Topic |
 |-----|-------|
-| 164–177 | ML/DL Revision, Mock Project Reviews |
-| 174–177 | Interview Prep — ML Theory, DL Theory, STAR Format |
-| 178–194 | Portfolio + Resume + Buffer Revision |
-| 195–203 | Final Polish, Mock Interviews, Celebration 🎉 |
+| 173 | Mock Project Review 6 — Full Stack AI |
+| 174–176 | Interview Prep — ML Theory, DL Theory, STAR Format |
+| 177–203 | Final Review, Portfolio Polish, Buffer Revision, Mock Tests, Final Checks, Celebration 🎉 |
 
 ## 📊 Learning Resources
 
@@ -156,6 +222,10 @@ This repository tracks my complete AI/ML learning journey — from foundational 
 June    ████████████████████░░░░░░░░░░░░░░░░░░░  10/203 days
 July    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0/203 days
 August  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0/203 days
+September ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0/203 days
+October ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0/203 days
+November ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0/203 days
+December ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0/203 days
 ```
 
 ---
