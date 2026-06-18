@@ -3,7 +3,7 @@
   <p><b>203-Day Comprehensive Journey from Zero to Job-Ready AI/ML Engineer</b></p>
   <p>
     <img src="https://img.shields.io/badge/Status-In%20Progress-blue?style=flat-square">
-    <img src="https://img.shields.io/badge/Days%20Completed-10%20%2F%20203-brightgreen?style=flat-square">
+    <img src="https://img.shields.io/badge/Days%20Completed-13%20%2F%20203-brightgreen?style=flat-square">
     <img src="https://img.shields.io/badge/Language-Python%20%7C%20Jupyter-yellow?style=flat-square">
   </p>
 </div>
@@ -42,12 +42,16 @@ This repository tracks my complete AI/ML learning journey — from foundational 
 | 9 | Data Cleaning Pipeline — renaming, dtype conversion, dedup | [📓](./June/Day%2009%20-%20Data%20Cleaning%20Pipeline.ipynb) |
 | 10 | EDA Capstone (Titanic) — full EDA workflow | [📓](./June/Day%2010%20-%20EDA%20Capstone%20Titanic.ipynb) |
 
-### June (Days 11–19) 🔜
+### June (Days 11–13) ✅
+| Day | Topic | Notebook |
+|-----|-------|----------|
+| 11 | Feature Encoding — Label, One-Hot, Ordinal | [📓](./June/Day%2011%20-%20Feature%20Encoding.ipynb) |
+| 12 | Feature Scaling — StandardScaler, MinMaxScaler, RobustScaler | [📓](./June/Day%2012%20-%20Feature%20Scaling.ipynb) |
+| 13 | Handling Skewed Data — log, sqrt, Box-Cox | [📓](./June/Day%2013%20-%20Handling%20Skewed%20Data.ipynb) |
+
+### June (Days 14–19) 🔜
 | Day | Topic |
 |-----|-------|
-| 11 | Feature Encoding — Label, One-Hot, Ordinal |
-| 12 | Feature Scaling — StandardScaler, MinMaxScaler, RobustScaler |
-| 13 | Handling Skewed Data — log, sqrt, Box-Cox |
 | 14 | Feature Creation — binning, interaction, date features |
 | 15 | Train/Test Split & Cross-Validation |
 | 16 | Feature Engineering Capstone (Titanic) |
@@ -219,7 +223,7 @@ This repository tracks my complete AI/ML learning journey — from foundational 
 ## 📈 Progress Tracker
 
 ```
-June    ████████████████████░░░░░░░░░░░░░░░░░░░  10/203 days
+June    ██████████████████████████░░░░░░░░░░░░░░  13/203 days
 July    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0/203 days
 August  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0/203 days
 September ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0/203 days
