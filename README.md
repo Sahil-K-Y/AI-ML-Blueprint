@@ -52,8 +52,6 @@ AI-ML-Blueprint/
 │   ├── Day 001 - Logistic Regression Theory.ipynb
 │   ├── Day 002 - Logistic Regression Cost Function.ipynb
 │   └── Day 003 - Logistic Regression Implementation.ipynb
-├── 📄 final.txt                                            → Master day-by-day curriculum logs
-├── 📄 roadmap.txt                                          → Dynamic roadmap schedule
 └── 📄 README.md                                            → Portfolio homepage
 ```
 
