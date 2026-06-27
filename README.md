@@ -1,29 +1,36 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:A855F7&height=250&section=header&text=AI%2FML%20ENGINEER%20BLUEPRINT%20%F0%9F%A4%96&fontSize=42&fontColor=white&animation=fadeIn&fontAlignY=35&desc=A%20Rigorous%207-Month%20Mastery%20Path&descAlignY=55&descSize=16&descColor=DDDDDD" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1e40af&height=220&section=header&text=AI%2FML%20ENGINEER%20BLUEPRINT%20%F0%9F%A4%96&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=A%20Rigorous%207-Month%20Mastery%20Path&descAlignY=55&descSize=16&descColor=e0f2fe" width="100%" />
 
-[![Mastery Duration](https://img.shields.io/badge/Duration-7%20Months%20%2F%20188%20Days-blueviolet?style=for-the-badge&logo=calendar&logoColor=white)](#-roadmap-progress-tracker)
-[![Curriculum Status](https://img.shields.io/badge/Status-Phase%203%20Active-green?style=for-the-badge&logo=git&logoColor=white)](#-roadmap-progress-tracker)
-[![Primary Stack](https://img.shields.io/badge/Stack-PyTorch%20%7C%20Scikit--Learn-3776AB?style=for-the-badge&logo=python&logoColor=white)](#%EF%B8%8F-deep-tech-stack)
-[![Code Style](https://img.shields.io/badge/Code--Style-PEP%208-FFD21E?style=for-the-badge&logo=jupyter&logoColor=white)](#-repository-directory-structure)
+[![Mastery Duration](https://img.shields.io/badge/Duration-7%20Months%20%2F%20188%20Days-1e40af?style=for-the-badge&logo=calendar&logoColor=white)](#-roadmap-progress-tracker)
+[![Curriculum Status](https://img.shields.io/badge/Status-Phase%203%20Active-0284c7?style=for-the-badge&logo=git&logoColor=white)](#-roadmap-progress-tracker)
+[![Primary Stack](https://img.shields.io/badge/Stack-PyTorch%20%7C%20Scikit--Learn-0369a1?style=for-the-badge&logo=python&logoColor=white)](#%EF%B8%8F-deep-tech-stack)
+[![Code Style](https://img.shields.io/badge/Code--Style-PEP%208-0284c7?style=for-the-badge&logo=jupyter&logoColor=white)](#-repository-directory-structure)
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=750&lines=%E2%9A%A1+188+Days+of+Rigorous+AI%2FML+Mastery;%F0%9F%9A%80+From+Logistic+Regression+to+State-of-the-Art;%F0%9F%A7%A0+Deep+Learning+%7C+NLP+%7C+RAG+%7C+AI+Agents;%E2%9C%85+Phase+1+%26+2+Completed+successfully" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=1E40AF&center=true&vCenter=true&width=750&lines=%E2%9A%A1+188+Days+of+Rigorous+AI%2FML+Mastery;%F0%9F%9A%80+From+Logistic+Regression+to+State-of-the-Art;%F0%9F%A7%A0+Deep+Learning+%7C+NLP+%7C+RAG+%7C+AI+Agents;%E2%9C%85+Phase+1+%26+2+Completed+successfully" alt="Typing SVG"/>
 
 </div>
 
 ---
 
-## 🌟 Program Highlights
-
-- 🚀 **Zero Filler, 100% Code:** Designed to take you from a basic learner to a production-ready AI/ML Engineer.
-- 🏗️ **27 Weekend Capstone Projects:** Saturdays & Sundays are strictly dedicated to building end-to-end applications (Part 1: Training, Part 2: Deployment).
-- 🔧 **State-of-the-Art Curriculum:** Deep dive into Deep Learning, PyTorch, Transformers, LLMs, Vector Databases (RAG), and AI Agentic architectures.
-- ⚡ **DSA Separated:** Algorithmic studies are maintained in a parallel track so AI/ML learning remains clean and hyper-focused.
+<div style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); margin-bottom: 25px;">
+<h3 style="color: #1e40af; margin-top: 0; display: flex; align-items: center; gap: 8px;">
+  <span style="font-size: 24px;">🌟</span> Program Highlights
+</h3>
+<ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #334155;">
+  <li>🚀 <b>Zero Filler, 100% Code:</b> Designed to take you from a basic learner to a production-ready AI/ML Engineer.</li>
+  <li>🏗️ <b>27 Weekend Capstone Projects:</b> Saturdays & Sundays are strictly dedicated to building end-to-end applications (Part 1: Training, Part 2: Deployment).</li>
+  <li>🔧 <b>State-of-the-Art Curriculum:</b> Deep dive into Deep Learning, PyTorch, Transformers, LLMs, Vector Databases (RAG), and AI Agentic architectures.</li>
+  <li>⚡ <b>DSA Separated:</b> Algorithmic studies are maintained in a parallel track so AI/ML learning remains clean and hyper-focused.</li>
+</ul>
+</div>
 
 ## 🎯 Roadmap Progress Tracker
 
 Here is my live progression through the curriculum. Completed phases are marked with a checkmark, while active phases highlight my current work:
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); margin-bottom: 25px; background-color: #ffffff;">
 
 | Phase | Scope & Topics | Date Range | Progress Bar | Status |
 |:---:|:---|:---:|:---:|:---:|
@@ -43,10 +50,13 @@ Here is my live progression through the curriculum. Completed phases are marked 
 | 14 | **Phase 14: Capstone Project**<br><sub>Industry-grade flagship capstone modeling, deployment, monitoring</sub> | Nov 28 - Dec 11 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
 | 15 | **Phase 15: Final Stretch -- Build, Apply & Launch**<br><sub>ML system design cases, mock interviews, job applications</sub> | Dec 12 - Dec 31 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
 
+</div>
 
 ---
 
 ## 📁 Repository Directory Structure
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; background-color: #f8fafc; padding: 20px; box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05); margin-bottom: 25px;">
 
 ```
 AI-ML-Blueprint/
@@ -59,6 +69,7 @@ AI-ML-Blueprint/
 │   └── Day 003 - Logistic Regression Implementation.ipynb
 └── 📄 README.md                                            → Interactive dashboard & roadmap homepage
 ```
+</div>
 
 ---
 
@@ -67,7 +78,11 @@ AI-ML-Blueprint/
 Click on any phase to expand or collapse the daily schedule, topic titles, and specific subtopics:
 
 <details open>
-<summary><b>🤖 Phase 3: Logistic Regression Deep Dive</b> (Click to expand)</summary>
+<summary style="background-color: #eff6ff; border-left: 5px solid #3b82f6; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #1e40af; font-weight: bold; cursor: pointer; border-top: 1px solid #3b82f6; border-right: 1px solid #3b82f6; border-bottom: 1px solid #3b82f6; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 3: Logistic Regression Deep Dive (Active 🚀)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -77,12 +92,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 004 | 30-Jun (Tue) | [TOPIC] Data Leakage & Cross Validation Deep Dive | `Day 004 - Data Leakage and Cross Validation Deep Dive.ipynb` | Train/test contamination; Feature leakage; Temporal leakage; Preprocessing leakage; Detection; Prevention with Pipeline; Code: Leakage example with/without Pipeline; Hold-out vs K-Fold; Stratified K-Fold; GroupKFold; Leave-One-Out; Repeated CV; CV with Pipelines; Code: All CV strategies implement + compare |
 | 005 | 01-Jul (Wed) | [TOPIC] LR Hyperparameters + Regularization & Cost-Sensitive Learning & Threshold Optimization | `Day 005 - LR Hyperparameters and Regularization and Cost-Sensitive Lea.ipynb` | C parameter; penalty L1/L2/ElasticNet; solver lbfgs/liblinear/saga; class_weight=balanced; max_iter/tol; GridSearchCV; Code: Full tuning pipeline; Cost matrices for business-driven decisions; Platt scaling for LR probability calibration; reliability diagrams; choosing thresholds by real cost, not just F1 |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 4: Feature Engineering</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 4: Feature Engineering (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -92,12 +111,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 009 | 05-Jul (Sun) | **[WEEKEND PROJECT 02] Feature Engineering Pipeline (House Prices)** | `Day 009 - Feature Engineering Pipeline (House Prices).ipynb` | House Prices dataset; Missing value analysis; Outlier handling; Feature creation (ratios/age); Encoding; Selection; Compare baseline vs FE model; GitHub push + README |
 | 010 | 06-Jul (Mon) | [TOPIC] Outlier Detection & Handling & Advanced Feature Engineering: Datetime & Text Features | `Day 010 - Outlier Detection and Handling and Advanced Feature Engineer.ipynb` | Z-score; Modified Z-score; IQR (Tukey); Isolation Forest; LOF; Winsorization; Outliers as signal vs noise; Code: All methods implement + compare; Cyclical encoding (sin/cos for hour/day/month); date decomposition; basic text-to-numeric features; feature-engine library; intro to feature stores |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 5: Classification Mastery</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 5: Classification Mastery (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -112,12 +135,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 022 | 18-Jul (Sat) | **[WEEKEND PROJECT 04] Customer Segmentation + Complete Classification Pipeline** | `Day 022 - Customer Segmentation and Complete Classification Pipeline.ipynb` | Mall Customers: K-Means+DBSCAN+PCA, business insights; Heart Disease: LR vs KNN + SMOTE + ROC-AUC + Streamlit app; GitHub push + README |
 | 023 | 19-Jul (Sun) | **[WEEKEND PROJECT 04] Customer Segmentation + Complete Classification Pipeline** | `Day 023 - Customer Segmentation and Complete Classification Pipeline.ipynb` | Mall Customers: K-Means+DBSCAN+PCA, business insights; Heart Disease: LR vs KNN + SMOTE + ROC-AUC + Streamlit app; GitHub push + README |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 6: Trees & Ensembles</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 6: Trees & Ensembles (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -137,12 +164,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 043 | 08-Aug (Sat) | **[WEEKEND PROJECT 07] Ensemble House Price Predictor + SVM Multi-class** | `Day 043 - Ensemble House Price Predictor and SVM Multi-class.ipynb` | RF+XGBoost+LightGBM stacked with linear meta-model on House Prices; SVM multi-class on Wine with kernel comparison; GitHub push + README |
 | 044 | 09-Aug (Sun) | **[WEEKEND PROJECT 07] Ensemble House Price Predictor + SVM Multi-class** | `Day 044 - Ensemble House Price Predictor and SVM Multi-class.ipynb` | RF+XGBoost+LightGBM stacked with linear meta-model on House Prices; SVM multi-class on Wine with kernel comparison; GitHub push + README |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 7: SVM & Model Comparison</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 7: SVM & Model Comparison (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -152,12 +183,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 050 | 15-Aug (Sat) | **[WEEKEND PROJECT 08] Model Benchmark Dashboard (Streamlit)** | `Day 050 - Model Benchmark Dashboard (Streamlit).ipynb` | Build a Streamlit app comparing all classical ML models on a dataset of choice with metrics + calibration plots; GitHub push + README |
 | 051 | 16-Aug (Sun) | **[WEEKEND PROJECT 08] Model Benchmark Dashboard (Streamlit)** | `Day 051 - Model Benchmark Dashboard (Streamlit).ipynb` | Build a Streamlit app comparing all classical ML models on a dataset of choice with metrics + calibration plots; GitHub push + README |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 8: Deep Learning -- ANN</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 8: Deep Learning -- ANN (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -167,12 +202,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 057 | 22-Aug (Sat) | **[WEEKEND PROJECT 09] Bank Churn ANN** | `Day 057 - Bank Churn ANN.ipynb` | Preprocessing; Keras Sequential + Dropout + BatchNorm; EarlyStopping + ModelCheckpoint; compare LR vs RF vs ANN; model.save(); Streamlit app; GitHub push + README |
 | 058 | 23-Aug (Sun) | **[WEEKEND PROJECT 09] Bank Churn ANN** | `Day 058 - Bank Churn ANN.ipynb` | Preprocessing; Keras Sequential + Dropout + BatchNorm; EarlyStopping + ModelCheckpoint; compare LR vs RF vs ANN; model.save(); Streamlit app; GitHub push + README |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 9: Deep Learning -- CNN</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 9: Deep Learning -- CNN (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -184,12 +223,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 064 | 29-Aug (Sat) | **[WEEKEND PROJECT 10] Digit Classifier CNN + Transfer Learning Image Classifier** | `Day 064 - Digit Classifier CNN and Transfer Learning Image Classifier.ipynb` | MNIST CNN (3 conv blocks) with augmentation + Grad-CAM; CIFAR-10/Cats-vs-Dogs MobileNet fine-tuned; compare scratch vs transfer learning; GitHub push + README |
 | 065 | 30-Aug (Sun) | **[WEEKEND PROJECT 10] Digit Classifier CNN + Transfer Learning Image Classifier** | `Day 065 - Digit Classifier CNN and Transfer Learning Image Classifier.ipynb` | MNIST CNN (3 conv blocks) with augmentation + Grad-CAM; CIFAR-10/Cats-vs-Dogs MobileNet fine-tuned; compare scratch vs transfer learning; GitHub push + README |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 10: NLP</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 10: NLP (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -210,12 +253,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 078 | 12-Sep (Sat) | **[WEEKEND PROJECT 12] Sentiment Analysis App + News Category Classifier** | `Day 078 - Sentiment Analysis App and News Category Classifier.ipynb` | IMDB reviews end-to-end sentiment classifier with Streamlit; AG News/BBC multi-class classifier with confusion matrix analysis; GitHub push + README |
 | 079 | 13-Sep (Sun) | **[WEEKEND PROJECT 12] Sentiment Analysis App + News Category Classifier** | `Day 079 - Sentiment Analysis App and News Category Classifier.ipynb` | IMDB reviews end-to-end sentiment classifier with Streamlit; AG News/BBC multi-class classifier with confusion matrix analysis; GitHub push + README |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 11: Transformers & AI Agents</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 11: Transformers & AI Agents (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -236,12 +283,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 092 | 26-Sep (Sat) | **[WEEKEND PROJECT 14] RAG Chat-With-PDF + Simple AI Agent** | `Day 092 - RAG Chat-With-PDF and Simple AI Agent.ipynb` | LangChain+Streamlit RAG app over PDFs; basic tool-using agent (web search + calculator) with LangChain/LangGraph; GitHub push + README |
 | 093 | 27-Sep (Sun) | **[WEEKEND PROJECT 14] RAG Chat-With-PDF + Simple AI Agent** | `Day 093 - RAG Chat-With-PDF and Simple AI Agent.ipynb` | LangChain+Streamlit RAG app over PDFs; basic tool-using agent (web search + calculator) with LangChain/LangGraph; GitHub push + README |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 12: Full Stack AI</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 12: Full Stack AI (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -262,12 +313,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 106 | 10-Oct (Sat) | **[WEEKEND PROJECT 16] Full Stack AI App -- Deployed (Final)** | `Day 106 - Full Stack AI App -- Deployed (Final).ipynb` | Hosting on Vercel + Render; bug fixes and performance check -- flagship project done; GitHub push + README |
 | 107 | 11-Oct (Sun) | **[WEEKEND PROJECT 16] Full Stack AI App -- Deployed (Final)** | `Day 107 - Full Stack AI App -- Deployed (Final).ipynb` | Hosting on Vercel + Render; bug fixes and performance check -- flagship project done; GitHub push + README |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 13: ML Pipelines & MLOps</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 13: ML Pipelines & MLOps (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -296,12 +351,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 127 | 31-Oct (Sat) | **[WEEKEND PROJECT 19] End-to-End MLOps App (Capstone Prep)** | `Day 127 - End-to-End MLOps App (Capstone Prep).ipynb` | Best model from roadmap; MLflow tracking+registry; FastAPI serving; Docker; CI/CD via GitHub Actions; Evidently monitoring; AWS S3 storage; GitHub push + README |
 | 128 | 01-Nov (Sun) | **[WEEKEND PROJECT 19] End-to-End MLOps App (Capstone Prep)** | `Day 128 - End-to-End MLOps App (Capstone Prep).ipynb` | Best model from roadmap; MLflow tracking+registry; FastAPI serving; Docker; CI/CD via GitHub Actions; Evidently monitoring; AWS S3 storage; GitHub push + README |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 14: Capstone Project</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 14: Capstone Project (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -330,12 +389,16 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 148 | 21-Nov (Sat) | **[WEEKEND PROJECT 22] Capstone Final -- Polished & Documented** | `Day 148 - Capstone Final -- Polished and Documented.ipynb` | Complete, deployed, documented, demoed capstone -- flagship portfolio piece done; GitHub push + README |
 | 149 | 22-Nov (Sun) | **[WEEKEND PROJECT 22] Capstone Final -- Polished & Documented** | `Day 149 - Capstone Final -- Polished and Documented.ipynb` | Complete, deployed, documented, demoed capstone -- flagship portfolio piece done; GitHub push + README |
 
+</div>
 </details>
 
----
-
+<br/>
 <details>
-<summary><b>🤖 Phase 15: Final Stretch -- Build, Apply & Launch</b> (Click to expand)</summary>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 15: Final Stretch -- Build, Apply & Launch (Click to expand)
+</summary>
+
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
 | Day | Date | Topic / Project | Notebook File | Subtopics |
 |:---:|:---:|:---|:---|:---|
@@ -372,7 +435,10 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 | 187 | 30-Dec (Wed) | [TOPIC] Resume + Portfolio Sync (Post-Interview Feedback) | `Day 187 - Resume and Portfolio Sync (Post-Interview Feedback).ipynb` | Incorporate any interview feedback into resume/portfolio; tighten weakest project explanation |
 | 188 | 31-Dec (Thu) | [TOPIC] Apply -- Batch 6 + Public Build-in-Public Post | `Day 188 - Apply -- Batch 6 and Public Build-in-Public Post.ipynb` | Final application push; publish a LinkedIn/blog post summarizing the 189-day journey with project links |
 
+</div>
 </details>
+
+<br/>
 
 ---
 
@@ -380,7 +446,7 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 
 The entire stack utilized throughout this curriculum to model, evaluate, containerize, and deploy AI services:
 
-<div align="center">
+<div align="center" style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-radius: 12px; padding: 25px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);">
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
@@ -399,7 +465,7 @@ The entire stack utilized throughout this curriculum to model, evaluate, contain
 
 ## 👨‍💻 Connect with me
 
-<div align="center">
+<div align="center" style="border: 1px solid #cbd5e1; border-radius: 12px; background-color: #f8fafc; padding: 25px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
 
 **Sahil Kumar**
 
@@ -412,5 +478,5 @@ The entire stack utilized throughout this curriculum to model, evaluate, contain
 ---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:A855F7&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1e40af&height=100&section=footer" width="100%"/>
 </div>
