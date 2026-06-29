@@ -1,1 +1,15 @@
 2026-06-29 20:27:04,597 - TitanicPipeline - INFO - Logging successfully initialized.
+2026-06-29 20:27:08,768 - TitanicPipeline - INFO - Loading dataset from path: train.csv
+2026-06-29 20:27:08,810 - TitanicPipeline - INFO - Dataset loaded successfully with shape: (891, 12)
+2026-06-29 20:27:12,678 - TitanicPipeline - INFO - Features selected: ['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked']
+2026-06-29 20:27:12,679 - TitanicPipeline - INFO - Splitting data into train and validation sets (test_size=0.2)
+2026-06-29 20:27:12,699 - TitanicPipeline - INFO - Training size: (712, 7), Validation size: (179, 7)
+2026-06-29 20:27:14,555 - TitanicPipeline - INFO - Defining preprocessing sub-pipelines.
+2026-06-29 20:27:14,556 - TitanicPipeline - INFO - Assembling ColumnTransformer.
+2026-06-29 20:27:14,566 - TitanicPipeline - INFO - Building full pipeline with Logistic Regression model.
+2026-06-29 20:27:16,213 - TitanicPipeline - INFO - Fitting model pipeline on training data.
+2026-06-29 20:27:16,269 - TitanicPipeline - INFO - Model pipeline fitting complete.
+2026-06-29 20:27:17,257 - TitanicPipeline - INFO - Running prediction inference on validation set.
+2026-06-29 20:27:17,288 - TitanicPipeline - INFO - Validation set evaluation completed. Accuracy: 0.8045
+2026-06-29 20:27:18,297 - TitanicPipeline - INFO - Saving trained pipeline model to file: titanic_pipeline.joblib
+2026-06-29 20:27:18,305 - TitanicPipeline - INFO - Model serialization successful!

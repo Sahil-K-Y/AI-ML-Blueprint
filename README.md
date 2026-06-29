@@ -107,9 +107,9 @@ It is not just a notes repository — it is a **day-by-day implementation-driven
         </td>
         <td style="padding: 14px 10px; text-align: center; color: #cbd5e1; white-space: nowrap; font-size: 13px;">17 Jun 2026 to 30 Jun 2026</td>
         <td style="padding: 14px 10px; text-align: center; white-space: nowrap;"><div style="width: 80px; height: 6px; background: #334155; border-radius: 3px; overflow: hidden; display: inline-block; vertical-align: middle; margin-right: 8px;">
-  <div style="width: 86%; height: 100%; background: linear-gradient(90deg, #3b82f6, #60a5fa);"></div>
+  <div style="width: 93%; height: 100%; background: linear-gradient(90deg, #3b82f6, #60a5fa);"></div>
 </div>
-<span style="font-size: 11px; font-weight: bold; color: #60a5fa; vertical-align: middle;">86%</span></td>
+<span style="font-size: 11px; font-weight: bold; color: #60a5fa; vertical-align: middle;">93%</span></td>
         <td style="padding: 14px 10px; text-align: center;"><span style="display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 11px; font-weight: bold; background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); white-space: nowrap;">Active 🚀</span></td>
       </tr>
       <tr style="border-bottom: 1px solid #1e293b; background: rgba(30, 41, 59, 0.1);">
@@ -653,7 +653,7 @@ This repository exists to:
 <details open>
   <summary style="background: linear-gradient(90deg, #172554, #1e3a8a); border-left: 5px solid #3b82f6; padding: 14px 18px; margin-bottom: 12px; border-radius: 10px; color: #60a5fa; font-weight: bold; cursor: pointer; border-top: 1px solid #1d4ed8; border-right: 1px solid #1d4ed8; border-bottom: 1px solid #1d4ed8; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15); display: flex; align-items: center; justify-content: space-between;">
     <span>🤖 PHASE 2 &mdash; REGRESSION FOUNDATIONS & FIRST APP &nbsp;<span style="font-size: 12px; font-weight: normal; color: #93c5fd;">(17 Jun 2026 to 30 Jun 2026)</span></span>
-    <span style="font-size: 11px; background: rgba(59, 130, 246, 0.15); padding: 3px 10px; border-radius: 12px; border: 1px solid #3b82f6; color: #60a5fa; font-weight: bold;">ACTIVE 🚀 (86%)</span>
+    <span style="font-size: 11px; background: rgba(59, 130, 246, 0.15); padding: 3px 10px; border-radius: 12px; border: 1px solid #3b82f6; color: #60a5fa; font-weight: bold;">ACTIVE 🚀 (93%)</span>
   </summary>
  
 <div style="background: #090d16; border: 1px solid #1e293b; border-radius: 12px; padding: 8px; margin-bottom: 25px; box-shadow: inset 0 2px 8px rgba(0,0,0,0.5); overflow-x: auto;">

@@ -11,7 +11,7 @@ DATA_PATH = 'train.csv'
 @pytest.fixture
 def model():
     """Fixture to load the saved model pipeline."""
-    assert os.path.exists(PIPELINE_PATH), f'{PIPELINE_PATH} does not exist. Run Day 27 notebook first.'
+    assert os.path.exists(PIPELINE_PATH), f'{PIPELINE_PATH} does not exist. Run Day 31 notebook first.'
     return joblib.load(PIPELINE_PATH)
 
 @pytest.fixture
