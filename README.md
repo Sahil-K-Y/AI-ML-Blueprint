@@ -107,10 +107,10 @@ It is not just a notes repository — it is a **day-by-day implementation-driven
         </td>
         <td style="padding: 14px 10px; text-align: center; color: #cbd5e1; white-space: nowrap; font-size: 13px;">17 Jun 2026 to 30 Jun 2026</td>
         <td style="padding: 14px 10px; text-align: center; white-space: nowrap;"><div style="width: 80px; height: 6px; background: #334155; border-radius: 3px; overflow: hidden; display: inline-block; vertical-align: middle; margin-right: 8px;">
-  <div style="width: 93%; height: 100%; background: linear-gradient(90deg, #3b82f6, #60a5fa);"></div>
+  <div style="width: 100%; height: 100%; background: linear-gradient(90deg, #10b981, #34d399);"></div>
 </div>
-<span style="font-size: 11px; font-weight: bold; color: #60a5fa; vertical-align: middle;">93%</span></td>
-        <td style="padding: 14px 10px; text-align: center;"><span style="display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 11px; font-weight: bold; background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); white-space: nowrap;">Active 🚀</span></td>
+<span style="font-size: 11px; font-weight: bold; color: #34d399; vertical-align: middle;">100%</span></td>
+        <td style="padding: 14px 10px; text-align: center;"><span style="display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 11px; font-weight: bold; background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); white-space: nowrap;">Completed ✅</span></td>
       </tr>
       <tr style="border-bottom: 1px solid #1e293b; background: rgba(30, 41, 59, 0.1);">
         <td style="padding: 14px 10px; text-align: center; font-weight: bold; color: #38bdf8;">3</td>
@@ -356,7 +356,10 @@ It is not just a notes repository — it is a **day-by-day implementation-driven
 AI-ML-Blueprint/
 │
 ├── 📁 Phase-1 - EDA & Feature Engineering/                 → Completed notebooks & data
-├── 📁 Phase-2 - Regression & Streamlit/                   → Active: notebooks & implementations
+├── 📁 Phase-2 - Regression & Streamlit/                   → Completed linear/multiple regression
+├── 📁 Phase-3 - Logistic Regression Deep Dive/           → Active: notebooks & implementations
+│   ├── Day 31 - Titanic Survival Classifier.ipynb
+│   └── train.csv
 └── 📄 README.md                                            → Interactive dashboard & roadmap homepage
 ```
 
@@ -647,10 +650,10 @@ This repository exists to:
 </details>
 
 <br/>
-<details open>
-  <summary style="background: linear-gradient(90deg, #172554, #1e3a8a); border-left: 5px solid #3b82f6; padding: 14px 18px; margin-bottom: 12px; border-radius: 10px; color: #60a5fa; font-weight: bold; cursor: pointer; border-top: 1px solid #1d4ed8; border-right: 1px solid #1d4ed8; border-bottom: 1px solid #1d4ed8; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15); display: flex; align-items: center; justify-content: space-between;">
-    <span>🤖 PHASE 2 &mdash; REGRESSION FOUNDATIONS & FIRST APP &nbsp;<span style="font-size: 12px; font-weight: normal; color: #93c5fd;">(17 Jun 2026 to 30 Jun 2026)</span></span>
-    <span style="font-size: 11px; background: rgba(59, 130, 246, 0.15); padding: 3px 10px; border-radius: 12px; border: 1px solid #3b82f6; color: #60a5fa; font-weight: bold;">ACTIVE 🚀 (93%)</span>
+<details>
+  <summary style="background: linear-gradient(90deg, #052e16, #093e20); border-left: 5px solid #22c55e; padding: 14px 18px; margin-bottom: 12px; border-radius: 10px; color: #4ade80; font-weight: bold; cursor: pointer; border-top: 1px solid #14532d; border-right: 1px solid #14532d; border-bottom: 1px solid #14532d; box-shadow: 0 4px 12px rgba(0,0,0,0.2); display: flex; align-items: center; justify-content: space-between;">
+    <span>🤖 PHASE 2 &mdash; REGRESSION FOUNDATIONS & FIRST APP &nbsp;<span style="font-size: 12px; font-weight: normal; color: #86efac;">(17 Jun 2026 to 30 Jun 2026)</span></span>
+    <span style="font-size: 11px; background: rgba(34, 197, 94, 0.15); padding: 3px 10px; border-radius: 12px; border: 1px solid #22c55e; color: #4ade80; font-weight: bold;">COMPLETED ✅</span>
   </summary>
  
 <div style="background: #090d16; border: 1px solid #1e293b; border-radius: 12px; padding: 8px; margin-bottom: 25px; box-shadow: inset 0 2px 8px rgba(0,0,0,0.5); overflow-x: auto;">
@@ -846,7 +849,7 @@ This repository exists to:
           <td style="padding: 12px 8px; text-align: left;">
             <code style="background: rgba(56, 189, 248, 0.08); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.18); padding: 4px 8px; border-radius: 6px; font-family: 'Fira Code', monospace; font-size: 11px; word-break: break-all; display: inline-block;">`Phase-2/README.md` + cleaned mini project folder.</code>
           </td>
-          <td style="padding: 12px 8px; text-align: center;"><span style="display: inline-block; padding: 3px 8px; border-radius: 12px; font-size: 11px; font-weight: bold; background: rgba(245, 158, 11, 0.1); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.2); white-space: nowrap;">Pending ⏳</span></td>
+          <td style="padding: 12px 8px; text-align: center;"><span style="display: inline-block; padding: 3px 8px; border-radius: 12px; font-size: 11px; font-weight: bold; background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); white-space: nowrap;">Completed ✅</span></td>
         </tr>
     </tbody>
   </table>
