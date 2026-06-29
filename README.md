@@ -1,35 +1,78 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1e40af&height=220&section=header&text=AI%2FML%20ENGINEER%20BLUEPRINT%20%F0%9F%A4%96&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=A%20Rigorous%207-Month%20Mastery%20Path&descAlignY=55&descSize=16&descColor=e0f2fe" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:38bdf8&height=240&section=header&text=AI-ML%20BLUEPRINT&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=7-Month%20AIML%20Engineer%20Journey%20%7C%20June%202026%20%E2%86%92%20December%202026&descAlignY=58&descSize=18&descColor=e2e8f0" width="100%" />
 
-[![Mastery Duration](https://img.shields.io/badge/Duration-214%20Days-1e40af?style=for-the-badge&logo=calendar&logoColor=white)](#-roadmap-progress-tracker)
-[![Curriculum Status](https://img.shields.io/badge/Status-Phase%203%20Active-0284c7?style=for-the-badge&logo=git&logoColor=white)](#-roadmap-progress-tracker)
-[![Primary Stack](https://img.shields.io/badge/Stack-PyTorch%20%7C%20Scikit--Learn-0369a1?style=for-the-badge&logo=python&logoColor=white)](#%EF%B8%8F-deep-tech-stack)
-[![Code Style](https://img.shields.io/badge/Code--Style-PEP%208-0284c7?style=for-the-badge&logo=jupyter&logoColor=white)](#-repository-directory-structure)
+  <br/>
 
-<br/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Building+an+AI%2FML+Engineer+profile+in+public;From+EDA+and+Regression+to+Deep+Learning+and+MLOps;FastAPI+%2B+React+%2B+ML+Projects+%2B+Capstone;Phase+1+and+Phase+2+Completed+%7C+Phase+3+Active" alt="Typing SVG" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=1E40AF&center=true&vCenter=true&width=750&lines=%E2%9A%A1+214+Days+of+Rigorous+AI%2FML+Mastery;%F0%9F%9A%80+From+Logistic+Regression+to+State-of-the-Art;%F0%9F%A7%A0+Deep+Learning+%7C+NLP+%7C+RAG+%7C+AI+Agents;%E2%9C%85+Phase+1+%26+2+Completed+successfully" alt="Typing SVG"/>
+  <br/><br/>
+
+  <img src="https://img.shields.io/badge/Timeline-June%202026%20to%20December%202026-0f172a?style=for-the-badge&logo=googlecalendar&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Phase%203%20Active-1d4ed8?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Goal-AIML%20Engineer%20Job%20Ready-0ea5e9?style=for-the-badge&logo=target&logoColor=white" />
+  <img src="https://img.shields.io/badge/Stack-Python%20%7C%20Sklearn%20%7C%20FastAPI%20%7C%20React-2563eb?style=for-the-badge&logo=python&logoColor=white" />
+</div>
+
+---
+
+<div align="center">
+
+## ✨ Overview
+
+</div>
+
+<div style="background: linear-gradient(135deg, #0f172a, #1e293b); border: 1px solid #334155; border-radius: 18px; padding: 22px; color: #e2e8f0; box-shadow: 0 10px 25px rgba(0,0,0,0.18); margin-bottom: 18px;">
+
+**AI-ML-Blueprint** is my structured **7-month public roadmap** to become an **AIML Engineer**.
+
+This repository tracks my learning and project-building journey across:
+- **EDA & Feature Engineering**
+- **Regression & Classification**
+- **Trees, Ensembles, and SVM**
+- **Deep Learning (ANN/CNN)**
+- **NLP, Transformers, RAG, AI Agents**
+- **FastAPI + React deployment**
+- **MLOps fundamentals**
+- **Capstone + portfolio preparation**
+
+It is not just a notes repository — it is a **day-by-day implementation-driven engineering roadmap**.
 
 </div>
 
 ---
 
-<div style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); margin-bottom: 25px;">
-<h3 style="color: #1e40af; margin-top: 0; display: flex; align-items: center; gap: 8px;">
-  <span style="font-size: 24px;">🌟</span> Program Highlights
-</h3>
-<ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #334155;">
-  <li>🚀 <b>Zero Filler, 100% Code:</b> Designed to take you from a basic learner to a production-ready AI/ML Engineer.</li>
-  <li>🏗️ <b>27 Weekend Capstone Projects:</b> Saturdays & Sundays are strictly dedicated to building end-to-end applications (Part 1: Training, Part 2: Deployment).</li>
-  <li>📅 <b>Built-in Buffer Days:</b> Exactly 12 buffer days strategically placed after phases to prevent burnout, allow catch-up, and polish concepts.</li>
-  <li>🔧 <b>State-of-the-Art Curriculum:</b> Deep dive into Deep Learning, PyTorch, Transformers, LLMs, Vector Databases (RAG), and AI Agentic architectures.</li>
-  <li>⚡ <b>DSA Separated:</b> Algorithmic studies are maintained in a parallel track so AI/ML learning remains clean and hyper-focused.</li>
-</ul>
+<div align="center">
+
+## 🚀 Current Status
+
 </div>
 
-## 🎯 Roadmap Progress Tracker
+<div style="display: grid; grid-template-columns: repeat(2, minmax(260px, 1fr)); gap: 16px;">
+  <div style="background: linear-gradient(135deg, #052e16, #14532d); border: 1px solid #22c55e; border-radius: 16px; padding: 18px; color: #dcfce7;">
+    <h3>✅ Phase 1 Completed</h3>
+    <p><strong>EDA & Feature Engineering</strong><br/>Data workflow, cleaning, visualization, missing values, outliers, feature basics, mini EDA project.</p>
+  </div>
+  <div style="background: linear-gradient(135deg, #082f49, #0c4a6e); border: 1px solid #38bdf8; border-radius: 16px; padding: 18px; color: #e0f2fe;">
+    <h3>✅ Phase 2 Completed</h3>
+    <p><strong>Regression & Streamlit</strong><br/>Linear, multiple, polynomial, ridge, lasso, metrics, scaling, and first ML app workflow.</p>
+  </div>
+  <div style="background: linear-gradient(135deg, #172554, #1d4ed8); border: 1px solid #60a5fa; border-radius: 16px; padding: 18px; color: #dbeafe;">
+    <h3>🤖 Phase 3 Active</h3>
+    <p><strong>Logistic Regression Deep Dive</strong><br/>Titanic classification, metrics, threshold tuning, CV, data leakage, pipelines, regularization.</p>
+  </div>
+  <div style="background: linear-gradient(135deg, #3f0d12, #7f1d1d); border: 1px solid #f87171; border-radius: 16px; padding: 18px; color: #fee2e2;">
+    <h3>🎯 End Goal</h3>
+    <p><strong>Entry-level AIML Engineer</strong><br/>Job-ready by the end of December with projects, deployment, GitHub, and capstone.</p>
+  </div>
+</div>
 
-Here is my live progression through the curriculum. Completed phases are marked with a checkmark, while active phases highlight my current work:
+---
+
+<div align="center">
+
+## 📈 Roadmap Progress Tracker
+
+</div>
 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); margin-bottom: 25px; background-color: #ffffff;">
 
@@ -56,30 +99,159 @@ Here is my live progression through the curriculum. Completed phases are marked 
 
 ---
 
-## 📁 Repository Directory Structure
+<div align="center">
 
-<div style="border: 1px solid #cbd5e1; border-radius: 12px; background-color: #f8fafc; padding: 20px; box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05); margin-bottom: 25px;">
+## 🧠 What This Repository Covers
 
-```
+</div>
+
+<div style="background: linear-gradient(135deg, #111827, #1f2937); border: 1px solid #374151; border-radius: 18px; padding: 20px; color: #f3f4f6;">
+
+### Core ML
+- EDA
+- Feature Engineering
+- Regression
+- Classification
+- Evaluation Metrics
+- Model Tuning
+
+### Advanced ML
+- Trees and Ensembles
+- XGBoost / Boosting
+- SVM
+- Clustering
+- PCA
+
+### Deep Learning
+- ANN
+- CNN
+- Keras
+- PyTorch
+- Transfer Learning
+
+### NLP & Modern AI
+- Text preprocessing
+- TF-IDF / embeddings
+- Sentiment / spam classification
+- Transformers
+- RAG
+- Agentic AI basics
+
+### Deployment & MLOps
+- Streamlit
+- FastAPI
+- React
+- Docker
+- MLflow
+- SHAP
+- CI/CD basics
+
+</div>
+
+---
+
+<div align="center">
+
+## 🗂 Repository Structure
+
+</div>
+
+<div style="background: #020617; border: 1px solid #1e293b; border-radius: 18px; padding: 20px; color: #cbd5e1; font-family: monospace; box-shadow: inset 0 1px 6px rgba(255,255,255,0.04); margin-bottom: 25px;">
+
+```text
 AI-ML-Blueprint/
 │
 ├── 📁 Phase-1 - EDA & Feature Engineering/                 → Completed notebooks & data
 ├── 📁 Phase-2 - Regression & Streamlit/                   → Completed linear/multiple regression
 ├── 📁 Phase-3 - Logistic Regression Deep Dive/           → Active: notebooks & implementations
-│   ├── Day 001 - Titanic Survival Classifier.ipynb
-│   ├── Day 002 - Titanic Survival Classifier.ipynb
-│   ├── Day 003 - Softmax Regression and Multiclass Classification.ipynb
-│   ├── Day 004 - Data Leakage and Cross Validation Deep Dive.ipynb
-│   ├── Day 005 - Regularization and Hyperparameter Tuning in Logistic Regression.ipynb
+│   ├── Day 027 - Titanic Survival Classifier.ipynb
+│   ├── Day 028 - Titanic Survival Classifier.ipynb
+│   ├── Day 029 - Softmax Regression and Multiclass Classification.ipynb
+│   ├── Day 030 - Data Leakage and Cross Validation Deep Dive.ipynb
+│   ├── Day 031 - Regularization and Hyperparameter Tuning in Logistic Regression.ipynb
 └── 📄 README.md                                            → Interactive dashboard & roadmap homepage
 ```
+
 </div>
 
 ---
 
+<div align="center">
+
+## 🛠 Tech Stack
+
+</div>
+
+<div align="center" style="background: linear-gradient(135deg, #eff6ff, #dbeafe); border: 1px solid #93c5fd; border-radius: 18px; padding: 20px; margin-bottom: 25px;">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/XGBoost-EC6B23?style=for-the-badge&logo=xgboost&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+</div>
+
+---
+
+<div align="center">
+
+## 🎯 Repository Purpose
+
+</div>
+
+<div style="background: linear-gradient(135deg, #1e1b4b, #312e81); border: 1px solid #6366f1; border-radius: 18px; padding: 20px; color: #e0e7ff; margin-bottom: 25px;">
+
+This repository exists to:
+- build a disciplined AI/ML engineering journey in public
+- create real projects instead of collecting theory only
+- document end-to-end learning from data to deployment
+- track growth phase-by-phase with measurable outputs
+- become job-ready for AIML Engineer roles by **December 2026**
+
+</div>
+
+---
+
+<div align="center">
+
+## 📌 Current Focus
+
+</div>
+
+<div style="background: linear-gradient(135deg, #172554, #1e3a8a); border: 1px solid #3b82f6; border-radius: 18px; padding: 20px; color: #dbeafe; margin-bottom: 25px;">
+
+### Phase 3 — Logistic Regression Deep Dive
+Current work includes:
+- Titanic Survival Classifier
+- Logistic Regression fundamentals
+- Log Loss and MLE intuition
+- Softmax and multiclass classification
+- Confusion Matrix, Precision, Recall, F1
+- ROC-AUC and PR-AUC
+- Threshold tuning
+- Cross-validation
+- Data leakage prevention
+- sklearn Pipelines
+
+</div>
+
+---
+
+<div align="center">
+
 ## 📚 Detailed Day-by-Day Breakdown
 
 Click on any phase to expand or collapse the daily schedule, topic titles, and specific subtopics:
+
+</div>
 
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
@@ -522,41 +694,26 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 
 ---
 
-## 🛠️ Deep Tech Stack
+<div align="center">
 
-The entire stack utilized throughout this curriculum to model, evaluate, containerize, and deploy AI services:
-
-<div align="center" style="background-color: #f8fafc; border: 1px solid #cbd5e1; border-radius: 12px; padding: 25px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=white"/>
+## 📬 Connect
 
 </div>
 
----
+<div align="center" style="background: linear-gradient(135deg, #f8fafc, #e2e8f0); border: 1px solid #cbd5e1; border-radius: 18px; padding: 20px; color: #0f172a; margin-bottom: 25px;">
 
-## 👨‍💻 Connect with me
+### Sahil Kumar
 
-<div align="center" style="border: 1px solid #cbd5e1; border-radius: 12px; background-color: #f8fafc; padding: 25px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+[![GitHub](https://img.shields.io/badge/GitHub-Sahil--K--Y-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sahil-K-Y)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Add%20Your%20Link-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-2563eb?style=for-the-badge&logo=vercel&logoColor=white)](#)
 
-**Sahil Kumar**
-
-[**GitHub**](https://github.com/Sahil-K-Y) &nbsp;|&nbsp; [**LinkedIn**](#) &nbsp;|&nbsp; [**Portfolio**](#)
-
-*"200 days of daily consistency. No excuses, no breaks. Just code."* 🤖
+**Building in public. Learning with consistency. Shipping projects with intent.**
 
 </div>
 
 ---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1e40af&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:1d4ed8,100:0f172a&height=130&section=footer" width="100%" />
 </div>
