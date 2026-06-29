@@ -356,10 +356,7 @@ It is not just a notes repository — it is a **day-by-day implementation-driven
 AI-ML-Blueprint/
 │
 ├── 📁 Phase-1 - EDA & Feature Engineering/                 → Completed notebooks & data
-├── 📁 Phase-2 - Regression & Streamlit/                   → Completed linear/multiple regression
-├── 📁 Phase-3 - Logistic Regression Deep Dive/           → Active: notebooks & implementations
-│   ├── Day 027 - Titanic Survival Classifier.ipynb
-│   └── train.csv
+├── 📁 Phase-2 - Regression & Streamlit/                   → Active: notebooks & implementations
 └── 📄 README.md                                            → Interactive dashboard & roadmap homepage
 ```
 
