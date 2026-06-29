@@ -372,10 +372,7 @@ AI-ML-Blueprint/
 ├── 📁 Phase-2 - Regression & Streamlit/                   → Completed linear/multiple regression
 ├── 📁 Phase-3 - Logistic Regression Deep Dive/           → Active: notebooks & implementations
 │   ├── Day 027 - Titanic Survival Classifier.ipynb
-│   ├── Day 028 - Titanic Survival Classifier.ipynb
-│   ├── Day 029 - Softmax Regression and Multiclass Classification.ipynb
-│   ├── Day 030 - Data Leakage and Cross Validation Deep Dive.ipynb
-│   ├── Day 031 - Regularization and Hyperparameter Tuning in Logistic Regression.ipynb
+│   └── train.csv
 └── 📄 README.md                                            → Interactive dashboard & roadmap homepage
 ```
 
@@ -851,7 +848,7 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <details open>
   <summary style="background: linear-gradient(90deg, #172554, #1e3a8a); border-left: 5px solid #3b82f6; padding: 14px 18px; margin-bottom: 12px; border-radius: 10px; color: #60a5fa; font-weight: bold; cursor: pointer; border-top: 1px solid #1d4ed8; border-right: 1px solid #1d4ed8; border-bottom: 1px solid #1d4ed8; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15); display: flex; align-items: center; justify-content: space-between;">
     <span>🤖 PHASE 3 &mdash; LOGISTIC REGRESSION DEEP DIVE &nbsp;<span style="font-size: 12px; font-weight: normal; color: #93c5fd;">(27 Jun 2026 to 10 Jul 2026)</span></span>
-    <span style="font-size: 11px; background: rgba(59, 130, 246, 0.15); padding: 3px 10px; border-radius: 12px; border: 1px solid #3b82f6; color: #60a5fa; font-weight: bold; animation: pulse 2s infinite;">ACTIVE 🚀</span>
+    <span style="font-size: 11px; background: rgba(59, 130, 246, 0.15); padding: 3px 10px; border-radius: 12px; border: 1px solid #3b82f6; color: #60a5fa; font-weight: bold;">ACTIVE 🚀</span>
   </summary>
  
 <div style="background: #090d16; border: 1px solid #1e293b; border-radius: 12px; padding: 8px; margin-bottom: 25px; box-shadow: inset 0 2px 8px rgba(0,0,0,0.5); overflow-x: auto;">
