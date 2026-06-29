@@ -1,14 +1,14 @@
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=1e40af&height=220&section=header&text=AI%2FML%20ENGINEER%20BLUEPRINT%20%F0%9F%A4%96&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=A%20Rigorous%207-Month%20Mastery%20Path&descAlignY=55&descSize=16&descColor=e0f2fe" width="100%" />
 
-[![Mastery Duration](https://img.shields.io/badge/Duration-7%20Months%20%2F%20200%20Days-1e40af?style=for-the-badge&logo=calendar&logoColor=white)](#-roadmap-progress-tracker)
+[![Mastery Duration](https://img.shields.io/badge/Duration-214%20Days-1e40af?style=for-the-badge&logo=calendar&logoColor=white)](#-roadmap-progress-tracker)
 [![Curriculum Status](https://img.shields.io/badge/Status-Phase%203%20Active-0284c7?style=for-the-badge&logo=git&logoColor=white)](#-roadmap-progress-tracker)
 [![Primary Stack](https://img.shields.io/badge/Stack-PyTorch%20%7C%20Scikit--Learn-0369a1?style=for-the-badge&logo=python&logoColor=white)](#%EF%B8%8F-deep-tech-stack)
 [![Code Style](https://img.shields.io/badge/Code--Style-PEP%208-0284c7?style=for-the-badge&logo=jupyter&logoColor=white)](#-repository-directory-structure)
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=1E40AF&center=true&vCenter=true&width=750&lines=%E2%9A%A1+200+Days+of+Rigorous+AI%2FML+Mastery;%F0%9F%9A%80+From+Logistic+Regression+to+State-of-the-Art;%F0%9F%A7%A0+Deep+Learning+%7C+NLP+%7C+RAG+%7C+AI+Agents;%E2%9C%85+Phase+1+%26+2+Completed+successfully" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=1E40AF&center=true&vCenter=true&width=750&lines=%E2%9A%A1+214+Days+of+Rigorous+AI%2FML+Mastery;%F0%9F%9A%80+From+Logistic+Regression+to+State-of-the-Art;%F0%9F%A7%A0+Deep+Learning+%7C+NLP+%7C+RAG+%7C+AI+Agents;%E2%9C%85+Phase+1+%26+2+Completed+successfully" alt="Typing SVG"/>
 
 </div>
 
@@ -35,22 +35,22 @@ Here is my live progression through the curriculum. Completed phases are marked 
 
 | Phase | Scope & Topics | Date Range | Progress Bar | Status |
 |:---:|:---|:---:|:---:|:---:|
-| 1 | **Phase 1: EDA & Feature Engineering** | Completed | `████████████████` 100% | **Completed** ✅ |
-| 2 | **Phase 2: Regression & Streamlit** | Completed | `████████████████` 100% | **Completed** ✅ |
-| 3 | **Phase 3: Logistic Regression Deep Dive**<br><sub>Logistic Regression, MLE, Softmax, Cross-Validation, Buffer Day</sub> | 27-Jun - 02-Jul | `▓▓▓░░░░░░░░░░░░░` 15% | **Active** 🚀 |
-| 4 | **Phase 4: Feature Engineering**<br><sub>Advanced missing values, outlier detection, cyclical features, Buffer Day</sub> | 03-Jul - 08-Jul | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 5 | **Phase 5: Classification Mastery**<br><sub>Bias-variance, imbalanced datasets, KNN, clustering, Buffer Day</sub> | 09-Jul - 19-Jul | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 6 | **Phase 6: Trees & Ensembles**<br><sub>Decision trees, Random Forest, XGBoost/LightGBM/CatBoost, Optuna, Buffer Day</sub> | 20-Jul - 09-Aug | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 7 | **Phase 7: SVM & Model Comparison**<br><sub>SVMs, model evaluation frameworks, calibration, Buffer Day</sub> | 03-Aug - 16-Aug | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 8 | **Phase 8: Deep Learning -- ANN**<br><sub>Neural networks, backprop, Keras, optimizers, regularization, Buffer Day</sub> | 07-Aug - 23-Aug | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 9 | **Phase 9: Deep Learning -- CNN**<br><sub>CNN architecture, augmentation, Grad-CAM, transfer learning, Buffer Day</sub> | 13-Aug - 30-Aug | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 10 | **Phase 10: NLP**<br><sub>Text preprocessing, BoW, TF-IDF, embeddings, spaCy, NER, Buffer Day</sub> | 21-Aug - 13-Sep | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 11 | **Phase 11: Transformers & AI Agents**<br><sub>RNN/LSTM, Transformers, BERT, GPT, RAG, AI Agents, Weekend Buffer</sub> | 09-Sep - 24-Sep | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 12 | **Phase 12: React & Web Fundamentals for ML**<br><sub>JavaScript, React, Axios, Forms, Router, Vite</sub> | 25-Sep - 06-Oct | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 13 | **Phase 13: Full Stack AI**<br><sub>FastAPI backend, React frontend, MongoDB, JWT, deployment, Weekend Buffer</sub> | 07-Oct - 25-Oct | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 14 | **Phase 14: ML Pipelines & MLOps**<br><sub>sklearn pipelines, MLflow, Docker, CI/CD, monitoring</sub> | 22-Oct - 16-Nov | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 15 | **Phase 15: Capstone Project**<br><sub>Industry-grade capstone: modeling, deployment, monitoring</sub> | 17-Nov - 20-Dec | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
-| 16 | **Phase 16: Final Stretch -- Build, Apply & Launch**<br><sub>Mock interviews, applications, system design</sub> | 10-Dec - 12-Jan | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 1 | **Phase 1: EDA & FEATURE ENGINEERING**<br><sub>Python, NumPy, pandas foundations, data cleaning, univariate & bivariate analysis, missing values, outlier detection, Seaborn & matplotlib visualization, EDA mini project</sub> | 01 Jun 2026 to 14 Jun 2026 | `████████████████` 100% | **Completed** ✅ |
+| 2 | **Phase 2: REGRESSION & STREAMLIT**<br><sub>Linear & multiple regression, metrics (MSE, RMSE, MAE, R²), polynomial regression, Ridge & Lasso regularization, feature scaling, Streamlit basics & app development</sub> | 15 Jun 2026 to 26 Jun 2026 | `████████████████` 100% | **Completed** ✅ |
+| 3 | **Phase 3: LOGISTIC REGRESSION DEEP DIVE**<br><sub>Titanic project (classification, pipeline, tuning), Logistic Regression theory, log loss, MLE derivation, softmax, evaluation metrics (ROC/PR-AUC), threshold tuning, cross-validation, data leakage</sub> | 27 Jun 2026 to 10 Jul 2026 | `█░░░░░░░░░░░░░░░` 7% | **Active** 🚀 |
+| 4 | **Phase 4: CLASSIFICATION + FEATURE ENGINEERING MASTERY**<br><sub>Missing data analysis & advanced imputation (KNN/Iterative), categorical encodings, feature selection, outliers, KNN theory, Naive Bayes, bias-variance & learning curves, clustering (K-Means/DBSCAN), PCA</sub> | 11 Jul 2026 to 05 Aug 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 5 | **Phase 5: TREES, ENSEMBLES, BOOSTING, SVM**<br><sub>Decision trees, Random Forest, AdaBoost, Gradient Boosting, XGBoost, LightGBM, CatBoost, Optuna tuning, voting & stacking ensembles, SVM theory & kernels, benchmark app, customer churn & fraud projects</sub> | 06 Aug 2026 to 31 Aug 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 6 | **Phase 6: DEPLOYMENT FOUNDATION + FASTAPI**<br><sub>Model serialization (joblib), production project structure, FastAPI basics, Pydantic type validation, ML predict API, error handling, API testing with pytest, Docker & Docker Compose</sub> | 01 Sep 2026 to 15 Sep 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 7 | **Phase 7: DEEP LEARNING ANN**<br><sub>Deep learning basics, perceptron, activation functions, forward/backward pass from scratch, loss functions, optimizers, regularization, Keras Sequential & Functional APIs, PyTorch tensors & nn.Module</sub> | 16 Sep 2026 to 30 Sep 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 8 | **Phase 8: DEEP LEARNING CNN**<br><sub>CNN theory, pooling, image preprocessing, Keras CNN from scratch, data augmentation, transfer learning, PyTorch CNN, Grad-CAM visualization, computer vision classification project</sub> | 01 Oct 2026 to 14 Oct 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 9 | **Phase 9: NLP FOUNDATION**<br><sub>NLP text cleaning, Bag of Words, TF-IDF, Naive Bayes/LR text classification, Word2Vec, spaCy pipelines, NER, regex, text similarity, sentiment analysis, spam classifier project</sub> | 15 Oct 2026 to 31 Oct 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 10 | **Phase 10: TRANSFORMERS, RAG, AI AGENTS**<br><sub>RNN & LSTM sequence limits, self-attention, transformer encoder-decoder, Hugging Face hub, BERT fine-tuning, GPT generation, embedding retrieval, RAG systems, Agentic AI ReAct concepts</sub> | 01 Nov 2026 to 12 Nov 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 11 | **Phase 11: REACT & WEB FUNDAMENTALS FOR ML**<br><sub>JavaScript essentials, DOM form manipulation, fetch API (async/await), React components & state hooks (useState, useEffect), Axios API calls, React ML form interfaces, Tailwind CSS styling</sub> | 13 Nov 2026 to 22 Nov 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 12 | **Phase 12: FULL STACK AI**<br><sub>Full stack AI architecture, backend routers & configuration, API hardening, frontend-backend prediction flows, integration testing, JWT authentication, MongoDB history storage</sub> | 23 Nov 2026 to 30 Nov 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 13 | **Phase 13: ML PIPELINES & MLOPS**<br><sub>Production sklearn pipelines, artifact serialization, experiment tracking with MLflow, Docker Compose serving, CI/CD GitHub Actions, model drift monitoring, SHAP model explanations, SQL data prep</sub> | 01 Dec 2026 to 12 Dec 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 14 | **Phase 14: CAPSTONE PLANNING + BUILD START**<br><sub>Flagship Capstone planning, dataset auditing, robust preprocessing pipelines, baseline model, advanced models (RF/XGB/SVM), error analysis & SHAP explainability, app backend/frontend scaffolding</sub> | 13 Dec 2026 to 20 Dec 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 15 | **Phase 15: CAPSTONE FINALIZATION**<br><sub>Capstone FastAPI serving, React prediction page integration, custom error handling, full-stack Docker Compose packaging, architecture documentation, end-to-end integration testing</sub> | 21 Dec 2026 to 27 Dec 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
+| 16 | **Phase 16: FINAL STRETCH: BUILD, APPLY & LAUNCH**<br><sub>Resume design, GitHub profile & pinned repos polish, classical/DL/MLOps interview questions, mock storytelling rounds, active applications, target outreach & January continuation plan</sub> | 28 Dec 2026 to 31 Dec 2026 | `░░░░░░░░░░░░░░░░` 0% | Upcoming ⏳ |
 
 </div>
 
@@ -81,21 +81,83 @@ AI-ML-Blueprint/
 
 Click on any phase to expand or collapse the daily schedule, topic titles, and specific subtopics:
 
+<details>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 1: EDA & FEATURE ENGINEERING (01 Jun 2026 to 14 Jun 2026) (Completed ✅)
+</summary>
+ 
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
+
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 001 | 01 Jun 2026 | **Python for Data Workflow Setup** | **Concept:** environment setup, notebook workflow, CSV reading basics, basic data workflow mindset<br>**Practice:** create working notebook environment and load first CSV dataset | `environment-ready notebook and first dataset preview` | Completed ✅ |
+| 002 | 02 Jun 2026 | **NumPy Foundations** | **Concept:** arrays, shapes, indexing, slicing, broadcasting<br>**Practice:** solve basic NumPy operations and transformations | `NumPy practice notebook` | Completed ✅ |
+| 003 | 03 Jun 2026 | **pandas Foundations** | **Concept:** Series, DataFrame, indexing, filtering, sorting, grouping<br>**Practice:** load dataset and perform basic data manipulation | `pandas operations notebook` | Completed ✅ |
+| 004 | 04 Jun 2026 | **Data Cleaning Basics** | **Concept:** null handling, duplicates, data types, basic cleanup pipeline<br>**Practice:** inspect dataset quality and fix obvious issues | `cleaned dataset notebook` | Completed ✅ |
+| 005 | 05 Jun 2026 | **Descriptive Statistics + Univariate Analysis** | **Concept:** distributions, mean, median, mode, variance, skewness<br>**Practice:** perform univariate analysis with plots | `EDA notebook section 1` | Completed ✅ |
+| 006 | 06 Jun 2026 | **Bivariate Analysis** | **Concept:** relationships between target and features, correlation basics<br>**Practice:** create pair plots, heatmaps, grouped summaries | `EDA notebook section 2` | Completed ✅ |
+| 007 | 07 Jun 2026 | **Missing Values Analysis** | **Concept:** missingness inspection and simple handling strategy<br>**Practice:** detect null patterns and plan imputations | `missing values analysis notebook` | Completed ✅ |
+| 008 | 08 Jun 2026 | **Outlier Detection Basics** | **Concept:** boxplot logic, IQR, Z-score<br>**Practice:** detect outliers and explain their effect | `outlier analysis notebook` | Completed ✅ |
+| 009 | 09 Jun 2026 | **Categorical Feature Understanding** | **Concept:** nominal vs ordinal, categorical distributions, encoding motivation<br>**Practice:** inspect categorical columns and prepare encoding plan | `categorical analysis notebook` | Completed ✅ |
+| 010 | 10 Jun 2026 | **Feature Engineering Basics** | **Concept:** creating meaningful features from raw variables<br>**Practice:** create ratios, interactions, grouped features | `feature engineering notebook` | Completed ✅ |
+| 011 | 11 Jun 2026 | **Data Visualization with matplotlib and seaborn** | **Concept:** visual communication for EDA<br>**Practice:** produce clean histograms, boxplots, heatmaps, countplots | `EDA visualization notebook` | Completed ✅ |
+| 012 | 12 Jun 2026 | **Full EDA Mini Project Part 1** | **Concept:** bringing all preprocessing and EDA together<br>**Practice:** perform structured EDA on one dataset | `project notebook part 1` | Completed ✅ |
+| 013 | 13 Jun 2026 | **Full EDA Mini Project Part 2** | **Concept:** insight communication<br>**Practice:** summarize key findings and prepare visuals | `completed EDA project notebook` | Completed ✅ |
+| 014 | 14 Jun 2026 | **Revision + GitHub Cleanup** | **Concept:** EDA interpretation and communication<br>**Practice:** revise concepts, clean notebook, push to GitHub | `GitHub-ready Phase 1 project folder` | Completed ✅ |
+
+</div>
+</details>
+
+<br/>
+<details>
+<summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
+  🤖 Phase 2: REGRESSION & STREAMLIT (15 Jun 2026 to 26 Jun 2026) (Completed ✅)
+</summary>
+ 
+<div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
+
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 015 | 15 Jun 2026 | **Simple Linear Regression Intuition** | **Concept:** line fitting, slope, intercept, residuals<br>**Practice:** train simple linear regression on one feature dataset | `simple regression notebook` | Completed ✅ |
+| 016 | 16 Jun 2026 | **Multiple Linear Regression** | **Concept:** multiple predictors and coefficient interpretation<br>**Practice:** train multiple linear regression model and inspect coefficients | `multiple regression notebook` | Completed ✅ |
+| 017 | 17 Jun 2026 | **Regression Metrics** | **Concept:** MSE, RMSE, MAE, R²<br>**Practice:** compute regression metrics manually and with sklearn | `metrics notebook` | Completed ✅ |
+| 018 | 18 Jun 2026 | **Polynomial Regression** | **Concept:** non-linearity through transformed features<br>**Practice:** train polynomial regression with different degrees | `polynomial regression notebook` | Completed ✅ |
+| 019 | 19 Jun 2026 | **Underfitting vs Overfitting in Regression** | **Concept:** model complexity and generalization<br>**Practice:** compare linear vs polynomial behavior | `model complexity notebook` | Completed ✅ |
+| 020 | 20 Jun 2026 | **Ridge Regression** | **Concept:** L2 regularization in regression<br>**Practice:** train Ridge with different alpha values | `ridge notebook` | Completed ✅ |
+| 021 | 21 Jun 2026 | **Lasso Regression** | **Concept:** L1 regularization and sparsity<br>**Practice:** train Lasso and inspect coefficient shrinkage | `lasso notebook` | Completed ✅ |
+| 022 | 22 Jun 2026 | **Feature Scaling for Regression** | **Concept:** why scaling matters in regularized regression<br>**Practice:** compare scaled vs unscaled results | `scaling notebook` | Completed ✅ |
+| 023 | 23 Jun 2026 | **Regression Mini Project Part 1** | **Concept:** end-to-end regression project setup<br>**Practice:** preprocess data and train baseline models | `regression project notebook part 1` | Completed ✅ |
+| 024 | 24 Jun 2026 | **Regression Mini Project Part 2** | **Concept:** model improvement and comparison<br>**Practice:** compare linear, Ridge, Lasso, polynomial | `regression project notebook part 2` | Completed ✅ |
+| 025 | 25 Jun 2026 | **Streamlit Basics** | **Concept:** interactive ML UI basics<br>**Practice:** create a simple Streamlit prediction app | `first Streamlit app` | Completed ✅ |
+| 026 | 26 Jun 2026 | **Streamlit Regression Project + Revision** | **Concept:** notebook to app workflow<br>**Practice:** connect regression model to Streamlit UI and clean documentation | `GitHub-ready Streamlit regression project` | Completed ✅ |
+
+</div>
+</details>
+
+<br/>
 <details open>
 <summary style="background-color: #eff6ff; border-left: 5px solid #3b82f6; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #1e40af; font-weight: bold; cursor: pointer; border-top: 1px solid #3b82f6; border-right: 1px solid #3b82f6; border-bottom: 1px solid #3b82f6; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 3: Logistic Regression Deep Dive (Active 🚀)
+  🤖 Phase 3: LOGISTIC REGRESSION DEEP DIVE (27 Jun 2026 to 10 Jul 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 001 | 27-Jun (Sat) | **[WEEKEND PROJECT 01] Titanic Survival Classifier** | `Day 001 - WP01 Titanic Survival Classifier.ipynb` | **Part 1 (Implementation & Model Training)** | Titanic EDA; Feature Eng (Age impute, Title extraction); Encoding; full Pipeline; GridSearchCV; Evaluation (Accuracy/F1/ROC-AUC/CM); Threshold tuning; GitHub push + README |
-| 002 | 28-Jun (Sun) | **[WEEKEND PROJECT 01] Titanic Survival Classifier** | `Day 002 - WP01 Titanic Survival Classifier.ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Titanic EDA; Feature Eng (Age impute, Title extraction); Encoding; full Pipeline; GridSearchCV; Evaluation (Accuracy/F1/ROC-AUC/CM); Threshold tuning; GitHub push + README |
-| 003 | 29-Jun (Mon) | [TOPIC] LR Recap + MLE Intuition & Softmax Regression (Multiclass LR) | `Day 003 - LR Recap + MLE Intuition and Softmax Regression (Multicla....ipynb` | Logistic Regression complete revision; Likelihood vs Probability; Log-Likelihood; MLE derivation -- where Log Loss comes from; MLE maximize = Log Loss minimize; Code: Manual MLE calculation; Binary vs Multiclass; Softmax formula + intuition; Cross-Entropy Loss for multiclass; OvR vs OvO; Softmax vs Sigmoid; Code: Scratch softmax + sklearn multi_class |
-| 004 | 30-Jun (Tue) | [TOPIC] Data Leakage & Cross Validation Deep Dive | `Day 004 - Data Leakage and Cross Validation Deep Dive.ipynb` | Train/test contamination; Feature leakage; Temporal leakage; Preprocessing leakage; Detection; Prevention with Pipeline; Code: Leakage example with/without Pipeline; Hold-out vs K-Fold; Stratified K-Fold; GroupKFold; Leave-One-Out; Repeated CV; CV with Pipelines; Code: All CV strategies implement + compare |
-| 005 | 01-Jul (Wed) | [TOPIC] LR Hyperparameters + Regularization & Cost-Sensitive Learning & Threshold Optimization | `Day 005 - LR Hyperparameters + Regularization and Cost-Sensitive Le....ipynb` | C parameter; penalty L1/L2/ElasticNet; solver lbfgs/liblinear/saga; class_weight=balanced; max_iter/tol; GridSearchCV; Code: Full tuning pipeline; Cost matrices for business-driven decisions; Platt scaling for LR probability calibration; reliability diagrams; choosing thresholds by real cost, not just F1 |
-| 006 | 02-Jul (Thu) | **[BUFFER] Phase 3 Buffer Day** | `Day 006 - Buffer - Phase 3 Buffer Day.ipynb` | Buffer day for catch-up, review, or extra practice |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 027 | 27 Jun 2026 | **Titanic Project Part 1** | **Concept:** binary classification framing using Titanic survival<br>**Practice:** EDA + preprocessing + baseline setup | `Titanic notebook part 1` | Completed ✅ |
+| 028 | 28 Jun 2026 | **Titanic Project Part 2** | **Concept:** evaluation and improvement of baseline classifier<br>**Practice:** train LR, evaluate confusion matrix and metrics, improve features | `Titanic notebook part 2` | Pending ⏳ |
+| 029 | 29 Jun 2026 | **Logistic Regression Intuition** | **Concept:** sigmoid, odds, log-odds, decision boundary, binary classification<br>**Practice:** plot sigmoid and compare logistic vs linear outputs | `LR intuition notebook` | Pending ⏳ |
+| 030 | 30 Jun 2026 | **Logistic Regression Implementation** | **Concept:** sklearn logistic regression, fit/predict/predict_proba<br>**Practice:** train LR on binary dataset and inspect coefficients | `LR implementation notebook` | Pending ⏳ |
+| 031 | 01 Jul 2026 | **Log Loss and MLE Intuition** | **Concept:** log loss, likelihood, MLE basics<br>**Practice:** manually calculate log loss and compare with sklearn | `log-loss notebook` | Pending ⏳ |
+| 032 | 02 Jul 2026 | **Multiclass Logistic Regression & Softmax** | **Concept:** softmax, OvR, multinomial logistic regression<br>**Practice:** multiclass LR on Iris/Wine | `multiclass LR notebook` | Pending ⏳ |
+| 033 | 03 Jul 2026 | **Confusion Matrix and Core Metrics** | **Concept:** TP, TN, FP, FN, precision, recall, F1, accuracy<br>**Practice:** compute metrics manually and using sklearn | `metric notebook` | Pending ⏳ |
+| 034 | 04 Jul 2026 | **ROC-AUC and PR-AUC** | **Concept:** ROC, PR curve, AUC, AP<br>**Practice:** plot curves and compare on imbalance | `ROC/PR notebook` | Pending ⏳ |
+| 035 | 05 Jul 2026 | **Threshold Tuning and Imbalance Basics** | **Concept:** threshold optimization, class weights<br>**Practice:** choose threshold by F1 and business logic | `threshold tuning notebook` | Pending ⏳ |
+| 036 | 06 Jul 2026 | **Train/Test Split and Cross-Validation** | **Concept:** train/validation/test, stratified CV<br>**Practice:** implement CV and compare results | `CV notebook` | Pending ⏳ |
+| 037 | 07 Jul 2026 | **Data Leakage and Pipelines** | **Concept:** preprocessing leakage, safe workflows<br>**Practice:** build leaking vs proper pipeline example | `leakage notebook` | Pending ⏳ |
+| 038 | 08 Jul 2026 | **Regularization in Logistic Regression** | **Concept:** L1, L2, C parameter<br>**Practice:** compare penalties and coefficient behavior | `regularization notebook` | Pending ⏳ |
+| 039 | 09 Jul 2026 | **Titanic Finalization** | **Concept:** packaging a classification project professionally<br>**Practice:** final plots, README, model summary | `GitHub-ready Titanic project` | Pending ⏳ |
+| 040 | 10 Jul 2026 | **Phase 3 Revision** | **Concept:** classification foundation fluency<br>**Practice:** answer interview questions and summarize LR end-to-end | `Phase 3 revision sheet` | Pending ⏳ |
 
 </div>
 </details>
@@ -103,19 +165,39 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 4: Feature Engineering (Click to expand)
+  🤖 Phase 4: CLASSIFICATION + FEATURE ENGINEERING MASTERY (11 Jul 2026 to 05 Aug 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 007 | 03-Jul (Fri) | [TOPIC] Missing Values Part 1 & Missing Values Part 2 | `Day 007 - Missing Values Part 1 and Missing Values Part 2.ipynb` | MCAR/MAR/MNAR; Detection (missingno, heatmap); Deletion (listwise/pairwise); Simple imputation (mean/median/mode); Code: missingno + SimpleImputer; KNN Imputer; Iterative Imputer (MICE); sklearn.impute API; Comparing strategies with CV; Code: KNNImputer + IterativeImputer comparison |
-| 008 | 04-Jul (Sat) | **[WEEKEND PROJECT 02] Feature Engineering Pipeline (House Prices)** | `Day 008 - WP02 Feature Engineering Pipeline (House Prices).ipynb` | **Part 1 (Implementation & Model Training)** | House Prices dataset; Missing value analysis; Outlier handling; Feature creation (ratios/age); Encoding; Selection; Compare baseline vs FE model; GitHub push + README |
-| 009 | 05-Jul (Sun) | **[WEEKEND PROJECT 02] Feature Engineering Pipeline (House Prices)** | `Day 009 - WP02 Feature Engineering Pipeline (House Prices).ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | House Prices dataset; Missing value analysis; Outlier handling; Feature creation (ratios/age); Encoding; Selection; Compare baseline vs FE model; GitHub push + README |
-| 010 | 06-Jul (Mon) | [TOPIC] Feature Creation & Encoding & Feature Selection | `Day 010 - Feature Creation and Encoding and Feature Selection.ipynb` | Binning (KBinsDiscretizer); One-Hot Encoding; Label Encoding; Target Encoding (leakage risk); PolynomialFeatures; Date/time features; Code: Full encoding pipeline; Filter (chi2/Mutual Info/VarianceThreshold); Wrapper (RFE/RFECV); Embedded (Lasso/Tree importance); SelectFromModel; Code: Compare model with/without selection |
-| 011 | 07-Jul (Tue) | [TOPIC] Outlier Detection & Handling & Advanced Feature Engineering: Datetime & Text Features | `Day 011 - Outlier Detection and Handling and Advanced Feature Engin....ipynb` | Z-score; Modified Z-score; IQR (Tukey); Isolation Forest; LOF; Winsorization; Outliers as signal vs noise; Code: All methods implement + compare; Cyclical encoding (sin/cos for hour/day/month); date decomposition; basic text-to-numeric features; feature-engine library; intro to feature stores |
-| 012 | 08-Jul (Wed) | **[BUFFER] Phase 4 Buffer Day** | `Day 012 - Buffer - Phase 4 Buffer Day.ipynb` | Buffer day for catch-up, review, or extra practice |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 041 | 11 Jul 2026 | **Missing Values Basics** | **Concept:** MCAR, MAR, MNAR<br>**Practice:** inspect missingness and apply simple imputation | `missing values notebook` | Pending ⏳ |
+| 042 | 12 Jul 2026 | **Advanced Imputation** | **Concept:** KNN Imputer, Iterative Imputer<br>**Practice:** compare imputation strategies | `imputation comparison notebook` | Pending ⏳ |
+| 043 | 13 Jul 2026 | **Encoding and Leakage Risk** | **Concept:** one-hot, ordinal, target leakage<br>**Practice:** apply multiple encodings safely | `encoding notebook` | Pending ⏳ |
+| 044 | 14 Jul 2026 | **Feature Creation** | **Concept:** interactions, polynomials, grouped features<br>**Practice:** create new engineered features | `feature creation notebook` | Pending ⏳ |
+| 045 | 15 Jul 2026 | **Feature Selection** | **Concept:** filter, wrapper, embedded methods<br>**Practice:** select top features and compare performance | `feature selection notebook` | Pending ⏳ |
+| 046 | 16 Jul 2026 | **Outlier Detection** | **Concept:** IQR, Z-score, boxplot analysis<br>**Practice:** detect and visualize outliers | `outlier notebook` | Pending ⏳ |
+| 047 | 17 Jul 2026 | **Outlier Handling** | **Concept:** trimming, capping, transforms<br>**Practice:** compare results before/after treatment | `outlier handling notebook` | Pending ⏳ |
+| 048 | 18 Jul 2026 | **Advanced Feature Engineering** | **Concept:** datetime and text-derived features<br>**Practice:** create cyclical and extracted features | `advanced FE notebook` | Pending ⏳ |
+| 049 | 19 Jul 2026 | **House Prices Project Part 1** | **Concept:** end-to-end FE project setup<br>**Practice:** EDA + preprocessing design | `project part 1` | Pending ⏳ |
+| 050 | 20 Jul 2026 | **House Prices Project Part 2** | **Concept:** engineered features and selection<br>**Practice:** build and compare improved pipeline | `project part 2` | Pending ⏳ |
+| 051 | 21 Jul 2026 | **KNN Theory** | **Concept:** neighbor-based learning, distance metrics<br>**Practice:** explain and visualize KNN intuition | `KNN notes notebook` | Pending ⏳ |
+| 052 | 22 Jul 2026 | **KNN Implementation + Tuning** | **Concept:** scaling, K tuning, CV<br>**Practice:** build KNN pipeline | `KNN notebook` | Pending ⏳ |
+| 053 | 23 Jul 2026 | **Naive Bayes** | **Concept:** Bayes theorem, Gaussian and Multinomial NB<br>**Practice:** train NB and compare with LR | `NB notebook` | Pending ⏳ |
+| 054 | 24 Jul 2026 | **Confusion Matrix Deep Dive + Multi-class Evaluation** | **Concept:** macro/micro/weighted evaluation<br>**Practice:** apply multiclass metrics and compare | `evaluation deep-dive notebook` | Pending ⏳ |
+| 055 | 25 Jul 2026 | **Bias-Variance Tradeoff** | **Concept:** underfit vs overfit diagnosis<br>**Practice:** compare simple vs complex classifiers | `bias-variance notes` | Pending ⏳ |
+| 056 | 26 Jul 2026 | **Learning Curves** | **Concept:** training vs validation diagnosis<br>**Practice:** plot learning curves for selected models | `learning curve notebook` | Pending ⏳ |
+| 057 | 27 Jul 2026 | **Heart Disease Project Part 1** | **Concept:** business classification framing<br>**Practice:** preprocessing and baseline | `project part 1` | Pending ⏳ |
+| 058 | 28 Jul 2026 | **Heart Disease Project Part 2** | **Concept:** LR vs KNN comparison<br>**Practice:** compare models using common metrics | `project part 2` | Pending ⏳ |
+| 059 | 29 Jul 2026 | **Heart Disease Project Part 3** | **Concept:** professional reporting<br>**Practice:** finalize metrics, plots, README | `GitHub-ready heart disease project` | Pending ⏳ |
+| 060 | 30 Jul 2026 | **PR-AUC + Imbalanced Learning** | **Concept:** PR-AUC, SMOTE, class_weight<br>**Practice:** compare imbalance strategies | `imbalance notebook` | Pending ⏳ |
+| 061 | 31 Jul 2026 | **K-Means Theory** | **Concept:** centroids, WCSS, elbow method<br>**Practice:** write intuition and use cases | `K-Means notes` | Pending ⏳ |
+| 062 | 01 Aug 2026 | **K-Means Practical** | **Concept:** clustering workflow<br>**Practice:** run K-Means and visualize clusters | `clustering notebook` | Pending ⏳ |
+| 063 | 02 Aug 2026 | **DBSCAN + Hierarchical Clustering** | **Concept:** density vs linkage-based clustering<br>**Practice:** compare methods on one dataset | `cluster comparison notebook` | Pending ⏳ |
+| 064 | 03 Aug 2026 | **PCA** | **Concept:** variance explained and dimensionality reduction<br>**Practice:** use PCA for visualization | `PCA notebook` | Pending ⏳ |
+| 065 | 04 Aug 2026 | **Customer Segmentation Project** | **Concept:** clustering business interpretation<br>**Practice:** build segmentation project with PCA visuals | `segmentation project` | Pending ⏳ |
+| 066 | 05 Aug 2026 | **Phase 4 Revision + Buffer** | **Concept:** unify FE, classification, clustering<br>**Practice:** revise + catch up + clean folders | `Phase 4 recap` | Pending ⏳ |
 
 </div>
 </details>
@@ -123,24 +205,39 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 5: Classification Mastery (Click to expand)
+  🤖 Phase 5: TREES, ENSEMBLES, BOOSTING, SVM (06 Aug 2026 to 31 Aug 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 013 | 09-Jul (Thu) | [TOPIC] Bias-Variance Tradeoff & Learning Curves | `Day 013 - Bias-Variance Tradeoff and Learning Curves.ipynb` | Underfitting vs Overfitting; Bias (too simple); Variance (too complex); Bias-Variance decomposition; Model complexity curves; Code: Polynomial degree vs bias-variance plot; Learning curve (training size vs error); Validation curve (hyperparameter vs error); Diagnosing high bias/variance; Does more data help?; Code: learning_curve + validation_curve |
-| 014 | 10-Jul (Fri) | [TOPIC] Confusion Matrix & Accuracy & Precision, Recall & F1 | `Day 014 - Confusion Matrix and Accuracy and Precision, Recall and F1.ipynb` | TP/TN/FP/FN; Accuracy formula + limitations; Accuracy paradox; Cost-sensitive CM; Multi-class CM; Code: ConfusionMatrixDisplay + heatmap; Precision (FP costly); Recall (FN costly); F1-Score; F-beta; Macro/Micro/Weighted; Business impact; Code: classification_report full analysis |
-| 015 | 11-Jul (Sat) | **[WEEKEND PROJECT 03] KNN Classifier (Iris/Wine)** | `Day 015 - WP03 KNN Classifier (Iris Wine).ipynb` | **Part 1 (Implementation & Model Training)** | EDA + scaling; K tuning with CV; Decision boundary visualization; Compare with LR; full evaluation; GitHub push + README |
-| 016 | 12-Jul (Sun) | **[WEEKEND PROJECT 03] KNN Classifier (Iris/Wine)** | `Day 016 - WP03 KNN Classifier (Iris Wine).ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | EDA + scaling; K tuning with CV; Decision boundary visualization; Compare with LR; full evaluation; GitHub push + README |
-| 017 | 13-Jul (Mon) | [TOPIC] ROC-AUC & Threshold Tuning & Multi-class Evaluation Deep Dive | `Day 017 - ROC-AUC and Threshold Tuning and Multi-class Evaluation D....ipynb` | ROC curve (TPR vs FPR); AUC interpretation; Optimal threshold (Youden's J, cost-based, F1-max); ROC for multi-class; Code: roc_curve + optimal threshold finder; OvR vs OvO evaluation in depth; multi-class ROC-AUC strategies; macro vs micro vs weighted F1 nuance; calibration curves for multi-class |
-| 018 | 14-Jul (Tue) | [TOPIC] PR-AUC & Imbalanced Metrics & Imbalanced Data -- SMOTE & Variants | `Day 018 - PR-AUC and Imbalanced Metrics and Imbalanced Data - SMOTE....ipynb` | Precision-Recall curve; PR-AUC vs ROC-AUC for imbalanced; Average Precision; why ROC misleads in imbalanced; Code: precision_recall_curve + comparison plots; SMOTE algorithm; Borderline-SMOTE, ADASYN; SMOTETomek/SMOTEENN; imblearn Pipeline; class_weight=balanced; Code: Compare F1 before/after SMOTE |
-| 019 | 15-Jul (Wed) | [TOPIC] KNN Theory + From Scratch & K-Means Clustering | `Day 019 - KNN Theory + From Scratch and K-Means Clustering.ipynb` | Nearest neighbor intuition; Euclidean/Manhattan/Minkowski; KNN step-by-step; KNN from scratch numpy; Curse of dimensionality; Code: KNN scratch implementation; Lloyd's algorithm; k-means++ initialization; WCSS/Elbow; Silhouette Score; Calinski-Harabasz; Mini-Batch K-Means; Code: elbow + silhouette plots |
-| 020 | 16-Jul (Thu) | [TOPIC] DBSCAN + PCA & Hierarchical Clustering & Clustering Evaluation | `Day 020 - DBSCAN + PCA and Hierarchical Clustering and Clustering E....ipynb` | DBSCAN (eps/min_samples/core/border/noise); DBSCAN vs K-Means; eps selection with k-distance; PCA (variance/Scree); PCA vs t-SNE; Code: DBSCAN + PCA on same dataset; Agglomerative clustering; dendrograms; linkage methods (single/complete/ward); rigorously comparing K-Means vs DBSCAN vs Hierarchical |
-| 021 | 17-Jul (Fri) | **[BUFFER] Phase 5 Buffer Day** | `Day 021 - Buffer - Phase 5 Buffer Day.ipynb` | Buffer day for catch-up, review, or extra practice |
-| 022 | 18-Jul (Sat) | **[WEEKEND PROJECT 04] Customer Segmentation + Complete Classification Pipeline** | `Day 022 - WP04 Customer Segmentation + Complete Classification Pipe....ipynb` | **Part 1 (Implementation & Model Training)** | Mall Customers: K-Means+DBSCAN+PCA, business insights; Heart Disease: LR vs KNN + SMOTE + ROC-AUC + Streamlit app; GitHub push + README |
-| 023 | 19-Jul (Sun) | **[WEEKEND PROJECT 04] Customer Segmentation + Complete Classification Pipeline** | `Day 023 - WP04 Customer Segmentation + Complete Classification Pipe....ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Mall Customers: K-Means+DBSCAN+PCA, business insights; Heart Disease: LR vs KNN + SMOTE + ROC-AUC + Streamlit app; GitHub push + README |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 067 | 06 Aug 2026 | **Decision Tree Theory** | **Concept:** entropy, gini, information gain<br>**Practice:** compute toy split manually | `tree theory notebook` | Pending ⏳ |
+| 068 | 07 Aug 2026 | **Decision Tree Practical** | **Concept:** train/visualize tree<br>**Practice:** overfit vs pruned tree comparison | `decision tree practical notebook` | Pending ⏳ |
+| 069 | 08 Aug 2026 | **Random Forest Theory** | **Concept:** bagging, bootstrap, OOB intuition<br>**Practice:** compare tree vs forest logic | `RF notes` | Pending ⏳ |
+| 070 | 09 Aug 2026 | **Random Forest Practical** | **Concept:** ensemble stability<br>**Practice:** train RF and inspect feature importance | `RF notebook` | Pending ⏳ |
+| 071 | 10 Aug 2026 | **Random Forest Tuning** | **Concept:** hyperparameters and tuning<br>**Practice:** search over depth, estimators, features | `RF tuning notebook` | Pending ⏳ |
+| 072 | 11 Aug 2026 | **AdaBoost + Gradient Boosting** | **Concept:** boosting intuition<br>**Practice:** compare with RF | `boosting notebook` | Pending ⏳ |
+| 073 | 12 Aug 2026 | **XGBoost Fundamentals** | **Concept:** regularization, learning rate, depth<br>**Practice:** train XGBoost model | `XGBoost notebook` | Pending ⏳ |
+| 074 | 13 Aug 2026 | **LightGBM + CatBoost Overview** | **Concept:** modern boosting libraries<br>**Practice:** run at least one of them | `comparison notebook` | Pending ⏳ |
+| 075 | 14 Aug 2026 | **Optuna Tuning** | **Concept:** automated hyperparameter search<br>**Practice:** tune XGBoost with Optuna | `Optuna notebook` | Pending ⏳ |
+| 076 | 15 Aug 2026 | **Voting and Stacking** | **Concept:** ensemble combination strategies<br>**Practice:** build voting and stacking classifier | `ensemble notebook` | Pending ⏳ |
+| 077 | 16 Aug 2026 | **SVM Theory** | **Concept:** margins, support vectors, kernels<br>**Practice:** write visual explanation and examples | `SVM notes` | Pending ⏳ |
+| 078 | 17 Aug 2026 | **SVM Practical** | **Concept:** linear vs RBF SVM<br>**Practice:** train scaled SVMs and compare | `SVM notebook` | Pending ⏳ |
+| 079 | 18 Aug 2026 | **Model Comparison Framework** | **Concept:** fair benchmarking pipeline<br>**Practice:** compare LR, KNN, Tree, RF, XGB, SVM | `model benchmark notebook` | Pending ⏳ |
+| 080 | 19 Aug 2026 | **Customer Churn Project Part 1** | **Concept:** churn prediction framing<br>**Practice:** preprocessing and baseline | `churn project part 1` | Pending ⏳ |
+| 081 | 20 Aug 2026 | **Customer Churn Project Part 2** | **Concept:** RF/XGB/ensemble comparison<br>**Practice:** train and evaluate advanced models | `churn project part 2` | Pending ⏳ |
+| 082 | 21 Aug 2026 | **Customer Churn Project Part 3** | **Concept:** business insights and documentation<br>**Practice:** finalize README and plots | `GitHub-ready churn project` | Pending ⏳ |
+| 083 | 22 Aug 2026 | **Fraud Detection Project Part 1** | **Concept:** severe imbalance classification<br>**Practice:** baseline + SMOTE + metrics | `fraud project part 1` | Pending ⏳ |
+| 084 | 23 Aug 2026 | **Fraud Detection Project Part 2** | **Concept:** PR-AUC-focused modeling<br>**Practice:** train XGB and threshold tune | `fraud project part 2` | Pending ⏳ |
+| 085 | 24 Aug 2026 | **Fraud Detection Project Part 3** | **Concept:** explainability preview<br>**Practice:** feature importance + final writeup | `GitHub-ready fraud project` | Pending ⏳ |
+| 086 | 25 Aug 2026 | **Calibration and Probability Outputs** | **Concept:** reliable probabilities<br>**Practice:** compare raw vs calibrated outputs | `calibration notebook` | Pending ⏳ |
+| 087 | 26 Aug 2026 | **ExtraTrees + Feature Importance Reliability** | **Concept:** model interpretation caution<br>**Practice:** compare MDI vs permutation importance | `importance notebook` | Pending ⏳ |
+| 088 | 27 Aug 2026 | **Ensemble House Price Predictor** | **Concept:** stacking for regression<br>**Practice:** build stacked regressor | `regression ensemble notebook` | Pending ⏳ |
+| 089 | 28 Aug 2026 | **Phase 5 Revision Day** | **Concept:** trees, boosting, SVM mastery<br>**Practice:** revise theory and model selection rules | `Phase 5 recap sheet` | Pending ⏳ |
+| 090 | 29 Aug 2026 | **Mock Interview Day** | **Concept:** technical explanation practice<br>**Practice:** explain tree/boosting/SVM questions aloud | `mock Q&A notes` | Pending ⏳ |
+| 091 | 30 Aug 2026 | **Buffer / Catch-up** | **Concept:** finish pending work<br>**Practice:** repo cleanup and fixes | `clean Phase 5 folder` | Pending ⏳ |
+| 092 | 31 Aug 2026 | **Portfolio Cleanup Day** | **Concept:** professional presentation<br>**Practice:** improve READMEs and folder quality | `stronger GitHub structure` | Pending ⏳ |
 
 </div>
 </details>
@@ -148,29 +245,28 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 6: Trees & Ensembles (Click to expand)
+  🤖 Phase 6: DEPLOYMENT FOUNDATION + FASTAPI (01 Sep 2026 to 15 Sep 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 024 | 20-Jul (Mon) | [TOPIC] Decision Tree Theory & Decision Tree Implementation | `Day 024 - Decision Tree Theory and Decision Tree Implementation.ipynb` | Entropy; Information Gain; Gini Impurity; Recursive splitting; Stopping criteria; Code: Manual entropy + IG calculation; sklearn DecisionTreeClassifier; plot_tree; max_depth/min_samples_split/leaf; Pre vs post pruning; Feature importance; Code: Overfit vs pruned tree comparison |
-| 025 | 21-Jul (Tue) | [TOPIC] Random Forest Theory & Random Forest Implementation | `Day 025 - Random Forest Theory and Random Forest Implementation.ipynb` | Bagging; why multiple trees reduce variance; Bootstrap sampling; max_features; OOB score; RF vs single DT; sklearn RF; n_estimators/max_depth/max_features; oob_score=True; Feature importance: MDI vs permutation; Code: RF full hyperparameter analysis |
-| 026 | 22-Jul (Wed) | [TOPIC] Random Forest Tuning & Decision Tree & RF Edge Cases | `Day 026 - Random Forest Tuning and Decision Tree and RF Edge Cases.ipynb` | GridSearchCV for RF; RandomizedSearchCV; RF vs DT bias-variance comparison; when RF fails (correlated features); Code: GridSearch + learning curves; Handling categorical splits natively; surrogate splits for missing data; ExtraTrees (Extremely Randomized Trees); when trees overfit silently |
-| 027 | 23-Jul (Thu) | [TOPIC] XGBoost Theory & XGBoost Implementation | `Day 027 - XGBoost Theory and XGBoost Implementation.ipynb` | Boosting -- sequential learning; XGBoost vs RF; Gradient Boosting intuition; Regularization (lambda/alpha); Tree pruning with gamma; handles missing values; xgboost install + DMatrix; key params (n_estimators/max_depth/learning_rate/subsample/colsample_bytree); early stopping; feature importance (weight/gain/cover); Code: full pipeline |
-| 028 | 24-Jul (Fri) | [TOPIC] LightGBM & CatBoost | `Day 028 - LightGBM and CatBoost.ipynb` | Leaf-wise vs Level-wise growth; why faster than XGBoost; GOSS + EFB; key params (num_leaves/min_child_samples); Code: LightGBM vs XGBoost speed+accuracy; Symmetric trees; categorical handling (no encoding needed); ordered boosting; key params (iterations/depth/learning_rate); Code: CatBoost with categorical features |
-| 029 | 25-Jul (Sat) | **[WEEKEND PROJECT 05] Decision Tree + Random Forest Classifier** | `Day 029 - WP05 Decision Tree + Random Forest Classifier.ipynb` | **Part 1 (Implementation & Model Training)** | Build & tune DT, visualize tree; build & tune RF, compare feature importance; GitHub push + README |
-| 030 | 26-Jul (Sun) | **[WEEKEND PROJECT 05] Decision Tree + Random Forest Classifier** | `Day 030 - WP05 Decision Tree + Random Forest Classifier.ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Build & tune DT, visualize tree; build & tune RF, compare feature importance; GitHub push + README |
-| 031 | 27-Jul (Mon) | [TOPIC] Optuna Hyperparameter Tuning & Boosting Algorithms -- Systematic Comparison | `Day 031 - Optuna Hyperparameter Tuning and Boosting Algorithms - Sy....ipynb` | Bayesian Optimization vs GridSearch; objective function; search spaces (suggest_int/suggest_float); pruning bad trials; visualization; Code: Optuna for XGBoost; XGBoost custom objective functions; rigorous XGBoost vs LightGBM vs CatBoost benchmark on same dataset/metric/time budget |
-| 032 | 28-Jul (Tue) | [TOPIC] Ensemble Methods: Voting & AdaBoost | `Day 032 - Ensemble Methods - Voting and AdaBoost.ipynb` | Hard vs Soft Voting Classifiers; when voting works (diverse models); Code: VotingClassifier; Sequential boosting; weighted errors; step size; sklearn AdaBoostClassifier; tuning |
-| 033 | 29-Jul (Wed) | [TOPIC] Stacking & Blending & SVM Theory | `Day 033 - Stacking and Blending and SVM Theory.ipynb` | Meta-models; out-of-fold predictions; StackingClassifier; blending strategy; Code: Stacking ensemble; Hyperplane; Margin; Support Vectors; C parameter (hard vs soft margin); Kernel Trick intuition |
-| 034 | 30-Jul (Thu) | [TOPIC] SVM Kernel Trick & Multi-class & One-Class SVM | `Day 034 - SVM Kernel Trick and Multi-class and One-Class SVM.ipynb` | RBF Kernel; Polynomial Kernel; gamma parameter; Mercer's theorem (overview only); Code: kernel comparison; OvR/OvO for SVM in practice; One-Class SVM for novelty/anomaly detection; when SVM beats tree-based models |
-| 035 | 31-Jul (Fri) | **[BUFFER] Phase 6 Buffer Day** | `Day 035 - Buffer - Phase 6 Buffer Day.ipynb` | Buffer day for catch-up, review, or extra practice |
-| 036 | 01-Aug (Sat) | **[WEEKEND PROJECT 06] Customer Churn (RF) + XGBoost Fraud Detection** | `Day 036 - WP06 Customer Churn (RF) + XGBoost Fraud Detection.ipynb` | **Part 1 (Implementation & Model Training)** | Telco churn full pipeline with RF; Credit Card Fraud with XGBoost + Optuna + PR-AUC focus; SHAP preview; GitHub push + README |
-| 037 | 02-Aug (Sun) | **[WEEKEND PROJECT 06] Customer Churn (RF) + XGBoost Fraud Detection** | `Day 037 - WP06 Customer Churn (RF) + XGBoost Fraud Detection.ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Telco churn full pipeline with RF; Credit Card Fraud with XGBoost + Optuna + PR-AUC focus; SHAP preview; GitHub push + README |
-| 043 | 08-Aug (Sat) | **[WEEKEND PROJECT 07] Ensemble House Price Predictor + SVM Multi-class** | `Day 043 - WP07 Ensemble House Price Predictor + SVM Multi-class.ipynb` | **Part 1 (Implementation & Model Training)** | RF+XGBoost+LightGBM stacked with linear meta-model on House Prices; SVM multi-class on Wine with kernel comparison; GitHub push + README |
-| 044 | 09-Aug (Sun) | **[WEEKEND PROJECT 07] Ensemble House Price Predictor + SVM Multi-class** | `Day 044 - WP07 Ensemble House Price Predictor + SVM Multi-class.ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | RF+XGBoost+LightGBM stacked with linear meta-model on House Prices; SVM multi-class on Wine with kernel comparison; GitHub push + README |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 093 | 01 Sep 2026 | **Model Serialization** | **Concept:** pickle, joblib, model persistence<br>**Practice:** save and reload model pipeline | `serialization notebook` | Pending ⏳ |
+| 094 | 02 Sep 2026 | **Clean ML Project Structure** | **Concept:** src, artifacts, notebooks, requirements<br>**Practice:** reorganize one project into production-like structure | `structured project template` | Pending ⏳ |
+| 095 | 03 Sep 2026 | **FastAPI Basics** | **Concept:** routes, GET/POST, request-response<br>**Practice:** build first FastAPI app | `starter API app` | Pending ⏳ |
+| 096 | 04 Sep 2026 | **Pydantic Validation** | **Concept:** schemas and type validation<br>**Practice:** define request/response models | `validated API endpoint` | Pending ⏳ |
+| 097 | 05 Sep 2026 | **Prediction API** | **Concept:** model serving via FastAPI<br>**Practice:** connect saved model to predict endpoint | `ML prediction API` | Pending ⏳ |
+| 098 | 06 Sep 2026 | **API Error Handling** | **Concept:** robustness and input safety<br>**Practice:** add exception handling and status codes | `improved API` | Pending ⏳ |
+| 099 | 07 Sep 2026 | **Testing API with Swagger/Postman** | **Concept:** API verification<br>**Practice:** manually test payloads and edge cases | `tested prediction API` | Pending ⏳ |
+| 100 | 08 Sep 2026 | **Streamlit vs FastAPI Integration Thinking** | **Concept:** app serving choices<br>**Practice:** compare Streamlit deployment vs backend API deployment | `architecture note` | Pending ⏳ |
+| 101 | 09 Sep 2026 | **Mini API Project Part 1** | **Concept:** end-to-end service skeleton<br>**Practice:** choose one classification model to expose | `deployment project part 1` | Pending ⏳ |
+| 102 | 10 Sep 2026 | **Mini API Project Part 2** | **Concept:** inference flow<br>**Practice:** complete backend inference logic | `deployment project part 2` | Pending ⏳ |
+| 103 | 11 Sep 2026 | **Mini API Project Part 3** | **Concept:** communication and docs<br>**Practice:** create API usage guide and README | `GitHub-ready API project` | Pending ⏳ |
+| 104 | 12 Sep 2026 | **pytest Basics for API** | **Concept:** automated API testing<br>**Practice:** write simple endpoint tests | `test file set` | Pending ⏳ |
+| 105 | 13 Sep 2026 | **Docker Basics** | **Concept:** containers and Dockerfile<br>**Practice:** dockerize FastAPI app | `Dockerfile + run instructions` | Pending ⏳ |
+| 106 | 14 Sep 2026 | **Docker Compose Basics** | **Concept:** multi-service coordination<br>**Practice:** write simple compose file | `docker-compose.yml` | Pending ⏳ |
+| 107 | 15 Sep 2026 | **Phase 6 Revision + Buffer** | **Concept:** model serving summary<br>**Practice:** revise API concepts and fix pending items | `Phase 6 recap` | Pending ⏳ |
 
 </div>
 </details>
@@ -178,19 +274,28 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 7: SVM & Model Comparison (Click to expand)
+  🤖 Phase 7: DEEP LEARNING ANN (16 Sep 2026 to 30 Sep 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 038 | 03-Aug (Mon) | [TOPIC] SVM for Regression (SVR) & Model Comparison Framework | `Day 038 - SVM for Regression (SVR) and Model Comparison Framework.ipynb` | epsilon-insensitive loss; SVR vs Linear Regression; kernel choice for regression; Code: SVR implementation; Building a consistent benchmark: LR/KNN/Tree/RF/XGB/SVM on same dataset; cross_val_score comparison table; Code: benchmark script |
-| 039 | 04-Aug (Tue) | [TOPIC] Calibration & Probability Outputs & Multi-label & Multi-output Classification | `Day 039 - Calibration and Probability Outputs and Multi-label and M....ipynb` | Platt scaling; Isotonic regression; CalibratedClassifierCV; reliability diagrams; when calibration matters; Difference vs multiclass; MultiOutputClassifier; label powerset; Code: multi-label example |
-| 040 | 05-Aug (Wed) | [TOPIC] Time-Series Cross-Validation Basics & Anomaly Detection Methods | `Day 040 - Time-Series Cross-Validation Basics and Anomaly Detection....ipynb` | Why standard CV leaks future info; TimeSeriesSplit; walk-forward validation; Code: TimeSeriesSplit demo; Isolation Forest vs LOF vs One-Class SVM for fraud/anomaly use-cases; precision@k for anomaly detection; evaluating without labels |
-| 041 | 06-Aug (Thu) | **[BUFFER] Phase 7 Buffer Day** | `Day 041 - Buffer - Phase 7 Buffer Day.ipynb` | Buffer day for catch-up, review, or extra practice |
-| 050 | 15-Aug (Sat) | **[WEEKEND PROJECT 08] Model Benchmark Dashboard (Streamlit)** | `Day 050 - WP08 Model Benchmark Dashboard (Streamlit).ipynb` | **Part 1 (Implementation & Model Training)** | Build a Streamlit app comparing all classical ML models on a dataset of choice with metrics + calibration plots; GitHub push + README |
-| 051 | 16-Aug (Sun) | **[WEEKEND PROJECT 08] Model Benchmark Dashboard (Streamlit)** | `Day 051 - WP08 Model Benchmark Dashboard (Streamlit).ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Build a Streamlit app comparing all classical ML models on a dataset of choice with metrics + calibration plots; GitHub push + README |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 108 | 16 Sep 2026 | **Deep Learning Introduction** | **Concept:** perceptron, ANN basics, activations<br>**Practice:** implement activations and visualize them | `DL intro notebook` | Pending ⏳ |
+| 109 | 17 Sep 2026 | **Forward Pass from Scratch** | **Concept:** weights, biases, matrix multiplication<br>**Practice:** manual forward pass in NumPy | `forward pass notebook` | Pending ⏳ |
+| 110 | 18 Sep 2026 | **Loss Functions in DL** | **Concept:** MSE, BCE, CCE<br>**Practice:** compare loss values across examples | `loss notebook` | Pending ⏳ |
+| 111 | 19 Sep 2026 | **Backpropagation Intuition** | **Concept:** gradients and chain rule<br>**Practice:** manually compute gradients for simple network | `backprop notes` | Pending ⏳ |
+| 112 | 20 Sep 2026 | **Optimizers** | **Concept:** SGD, Adam, learning rates<br>**Practice:** compare optimizers on simple ANN | `optimizer notebook` | Pending ⏳ |
+| 113 | 21 Sep 2026 | **Regularization in DL** | **Concept:** dropout, batch norm, early stopping<br>**Practice:** regularized vs overfit model | `regularization notebook` | Pending ⏳ |
+| 114 | 22 Sep 2026 | **Keras Sequential API** | **Concept:** dense layers and compile-fit-evaluate flow<br>**Practice:** build first ANN in Keras | `Keras ANN notebook` | Pending ⏳ |
+| 115 | 23 Sep 2026 | **Keras Functional API** | **Concept:** flexible architectures<br>**Practice:** build simple functional model | `functional API notebook` | Pending ⏳ |
+| 116 | 24 Sep 2026 | **PyTorch Basics** | **Concept:** tensors, autograd<br>**Practice:** tensor operations and gradients | `PyTorch basics notebook` | Pending ⏳ |
+| 117 | 25 Sep 2026 | **PyTorch nn.Module** | **Concept:** custom network classes<br>**Practice:** build a small PyTorch ANN | `PyTorch model notebook` | Pending ⏳ |
+| 118 | 26 Sep 2026 | **PyTorch Training Loop** | **Concept:** forward/backward/step loop<br>**Practice:** train one model in PyTorch | `training loop notebook` | Pending ⏳ |
+| 119 | 27 Sep 2026 | **ANN Project Part 1** | **Concept:** real tabular deep learning project<br>**Practice:** bank churn ANN baseline | `ANN project part 1` | Pending ⏳ |
+| 120 | 28 Sep 2026 | **ANN Project Part 2** | **Concept:** callbacks and tuning<br>**Practice:** improve performance and compare | `ANN project part 2` | Pending ⏳ |
+| 121 | 29 Sep 2026 | **ANN Project Part 3** | **Concept:** documentation and comparison<br>**Practice:** compare ANN with classical ML models | `GitHub-ready ANN project` | Pending ⏳ |
+| 122 | 30 Sep 2026 | **Phase 7 Revision + Buffer** | **Concept:** ANN fundamentals mastery<br>**Practice:** revise concepts and clean notebooks | `Phase 7 recap` | Pending ⏳ |
 
 </div>
 </details>
@@ -198,19 +303,27 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 8: Deep Learning -- ANN (Click to expand)
+  🤖 Phase 8: DEEP LEARNING CNN (01 Oct 2026 to 14 Oct 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 042 | 07-Aug (Fri) | [TOPIC] Deep Learning Intro & ANN Architecture | `Day 042 - Deep Learning Intro and ANN Architecture.ipynb` | Neural Network basics; biological neuron analogy; perceptron model; DL vs ML -- when to use which; Input/Hidden/Output layers; Weights & biases (matrix form); Activation Functions: Sigmoid/ReLU/Tanh/Softmax; Code: manual forward pass numpy |
-| 045 | 10-Aug (Mon) | [TOPIC] Loss Functions + Backpropagation & Keras Basics | `Day 045 - Loss Functions + Backpropagation and Keras Basics.ipynb` | MSE, BCE, Categorical Cross-Entropy; Backpropagation chain rule intuition; gradient descent for weight updates; Code: manual backprop simple network; TensorFlow/Keras setup; Sequential model; Dense layers; model.compile/fit/evaluate/predict; Code: first Keras ANN |
-| 046 | 11-Aug (Tue) | [TOPIC] Optimizers + Regularization & Keras Functional API & Custom Components | `Day 046 - Optimizers + Regularization and Keras Functional API and ....ipynb` | SGD/Adam/RMSprop; learning rate tuning; Dropout, BatchNorm, EarlyStopping, ModelCheckpoint; Code: overfit vs regularized comparison; Functional API for multi-input/multi-output models; custom layers; custom loss functions; subclassing Model |
-| 047 | 12-Aug (Wed) | **[BUFFER] Phase 8 Buffer Day** | `Day 047 - Buffer - Phase 8 Buffer Day.ipynb` | Buffer day for catch-up, review, or extra practice |
-| 057 | 22-Aug (Sat) | **[WEEKEND PROJECT 09] Bank Churn ANN** | `Day 057 - WP09 Bank Churn ANN.ipynb` | **Part 1 (Implementation & Model Training)** | Preprocessing; Keras Sequential + Dropout + BatchNorm; EarlyStopping + ModelCheckpoint; compare LR vs RF vs ANN; model.save(); Streamlit app; GitHub push + README |
-| 058 | 23-Aug (Sun) | **[WEEKEND PROJECT 09] Bank Churn ANN** | `Day 058 - WP09 Bank Churn ANN.ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Preprocessing; Keras Sequential + Dropout + BatchNorm; EarlyStopping + ModelCheckpoint; compare LR vs RF vs ANN; model.save(); Streamlit app; GitHub push + README |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 123 | 01 Oct 2026 | **CNN Theory** | **Concept:** convolution, filters, stride, padding<br>**Practice:** implement simple filter on image | `CNN theory notebook` | Pending ⏳ |
+| 124 | 02 Oct 2026 | **CNN Architecture** | **Concept:** Conv2D, pooling, flatten, dense<br>**Practice:** design a CNN architecture | `architecture notebook` | Pending ⏳ |
+| 125 | 03 Oct 2026 | **Image Preprocessing** | **Concept:** normalization, reshape, image pipeline<br>**Practice:** preprocess MNIST/Fashion-MNIST | `preprocessing notebook` | Pending ⏳ |
+| 126 | 04 Oct 2026 | **Keras CNN from Scratch** | **Concept:** building image classifier<br>**Practice:** train CNN on MNIST | `CNN notebook` | Pending ⏳ |
+| 127 | 05 Oct 2026 | **CNN Evaluation** | **Concept:** confusion matrix and errors in image tasks<br>**Practice:** inspect wrong predictions | `evaluation notebook` | Pending ⏳ |
+| 128 | 06 Oct 2026 | **Data Augmentation** | **Concept:** augmentation strategies<br>**Practice:** augment image data and retrain | `augmentation notebook` | Pending ⏳ |
+| 129 | 07 Oct 2026 | **Transfer Learning** | **Concept:** pretrained models and fine-tuning<br>**Practice:** use MobileNet/VGG | `transfer learning notebook` | Pending ⏳ |
+| 130 | 08 Oct 2026 | **CV Project Part 1** | **Concept:** custom image classification project<br>**Practice:** select dataset and baseline | `project part 1` | Pending ⏳ |
+| 131 | 09 Oct 2026 | **CV Project Part 2** | **Concept:** training and tuning<br>**Practice:** improve and evaluate model | `project part 2` | Pending ⏳ |
+| 132 | 10 Oct 2026 | **CV Project Part 3** | **Concept:** reporting and README<br>**Practice:** final visuals and writeup | `GitHub-ready CV project` | Pending ⏳ |
+| 133 | 11 Oct 2026 | **PyTorch CNN Basics** | **Concept:** CNN in PyTorch<br>**Practice:** build small PyTorch CNN | `PyTorch CNN notebook` | Pending ⏳ |
+| 134 | 12 Oct 2026 | **Grad-CAM / Explainability Intro** | **Concept:** CNN explainability<br>**Practice:** understand and test a Grad-CAM example | `explainability notes` | Pending ⏳ |
+| 135 | 13 Oct 2026 | **CNN Portfolio Polish** | **Concept:** improve project presentation<br>**Practice:** README + output image cleanup | `polished CV repo` | Pending ⏳ |
+| 136 | 14 Oct 2026 | **Phase 8 Revision + Buffer** | **Concept:** CNN workflow revision<br>**Practice:** revise and catch up | `Phase 8 recap` | Pending ⏳ |
 
 </div>
 </details>
@@ -218,21 +331,30 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 9: Deep Learning -- CNN (Click to expand)
+  🤖 Phase 9: NLP FOUNDATION (15 Oct 2026 to 31 Oct 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 048 | 13-Aug (Thu) | [TOPIC] CNN Theory & CNN Architecture + Implementation | `Day 048 - CNN Theory and CNN Architecture + Implementation.ipynb` | Convolution operation; filters/kernels; stride; padding (valid/same); Feature Maps; Pooling (Max/Average); Conv2D + Pooling + Flatten + Dense; parameter calculation; image preprocessing (normalize/reshape); ImageDataGenerator; Code: MNIST classifier |
-| 049 | 14-Aug (Fri) | [TOPIC] Data Augmentation | `Day 049 - Data Augmentation.ipynb` | Rotation, flip, zoom, shift; albumentations vs ImageDataGenerator; when augmentation helps vs hurts |
-| 052 | 17-Aug (Mon) | [TOPIC] CNN Evaluation + Grad-CAM | `Day 052 - CNN Evaluation + Grad-CAM.ipynb` | Confusion matrix for images; visualizing misclassifications; Grad-CAM -- which region matters; Code: Grad-CAM implementation |
-| 053 | 18-Aug (Tue) | [TOPIC] Transfer Learning | `Day 053 - Transfer Learning.ipynb` | Pretrained models (VGG16/ResNet50/MobileNet); freezing vs fine-tuning; Code: VGG16 for custom dataset |
-| 054 | 19-Aug (Wed) | [TOPIC] CNN Practice: Extra Image Classification Dataset | `Day 054 - CNN Practice - Extra Image Classification Dataset.ipynb` | Apply CNN pipeline to a new dataset (Fashion-MNIST or CIFAR-10); reinforce augmentation + evaluation skills before moving to NLP |
-| 055 | 20-Aug (Thu) | **[BUFFER] Phase 9 Buffer Day** | `Day 055 - Buffer - Phase 9 Buffer Day.ipynb` | Buffer day for catch-up, review, or extra practice |
-| 064 | 29-Aug (Sat) | **[WEEKEND PROJECT 10] Digit Classifier CNN + Transfer Learning Image Classifier** | `Day 064 - WP10 Digit Classifier CNN + Transfer Learning Image Class....ipynb` | **Part 1 (Implementation & Model Training)** | MNIST CNN (3 conv blocks) with augmentation + Grad-CAM; CIFAR-10/Cats-vs-Dogs MobileNet fine-tuned; compare scratch vs transfer learning; GitHub push + README |
-| 065 | 30-Aug (Sun) | **[WEEKEND PROJECT 10] Digit Classifier CNN + Transfer Learning Image Classifier** | `Day 065 - WP10 Digit Classifier CNN + Transfer Learning Image Class....ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | MNIST CNN (3 conv blocks) with augmentation + Grad-CAM; CIFAR-10/Cats-vs-Dogs MobileNet fine-tuned; compare scratch vs transfer learning; GitHub push + README |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 137 | 15 Oct 2026 | **NLP Basics** | **Concept:** tokenization, stopwords, stemming, lemmatization<br>**Practice:** clean and preprocess text dataset | `NLP basics notebook` | Pending ⏳ |
+| 138 | 16 Oct 2026 | **Bag of Words** | **Concept:** sparse vectorization<br>**Practice:** use CountVectorizer on sample corpus | `BoW notebook` | Pending ⏳ |
+| 139 | 17 Oct 2026 | **TF-IDF** | **Concept:** weighted text representation<br>**Practice:** compare BoW vs TF-IDF | `TF-IDF notebook` | Pending ⏳ |
+| 140 | 18 Oct 2026 | **Text Classification with LR and NB** | **Concept:** classical NLP pipeline<br>**Practice:** train LR and NB on text features | `text classifier notebook` | Pending ⏳ |
+| 141 | 19 Oct 2026 | **Word Embeddings Intuition** | **Concept:** semantic representation<br>**Practice:** explore Word2Vec/GloVe ideas | `embeddings notes` | Pending ⏳ |
+| 142 | 20 Oct 2026 | **spaCy Basics** | **Concept:** NER and pipelines<br>**Practice:** run entity extraction on real text | `spaCy notebook` | Pending ⏳ |
+| 143 | 21 Oct 2026 | **Regex for NLP** | **Concept:** extraction and cleaning patterns<br>**Practice:** write regex scripts for text cleanup | `regex notebook` | Pending ⏳ |
+| 144 | 22 Oct 2026 | **Text Similarity** | **Concept:** cosine similarity, Jaccard, edit distance<br>**Practice:** build small similarity demo | `similarity notebook` | Pending ⏳ |
+| 145 | 23 Oct 2026 | **Sentiment Analysis Part 1** | **Concept:** sentiment pipeline setup<br>**Practice:** preprocess and vectorize sentiment data | `sentiment notebook part 1` | Pending ⏳ |
+| 146 | 24 Oct 2026 | **Sentiment Analysis Part 2** | **Concept:** model comparison and evaluation<br>**Practice:** compare LR, NB, maybe SVM | `sentiment notebook part 2` | Pending ⏳ |
+| 147 | 25 Oct 2026 | **Spam Classifier Part 1** | **Concept:** end-to-end text classification project<br>**Practice:** baseline spam model | `spam project part 1` | Pending ⏳ |
+| 148 | 26 Oct 2026 | **Spam Classifier Part 2** | **Concept:** app-level thinking and reporting<br>**Practice:** finalize notebook and README | `GitHub-ready spam project` | Pending ⏳ |
+| 149 | 27 Oct 2026 | **Topic Modeling Overview** | **Concept:** LDA intuition<br>**Practice:** try simple topic modeling demo | `topic modeling notebook` | Pending ⏳ |
+| 150 | 28 Oct 2026 | **News Classifier Project** | **Concept:** multi-class text classification<br>**Practice:** classify news categories | `news classifier project` | Pending ⏳ |
+| 151 | 29 Oct 2026 | **NLP Revision Day** | **Concept:** unify classical NLP understanding<br>**Practice:** summary notes + Q&A | `NLP recap sheet` | Pending ⏳ |
+| 152 | 30 Oct 2026 | **Buffer / Catch-up** | **Concept:** complete pending NLP items<br>**Practice:** clean repo and notes | `clean NLP folder` | Pending ⏳ |
+| 153 | 31 Oct 2026 | **NLP Portfolio Polish** | **Concept:** project communication quality<br>**Practice:** improve READMEs and examples | `polished NLP repos` | Pending ⏳ |
 
 </div>
 </details>
@@ -240,30 +362,25 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 10: NLP (Click to expand)
+  🤖 Phase 10: TRANSFORMERS, RAG, AI AGENTS (01 Nov 2026 to 12 Nov 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 056 | 21-Aug (Fri) | [TOPIC] NLP Basics + Text Preprocessing | `Day 056 - NLP Basics + Text Preprocessing.ipynb` | Text challenges; NLP pipeline; tokenization; lowercasing/punctuation removal; stopwords; stemming vs lemmatization; Code: preprocessing pipeline |
-| 059 | 24-Aug (Mon) | [TOPIC] Bag of Words + N-grams | `Day 059 - Bag of Words + N-grams.ipynb` | CountVectorizer; vocabulary building; sparse matrices; unigrams/bigrams/trigrams; ngram_range; Code: BoW on real text |
-| 060 | 25-Aug (Tue) | [TOPIC] TF-IDF | `Day 060 - TF-IDF.ipynb` | Term Frequency; Inverse Document Frequency; TF-IDF intuition; TfidfVectorizer; BoW vs TF-IDF comparison; Code: same dataset both methods |
-| 061 | 26-Aug (Wed) | [TOPIC] Word Embeddings | `Day 061 - Word Embeddings.ipynb` | Why BoW fails (no semantics); Word2Vec (CBOW vs Skip-gram); dense vector representation; cosine similarity; GloVe; Code: Word2Vec with gensim |
-| 062 | 27-Aug (Thu) | [TOPIC] Naive Bayes + Text Classification | `Day 062 - Naive Bayes + Text Classification.ipynb` | Bayes theorem revision; Gaussian/Multinomial/Bernoulli NB; combining TF-IDF + metadata; ColumnTransformer; Code: NB vs LR vs SVM comparison |
-| 063 | 28-Aug (Fri) | [TOPIC] spaCy Pipelines & Custom Tokenizers | `Day 063 - spaCy Pipelines and Custom Tokenizers.ipynb` | Custom spaCy pipeline components; rule-based Matcher; advanced tokenization for domain-specific text |
-| 066 | 31-Aug (Mon) | [TOPIC] Regex + Text Similarity | `Day 066 - Regex + Text Similarity.ipynb` | Pattern matching; re module; common patterns (email/phone/URL); Cosine + Jaccard similarity; Edit distance; Code: document similarity engine |
-| 067 | 01-Sep (Tue) | [TOPIC] Named Entity Recognition | `Day 067 - Named Entity Recognition.ipynb` | NER -- extracting names/places/orgs; spaCy NER pipeline; custom NER basics; Code: spaCy NER on real text |
-| 068 | 02-Sep (Wed) | [TOPIC] Sentiment Analysis: Cleaning + Feature Extraction | `Day 068 - Sentiment Analysis - Cleaning + Feature Extraction.ipynb` | Regex, stopwords, lemmatization for reviews; TF-IDF train-test split for text |
-| 069 | 03-Sep (Thu) | [TOPIC] Sentiment Analysis: Model Training + Evaluation | `Day 069 - Sentiment Analysis - Model Training + Evaluation.ipynb` | Logistic Regression vs Naive Bayes; Precision/Recall/F1; error analysis -- what model gets wrong |
-| 070 | 04-Sep (Fri) | [TOPIC] Topic Modeling Basics | `Day 070 - Topic Modeling Basics.ipynb` | LDA intuition; gensim LDA; pyLDAvis visualization; when topic modeling is useful |
-| 071 | 05-Sep (Sat) | **[WEEKEND PROJECT 11] Spam/Ham Classifier** | `Day 071 - WP11 Spam Ham Classifier.ipynb` | **Part 1 (Implementation & Model Training)** | SMS Spam Collection; preprocessing pipeline; BoW vs TF-IDF comparison; MultinomialNB + LR compare; Streamlit app; GitHub push + README |
-| 072 | 06-Sep (Sun) | **[WEEKEND PROJECT 11] Spam/Ham Classifier** | `Day 072 - WP11 Spam Ham Classifier.ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | SMS Spam Collection; preprocessing pipeline; BoW vs TF-IDF comparison; MultinomialNB + LR compare; Streamlit app; GitHub push + README |
-| 073 | 07-Sep (Mon) | [TOPIC] Text Summarization & Keyword Extraction | `Day 073 - Text Summarization and Keyword Extraction.ipynb` | Extractive vs abstractive summarization; TextRank algorithm; keyword extraction with RAKE/YAKE |
-| 074 | 08-Sep (Tue) | **[BUFFER] Phase 10 Buffer Day** | `Day 074 - Buffer - Phase 10 Buffer Day.ipynb` | Buffer day for catch-up, review, or extra practice |
-| 078 | 12-Sep (Sat) | **[WEEKEND PROJECT 12] Sentiment Analysis App + News Category Classifier** | `Day 078 - WP12 Sentiment Analysis App + News Category Classifier.ipynb` | **Part 1 (Implementation & Model Training)** | IMDB reviews end-to-end sentiment classifier with Streamlit; AG News/BBC multi-class classifier with confusion matrix analysis; GitHub push + README |
-| 079 | 13-Sep (Sun) | **[WEEKEND PROJECT 12] Sentiment Analysis App + News Category Classifier** | `Day 079 - WP12 Sentiment Analysis App + News Category Classifier.ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | IMDB reviews end-to-end sentiment classifier with Streamlit; AG News/BBC multi-class classifier with confusion matrix analysis; GitHub push + README |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 154 | 01 Nov 2026 | **RNN/LSTM Theory** | **Concept:** sequence modeling intuition<br>**Practice:** review why RNN/LSTM were introduced | `RNN/LSTM notes` | Pending ⏳ |
+| 155 | 02 Nov 2026 | **Attention Intuition** | **Concept:** query, key, value<br>**Practice:** simple attention calculation examples | `attention notes` | Pending ⏳ |
+| 156 | 03 Nov 2026 | **Transformer Basics** | **Concept:** encoder, decoder, self-attention<br>**Practice:** architecture map and summary | `transformer notes` | Pending ⏳ |
+| 157 | 04 Nov 2026 | **Hugging Face Basics** | **Concept:** model hub and pipelines<br>**Practice:** run a pretrained HF pipeline | `HF notebook` | Pending ⏳ |
+| 158 | 05 Nov 2026 | **BERT Overview** | **Concept:** encoder-only transformer use cases<br>**Practice:** review BERT classification example | `BERT notes` | Pending ⏳ |
+| 159 | 06 Nov 2026 | **GPT Overview** | **Concept:** decoder-only generation models<br>**Practice:** prompt examples and generation demo | `GPT notes` | Pending ⏳ |
+| 160 | 07 Nov 2026 | **Embeddings + Retrieval Basics** | **Concept:** semantic retrieval<br>**Practice:** vector similarity demo | `retrieval notebook` | Pending ⏳ |
+| 161 | 08 Nov 2026 | **RAG Basics** | **Concept:** retriever + generator pipeline<br>**Practice:** design simple RAG flow | `RAG notes` | Pending ⏳ |
+| 162 | 09 Nov 2026 | **Agentic AI Basics** | **Concept:** tools, function calling, ReAct<br>**Practice:** map one toy agent workflow | `agent notes` | Pending ⏳ |
+| 163 | 10 Nov 2026 | **Mini LLM App Part 1** | **Concept:** document Q&A use case<br>**Practice:** build simple retrieval-based notebook/app | `mini LLM project part 1` | Pending ⏳ |
+| 164 | 11 Nov 2026 | **Mini LLM App Part 2** | **Concept:** integrate retrieval and improve output<br>**Practice:** finalize simple RAG mini app | `mini LLM app project` | Pending ⏳ |
+| 165 | 12 Nov 2026 | **Phase 10 Revision + Buffer** | **Concept:** modern AI awareness<br>**Practice:** review transformers, retrieval, agents | `Phase 10 recap` | Pending ⏳ |
 
 </div>
 </details>
@@ -271,27 +388,23 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 11: Transformers & AI Agents (Click to expand)
+  🤖 Phase 11: REACT & WEB FUNDAMENTALS FOR ML (13 Nov 2026 to 22 Nov 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 075 | 09-Sep (Wed) | [TOPIC] RNN Theory | `Day 075 - RNN Theory.ipynb` | Recurrent Neural Networks; vanishing gradients; sequence modeling motivation |
-| 076 | 10-Sep (Thu) | [TOPIC] LSTM Theory | `Day 076 - LSTM Theory.ipynb` | Forget, Input, Output gates architecture; why LSTM solves vanishing gradient |
-| 077 | 11-Sep (Fri) | [TOPIC] LSTM Code | `Day 077 - LSTM Code.ipynb` | Sequence modeling on IMDB sentiment data with Keras LSTM |
-| 080 | 14-Sep (Mon) | [TOPIC] Attention Mechanism | `Day 080 - Attention Mechanism.ipynb` | Scaled Dot-Product Attention; Self-attention intuition; why attention beats RNN |
-| 081 | 15-Sep (Tue) | [TOPIC] Transformer Basics | `Day 081 - Transformer Basics.ipynb` | Multi-head attention; Positional Encoding; encoder-decoder architecture overview |
-| 082 | 16-Sep (Wed) | [TOPIC] Attention From Scratch | `Day 082 - Attention From Scratch.ipynb` | Implement scaled dot-product attention in numpy; sinusoidal positional encoding derivation; multi-head attention internals |
-| 083 | 17-Sep (Thu) | [TOPIC] Hugging Face Ecosystem | `Day 083 - Hugging Face Ecosystem.ipynb` | Pipelines, Datasets, Transformers library; quick wins with pretrained models |
-| 084 | 18-Sep (Fri) | [TOPIC] BERT | `Day 084 - BERT.ipynb` | Encoder-only architecture; Masked LM; fine-tuning for classification |
-| 085 | 19-Sep (Sat) | **[WEEKEND BUFFER] Phase 11 Review & Catch-up** | `Day 085 - Weekend Buffer - Phase 11 Review and Catch-up.ipynb` | **Part 1 (Review & Catch-up)** | Review all topics, catch up on unfinished projects, or do extra practice. |
-| 086 | 20-Sep (Sun) | **[WEEKEND BUFFER] Phase 11 Review & Catch-up** | `Day 086 - Weekend Buffer - Phase 11 Review and Catch-up.ipynb` | **Part 2 (Review & Catch-up)** | Review all topics, catch up on unfinished projects, or do extra practice. |
-| 087 | 21-Sep (Mon) | [TOPIC] GPT | `Day 087 - GPT.ipynb` | Decoder-only pre-training; prompt engineering basics; few-shot prompting |
-| 088 | 22-Sep (Tue) | [TOPIC] RAG + Vector Databases | `Day 088 - RAG + Vector Databases.ipynb` | Retrieval-Augmented Generation workflow; LangChain basics; FAISS/ChromaDB setup and similarity search; RAG evaluation (faithfulness, context recall, hallucination detection) |
-| 089 | 23-Sep (Wed) | [TOPIC] Agentic AI Basics | `Day 089 - Agentic AI Basics.ipynb` | AI Agents concept; Tool/Function calling; ReAct prompting pattern |
-| 090 | 24-Sep (Thu) | [TOPIC] Prompt Engineering Practice (Practical) | `Day 090 - Prompt Engineering Practice (Practical).ipynb` | Few-shot prompting; Chain-of-Thought prompting; system prompts; structured output prompting -- hands-on with an LLM API |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 166 | 13 Nov 2026 | **JavaScript Essentials** | **Concept:** ES6 basics, array methods, destructuring, modules<br>**Practice:** write small JS utility code | `JS basics file` | Pending ⏳ |
+| 167 | 14 Nov 2026 | **Vanilla JS Forms and DOM** | **Concept:** DOM events and form handling<br>**Practice:** create basic HTML/CSS/JS form | `mini web form app` | Pending ⏳ |
+| 168 | 15 Nov 2026 | **Async JavaScript + Fetch** | **Concept:** Promises, async/await, fetch<br>**Practice:** call API and render response | `API-calling JS page` | Pending ⏳ |
+| 169 | 16 Nov 2026 | **React Fundamentals** | **Concept:** components, props, state, useEffect<br>**Practice:** build simple React app | `basic React app` | Pending ⏳ |
+| 170 | 17 Nov 2026 | **React + Axios** | **Concept:** backend calls from React<br>**Practice:** fetch data and handle loading/error | `React API component` | Pending ⏳ |
+| 171 | 18 Nov 2026 | **React Forms for ML** | **Concept:** controlled inputs for model features<br>**Practice:** build ML input form in React | `React form app` | Pending ⏳ |
+| 172 | 19 Nov 2026 | **Tailwind / UI Polish** | **Concept:** frontend styling basics<br>**Practice:** style the ML form cleanly | `improved frontend UI` | Pending ⏳ |
+| 173 | 20 Nov 2026 | **React + FastAPI Part 1** | **Concept:** connect frontend and backend<br>**Practice:** send input to prediction API | `connected app part 1` | Pending ⏳ |
+| 174 | 21 Nov 2026 | **React + FastAPI Part 2** | **Concept:** full prediction UX<br>**Practice:** display prediction, errors, loading state | `connected app part 2` | Pending ⏳ |
+| 175 | 22 Nov 2026 | **Phase 11 Revision + Buffer** | **Concept:** frontend integration fluency<br>**Practice:** revise React + FastAPI flow | `Phase 11 recap` | Pending ⏳ |
 
 </div>
 </details>
@@ -299,25 +412,21 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 12: React & Web Fundamentals for ML (Click to expand)
+  🤖 Phase 12: FULL STACK AI (23 Nov 2026 to 30 Nov 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 091 | 25-Sep (Fri) | [TOPIC] JS Modern Essentials | `Day 091 - JS Modern Essentials.ipynb` | Arrow functions; array methods (map/filter/reduce); destructuring; spread/rest operator; ES modules (import/export) |
-| 092 | 26-Sep (Sat) | **[WEEKEND PROJECT 13] Vanilla JS Integration** | `Day 092 - WP13 Vanilla JS Integration.ipynb` | **Part 1 (UI Construction & Event Handling)** | Build a clean HTML/CSS input form for model predictions; write Vanilla JS to capture form input values on submit; GitHub push + README |
-| 093 | 27-Sep (Sun) | **[WEEKEND PROJECT 13] Vanilla JS Integration** | `Day 093 - WP13 Vanilla JS Integration.ipynb` | **Part 2 (FastAPI Call integration)** | Call FastAPI endpoints using fetch API; handle responses and print predictions; update DOM dynamically with model outputs; GitHub push + README |
-| 094 | 28-Sep (Mon) | [TOPIC] JS Async Essentials | `Day 094 - JS Async Essentials.ipynb` | Promises syntax; async/await; fetch API; error handling (try/catch blocks) |
-| 095 | 29-Sep (Tue) | [TOPIC] React Fundamentals | `Day 095 - React Fundamentals.ipynb` | React components; passing data via props; state management using useState hook; side-effects handling using useEffect hook |
-| 096 | 30-Sep (Wed) | [TOPIC] React + Axios Integration | `Day 096 - React + Axios Integration.ipynb` | Call FastAPI endpoints using Axios; manage component state; handle loading and API error states |
-| 097 | 01-Oct (Thu) | [TOPIC] React Forms for ML | `Day 097 - React Forms for ML.ipynb` | Input handling in React forms; handling form submissions; build a structured input UI for ML model parameters |
-| 098 | 02-Oct (Fri) | [TOPIC] React Polish & Tailwind | `Day 098 - React Polish and Tailwind.ipynb` | Conditional rendering; building reusable React components; style forms and layouts using basic Tailwind CSS utility classes |
-| 099 | 03-Oct (Sat) | **[WEEKEND PROJECT 14] React Frontend + FastAPI ML Prediction App** | `Day 099 - WP14 React Frontend + FastAPI ML Prediction App.ipynb` | **Part 1 (Frontend Scaffolding & Form Design)** | Create React application; design high-fidelity input form dashboard matching prediction model features; GitHub push + README |
-| 100 | 04-Oct (Sun) | **[WEEKEND PROJECT 14] React Frontend + FastAPI ML Prediction App** | `Day 100 - WP14 React Frontend + FastAPI ML Prediction App.ipynb` | **Part 2 (API Integration & Model Binding)** | Configure backend CORS in FastAPI; make POST requests via Axios to get predictions; render predictions on frontend dashboard; GitHub push + README |
-| 101 | 05-Oct (Mon) | [TOPIC] React Router & Global State (useContext) | `Day 101 - React Router and Global State (useContext).ipynb` | React Router setup; configuring simple routes (Home, Predict Dashboard); state sharing problem; useContext hook for global active model context |
-| 102 | 06-Oct (Tue) | [TOPIC] Vite Production Build & CORS Configuration | `Day 102 - Vite Production Build and CORS Configuration.ipynb` | Building React for production (npm run build); output folder structure (dist); CORS configuration in FastAPI; serving static React files |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 176 | 23 Nov 2026 | **Full Stack AI Architecture** | **Concept:** UI → API → model → database flow<br>**Practice:** draw architecture for one ML app | `architecture diagram` | Pending ⏳ |
+| 177 | 24 Nov 2026 | **Backend Setup** | **Concept:** modular FastAPI code organization<br>**Practice:** create routers, config, model loader | `clean backend structure` | Pending ⏳ |
+| 178 | 25 Nov 2026 | **Prediction API Hardening** | **Concept:** validated, production-like endpoint design<br>**Practice:** improve schema validation and error handling | `improved API` | Pending ⏳ |
+| 179 | 26 Nov 2026 | **Frontend Integration Final** | **Concept:** polished UI and API communication<br>**Practice:** finalize full-stack prediction flow | `working full-stack app` | Pending ⏳ |
+| 180 | 27 Nov 2026 | **Testing Basics** | **Concept:** test prediction flow<br>**Practice:** write unit/integration checks | `test suite starter` | Pending ⏳ |
+| 181 | 28 Nov 2026 | **Authentication / User State Overview** | **Concept:** JWT awareness and secure endpoints<br>**Practice:** learn design, optionally create basic auth demo | `auth notes/demo` | Pending ⏳ |
+| 182 | 29 Nov 2026 | **MongoDB / Prediction History Overview** | **Concept:** storing predictions<br>**Practice:** basic database integration demo | `DB integration draft` | Pending ⏳ |
+| 183 | 30 Nov 2026 | **Full Stack AI Revision** | **Concept:** complete AI product flow understanding<br>**Practice:** revise architecture and clean codebase | `Phase 12 recap` | Pending ⏳ |
 
 </div>
 </details>
@@ -325,30 +434,25 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 13: Full Stack AI (Click to expand)
+  🤖 Phase 13: ML PIPELINES & MLOPS (01 Dec 2026 to 12 Dec 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 103 | 07-Oct (Wed) | [TOPIC] Full Stack AI: Architecture | `Day 103 - Full Stack AI - Architecture.ipynb` | React + FastAPI + ML integration plan; system design sketch |
-| 104 | 08-Oct (Thu) | [TOPIC] Full Stack AI: Backend Setup | `Day 104 - Full Stack AI - Backend Setup.ipynb` | FastAPI structure, routes, model loader |
-| 105 | 09-Oct (Fri) | [TOPIC] Full Stack AI: Prediction API | `Day 105 - Full Stack AI - Prediction API.ipynb` | Endpoints for Churn/Sentiment models; Pydantic schemas for input validation |
-| 106 | 10-Oct (Sat) | **[WEEKEND PROJECT 15] Prediction API + React Frontend (Milestone)** | `Day 106 - WP15 Prediction API + React Frontend (Milestone).ipynb` | **Part 1 (Implementation & Model Training)** | End-to-end working ML prediction flowing from React UI through FastAPI to model and back; GitHub push + README |
-| 107 | 11-Oct (Sun) | **[WEEKEND PROJECT 15] Prediction API + React Frontend (Milestone)** | `Day 107 - WP15 Prediction API + React Frontend (Milestone).ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | End-to-end working ML prediction flowing from React UI through FastAPI to model and back; GitHub push + README |
-| 108 | 12-Oct (Mon) | [TOPIC] Full Stack AI: Frontend | `Day 108 - Full Stack AI - Frontend.ipynb` | Connecting React to FastAPI via axios |
-| 109 | 13-Oct (Tue) | [TOPIC] Full Stack AI: UI | `Day 109 - Full Stack AI - UI.ipynb` | Input forms and prediction display in React |
-| 110 | 14-Oct (Wed) | [TOPIC] FastAPI Testing | `Day 110 - FastAPI Testing.ipynb` | pytest for APIs; unit tests for endpoints; integration tests for the ML prediction flow; test coverage basics |
-| 111 | 15-Oct (Thu) | [TOPIC] Full Stack AI: MongoDB | `Day 111 - Full Stack AI - MongoDB.ipynb` | User prediction history integration |
-| 112 | 16-Oct (Fri) | [TOPIC] Full Stack AI: Authentication | `Day 112 - Full Stack AI - Authentication.ipynb` | JWT implementation for secure access |
-| 113 | 17-Oct (Sat) | **[WEEKEND PROJECT 16] Full Stack AI App -- Deployed (Final)** | `Day 113 - WP16 Full Stack AI App - Deployed (Final).ipynb` | **Part 1 (Implementation & Model Training)** | Hosting on Vercel + Render; bug fixes and performance check -- flagship project done; GitHub push + README |
-| 114 | 18-Oct (Sun) | **[WEEKEND PROJECT 16] Full Stack AI App -- Deployed (Final)** | `Day 114 - WP16 Full Stack AI App - Deployed (Final).ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Hosting on Vercel + Render; bug fixes and performance check -- flagship project done; GitHub push + README |
-| 115 | 19-Oct (Mon) | [TOPIC] Full Stack AI: Polish | `Day 115 - Full Stack AI - Polish.ipynb` | Loading states, responsive layout fixes |
-| 116 | 20-Oct (Tue) | [TOPIC] Full Stack AI: Testing | `Day 116 - Full Stack AI - Testing.ipynb` | End-to-end flow testing: UI to DB |
-| 117 | 21-Oct (Wed) | [TOPIC] Full Stack AI: Documentation & Performance Optimization | `Day 117 - Full Stack AI - Documentation and Performance Optimization.ipynb` | Writing API documentation and README; architecture diagrams; FastAPI async optimization; React memoization (useMemo/useCallback); lazy loading; caching strategies |
-| 120 | 24-Oct (Sat) | **[WEEKEND BUFFER] Phase 13 Review & Catch-up** | `Day 120 - Weekend Buffer - Phase 13 Review and Catch-up.ipynb` | **Part 1 (Review & Catch-up)** | Review all topics, catch up on unfinished projects, or do extra practice. |
-| 121 | 25-Oct (Sun) | **[WEEKEND BUFFER] Phase 13 Review & Catch-up** | `Day 121 - Weekend Buffer - Phase 13 Review and Catch-up.ipynb` | **Part 2 (Review & Catch-up)** | Review all topics, catch up on unfinished projects, or do extra practice. |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 184 | 01 Dec 2026 | **sklearn Pipeline Advanced** | **Concept:** reusable production pipelines<br>**Practice:** build nested pipeline with preprocessing + model | `advanced pipeline notebook` | Pending ⏳ |
+| 185 | 02 Dec 2026 | **Model Serialization Revisited** | **Concept:** save/load production artifacts safely<br>**Practice:** serialize final pipeline and test load | `serialization script` | Pending ⏳ |
+| 186 | 03 Dec 2026 | **MLflow Basics** | **Concept:** experiment tracking<br>**Practice:** log params, metrics, artifacts | `MLflow run` | Pending ⏳ |
+| 187 | 04 Dec 2026 | **MLflow Advanced** | **Concept:** model registry awareness<br>**Practice:** register a model and load it | `MLflow registry demo` | Pending ⏳ |
+| 188 | 05 Dec 2026 | **Docker Practical** | **Concept:** containerized serving<br>**Practice:** dockerize one ML app | `working Dockerized app` | Pending ⏳ |
+| 189 | 06 Dec 2026 | **CI/CD Basics** | **Concept:** GitHub Actions for tests<br>**Practice:** write a simple CI workflow | `GitHub Actions config` | Pending ⏳ |
+| 190 | 07 Dec 2026 | **Monitoring Concepts** | **Concept:** drift and retraining awareness<br>**Practice:** create monitoring notes and simple drift demo | `monitoring notes` | Pending ⏳ |
+| 191 | 08 Dec 2026 | **SHAP + Explainability** | **Concept:** local and global explanations<br>**Practice:** generate SHAP summary plot | `SHAP notebook` | Pending ⏳ |
+| 192 | 09 Dec 2026 | **SQL for ML Basics** | **Concept:** SELECT, JOIN, GROUP BY, window basics<br>**Practice:** solve SQL feature engineering exercises | `SQL practice file` | Pending ⏳ |
+| 193 | 10 Dec 2026 | **MLOps Mini Project Part 1** | **Concept:** tracked ML workflow<br>**Practice:** combine model, MLflow, Docker basics | `mini MLOps project part 1` | Pending ⏳ |
+| 194 | 11 Dec 2026 | **MLOps Mini Project Part 2** | **Concept:** production-minded project packaging<br>**Practice:** finalize tracked pipeline | `mini MLOps project` | Pending ⏳ |
+| 195 | 12 Dec 2026 | **Phase 13 Revision + Buffer** | **Concept:** practical MLOps awareness<br>**Practice:** recap and catch up | `Phase 13 recap` | Pending ⏳ |
 
 </div>
 </details>
@@ -356,37 +460,21 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 14: ML Pipelines & MLOps (Click to expand)
+  🤖 Phase 14: CAPSTONE PLANNING + BUILD START (13 Dec 2026 to 20 Dec 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 118 | 22-Oct (Thu) | [TOPIC] sklearn Pipeline Advanced | `Day 118 - sklearn Pipeline Advanced.ipynb` | Pipeline: preprocessing + model chain; ColumnTransformer; nested pipelines; Pipeline with GridSearchCV; Code: production-ready pipeline |
-| 119 | 23-Oct (Fri) | [TOPIC] Model Serialization | `Day 119 - Model Serialization.ipynb` | joblib vs pickle; model versioning basics; Code: save+load+predict pipeline |
-| 122 | 26-Oct (Mon) | [TOPIC] MLflow Basics | `Day 122 - MLflow Basics.ipynb` | Experiment tracking concept; log_param/log_metric/log_artifact; MLflow UI; Model Registry |
-| 123 | 27-Oct (Tue) | [TOPIC] MLflow Advanced | `Day 123 - MLflow Advanced.ipynb` | MLflow Projects; Model flavors; staging (None->Staging->Production); load from registry |
-| 124 | 28-Oct (Wed) | [TOPIC] Docker Basics | `Day 124 - Docker Basics.ipynb` | Containerization concept; Dockerfile step by step; .dockerignore; docker build/run; Code: Dockerize FastAPI app |
-| 125 | 29-Oct (Thu) | [TOPIC] Docker Best Practices | `Day 125 - Docker Best Practices.ipynb` | Multi-stage builds; image size optimization; .dockerignore best practices; docker-compose for dev vs prod configs |
-| 126 | 30-Oct (Fri) | [TOPIC] Docker Compose | `Day 126 - Docker Compose.ipynb` | Multi-service setup; FastAPI + MongoDB together; volume mounting; networking between services |
-| 127 | 31-Oct (Sat) | **[WEEKEND PROJECT 17] MLOps Pipeline (XGBoost + MLflow + Docker)** | `Day 127 - WP17 MLOps Pipeline (XGBoost + MLflow + Docker).ipynb` | **Part 1 (Implementation & Model Training)** | Model: XGBoost churn predictor; MLflow tracking; FastAPI serving; Docker+docker-compose; GitHub push + README |
-| 128 | 01-Nov (Sun) | **[WEEKEND PROJECT 17] MLOps Pipeline (XGBoost + MLflow + Docker)** | `Day 128 - WP17 MLOps Pipeline (XGBoost + MLflow + Docker).ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Model: XGBoost churn predictor; MLflow tracking; FastAPI serving; Docker+docker-compose; GitHub push + README |
-| 129 | 02-Nov (Mon) | [TOPIC] Model Monitoring | `Day 129 - Model Monitoring.ipynb` | Data drift; model drift; concept drift; Evidently AI; retraining triggers; Shadow & Canary deployments (gradual rollout, A/B testing) |
-| 130 | 03-Nov (Tue) | [TOPIC] CI/CD for ML | `Day 130 - CI CD for ML.ipynb` | GitHub Actions basics; automated testing on push; lint+test+build pipeline; deploy on merge |
-| 131 | 04-Nov (Wed) | [TOPIC] SHAP + LIME Model Interpretability | `Day 131 - SHAP + LIME Model Interpretability.ipynb` | Shapley values; global vs local explanations; summary/dependence/waterfall plots; TreeSHAP; LIME; PDP |
-| 132 | 05-Nov (Thu) | [TOPIC] SQL for ML -- Basics & Advanced | `Day 132 - SQL for ML - Basics and Advanced.ipynb` | SELECT/WHERE/JOINs/GROUP BY/HAVING; Window Functions; CTEs; Query Optimization; Code: SQL for feature engineering |
-| 133 | 06-Nov (Fri) | [TOPIC] SQL for ML -- Extra Practice | `Day 133 - SQL for ML - Extra Practice.ipynb` | Additional hands-on SQL problems on a real dataset; combining JOINs + window functions + CTEs in one query for feature engineering |
-| 134 | 07-Nov (Sat) | **[WEEKEND PROJECT 18] Movie Recommender System (Collaborative Filtering)** | `Day 134 - WP18 Movie Recommender System (Collaborative Filtering).ipynb` | **Part 1 (Implementation & Model Training)** | MovieLens dataset; SVD matrix factorization with Surprise library; FastAPI serving; Streamlit UI; GitHub push + README |
-| 135 | 08-Nov (Sun) | **[WEEKEND PROJECT 18] Movie Recommender System (Collaborative Filtering)** | `Day 135 - WP18 Movie Recommender System (Collaborative Filtering).ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | MovieLens dataset; SVD matrix factorization with Surprise library; FastAPI serving; Streamlit UI; GitHub push + README |
-| 136 | 09-Nov (Mon) | [TOPIC] PyTorch Basics | `Day 136 - PyTorch Basics.ipynb` | Tensors; Autograd; .grad/.detach()/no_grad(); nn.Module; nn.Linear + Sequential; training loop |
-| 137 | 10-Nov (Tue) | [TOPIC] Cloud Basics for MLOps | `Day 137 - Cloud Basics for MLOps.ipynb` | AWS S3 (bucket/upload/IAM); EC2 instance launch; boto3 S3 operations; deploy FastAPI on EC2 |
-| 138 | 11-Nov (Wed) | [TOPIC] Time Series Basics | `Day 138 - Time Series Basics.ipynb` | Trend, seasonality, stationarity; ADF test; ACF/PACF; Moving Averages (simple + exponential) |
-| 139 | 12-Nov (Thu) | [TOPIC] Recommendation Systems Advanced | `Day 139 - Recommendation Systems Advanced.ipynb` | Content-based filtering; hybrid systems; cold-start problem; evaluation metrics (precision@k, NDCG) |
-| 140 | 13-Nov (Fri) | [TOPIC] Model Interpretability Extended | `Day 140 - Model Interpretability Extended.ipynb` | Counterfactual explanations; fairness metrics basics; bias detection in models |
-| 141 | 14-Nov (Sat) | **[WEEKEND PROJECT 19] End-to-End MLOps App (Capstone Prep)** | `Day 141 - WP19 End-to-End MLOps App (Capstone Prep).ipynb` | **Part 1 (Implementation & Model Training)** | Best model from roadmap; MLflow tracking+registry; FastAPI serving; Docker; CI/CD via GitHub Actions; Evidently monitoring; AWS S3 storage; GitHub push + README |
-| 142 | 15-Nov (Sun) | **[WEEKEND PROJECT 19] End-to-End MLOps App (Capstone Prep)** | `Day 142 - WP19 End-to-End MLOps App (Capstone Prep).ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Best model from roadmap; MLflow tracking+registry; FastAPI serving; Docker; CI/CD via GitHub Actions; Evidently monitoring; AWS S3 storage; GitHub push + README |
-| 143 | 16-Nov (Mon) | [TOPIC] MLOps Pipeline Review & Improvement Plan | `Day 143 - MLOps Pipeline Review and Improvement Plan.ipynb` | Audit your own pipeline built across this phase; write a short doc listing 3 concrete improvements; apply at least 1 |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 196 | 13 Dec 2026 | **Capstone Planning** | **Concept:** choose one strong domain/problem<br>**Practice:** define problem, target, metrics, scope | `capstone proposal` | Pending ⏳ |
+| 197 | 14 Dec 2026 | **Capstone EDA** | **Concept:** business framing + data understanding<br>**Practice:** audit capstone dataset | `capstone EDA notebook` | Pending ⏳ |
+| 198 | 15 Dec 2026 | **Capstone Preprocessing Pipeline** | **Concept:** robust ML workflow<br>**Practice:** clean, transform, split data | `preprocessing pipeline notebook` | Pending ⏳ |
+| 199 | 16 Dec 2026 | **Capstone Baseline Model** | **Concept:** baseline benchmarking<br>**Practice:** train first model and define metric baseline | `baseline notebook` | Pending ⏳ |
+| 200 | 17 Dec 2026 | **Capstone Advanced Model** | **Concept:** stronger model selection<br>**Practice:** train RF/XGB/SVM best candidate | `advanced model notebook` | Pending ⏳ |
+| 201 | 18 Dec 2026 | **Capstone Evaluation + Explainability** | **Concept:** error analysis and interpretability<br>**Practice:** evaluate best model and generate explanations | `evaluation report` | Pending ⏳ |
+| 202 | 19 Dec 2026 | **Capstone Backend + Frontend Skeleton** | **Concept:** app architecture<br>**Practice:** scaffold FastAPI + React for capstone | `capstone app skeleton` | Pending ⏳ |
+| 203 | 20 Dec 2026 | **Capstone Build Review** | **Concept:** assess readiness and backlog<br>**Practice:** identify remaining app/model tasks | `capstone task board` | Pending ⏳ |
 
 </div>
 </details>
@@ -394,40 +482,20 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 15: Capstone Project (Click to expand)
+  🤖 Phase 15: CAPSTONE FINALIZATION (21 Dec 2026 to 27 Dec 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 144 | 17-Nov (Tue) | [TOPIC] Capstone Planning | `Day 144 - Capstone Planning.ipynb` | Domain choice (finance/healthcare/NLP/CV); business problem -> ML problem framing; success metrics; dataset identification; timeline |
-| 145 | 18-Nov (Wed) | [TOPIC] Capstone: Data Collection + EDA Part 1 | `Day 145 - Capstone - Data Collection + EDA Part 1.ipynb` | Kaggle/APIs/scraping; data quality report; univariate + bivariate analysis; missing value analysis |
-| 146 | 19-Nov (Thu) | [TOPIC] Capstone: EDA Part 2 + Feature Engineering | `Day 146 - Capstone - EDA Part 2 + Feature Engineering.ipynb` | Multivariate analysis; correlation heatmap; outlier analysis; domain features; encoding/scaling; train/val/test split |
-| 147 | 20-Nov (Fri) | [TOPIC] Capstone: Baseline Models | `Day 147 - Capstone - Baseline Models.ipynb` | DummyClassifier; linear model baseline; tree-based baseline; document baseline results |
-| 148 | 21-Nov (Sat) | **[WEEKEND PROJECT 20] Capstone Data Pipeline & EDA Report** | `Day 148 - WP20 Capstone Data Pipeline and EDA Report.ipynb` | **Part 1 (Data Pipeline & Cleaning)** | Build automated data loading/cleaning pipeline; handle missing values and outliers programmatically; write data quality report; GitHub push + README |
-| 149 | 22-Nov (Sun) | **[WEEKEND PROJECT 20] Capstone Data Pipeline & EDA Report** | `Day 149 - WP20 Capstone Data Pipeline and EDA Report.ipynb` | **Part 2 (Visual EDA Report)** | Generate comprehensive visual EDA report (distribution plots, correlation heatmaps, feature relationships); document key findings and hypotheses; GitHub push + README |
-| 150 | 23-Nov (Mon) | [TOPIC] Capstone: Advanced Model Training | `Day 150 - Capstone - Advanced Model Training.ipynb` | XGBoost/LightGBM/RF; Optuna tuning; CV strategy; ensemble (voting/stacking); best model selection |
-| 151 | 24-Nov (Tue) | [TOPIC] Advanced Hyperparameter Search Strategies | `Day 151 - Advanced Hyperparameter Search Strategies.ipynb` | Multi-objective Optuna; population-based training intuition; allocating a fixed tuning budget wisely |
-| 152 | 25-Nov (Wed) | [TOPIC] Capstone: Model Evaluation + SHAP | `Day 152 - Capstone - Model Evaluation + SHAP.ipynb` | Hold-out test evaluation; confusion matrix + metrics; SHAP explanations; error analysis; limitations document |
-| 153 | 26-Nov (Thu) | [TOPIC] Capstone: Production Pipeline | `Day 153 - Capstone - Production Pipeline.ipynb` | Final sklearn Pipeline; joblib serialization; FastAPI prediction endpoint; input validation |
-| 154 | 27-Nov (Fri) | [TOPIC] Capstone: Docker + CI/CD | `Day 154 - Capstone - Docker + CI CD.ipynb` | Dockerize app; docker-compose; GitHub Actions automated tests |
-| 155 | 28-Nov (Sat) | **[WEEKEND PROJECT 21] PROJECT MILESTONE: Capstone v1 -- Baseline + Best Model** | `Day 155 - WP21 PROJECT MILESTONE - Capstone v1 - Baseline + Best Model.ipynb` | **Part 1 (Baseline Models & Comparison)** | Document baseline vs tuned model comparison with full evaluation metrics; SHAP feature importance; GitHub push |
-| 156 | 29-Nov (Sun) | **[WEEKEND PROJECT 21] PROJECT MILESTONE: Capstone v1 -- Baseline + Best Model** | `Day 156 - WP21 PROJECT MILESTONE - Capstone v1 - Baseline + Best Model.ipynb` | **Part 2 (Best Model Selection & Error Analysis)** | Final model selection with cross-validation; error analysis report; limitations document; GitHub push |
-| 157 | 30-Nov (Mon) | [TOPIC] Capstone: Deployment | `Day 157 - Capstone - Deployment.ipynb` | Cloud deploy (Render/AWS); MongoDB Atlas if needed; environment vars; health check; live URL confirm |
-| 158 | 01-Dec (Tue) | [TOPIC] Capstone: Monitoring Setup | `Day 158 - Capstone - Monitoring Setup.ipynb` | Evidently drift detection; logging; metrics dashboard; alert system |
-| 159 | 02-Dec (Wed) | [TOPIC] Clean Code & Testing for ML | `Day 159 - Clean Code and Testing for ML.ipynb` | Unit tests for data preprocessing functions; code review checklist for ML projects; refactoring a messy notebook into clean scripts |
-| 160 | 03-Dec (Thu) | [TOPIC] Capstone: Documentation | `Day 160 - Capstone - Documentation.ipynb` | README (problem->data->approach->results); architecture diagram; API docs; notebook cleanup |
-| 161 | 04-Dec (Fri) | [TOPIC] Capstone: Presentation + Demo | `Day 161 - Capstone - Presentation + Demo.ipynb` | Presentation slides; demo video recording; blog/LinkedIn post draft |
-| 162 | 05-Dec (Sat) | **[WEEKEND PROJECT 22] PROJECT MILESTONE: Capstone v2 -- Deployed + Monitored** | `Day 162 - WP22 PROJECT MILESTONE - Capstone v2 - Deployed + Monitored.ipynb` | **Part 1 (Deployment & Health Checks)** | Live URL working end-to-end; health check endpoints; environment configuration; GitHub push |
-| 163 | 06-Dec (Sun) | **[WEEKEND PROJECT 22] PROJECT MILESTONE: Capstone v2 -- Deployed + Monitored** | `Day 163 - WP22 PROJECT MILESTONE - Capstone v2 - Deployed + Monitored.ipynb` | **Part 2 (Monitoring & Drift Detection)** | Evidently monitoring integration; drift detection pipeline; logging and alert system; GitHub push |
-| 164 | 07-Dec (Mon) | [TOPIC] Capstone: Portfolio Polish | `Day 164 - Capstone - Portfolio Polish.ipynb` | GitHub clean history + LICENSE + .gitignore; LinkedIn project section; portfolio website; pin best repos |
-| 165 | 08-Dec (Tue) | [TOPIC] Capstone: Peer/Self Review | `Day 165 - Capstone - Peer Self Review.ipynb` | Walk through entire capstone out loud once; note weak explanation points; refine |
-| 166 | 09-Dec (Wed) | [TOPIC] Capstone: Final Bug Bash | `Day 166 - Capstone - Final Bug Bash.ipynb` | Cross-browser/device check if full-stack; edge case testing; performance check |
-| 169 | 12-Dec (Sat) | **[WEEKEND PROJECT 23] PROJECT MILESTONE: Capstone v3 -- Final Polish & Documentation** | `Day 169 - WP23 PROJECT MILESTONE - Capstone v3 - Final Polish and D....ipynb` | **Part 1 (Documentation & Demo)** | Complete README with architecture diagram; API documentation; demo video recording; blog/LinkedIn post draft; GitHub push |
-| 170 | 13-Dec (Sun) | **[WEEKEND PROJECT 23] PROJECT MILESTONE: Capstone v3 -- Final Polish & Documentation** | `Day 170 - WP23 PROJECT MILESTONE - Capstone v3 - Final Polish and D....ipynb` | **Part 2 (Portfolio & Review)** | Portfolio website update; pin best repos; walk through entire capstone out loud; final edge case testing; GitHub push |
-| 176 | 19-Dec (Sat) | **[WEEKEND PROJECT 24] Capstone v4 -- Ship-Ready Release** | `Day 176 - WP24 Capstone v4 - Ship-Ready Release.ipynb` | **Part 1 (Implementation & Model Training)** | Final code freeze; all features shipped; full test pass; flagship portfolio piece done; GitHub push + README |
-| 177 | 20-Dec (Sun) | **[WEEKEND PROJECT 24] Capstone v4 -- Ship-Ready Release** | `Day 177 - WP24 Capstone v4 - Ship-Ready Release.ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Final code freeze; all features shipped; full test pass; flagship portfolio piece done; GitHub push + README |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 204 | 21 Dec 2026 | **Capstone API Integration** | **Concept:** connect model to production endpoint<br>**Practice:** serve final model via FastAPI | `capstone backend ready` | Pending ⏳ |
+| 205 | 22 Dec 2026 | **Capstone Frontend Integration** | **Concept:** user-facing prediction flow<br>**Practice:** connect React form to backend | `connected capstone app` | Pending ⏳ |
+| 206 | 23 Dec 2026 | **Capstone UX + Error Handling** | **Concept:** reliability and usability<br>**Practice:** improve loading, error, response display | `polished UI` | Pending ⏳ |
+| 207 | 24 Dec 2026 | **Capstone Dockerization** | **Concept:** container-ready app packaging<br>**Practice:** dockerize capstone | `Dockerized capstone` | Pending ⏳ |
+| 208 | 25 Dec 2026 | **Capstone README + Documentation** | **Concept:** project communication<br>**Practice:** write full README with architecture and screenshots | `README complete` | Pending ⏳ |
+| 209 | 26 Dec 2026 | **Capstone Testing + Final Fixes** | **Concept:** production-style QA<br>**Practice:** test app end-to-end and fix issues | `stable capstone app` | Pending ⏳ |
+| 210 | 27 Dec 2026 | **Capstone Final Polish** | **Concept:** portfolio readiness<br>**Practice:** final visual and code cleanup | `flagship capstone repo` | Pending ⏳ |
 
 </div>
 </details>
@@ -435,43 +503,17 @@ Click on any phase to expand or collapse the daily schedule, topic titles, and s
 <br/>
 <details>
 <summary style="background-color: #f8fafc; border-left: 5px solid #cbd5e1; padding: 12px; margin-bottom: 10px; border-radius: 0 8px 8px 0; color: #334155; font-weight: bold; cursor: pointer; border-top: 1px solid #cbd5e1; border-right: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.05);">
-  🤖 Phase 16: Final Stretch -- Build, Apply & Launch (Click to expand)
+  🤖 Phase 16: FINAL STRETCH: BUILD, APPLY & LAUNCH (28 Dec 2026 to 31 Dec 2026)
 </summary>
-
+ 
 <div style="border: 1px solid #cbd5e1; border-radius: 12px; overflow: hidden; padding: 15px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05); background-color: #ffffff;">
 
-| Day | Date | Topic / Project | Notebook File | Subtopics |
-|:---:|:---:|:---|:---|:---|
-| 167 | 10-Dec (Thu) | [TOPIC] API Documentation & Versioning Strategy | `Day 167 - API Documentation and Versioning Strategy.ipynb` | OpenAPI spec deep-dive; API versioning (URI vs header); maintaining backward compatibility |
-| 168 | 11-Dec (Fri) | [TOPIC] Capstone Extension: Explainability Dashboard | `Day 168 - Capstone Extension - Explainability Dashboard.ipynb` | Build a SHAP-based explainability dashboard for the capstone model (Streamlit); global + local explanations exposed to end-user |
-| 171 | 14-Dec (Mon) | [TOPIC] Capstone Extension: Real-Time Inference | `Day 171 - Capstone Extension - Real-Time Inference.ipynb` | Add WebSocket or streaming endpoint to capstone API; real-time vs batch inference tradeoffs |
-| 172 | 15-Dec (Tue) | [TOPIC] Capstone Extension: Load Testing & Scaling | `Day 172 - Capstone Extension - Load Testing and Scaling.ipynb` | Locust load testing on the FastAPI app; identify bottlenecks; horizontal scaling concepts |
-| 173 | 16-Dec (Wed) | [TOPIC] Mock Interview 1 -- Full ML/DL/NLP Theory Round | `Day 173 - Mock Interview 1 - Full ML DL NLP Theory Round.ipynb` | Explain concepts out loud (2 min/answer) across ML/DL/NLP; record + watch back; note weak explanations |
-| 174 | 17-Dec (Thu) | [TOPIC] Mock Interview 2 -- Live Coding (ML-from-scratch + SQL) | `Day 174 - Mock Interview 2 - Live Coding (ML-from-scratch + SQL).ipynb` | Implement LR/KNN from scratch live; SQL queries live; timed strictly |
-| 175 | 18-Dec (Fri) | [TOPIC] Mock Interview 3 -- Project Walkthrough (STAR Method) | `Day 175 - Mock Interview 3 - Project Walkthrough (STAR Method).ipynb` | Capstone end-to-end explanation; one more project explanation; handle difficult/curveball questions |
-| 178 | 21-Dec (Mon) | [TOPIC] Resume + LinkedIn Final Polish | `Day 178 - Resume + LinkedIn Final Polish.ipynb` | ATS keywords; quantified achievements; LinkedIn headline/about/projects section; get peer reviewed |
-| 179 | 22-Dec (Tue) | [TOPIC] GitHub Final Polish | `Day 179 - GitHub Final Polish.ipynb` | Pin best 6 repos; READMEs with screenshots/GIFs; profile README; contribution graph; verify all live URLs |
-| 180 | 23-Dec (Wed) | [TOPIC] Portfolio Website Final Check | `Day 180 - Portfolio Website Final Check.ipynb` | All projects linked + live; case-study write-ups for top 3 projects; mobile responsiveness check |
-| 181 | 24-Dec (Thu) | [TOPIC] System Design for ML -- Case Study 1 | `Day 181 - System Design for ML - Case Study 1.ipynb` | Design a recommendation system end-to-end on paper/whiteboard: data, features, model, serving, monitoring |
-| 182 | 25-Dec (Fri) | [TOPIC] Apply -- Batch 1 + Networking Sprint | `Day 182 - Apply - Batch 1 + Networking Sprint.ipynb` | Naukri/LinkedIn/Internshala (10 apps each); 5 cold-outreach DMs; connect with 10 recruiters/engineers; track in spreadsheet |
-| 183 | 26-Dec (Sat) | **[WEEKEND PROJECT 25] PROJECT MILESTONE: Capstone v5 -- Extended Features (Explainability + Real-Time)** | `Day 183 - WP25 PROJECT MILESTONE - Capstone v5 - Extended Features ....ipynb` | **Part 1 (Implementation & Model Training)** | Ship explainability dashboard + real-time endpoint + load-test report as one extended capstone release |
-| 184 | 27-Dec (Sun) | **[WEEKEND PROJECT 25] PROJECT MILESTONE: Capstone v5 -- Extended Features (Explainability + Real-Time)** | `Day 184 - WP25 PROJECT MILESTONE - Capstone v5 - Extended Features ....ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Ship explainability dashboard + real-time endpoint + load-test report as one extended capstone release |
-| 185 | 28-Dec (Mon) | [TOPIC] Apply -- Batch 1 Follow-ups + Outreach | `Day 185 - Apply - Batch 1 Follow-ups + Outreach.ipynb` | Follow-up emails on Batch 1; additional cold outreach; respond to any inbound messages |
-| 186 | 29-Dec (Tue) | [TOPIC] Model Serving at Scale | `Day 186 - Model Serving at Scale.ipynb` | TorchServe / TF-Serving / BentoML overview; batch vs real-time serving tradeoffs; when to use a model server vs plain FastAPI |
-| 187 | 30-Dec (Wed) | [TOPIC] Cost Optimization for ML Systems | `Day 187 - Cost Optimization for ML Systems.ipynb` | Spot instances; right-sizing compute; caching predictions; cost-aware architecture decisions |
-| 188 | 31-Dec (Thu) | [TOPIC] Apply -- Batch 2 | `Day 188 - Apply - Batch 2.ipynb` | Startups (Wellfound/AngelList); company career pages directly; 15 applications; customized cover letters |
-| 189 | 01-Jan (Fri) | [TOPIC] Apply -- Batch 2 Follow-ups + Cold Outreach | `Day 189 - Apply - Batch 2 Follow-ups + Cold Outreach.ipynb` | Follow-ups on Batch 2; 10 fresh cold-outreach messages; LinkedIn engagement |
-| 190 | 02-Jan (Sat) | **[WEEKEND PROJECT 26] MILESTONE: Application Batch 1 Complete + Interview Scheduling** | `Day 190 - WP26 MILESTONE - Application Batch 1 Complete + Interview....ipynb` | **Part 1 (Implementation & Model Training)** | Review all Batch 1 responses; schedule any confirmed interviews; refine pitch from initial feedback |
-| 191 | 03-Jan (Sun) | **[WEEKEND PROJECT 26] MILESTONE: Application Batch 1 Complete + Interview Scheduling** | `Day 191 - WP26 MILESTONE - Application Batch 1 Complete + Interview....ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Review all Batch 1 responses; schedule any confirmed interviews; refine pitch from initial feedback |
-| 192 | 04-Jan (Mon) | [TOPIC] ML System Design Doc -- Written | `Day 192 - ML System Design Doc - Written.ipynb` | Write one complete system design document for a hypothetical ML product end-to-end (problem -> data -> model -> serving -> monitoring) |
-| 193 | 05-Jan (Tue) | [TOPIC] Apply -- Batch 3 | `Day 193 - Apply - Batch 3.ipynb` | 20 more applications across platforms; referral requests in network; track conversion rate |
-| 194 | 06-Jan (Wed) | [TOPIC] Responsible AI & Bias Auditing | `Day 194 - Responsible AI and Bias Auditing.ipynb` | Fairness metrics (demographic parity, equal opportunity); run a bias audit on capstone model; document findings |
-| 195 | 07-Jan (Thu) | [TOPIC] Apply -- Batch 4 + Cold Outreach Push | `Day 195 - Apply - Batch 4 + Cold Outreach Push.ipynb` | 20+ applications; 10 cold-outreach messages; LinkedIn post about the project journey |
-| 196 | 08-Jan (Fri) | [TOPIC] Apply -- Batch 5 | `Day 196 - Apply - Batch 5.ipynb` | 20 more applications; polite follow-up to non-responders; expand target company list |
-| 197 | 09-Jan (Sat) | **[WEEKEND PROJECT 27] MILESTONE: Application Batch 2+3 Review + Interview Prep** | `Day 197 - WP27 MILESTONE - Application Batch 2+3 Review + Interview....ipynb` | **Part 1 (Implementation & Model Training)** | Review all responses so far; prep tailored answers for any scheduled interviews; update tracker |
-| 198 | 10-Jan (Sun) | **[WEEKEND PROJECT 27] MILESTONE: Application Batch 2+3 Review + Interview Prep** | `Day 198 - WP27 MILESTONE - Application Batch 2+3 Review + Interview....ipynb` | **Part 2 (Evaluation, Tuning & Deployment)** | Review all responses so far; prep tailored answers for any scheduled interviews; update tracker |
-| 199 | 11-Jan (Mon) | [TOPIC] Mock Interview 4 -- Recruiter Screen Simulation | `Day 199 - Mock Interview 4 - Recruiter Screen Simulation.ipynb` | Behavioral questions + 60-second intro pitch + salary/availability discussion practice; record + review |
-| 200 | 12-Jan (Tue) | [TOPIC] Resume + Portfolio Sync (Post-Interview Feedback) | `Day 200 - Resume + Portfolio Sync (Post-Interview Feedback).ipynb` | Incorporate any interview feedback into resume/portfolio; tighten weakest project explanation |
+| Day | Date | Topic / Project | Concept & Practice | Deliverable | Status |
+|:---:|:---:|:---|:---|:---|:---:|
+| 211 | 28 Dec 2026 | **Resume + LinkedIn + GitHub Polish** | **Concept:** professional branding<br>**Practice:** finalize resume, LinkedIn, pinned repos, GitHub profile | `job-ready online presence` | Pending ⏳ |
+| 212 | 29 Dec 2026 | **Mock Interview + Project Storytelling** | **Concept:** explain your work like an engineer<br>**Practice:** theory revision + explain top projects aloud | `interview prep notes` | Pending ⏳ |
+| 213 | 30 Dec 2026 | **Applications + Outreach Setup** | **Concept:** job search system<br>**Practice:** create application tracker and shortlist target roles | `application tracker` | Pending ⏳ |
+| 214 | 31 Dec 2026 | **Apply + January Continuation Plan** | **Concept:** transition from learning to execution<br>**Practice:** apply to roles and create next 30-day follow-up plan | `first application batch + Jan plan` | Pending ⏳ |
 
 </div>
 </details>
