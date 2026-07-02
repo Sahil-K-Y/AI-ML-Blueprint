@@ -34,6 +34,7 @@ RECENT UPDATE NOTES
 - Replaced Day 125 with classical ML model saving/versioning + inference script.
 - Fixed Day 066, Day 144, Day 159, Day 160, and Day 168 broken/copy-pasted subtopics.
 - Added Day 215 and Day 216 as January 2027 extension days for LLM evaluation and LLM cost/latency tradeoffs.
+- Added CampusX playlist missing-topic coverage: ML foundations, NLP pipeline/POS/HMM/Viterbi, Duplicate Question Pairs, LangGraph workflows, CRAG/Self-RAG, and YouTube/Website RAG chatbot.
 
 ==========================================================================================
 DAY BY DAY ROADMAP
@@ -1856,13 +1857,15 @@ Deliverable: Daily notes + GitHub commit
 Side Quest: Interview: 10 Q&A
 
 Day 179 | 26 Nov 2026, Thursday | Status: PLAN
-Main Topic: NLP intro + text preprocessing
+Main Topic: NLP introduction + end-to-end NLP pipeline
 Subtopics to learn:
-  - Tokenization
-  - Lowercase, punctuation, stopwords
-  - Regex cleaning
-Practice Task: Build text preprocessing function
-Deliverable: NLP preprocessing notebook
+  - What is NLP and common NLP applications
+  - End-to-end NLP pipeline: data collection, cleaning, representation, modeling, evaluation, deployment
+  - Tokenization: word tokenization and sentence tokenization
+  - Lowercasing, punctuation removal, stopword removal, regex cleaning
+  - Train/test split and leakage risks in NLP projects
+Practice Task: Take a small text dataset, create a full preprocessing pipeline, and document each step from raw text to cleaned tokens.
+Deliverable: NLP pipeline + preprocessing notebook
 Side Quest: GitHub/LinkedIn: update
 
 Day 180 | 27 Nov 2026, Friday | Status: PLAN
@@ -1878,44 +1881,49 @@ Side Quest: SQL: 30 min practice
 Day 181 | 28 Nov 2026, Saturday | Status: PLAN
 Main Topic: Bag of Words
 Subtopics to learn:
-  - CountVectorizer/TF-IDF
-  - Vocabulary and sparse matrix
-  - Unigrams, bigrams, trigrams
-Practice Task: Train text classifier with vectorizer + ML model
-Deliverable: Text representation notebook
+  - Vocabulary creation and document-term matrix
+  - CountVectorizer in sklearn
+  - Sparse matrix representation
+  - Limitations of Bag of Words: order loss, large vocabulary, sparsity
+Practice Task: Build a Bag of Words representation for a small text dataset and train Logistic Regression/Naive Bayes classifier.
+Deliverable: Bag of Words classification notebook
 Side Quest: DSA: 1 problem
 
 Day 182 | 29 Nov 2026, Sunday | Status: PLAN
 Main Topic: TF-IDF
 Subtopics to learn:
-  - CountVectorizer/TF-IDF
-  - Vocabulary and sparse matrix
-  - Unigrams, bigrams, trigrams
-Practice Task: Train text classifier with vectorizer + ML model
-Deliverable: Text representation notebook
+  - Term Frequency and Inverse Document Frequency intuition
+  - TfidfVectorizer in sklearn
+  - Effect of max_features, min_df, max_df
+  - TF-IDF vs Bag of Words comparison
+Practice Task: Train the same text classifier using TF-IDF and compare metrics with Bag of Words.
+Deliverable: TF-IDF comparison notebook
 Side Quest: Interview: 10 Q&A
 
 Day 183 | 30 Nov 2026, Monday | Status: PLAN
 Main Topic: N-grams
 Subtopics to learn:
-  - CountVectorizer/TF-IDF
-  - Vocabulary and sparse matrix
   - Unigrams, bigrams, trigrams
-Practice Task: Train text classifier with vectorizer + ML model
-Deliverable: Text representation notebook
+  - How n-grams capture local word order
+  - Vocabulary explosion and feature selection
+  - Choosing ngram_range in CountVectorizer/TfidfVectorizer
+Practice Task: Compare unigram, bigram, and trigram models on a text classification dataset.
+Deliverable: N-gram experiment notebook
 Side Quest: GitHub/LinkedIn: update
 
 # DECEMBER 2026
 ------------------------------------------------------------------------------------------
 
 Day 184 | 01 Dec 2026, Tuesday | Status: PLAN
-Main Topic: Word embeddings
+Main Topic: Word2Vec and word embeddings
 Subtopics to learn:
-  - Word2Vec CBOW/Skip-gram
-  - GloVe and FastText
-  - Semantic vector similarity
-Practice Task: Use pretrained embeddings or train tiny Word2Vec
-Deliverable: Embedding notes
+  - Why dense word embeddings are better than sparse text vectors
+  - Word2Vec CBOW and Skip-gram intuition
+  - GloVe and FastText high-level comparison
+  - Semantic similarity using cosine similarity
+  - Average Word2Vec for text classification
+Practice Task: Train or load Word2Vec embeddings, calculate similar words, and build an average Word2Vec text classifier baseline.
+Deliverable: Word2Vec + average embedding classification notebook
 Side Quest: SQL: 30 min practice
 
 Day 185 | 02 Dec 2026, Wednesday | Status: PLAN
@@ -1971,21 +1979,25 @@ Side Quest: DSA: 1 problem
 Day 190 | 07 Dec 2026, Monday | Status: PLAN
 Main Topic: Resume screener NLP
 Subtopics to learn:
-  - Resume text extraction
-  - Skill matching and similarity
-  - Ranking candidates with NLP
-Practice Task: Build resume screener baseline
-Deliverable: Resume screener project
+  - Resume text extraction and cleaning
+  - Skill/entity extraction using rules or simple NLP
+  - TF-IDF/embedding based similarity matching
+  - Ranking candidates using cosine similarity
+  - Limitations: bias, missing context, formatting issues
+Practice Task: Build a resume-to-job-description matching baseline using TF-IDF or sentence embeddings.
+Deliverable: Resume screener project baseline
 Side Quest: Interview: 10 Q&A
 
 Day 191 | 08 Dec 2026, Tuesday | Status: PLAN
-Main Topic: NLP project cleanup
+Main Topic: POS Tagging + HMM/Viterbi + Duplicate Question Pairs
 Subtopics to learn:
-  - Finish pending notebook
-  - Refactor messy code
-  - Write README and notes
-Practice Task: Clear backlog and commit work
-Deliverable: Clean repository
+  - Part of Speech tagging and why grammar features matter
+  - Hidden Markov Model intuition for sequence tagging
+  - Viterbi algorithm high-level decoding idea
+  - Duplicate Question Pairs problem framing using Quora-style data
+  - Feature ideas: token overlap, length difference, fuzzy matching, TF-IDF similarity
+Practice Task: Run POS tagging on sample sentences, then build a simple duplicate-question-pair baseline using text similarity features.
+Deliverable: POS tagging notes + duplicate question pairs baseline notebook
 Side Quest: GitHub/LinkedIn: update
 
 Day 192 | 09 Dec 2026, Wednesday | Status: PLAN
@@ -2081,61 +2093,74 @@ Side Quest: SQL: 30 min practice
 Day 201 | 18 Dec 2026, Friday | Status: PLAN
 Main Topic: LangChain basics
 Subtopics to learn:
-  - PromptTemplate
-  - Chains and output parsers
-  - Document loaders and splitters
-Practice Task: Build a simple LangChain chain
-Deliverable: LangChain notebook
+  - PromptTemplate and structured prompt design
+  - Chains, runnables/LCEL basics, and output parsers
+  - Chat model wrapper and message format
+  - Document loaders and text splitters overview
+  - How LangChain components connect in GenAI apps
+Practice Task: Build a simple LangChain chain with PromptTemplate, model call, and structured output parsing.
+Deliverable: LangChain basics notebook
 Side Quest: DSA: 1 problem
 
 Day 202 | 19 Dec 2026, Saturday | Status: PLAN
-Main Topic: Vector databases
+Main Topic: Vector stores + retrievers
 Subtopics to learn:
-  - Embeddings
-  - FAISS/Chroma indexing
-  - Similarity search
-Practice Task: Store and retrieve document chunks
-Deliverable: Vector DB notebook
+  - Embeddings and vector representation of chunks
+  - FAISS/Chroma vector store indexing
+  - Similarity search vs retriever abstraction
+  - k value, score threshold, metadata filtering
+  - Retriever quality issues: irrelevant chunks, missing context, duplicate chunks
+Practice Task: Store document chunks in FAISS or Chroma, query them through a retriever, and inspect retrieved chunks manually.
+Deliverable: Vector store + retriever notebook
 Side Quest: Interview: 10 Q&A
 
 Day 203 | 20 Dec 2026, Sunday | Status: PLAN
 Main Topic: Basic RAG project
 Subtopics to learn:
-  - Load, split, embed, store
-  - Retrieve relevant chunks
-  - Generate grounded answer
-Practice Task: Build Chat with PDF RAG pipeline
-Deliverable: RAG project
+  - RAG pipeline: load documents, split text, embed chunks, store vectors, retrieve context, generate answer
+  - PDF/document loader usage
+  - Chunk size and chunk overlap tradeoffs
+  - Prompting the LLM to answer only from retrieved context
+  - Simple citations/source display
+Practice Task: Build Chat with PDF using LangChain, FAISS/Chroma, retriever, and grounded answer prompt.
+Deliverable: Basic Chat with PDF RAG project
 Side Quest: GitHub/LinkedIn: update
 
 Day 204 | 21 Dec 2026, Monday | Status: PLAN
-Main Topic: Advanced RAG
+Main Topic: Advanced RAG: CRAG and Self-RAG
 Subtopics to learn:
-  - Load, split, embed, store
-  - Retrieve relevant chunks
-  - Generate grounded answer
-Practice Task: Build Chat with PDF RAG pipeline
-Deliverable: RAG project
+  - Why basic RAG fails: poor retrieval, missing context, hallucination
+  - Corrective RAG (CRAG): detect poor retrieval and correct/search again
+  - Self-RAG: model checks whether retrieved context is useful and whether answer is supported
+  - Query rewriting and retrieval grading
+  - Basic RAG evaluation: groundedness, answer relevance, context relevance
+Practice Task: Add retrieval-quality checks to your RAG project and compare answers before vs after correction/self-checking.
+Deliverable: Advanced RAG experiment notebook + evaluation table
 Side Quest: SQL: 30 min practice
 
 Day 205 | 22 Dec 2026, Tuesday | Status: PLAN
-Main Topic: AI Agents
+Main Topic: AI Agents fundamentals
 Subtopics to learn:
-  - ReAct pattern
-  - Tools and agent executor
-  - Stateful/multi-agent workflows
-Practice Task: Build simple tool-using agent demo
-Deliverable: Agent demo
+  - Generative AI vs Agentic AI
+  - What makes a system agentic: goal, tools, memory/state, planning, feedback
+  - ReAct pattern: reasoning + acting with tools
+  - Tool calling and agent executor idea
+  - When not to use agents: simple chain is enough
+Practice Task: Build a simple calculator/search/tool-using agent and log its reasoning steps/actions.
+Deliverable: Basic tool-using agent demo
 Side Quest: DSA: 1 problem
 
 Day 206 | 23 Dec 2026, Wednesday | Status: PLAN
-Main Topic: LangGraph + CrewAI
+Main Topic: LangGraph workflows
 Subtopics to learn:
-  - ReAct pattern
-  - Tools and agent executor
-  - Stateful/multi-agent workflows
-Practice Task: Build simple tool-using agent demo
-Deliverable: Agent demo
+  - LangChain vs LangGraph: chains vs stateful graphs
+  - LangGraph core concepts: StateGraph, nodes, edges, state, conditional routing
+  - Sequential workflows
+  - Parallel workflows
+  - Conditional workflows
+  - Iterative workflows and chatbot state
+Practice Task: Build a LangGraph chatbot or mini workflow with at least 3 nodes and one conditional route.
+Deliverable: LangGraph workflow demo notebook/app
 Side Quest: Interview: 10 Q&A
 
 Day 207 | 24 Dec 2026, Thursday | Status: PLAN
@@ -2181,11 +2206,13 @@ Side Quest: Interview: 10 Q&A
 Day 211 | 28 Dec 2026, Monday | Status: PLAN
 Main Topic: DVC + GitHub Actions
 Subtopics to learn:
-  - Profile positioning
-  - Pinned repositories
-  - Clear README and screenshots
-Practice Task: Update GitHub/LinkedIn and write post
-Deliverable: Portfolio checkpoint
+  - DVC basics: tracking datasets, models, and metrics
+  - dvc.yaml pipeline stages and reproducible training
+  - Remote storage concept for data/model artifacts
+  - GitHub Actions workflow file structure
+  - CI checks: install dependencies, run tests, lint, train or validate pipeline
+Practice Task: Create a simple DVC pipeline for one ML project and add a GitHub Actions workflow that runs basic tests/checks on push.
+Deliverable: DVC pipeline + GitHub Actions workflow file
 Side Quest: GitHub/LinkedIn: update
 
 Day 212 | 29 Dec 2026, Tuesday | Status: PLAN
@@ -2247,6 +2274,94 @@ Practice Task: Estimate token cost for 10 sample prompts, compare short vs long 
 Deliverable: LLM cost-latency notes + token cost calculator/caching demo
 Side Quest: SQL: 30 min practice
 
+
+Day 217 | 03 Jan 2027, Sunday | Status: PLAN
+Main Topic: CampusX ML foundations catch-up
+Subtopics to learn:
+  - AI vs ML vs DL difference
+  - Types of ML: supervised, unsupervised, semi-supervised, reinforcement learning
+  - Batch/offline learning vs online learning
+  - Instance-based learning vs model-based learning
+  - Common ML challenges: data quality, overfitting, underfitting, data drift
+  - Machine Learning Development Life Cycle and ML job roles
+Practice Task: Create a one-page ML foundations summary and map your completed projects to the ML development life cycle.
+Deliverable: ML foundations cheat sheet + MLDLC project mapping
+Side Quest: Interview: 10 Q&A
+
+Day 218 | 04 Jan 2027, Monday | Status: PLAN
+Main Topic: YouTube/Website RAG chatbot project
+Subtopics to learn:
+  - Loading web pages or YouTube transcript/content where legally available
+  - Splitting long web/video content into useful chunks
+  - Creating embeddings and vector store for web/video knowledge
+  - Retriever prompt design for source-grounded answers
+  - Showing sources/timestamps/links where available
+Practice Task: Build a small RAG chatbot over one YouTube video transcript or one website/document and test 10 questions.
+Deliverable: YouTube/Website RAG chatbot demo
+Side Quest: GitHub/LinkedIn: update
+
+Day 219 | 05 Jan 2027, Tuesday | Status: PLAN
+Main Topic: LangGraph workflow deep dive
+Subtopics to learn:
+  - Sequential graph for fixed multi-step workflows
+  - Parallel graph for independent tasks
+  - Conditional graph for routing based on model/tool output
+  - Iterative graph for retry/reflection loops
+  - Persistent state and conversation memory in LangGraph chatbot
+Practice Task: Convert one simple LangChain chain into a LangGraph workflow with state and conditional routing.
+Deliverable: LangGraph deep-dive notebook + workflow diagram
+Side Quest: SQL: 30 min practice
+
+Day 220 | 06 Jan 2027, Wednesday | Status: PLAN
+Main Topic: Advanced RAG retrieval improvement lab
+Subtopics to learn:
+  - Chunking experiments: chunk size and overlap comparison
+  - Retriever k and score threshold tuning
+  - Metadata filtering
+  - Query rewriting before retrieval
+  - Retrieval grading and answer groundedness scoring
+Practice Task: Run 3 RAG retrieval experiments and compare context relevance, groundedness, and answer quality.
+Deliverable: RAG retrieval experiment report
+Side Quest: DSA: 1 problem
+
+
+==========================================================================================
+CAMPUSX PLAYLISTS TO FOLLOW
+==========================================================================================
+Use these playlists as the primary video resources while following the day-by-day roadmap.
+Do not binge-watch blindly: watch only the topic needed for that day, then code immediately.
+
+1. 100 Days of Machine Learning | CampusX
+   Link: https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH
+   Use for: July to September
+   Roadmap mapping: Logistic Regression, metrics, Decision Trees, SVM, Naive Bayes, KNN, Feature Engineering, Pipelines, Ensembles, Optimization, Unsupervised Learning.
+
+2. 100 Days of Deep Learning | CampusX
+   Link: https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn
+   Use for: October to November
+   Roadmap mapping: Neural Networks, Forward Propagation, Backpropagation, Activation Functions, Optimizers, Keras, PyTorch, CNN, RNN/LSTM basics.
+
+3. Natural Language Processing (NLP) | CampusX
+   Link: https://www.youtube.com/playlist?list=PLKnIA16_RmvZo7fp5kkIth6nRTeQQsjfX
+   Use for: Late November to December
+   Roadmap mapping: Text preprocessing, Bag of Words, TF-IDF, Word embeddings, RNN, LSTM, GRU, NLP projects, sentiment analysis, resume screener.
+
+4. Agentic AI using LangGraph | CampusX
+   Link: https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL
+   Use for: December and January extension days
+   Roadmap mapping: AI Agents, LangGraph, agent state, nodes, edges, conditional routing, tool use, agent workflows.
+
+5. RAG Playlist | CampusX
+   Link: https://www.youtube.com/playlist?list=PLKnIA16_Rmva0dRLWEHLznSHKbFD_RJfX
+   Use for: December and January extension days
+   Roadmap mapping: RAG pipeline, document loading, text splitting, embeddings, vector database, retrieval, grounded answers, RAG evaluation.
+
+Playlist usage rule:
+- Watch 1-2 videos maximum per day based on the topic.
+- Write notes in your own words.
+- Code the concept immediately.
+- Add notebook/code to GitHub for important topics.
+- At the end of each week, revise using your own notes, not only videos.
 
 ==========================================================================================
 PROJECT BUILD ORDER
