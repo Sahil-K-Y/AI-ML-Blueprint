@@ -93,6 +93,51 @@ def enrich_side_quest(quest_text, day_num):
         ]
         topic = dsa_topics[day_num % len(dsa_topics)]
         return f"DSA: Solve **{topic}** on LeetCode"
+    elif "Mock Interview" in quest_text:
+        ml_pool = [
+            "Explain Gini Impurity vs Entropy in Decision Trees.",
+            "What is the mathematical formulation of Log Loss?",
+            "How does SVM kernel trick map features to higher dimensions?",
+            "What is the difference between hard voting and soft voting in ensembles?",
+            "Why is early stopping considered a form of regularization?",
+            "What is the vanishing gradient problem in Deep Neural Networks?",
+            "How do you handle class imbalance in model training?",
+            "Explain SHAP values and how they differ from feature importance.",
+            "What is the difference between TF-IDF and Word2Vec embeddings?",
+            "How does Self-Attention mechanism calculate Query, Key, and Value matrices?",
+            "Explain the difference between K-Means and DBSCAN clustering.",
+            "What is data leakage and how do you prevent it using scikit-learn Pipelines?",
+            "What is the difference between causal language modeling (GPT) and masked language modeling (BERT)?",
+            "How does Corrective RAG (CRAG) improve basic RAG pipelines?"
+        ]
+        py_pool = [
+            "Explain list comprehension vs generator expression in Python.",
+            "How do decorators work in Python? Write a decorator to log function calls.",
+            "What is the difference between deepcopy and shallow copy in Python?",
+            "How do Python generators handle memory optimization for large datasets?",
+            "What is the difference between *args and **kwargs in Python function parameters?",
+            "Explain how Python's garbage collector uses reference counting and generational collection."
+        ]
+        sql_pool = [
+            "Write a query to find duplicates in an Employee table based on email address.",
+            "What is the difference between RANK(), DENSE_RANK(), and ROW_NUMBER()?",
+            "Write a query using a Common Table Expression (CTE) to find employees with salaries above average.",
+            "How do you optimize a query that performs slow JOIN operations?",
+            "Explain the difference between clustered and non-clustered indexes.",
+            "Write a query using LAG/LEAD to calculate month-over-month revenue growth."
+        ]
+        
+        ml_q = [ml_pool[(day_num + i) % len(ml_pool)] for i in range(5)]
+        py_q = [py_pool[(day_num + i) % len(py_pool)] for i in range(2)]
+        sql_q = [sql_pool[(day_num + i) % len(sql_pool)] for i in range(2)]
+        
+        q_str = "\n    - **ML Questions:**\n" + "\n".join([f"      1. {q}" for q in ml_q])
+        q_str += "\n    - **Python Questions:**\n" + "\n".join([f"      1. {q}" for q in py_q])
+        q_str += "\n    - **SQL Questions:**\n" + "\n".join([f"      1. {q}" for q in sql_q])
+        
+        return f"Mock Interview Practice:{q_str}"
+    elif "Resume Milestone" in quest_text:
+        return f"**{quest_text}**"
     elif "Interview" in quest_text:
         interview_topics = [
             "Linear Regression assumptions & multicollinearity",

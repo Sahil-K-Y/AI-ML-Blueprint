@@ -58,7 +58,7 @@ Main Topic: Python operators + strings
 Subtopics to learn:
   - Arithmetic/comparison/logical operators
   - String indexing, slicing, immutability
-  - f-strings and common string methods
+  - fstrings and common string methods
 Practice Task: Solve string slicing + formatting exercises
 Deliverable: String practice file
 Side Quest: Completed/covered earlier - revise if weak
@@ -98,7 +98,7 @@ Main Topic: List/dict comprehension + lambda/map/filter
 Subtopics to learn:
   - List/dict/set comprehensions
   - lambda, map, filter basics
-  - When readable code is better than one-liners
+  - When readable code is better than oneliners
 Practice Task: Transform datasets using comprehensions and lambda
 Deliverable: Advanced Python practice
 Side Quest: Completed/covered earlier - revise if weak
@@ -168,7 +168,7 @@ Main Topic: NumPy vectorization + broadcasting
 Subtopics to learn:
   - Vectorization vs loops
   - Broadcasting rules
-  - Element-wise operations
+  - Elementwise operations
 Practice Task: Replace Python loops with NumPy vectorized code
 Deliverable: Vectorization notebook
 Side Quest: Completed/covered earlier - revise if weak
@@ -188,7 +188,7 @@ Main Topic: NumPy statistics + random module
 Subtopics to learn:
   - mean, median, std, variance
   - random sampling and seeds
-  - axis-wise operations
+  - axiswise operations
 Practice Task: Generate random data and summarize it
 Deliverable: NumPy stats notebook
 Side Quest: Completed/covered earlier - revise if weak
@@ -248,7 +248,7 @@ Main Topic: GroupBy + aggregation
 Subtopics to learn:
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 Practice Task: Sales/customer group analysis
 Deliverable: Daily notes + GitHub commit
 Side Quest: Completed/covered earlier - revise if weak
@@ -258,7 +258,7 @@ Main Topic: Merge, join, concat
 Subtopics to learn:
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 Practice Task: Combine 2-3 datasets
 Deliverable: Daily notes + GitHub commit
 Side Quest: Completed/covered earlier - revise if weak
@@ -268,7 +268,7 @@ Main Topic: Apply/map/lambda + feature creation
 Subtopics to learn:
   - List/dict/set comprehensions
   - lambda, map, filter basics
-  - When readable code is better than one-liners
+  - When readable code is better than oneliners
 Practice Task: Transform datasets using comprehensions and lambda
 Deliverable: Advanced Python practice
 Side Quest: Completed/covered earlier - revise if weak
@@ -336,7 +336,7 @@ Side Quest: Completed/covered earlier - revise if weak
 Day 030 | 30 Jun 2026, Tuesday | Status: DONE
 Main Topic: Core ML: Linear Regression intuition + code
 Subtopics to learn:
-  - Best-fit line and cost function
+  - Bestfit line and cost function
   - Train/test split
   - MSE, RMSE, MAE, R2
 Practice Task: Train Linear Regression and evaluate metrics
@@ -347,56 +347,63 @@ Side Quest: Completed/covered earlier - revise if weak
 ------------------------------------------------------------------------------------------
 
 Day 031 | 01 Jul 2026, Wednesday | Status: DONE
-Main Topic: Classification start: sigmoid, loss, log loss
+Main Topic: Classification start: sigmoid, loss, log loss & Git Basics
 Subtopics to learn:
   - Sigmoid function and probability output
   - Binary cross entropy/log loss
   - Threshold and decision boundary
+  - Git: repository initialization, gitignore patterns, staging and committing
 Practice Task: Plot sigmoid and calculate log loss manually
 Deliverable: Classification notes
-Side Quest: Completed/covered earlier - revise if weak
+Side Quest: SQL: 30 min practice
 
 Day 032 | 02 Jul 2026, Thursday | Status: PLAN
-Main Topic: Logistic Regression implementation
+Main Topic: Logistic Regression implementation & Git Branching
 Subtopics to learn:
   - Logistic Regression workflow
   - StandardScaler before LR
   - predict vs predict_proba
+  - Git: creating, switching, and merging branches locally
 Practice Task: Breast Cancer dataset: train LR and print metrics
 Deliverable: Breast cancer baseline notebook
-Side Quest: SQL: 30 min practice
-
-Day 033 | 03 Jul 2026, Friday | Status: PLAN
-Main Topic: Classification metrics I
-Subtopics to learn:
-  - TP, TN, FP, FN
-  - Accuracy, precision, recall
-  - When accuracy is misleading
-Practice Task: Build confusion matrix manually and with sklearn
-Deliverable: Metrics notes part 1
 Side Quest: DSA: 1 problem
 
-Day 034 | 04 Jul 2026, Saturday | Status: PLAN
-Main Topic: Classification metrics II
+Day 033 | 03 Jul 2026, Friday | Status: PLAN
+Main Topic: Classification metrics I & Git Collaboration
 Subtopics to learn:
   - TP, TN, FP, FN
   - Accuracy, precision, recall
   - When accuracy is misleading
+  - Git: pull requests, remote cloning, and resolving merge conflicts
+Practice Task: Build confusion matrix manually and with sklearn
+Deliverable: Metrics notes part 1
+Side Quest: SQL: 30 min practice
+
+Day 034 | 04 Jul 2026, Saturday | Status: PLAN
+Main Topic: Classification metrics II & Linux Basics I
+Subtopics to learn:
+  - TP, TN, FP, FN
+  - Accuracy, precision, recall
+  - When accuracy is misleading
+  - Linux: directory navigation (pwd, cd, ls), file management (cp, mv, rm)
+  - Linux: python environment control (pip, venv)
 Practice Task: Build confusion matrix manually and with sklearn
 Deliverable: Metrics notes part 1
 Side Quest: Interview: 10 Q&A
 
 Day 035 | 05 Jul 2026, Sunday | Status: PLAN
-Main Topic: ROC-AUC / PR-AUC curve interpretation
+Main Topic: ROC-AUC / PR-AUC curve interpretation & Linux Basics II
 Subtopics to learn:
   - ROC curve: TPR/Recall vs FPR at different thresholds
-  - AUC meaning: ranking quality and threshold-independent evaluation
+  - AUC meaning: ranking quality and thresholdindependent evaluation
   - PR curve: Precision vs Recall for imbalanced classification
-  - When ROC-AUC is misleading and PR-AUC is better
+  - When ROCAUC is misleading and PRAUC is better
   - Threshold selection using business cost: FP vs FN tradeoff
+  - Linux: file permissions (chmod), text search (grep)
+  - Linux: simple shell script execution
 Practice Task: Plot ROC curve and PR curve for Breast Cancer Logistic Regression; compare default threshold 0.5 with custom thresholds.
 Deliverable: ROC-AUC / PR-AUC interpretation notes + threshold comparison notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: Resume Milestone: Create Resume v1 (focus on foundational skills and initial Regression projects)
 
 Day 036 | 06 Jul 2026, Monday | Status: PLAN
 Main Topic: Multiclass classification
@@ -423,10 +430,10 @@ Main Topic: Mini project: Breast Cancer classifier
 Subtopics to learn:
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 Practice Task: Clean notebook + README + GitHub upload
 Deliverable: Daily notes + GitHub commit
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 039 | 09 Jul 2026, Thursday | Status: PLAN
 Main Topic: Decision Tree intuition
@@ -436,7 +443,7 @@ Subtopics to learn:
   - Information gain
 Practice Task: Calculate Gini/entropy on small example
 Deliverable: Decision tree theory notes
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 040 | 10 Jul 2026, Friday | Status: PLAN
 Main Topic: Decision Tree classification code
@@ -453,10 +460,10 @@ Main Topic: Tree overfitting + pruning
 Subtopics to learn:
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 Practice Task: max_depth, min_samples_split experiments
 Deliverable: Daily notes + GitHub commit
-Side Quest: DSA: 1 problem
+Side Quest: Interview: 10 Q&A
 
 Day 042 | 12 Jul 2026, Sunday | Status: PLAN
 Main Topic: Decision Tree visualization
@@ -466,17 +473,17 @@ Subtopics to learn:
   - Communicating rules
 Practice Task: Visualize trained tree and explain 5 paths
 Deliverable: Tree visualization notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: GitHub/LinkedIn: update
 
 Day 043 | 13 Jul 2026, Monday | Status: PLAN
 Main Topic: Decision Tree regressor
 Subtopics to learn:
   - Tree for regression
-  - MSE-based splitting intuition
+  - MSEbased splitting intuition
   - DT regressor limitations
 Practice Task: Compare DT regressor with Linear Regression
 Deliverable: DT regression notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 044 | 14 Jul 2026, Tuesday | Status: PLAN
 Main Topic: Decision Tree mini project
@@ -486,7 +493,7 @@ Subtopics to learn:
   - Feature importance basics
 Practice Task: Train DT on Iris/Breast Cancer
 Deliverable: DT classification notebook
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 045 | 15 Jul 2026, Wednesday | Status: PLAN
 Main Topic: SVM intuition
@@ -496,7 +503,7 @@ Subtopics to learn:
   - Hard margin vs soft margin
 Practice Task: Draw simple 2D SVM boundary conceptually
 Deliverable: SVM theory notes
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 046 | 16 Jul 2026, Thursday | Status: PLAN
 Main Topic: SVC code
@@ -506,7 +513,7 @@ Subtopics to learn:
   - Decision boundary visualization
 Practice Task: Train SVC and compare kernels
 Deliverable: SVC notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 047 | 17 Jul 2026, Friday | Status: PLAN
 Main Topic: SVM hyperparameters
@@ -516,7 +523,7 @@ Subtopics to learn:
   - Kernel choice
 Practice Task: Grid experiment with C and gamma
 Deliverable: SVM tuning notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 048 | 18 Jul 2026, Saturday | Status: PLAN
 Main Topic: SVR + SVM revision
@@ -526,7 +533,7 @@ Subtopics to learn:
   - Scaling requirement
 Practice Task: Train SVR on small regression dataset
 Deliverable: SVR notes
-Side Quest: SQL: 30 min practice
+Side Quest: Interview: 10 Q&A
 
 Day 049 | 19 Jul 2026, Sunday | Status: PLAN
 Main Topic: Naive Bayes theory
@@ -536,7 +543,7 @@ Subtopics to learn:
   - Gaussian vs Multinomial vs Bernoulli NB
 Practice Task: Train GaussianNB and MultinomialNB examples
 Deliverable: Naive Bayes notebook
-Side Quest: DSA: 1 problem
+Side Quest: GitHub/LinkedIn: update
 
 Day 050 | 20 Jul 2026, Monday | Status: PLAN
 Main Topic: GaussianNB + MultinomialNB
@@ -546,7 +553,7 @@ Subtopics to learn:
   - Gaussian vs Multinomial vs Bernoulli NB
 Practice Task: Train GaussianNB and MultinomialNB examples
 Deliverable: Naive Bayes notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 051 | 21 Jul 2026, Tuesday | Status: PLAN
 Main Topic: KNN intuition
@@ -556,7 +563,7 @@ Subtopics to learn:
   - Choosing K and scaling effect
 Practice Task: Train KNN with/without scaler and compare
 Deliverable: KNN notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 052 | 22 Jul 2026, Wednesday | Status: PLAN
 Main Topic: KNN code + scaling impact
@@ -573,7 +580,7 @@ Main Topic: Classification algorithm comparison
 Subtopics to learn:
   - Model selection criteria
   - Speed vs accuracy vs interpretability
-  - Metric-based comparison
+  - Metricbased comparison
 Practice Task: Create model leaderboard for LR, DT, SVM, NB, KNN
 Deliverable: Comparison table
 Side Quest: DSA: 1 problem
@@ -586,37 +593,37 @@ Subtopics to learn:
   - KNN/Iterative imputation + indicators
 Practice Task: Try 3 imputation methods
 Deliverable: Missing value notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 055 | 25 Jul 2026, Saturday | Status: PLAN
 Main Topic: Outlier treatment
 Subtopics to learn:
   - IQR method
-  - Z-score method
+  - Zscore method
   - Winsorization/log transform
 Practice Task: Detect and treat outliers in numeric columns
 Deliverable: Outlier notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: Interview: 10 Q&A
 
 Day 056 | 26 Jul 2026, Sunday | Status: PLAN
 Main Topic: Categorical encoding I
 Subtopics to learn:
   - Nominal vs ordinal variables
-  - Label/ordinal/one-hot encoding
+  - Label/ordinal/onehot encoding
   - Target/frequency/binary encoding and leakage risk
 Practice Task: Encode mixed categorical dataset
 Deliverable: Encoding notebook
-Side Quest: SQL: 30 min practice
+Side Quest: GitHub/LinkedIn: update
 
 Day 057 | 27 Jul 2026, Monday | Status: PLAN
 Main Topic: Categorical encoding II
 Subtopics to learn:
   - Nominal vs ordinal variables
-  - Label/ordinal/one-hot encoding
+  - Label/ordinal/onehot encoding
   - Target/frequency/binary encoding and leakage risk
 Practice Task: Encode mixed categorical dataset
 Deliverable: Encoding notebook
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 058 | 28 Jul 2026, Tuesday | Status: PLAN
 Main Topic: Feature scaling
@@ -627,37 +634,37 @@ Subtopics to learn:
   - Which algorithms need scaling
 Practice Task: Compare scaled vs unscaled model performance
 Deliverable: Scaling notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 059 | 29 Jul 2026, Wednesday | Status: PLAN
 Main Topic: Feature transformations
 Subtopics to learn:
-  - Log and square-root transform
-  - Box-Cox and Yeo-Johnson
+  - Log and squareroot transform
+  - BoxCox and YeoJohnson
   - Handling skewed distributions
 Practice Task: Transform skewed columns and visualize before/after
 Deliverable: Transformation notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 060 | 30 Jul 2026, Thursday | Status: PLAN
 Main Topic: Feature selection I
 Subtopics to learn:
-  - Filter methods: correlation, Chi-square, ANOVA
-  - Wrapper methods: RFE
-  - Embedded: Lasso and tree importance
-Practice Task: Select top features and compare model score
-Deliverable: Feature selection notebook
-Side Quest: SQL: 30 min practice
-
-Day 061 | 31 Jul 2026, Friday | Status: PLAN
-Main Topic: Feature selection II
-Subtopics to learn:
-  - Filter methods: correlation, Chi-square, ANOVA
+  - Filter methods: correlation, Chisquare, ANOVA
   - Wrapper methods: RFE
   - Embedded: Lasso and tree importance
 Practice Task: Select top features and compare model score
 Deliverable: Feature selection notebook
 Side Quest: DSA: 1 problem
+
+Day 061 | 31 Jul 2026, Friday | Status: PLAN
+Main Topic: Feature selection II
+Subtopics to learn:
+  - Filter methods: correlation, Chisquare, ANOVA
+  - Wrapper methods: RFE
+  - Embedded: Lasso and tree importance
+Practice Task: Select top features and compare model score
+Deliverable: Feature selection notebook
+Side Quest: SQL: 30 min practice
 
 # AUGUST 2026
 ------------------------------------------------------------------------------------------
@@ -697,7 +704,7 @@ Main Topic: Data leakage + train/val/test
 Subtopics to learn:
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 Practice Task: Correct preprocessing workflow
 Deliverable: Daily notes + GitHub commit
 Side Quest: DSA: 1 problem
@@ -712,7 +719,7 @@ Subtopics to learn:
   - Loading a saved pipeline in a new Python script for inference
 Practice Task: Save a trained sklearn pipeline using joblib, load it in a separate inference.py script, pass new sample input, and generate prediction.
 Deliverable: Saved model/pipeline file + inference.py script + short README explaining how to run prediction
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 067 | 06 Aug 2026, Thursday | Status: PLAN
 Main Topic: Titanic project: EDA
@@ -722,7 +729,7 @@ Subtopics to learn:
   - Feature engineering: title, family size, cabin/deck
 Practice Task: Build Titanic notebook/app step for the day
 Deliverable: Titanic project commit
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 068 | 07 Aug 2026, Friday | Status: PLAN
 Main Topic: Titanic feature engineering
@@ -742,7 +749,7 @@ Subtopics to learn:
   - Feature engineering: title, family size, cabin/deck
 Practice Task: Build Titanic notebook/app step for the day
 Deliverable: Titanic project commit
-Side Quest: DSA: 1 problem
+Side Quest: Interview: 10 Q&A
 
 Day 070 | 09 Aug 2026, Sunday | Status: PLAN
 Main Topic: Titanic pipeline
@@ -752,7 +759,7 @@ Subtopics to learn:
   - Preventing data leakage
 Practice Task: Build full preprocessing + model pipeline
 Deliverable: Pipeline notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: GitHub/LinkedIn: update
 
 Day 071 | 10 Aug 2026, Monday | Status: PLAN
 Main Topic: Titanic tuning
@@ -762,7 +769,7 @@ Subtopics to learn:
   - Feature engineering: title, family size, cabin/deck
 Practice Task: Build Titanic notebook/app step for the day
 Deliverable: Titanic project commit
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 072 | 11 Aug 2026, Tuesday | Status: PLAN
 Main Topic: Titanic Streamlit app
@@ -772,7 +779,7 @@ Subtopics to learn:
   - Feature engineering: title, family size, cabin/deck
 Practice Task: Build Titanic notebook/app step for the day
 Deliverable: Titanic project commit
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 073 | 12 Aug 2026, Wednesday | Status: PLAN
 Main Topic: Titanic GitHub + deploy
@@ -782,17 +789,17 @@ Subtopics to learn:
   - Feature engineering: title, family size, cabin/deck
 Practice Task: Build Titanic notebook/app step for the day
 Deliverable: Titanic project commit
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 074 | 13 Aug 2026, Thursday | Status: PLAN
 Main Topic: Ensemble intro
 Subtopics to learn:
   - Why ensembles work
   - Bagging vs boosting vs stacking
-  - Bias-variance intuition
+  - Biasvariance intuition
 Practice Task: Write ensemble comparison notes
 Deliverable: Ensemble theory notes
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 075 | 14 Aug 2026, Friday | Status: PLAN
 Main Topic: Random Forest theory
@@ -802,7 +809,7 @@ Subtopics to learn:
   - OOB score and feature importance
 Practice Task: Train Random Forest and plot importance
 Deliverable: Random Forest notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 076 | 15 Aug 2026, Saturday | Status: PLAN
 Main Topic: RandomForestClassifier
@@ -812,7 +819,7 @@ Subtopics to learn:
   - OOB score and feature importance
 Practice Task: Train Random Forest and plot importance
 Deliverable: Random Forest notebook
-Side Quest: SQL: 30 min practice
+Side Quest: Interview: 10 Q&A
 
 Day 077 | 16 Aug 2026, Sunday | Status: PLAN
 Main Topic: RandomForestRegressor
@@ -822,7 +829,7 @@ Subtopics to learn:
   - OOB score and feature importance
 Practice Task: Train Random Forest and plot importance
 Deliverable: Random Forest notebook
-Side Quest: DSA: 1 problem
+Side Quest: GitHub/LinkedIn: update
 
 Day 078 | 17 Aug 2026, Monday | Status: PLAN
 Main Topic: RF hyperparameters
@@ -832,7 +839,7 @@ Subtopics to learn:
   - OOB score and feature importance
 Practice Task: Train Random Forest and plot importance
 Deliverable: Random Forest notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 079 | 18 Aug 2026, Tuesday | Status: PLAN
 Main Topic: AdaBoost theory
@@ -842,7 +849,7 @@ Subtopics to learn:
   - Sample weight updates
 Practice Task: Train AdaBoost and tune estimators/learning rate
 Deliverable: AdaBoost notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 080 | 19 Aug 2026, Wednesday | Status: PLAN
 Main Topic: AdaBoost code
@@ -872,7 +879,7 @@ Subtopics to learn:
   - Tree depth in boosting
 Practice Task: Train GradientBoostingClassifier and tune
 Deliverable: Gradient Boosting notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 083 | 22 Aug 2026, Saturday | Status: PLAN
 Main Topic: XGBoost setup + intuition
@@ -882,7 +889,7 @@ Subtopics to learn:
   - subsample, colsample, gamma, early stopping
 Practice Task: Train XGBoost and evaluate feature importance
 Deliverable: XGBoost notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: Interview: 10 Q&A
 
 Day 084 | 23 Aug 2026, Sunday | Status: PLAN
 Main Topic: XGBClassifier code
@@ -892,7 +899,7 @@ Subtopics to learn:
   - subsample, colsample, gamma, early stopping
 Practice Task: Train XGBoost and evaluate feature importance
 Deliverable: XGBoost notebook
-Side Quest: SQL: 30 min practice
+Side Quest: GitHub/LinkedIn: update
 
 Day 085 | 24 Aug 2026, Monday | Status: PLAN
 Main Topic: XGBoost parameters I
@@ -902,7 +909,7 @@ Subtopics to learn:
   - subsample, colsample, gamma, early stopping
 Practice Task: Train XGBoost and evaluate feature importance
 Deliverable: XGBoost notebook
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 086 | 25 Aug 2026, Tuesday | Status: PLAN
 Main Topic: XGBoost parameters II
@@ -912,27 +919,27 @@ Subtopics to learn:
   - subsample, colsample, gamma, early stopping
 Practice Task: Train XGBoost and evaluate feature importance
 Deliverable: XGBoost notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 087 | 26 Aug 2026, Wednesday | Status: PLAN
 Main Topic: Early stopping
 Subtopics to learn:
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 Practice Task: Use validation set for XGBoost
 Deliverable: Daily notes + GitHub commit
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 088 | 27 Aug 2026, Thursday | Status: PLAN
 Main Topic: LightGBM
 Subtopics to learn:
-  - Leaf-wise growth
-  - Histogram-based splitting
+  - Leafwise growth
+  - Histogrambased splitting
   - When LightGBM is faster
 Practice Task: Train LightGBM and compare with XGBoost
 Deliverable: LightGBM notebook
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 089 | 28 Aug 2026, Friday | Status: PLAN
 Main Topic: CatBoost
@@ -942,7 +949,7 @@ Subtopics to learn:
   - When CatBoost is useful
 Practice Task: Train CatBoost on categorical dataset
 Deliverable: CatBoost notebook
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 090 | 29 Aug 2026, Saturday | Status: PLAN
 Main Topic: VotingClassifier
@@ -957,9 +964,9 @@ Side Quest: Interview: 10 Q&A
 Day 091 | 30 Aug 2026, Sunday | Status: PLAN
 Main Topic: StackingClassifier
 Subtopics to learn:
-  - Level-0 base models
-  - Level-1 meta model
-  - Cross-validation in stacking
+  - Level0 base models
+  - Level1 meta model
+  - Crossvalidation in stacking
 Practice Task: Build StackingClassifier
 Deliverable: Stacking notebook
 Side Quest: GitHub/LinkedIn: update
@@ -969,7 +976,7 @@ Main Topic: Ensemble comparison
 Subtopics to learn:
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 Practice Task: Compare RF, GB, XGB, LGBM, CatBoost
 Deliverable: Daily notes + GitHub commit
 Side Quest: SQL: 30 min practice
@@ -982,60 +989,60 @@ Main Topic: Ensemble revision
 Subtopics to learn:
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 Practice Task: Interview notes + algorithm selection
 Deliverable: Daily notes + GitHub commit
 Side Quest: DSA: 1 problem
 
 Day 094 | 02 Sep 2026, Wednesday | Status: PLAN
-Main Topic: Mini ensemble project
+Main Topic: Kaggle Competition: Spaceship Titanic or Titanic - Setup & Baseline
 Subtopics to learn:
-  - Core concept study
-  - Implementation details
-  - Interview-level intuition
-Practice Task: Notebook with model leaderboard
-Deliverable: Daily notes + GitHub commit
-Side Quest: Interview: 10 Q&A
+  - Kaggle API credentials setup and local directory hygiene
+  - Exploring competition dataset and test files
+  - Building a baseline Random Forest classifier submission
+Practice Task: Create Kaggle account, set up credentials, download competition data, build Random Forest baseline, and submit to leaderboard.
+Deliverable: Kaggle submission score screenshot + baseline notebook
+Side Quest: SQL: 30 min practice
 
 Day 095 | 03 Sep 2026, Thursday | Status: PLAN
-Main Topic: Cross-validation
+Main Topic: Kaggle Validation: Cross-Validation Pipeline
 Subtopics to learn:
-  - KFold and StratifiedKFold
-  - cross_val_score
-  - Validation vs test set
-Practice Task: Run CV on 3 models
-Deliverable: CV notebook
-Side Quest: GitHub/LinkedIn: update
+  - StratifiedKFold validation strategy locally
+  - Mapping local CV score to public leaderboard score
+  - Identifying and preventing validation data leakage
+Practice Task: Implement a local 5-fold Stratified CV loop on the Kaggle training dataset and output average score.
+Deliverable: Kaggle cross-validation notebook
+Side Quest: DSA: 1 problem
 
 Day 096 | 04 Sep 2026, Friday | Status: PLAN
-Main Topic: Bias-variance tradeoff
+Main Topic: Kaggle Iteration: Feature Engineering & Learning Curves
 Subtopics to learn:
-  - High bias vs high variance
-  - Learning curves
-  - Validation curves
-Practice Task: Plot learning curve and diagnose model
-Deliverable: Bias-variance notes
+  - Feature creation: scaling, cabin/deck extraction, family size indicators
+  - Plotting learning curves to diagnose model bias and variance
+  - Categorical encoding (target encoding, one-hot) on test sets safely
+Practice Task: Generate 3-5 new features, plot training vs validation learning curves, and submit updated predictions.
+Deliverable: Kaggle feature engineering and learning curves notebook
 Side Quest: SQL: 30 min practice
 
 Day 097 | 05 Sep 2026, Saturday | Status: PLAN
-Main Topic: GridSearchCV
+Main Topic: Kaggle Tuning: GridSearchCV vs RandomizedSearchCV
 Subtopics to learn:
-  - Parameter grid/distributions
-  - Scoring and cv
-  - Best params vs best estimator
-Practice Task: Tune model using sklearn search
-Deliverable: Tuning notebook
-Side Quest: DSA: 1 problem
+  - Defining search spaces for tree models
+  - Scoring function selections and CV loops in tuning
+  - Extracting best estimator for leaderboard predictions
+Practice Task: Tune Random Forest / LightGBM hyperparameters using GridSearchCV and RandomizedSearchCV, then submit predictions.
+Deliverable: Kaggle tuning and optimization notebook
+Side Quest: Interview: 10 Q&A
 
 Day 098 | 06 Sep 2026, Sunday | Status: PLAN
-Main Topic: RandomizedSearchCV
+Main Topic: Kaggle Ensembles: Blending & Stacking Predictions
 Subtopics to learn:
-  - Parameter grid/distributions
-  - Scoring and cv
-  - Best params vs best estimator
-Practice Task: Tune model using sklearn search
-Deliverable: Tuning notebook
-Side Quest: Interview: 10 Q&A
+  - Weighted average blending of probability scores
+  - StackingClassifier level-0 and level-1 configurations
+  - Final leaderboard submission audit and repository commit
+Practice Task: Build a VotingClassifier or StackingClassifier using RF, LightGBM, and XGBoost; submit to Kaggle leaderboard.
+Deliverable: Final Kaggle submission score screenshot + ensemble notebook
+Side Quest: Resume Milestone: Update Resume v2 (add advanced ML models, pipelines, and Kaggle competition results)
 
 Day 099 | 07 Sep 2026, Monday | Status: PLAN
 Main Topic: Optuna basics
@@ -1045,7 +1052,7 @@ Subtopics to learn:
   - Optimization history
 Practice Task: Tune ML model with Optuna
 Deliverable: Optuna notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 100 | 08 Sep 2026, Tuesday | Status: PLAN
 Main Topic: Optuna with ML model
@@ -1055,7 +1062,7 @@ Subtopics to learn:
   - Optimization history
 Practice Task: Tune ML model with Optuna
 Deliverable: Optuna notebook
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 101 | 09 Sep 2026, Wednesday | Status: PLAN
 Main Topic: Model calibration
@@ -1065,7 +1072,7 @@ Subtopics to learn:
   - Isotonic regression
 Practice Task: Plot calibration curve
 Deliverable: Calibration notebook
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 102 | 10 Sep 2026, Thursday | Status: PLAN
 Main Topic: Imbalanced data I
@@ -1075,7 +1082,7 @@ Subtopics to learn:
   - SMOTE/ADASYN/undersampling
 Practice Task: Apply imbalance handling and compare PR-AUC/F1
 Deliverable: Imbalance notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 103 | 11 Sep 2026, Friday | Status: PLAN
 Main Topic: Imbalanced data II
@@ -1085,7 +1092,7 @@ Subtopics to learn:
   - SMOTE/ADASYN/undersampling
 Practice Task: Apply imbalance handling and compare PR-AUC/F1
 Deliverable: Imbalance notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 104 | 12 Sep 2026, Saturday | Status: PLAN
 Main Topic: Imbalanced metrics
@@ -1095,7 +1102,7 @@ Subtopics to learn:
   - SMOTE/ADASYN/undersampling
 Practice Task: Apply imbalance handling and compare PR-AUC/F1
 Deliverable: Imbalance notebook
-Side Quest: SQL: 30 min practice
+Side Quest: Interview: 10 Q&A
 
 Day 105 | 13 Sep 2026, Sunday | Status: PLAN
 Main Topic: SHAP basics
@@ -1105,7 +1112,7 @@ Subtopics to learn:
   - SHAP summary/waterfall plots
 Practice Task: Explain model using SHAP
 Deliverable: SHAP notebook
-Side Quest: DSA: 1 problem
+Side Quest: GitHub/LinkedIn: update
 
 Day 106 | 14 Sep 2026, Monday | Status: PLAN
 Main Topic: SHAP local explanations
@@ -1115,7 +1122,7 @@ Subtopics to learn:
   - SHAP summary/waterfall plots
 Practice Task: Explain model using SHAP
 Deliverable: SHAP notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 107 | 15 Sep 2026, Tuesday | Status: PLAN
 Main Topic: LIME basics
@@ -1125,14 +1132,14 @@ Subtopics to learn:
   - Limitations of LIME
 Practice Task: Explain a few predictions with LIME
 Deliverable: LIME notes
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 108 | 16 Sep 2026, Wednesday | Status: PLAN
 Main Topic: Optimization revision
 Subtopics to learn:
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 Practice Task: CV + tuning + imbalance + XAI notes
 Deliverable: Daily notes + GitHub commit
 Side Quest: SQL: 30 min practice
@@ -1141,7 +1148,7 @@ Day 109 | 17 Sep 2026, Thursday | Status: PLAN
 Main Topic: Project planning: Fraud Detection
 Subtopics to learn:
   - Imbalanced classification framing
-  - Recall, precision, PR-AUC focus
+  - Recall, precision, PRAUC focus
   - XGBoost + SMOTE + thresholding
 Practice Task: Build fraud detection project step
 Deliverable: Fraud project commit
@@ -1151,31 +1158,31 @@ Day 110 | 18 Sep 2026, Friday | Status: PLAN
 Main Topic: Fraud project EDA
 Subtopics to learn:
   - Imbalanced classification framing
-  - Recall, precision, PR-AUC focus
+  - Recall, precision, PRAUC focus
   - XGBoost + SMOTE + thresholding
 Practice Task: Build fraud detection project step
 Deliverable: Fraud project commit
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 111 | 19 Sep 2026, Saturday | Status: PLAN
 Main Topic: Fraud preprocessing
 Subtopics to learn:
   - Imbalanced classification framing
-  - Recall, precision, PR-AUC focus
+  - Recall, precision, PRAUC focus
   - XGBoost + SMOTE + thresholding
 Practice Task: Build fraud detection project step
 Deliverable: Fraud project commit
-Side Quest: GitHub/LinkedIn: update
+Side Quest: Interview: 10 Q&A
 
 Day 112 | 20 Sep 2026, Sunday | Status: PLAN
 Main Topic: Fraud baseline models
 Subtopics to learn:
   - Imbalanced classification framing
-  - Recall, precision, PR-AUC focus
+  - Recall, precision, PRAUC focus
   - XGBoost + SMOTE + thresholding
 Practice Task: Build fraud detection project step
 Deliverable: Fraud project commit
-Side Quest: SQL: 30 min practice
+Side Quest: GitHub/LinkedIn: update
 
 Day 113 | 21 Sep 2026, Monday | Status: PLAN
 Main Topic: Fraud XGBoost + SMOTE
@@ -1185,7 +1192,7 @@ Subtopics to learn:
   - subsample, colsample, gamma, early stopping
 Practice Task: Train XGBoost and evaluate feature importance
 Deliverable: XGBoost notebook
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 114 | 22 Sep 2026, Tuesday | Status: PLAN
 Main Topic: Fraud SHAP
@@ -1195,17 +1202,17 @@ Subtopics to learn:
   - SHAP summary/waterfall plots
 Practice Task: Explain model using SHAP
 Deliverable: SHAP notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 115 | 23 Sep 2026, Wednesday | Status: PLAN
 Main Topic: Fraud deployment
 Subtopics to learn:
   - Imbalanced classification framing
-  - Recall, precision, PR-AUC focus
+  - Recall, precision, PRAUC focus
   - XGBoost + SMOTE + thresholding
 Practice Task: Build fraud detection project step
 Deliverable: Fraud project commit
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 116 | 24 Sep 2026, Thursday | Status: PLAN
 Main Topic: Employee churn project EDA
@@ -1215,7 +1222,7 @@ Subtopics to learn:
   - Explainable churn drivers
 Practice Task: Build churn prediction project step
 Deliverable: Churn project commit
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 117 | 25 Sep 2026, Friday | Status: PLAN
 Main Topic: Employee churn feature engineering
@@ -1225,7 +1232,7 @@ Subtopics to learn:
   - Explainable churn drivers
 Practice Task: Build churn prediction project step
 Deliverable: Churn project commit
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 118 | 26 Sep 2026, Saturday | Status: PLAN
 Main Topic: Employee churn modeling
@@ -1275,7 +1282,7 @@ Subtopics to learn:
   - Common project questions
 Practice Task: Answer 25 interview questions aloud
 Deliverable: Interview Q&A notes
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 # OCTOBER 2026
 ------------------------------------------------------------------------------------------
@@ -1288,7 +1295,7 @@ Subtopics to learn:
   - Common project questions
 Practice Task: Answer 25 interview questions aloud
 Deliverable: Interview Q&A notes
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 124 | 02 Oct 2026, Friday | Status: PLAN
 Main Topic: Portfolio checkpoint
@@ -1310,7 +1317,7 @@ Subtopics to learn:
   - Production pattern: train.py, predict.py, model.pkl, requirements.txt
 Practice Task: Take one trained classical ML model, save it with joblib, create predict.py for single-row and batch predictions, and test it from terminal.
 Deliverable: train.py + predict.py + saved model artifact + requirements.txt
-Side Quest: DSA: 1 problem
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 126 | 04 Oct 2026, Sunday | Status: PLAN
 Main Topic: Unsupervised learning intro
@@ -1320,7 +1327,7 @@ Subtopics to learn:
   - Business use cases
 Practice Task: Write use-case map for unsupervised learning
 Deliverable: Unsupervised notes
-Side Quest: Interview: 10 Q&A
+Side Quest: GitHub/LinkedIn: update
 
 Day 127 | 05 Oct 2026, Monday | Status: PLAN
 Main Topic: K-Means theory
@@ -1330,7 +1337,7 @@ Subtopics to learn:
   - Elbow and silhouette method
 Practice Task: Cluster Mall Customers dataset
 Deliverable: K-Means notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 128 | 06 Oct 2026, Tuesday | Status: PLAN
 Main Topic: K-Means code
@@ -1340,17 +1347,17 @@ Subtopics to learn:
   - Elbow and silhouette method
 Practice Task: Cluster Mall Customers dataset
 Deliverable: K-Means notebook
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 129 | 07 Oct 2026, Wednesday | Status: PLAN
 Main Topic: Elbow + silhouette
 Subtopics to learn:
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 Practice Task: Choose optimal K
 Deliverable: Daily notes + GitHub commit
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 130 | 08 Oct 2026, Thursday | Status: PLAN
 Main Topic: K-Means++
@@ -1360,27 +1367,27 @@ Subtopics to learn:
   - Elbow and silhouette method
 Practice Task: Cluster Mall Customers dataset
 Deliverable: K-Means notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 131 | 09 Oct 2026, Friday | Status: PLAN
 Main Topic: DBSCAN theory
 Subtopics to learn:
   - eps and min_samples
   - Core/border/noise points
-  - When DBSCAN beats K-Means
+  - When DBSCAN beats KMeans
 Practice Task: Run DBSCAN on non-spherical/noisy data
 Deliverable: DBSCAN notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 132 | 10 Oct 2026, Saturday | Status: PLAN
 Main Topic: DBSCAN code
 Subtopics to learn:
   - eps and min_samples
   - Core/border/noise points
-  - When DBSCAN beats K-Means
+  - When DBSCAN beats KMeans
 Practice Task: Run DBSCAN on non-spherical/noisy data
 Deliverable: DBSCAN notebook
-Side Quest: SQL: 30 min practice
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 133 | 11 Oct 2026, Sunday | Status: PLAN
 Main Topic: Hierarchical clustering
@@ -1390,7 +1397,7 @@ Subtopics to learn:
   - Dendrogram interpretation
 Practice Task: Create dendrogram and choose clusters
 Deliverable: Hierarchical notebook
-Side Quest: DSA: 1 problem
+Side Quest: GitHub/LinkedIn: update
 
 Day 134 | 12 Oct 2026, Monday | Status: PLAN
 Main Topic: Dendrogram
@@ -1400,7 +1407,7 @@ Subtopics to learn:
   - Dendrogram interpretation
 Practice Task: Create dendrogram and choose clusters
 Deliverable: Hierarchical notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 135 | 13 Oct 2026, Tuesday | Status: PLAN
 Main Topic: PCA theory
@@ -1410,7 +1417,7 @@ Subtopics to learn:
   - Explained variance ratio
 Practice Task: Reduce dimensions and plot PCA components
 Deliverable: PCA notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 136 | 14 Oct 2026, Wednesday | Status: PLAN
 Main Topic: PCA code
@@ -1425,7 +1432,7 @@ Side Quest: SQL: 30 min practice
 Day 137 | 15 Oct 2026, Thursday | Status: PLAN
 Main Topic: t-SNE
 Subtopics to learn:
-  - Non-linear visualization
+  - Nonlinear visualization
   - Perplexity parameter
   - Why not for production features
 Practice Task: Visualize high-dimensional data in 2D
@@ -1437,30 +1444,30 @@ Main Topic: UMAP
 Subtopics to learn:
   - Manifold learning intuition
   - n_neighbors/min_dist
-  - Faster alternative to t-SNE
+  - Faster alternative to tSNE
 Practice Task: Create UMAP visualization
 Deliverable: UMAP notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 139 | 17 Oct 2026, Saturday | Status: PLAN
 Main Topic: Anomaly detection
 Subtopics to learn:
   - Isolation Forest
   - Local Outlier Factor
-  - One-Class SVM
+  - OneClass SVM
 Practice Task: Detect anomalies in tabular data
 Deliverable: Anomaly detection notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 140 | 18 Oct 2026, Sunday | Status: PLAN
 Main Topic: Customer segmentation project
 Subtopics to learn:
   - Customer features
-  - K-Means + PCA
+  - KMeans + PCA
   - Cluster business profiling
 Practice Task: Create segment profiles and recommendations
 Deliverable: Segmentation project
-Side Quest: SQL: 30 min practice
+Side Quest: GitHub/LinkedIn: update
 
 Day 141 | 19 Oct 2026, Monday | Status: PLAN
 Main Topic: Deep Learning intro
@@ -1470,7 +1477,7 @@ Subtopics to learn:
   - MLP architecture
 Practice Task: Draw and code one-neuron prediction
 Deliverable: DL fundamentals notes
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 142 | 20 Oct 2026, Tuesday | Status: PLAN
 Main Topic: Activation functions
@@ -1480,29 +1487,29 @@ Subtopics to learn:
   - Softmax output
 Practice Task: Plot activation functions and derivatives
 Deliverable: Activation notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 143 | 21 Oct 2026, Wednesday | Status: PLAN
 Main Topic: Forward propagation from scratch
 Subtopics to learn:
   - Matrix multiplication through layers
-  - Layer-wise computation
+  - Layerwise computation
   - Batch dimension
 Practice Task: Implement forward pass in NumPy
 Deliverable: Forward propagation code
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 144 | 22 Oct 2026, Thursday | Status: PLAN
 Main Topic: Loss functions in DL
 Subtopics to learn:
   - MSE and MAE for regression tasks
-  - Binary Cross-Entropy for binary classification
-  - Categorical Cross-Entropy and Sparse Categorical Cross-Entropy for multiclass classification
-  - Hinge loss for margin-based classification
+  - Binary CrossEntropy for binary classification
+  - Categorical CrossEntropy and Sparse Categorical CrossEntropy for multiclass classification
+  - Hinge loss for marginbased classification
   - How loss choice depends on task type and output layer activation
 Practice Task: Implement MSE, MAE, Binary Cross-Entropy, and Categorical Cross-Entropy manually using NumPy; compare with framework loss functions.
 Deliverable: DL loss functions notebook + task-to-loss selection cheat sheet
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 145 | 23 Oct 2026, Friday | Status: PLAN
 Main Topic: Backpropagation intuition
@@ -1512,7 +1519,7 @@ Subtopics to learn:
   - Weight updates
 Practice Task: Code small neural network backprop in NumPy
 Deliverable: Backprop notebook
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 146 | 24 Oct 2026, Saturday | Status: PLAN
 Main Topic: Backpropagation from scratch
@@ -1522,12 +1529,12 @@ Subtopics to learn:
   - Weight updates
 Practice Task: Code small neural network backprop in NumPy
 Deliverable: Backprop notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 147 | 25 Oct 2026, Sunday | Status: PLAN
 Main Topic: Optimizers I
 Subtopics to learn:
-  - SGD and mini-batch
+  - SGD and minibatch
   - Momentum/RMSprop
   - Adam and AdamW
 Practice Task: Compare optimizers on small network
@@ -1537,7 +1544,7 @@ Side Quest: GitHub/LinkedIn: update
 Day 148 | 26 Oct 2026, Monday | Status: PLAN
 Main Topic: Optimizers II
 Subtopics to learn:
-  - SGD and mini-batch
+  - SGD and minibatch
   - Momentum/RMSprop
   - Adam and AdamW
 Practice Task: Compare optimizers on small network
@@ -1562,7 +1569,7 @@ Subtopics to learn:
   - Vanishing/exploding gradients
 Practice Task: Compare initialization effects
 Deliverable: Initialization notes
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 151 | 29 Oct 2026, Thursday | Status: PLAN
 Main Topic: TensorFlow/Keras basics
@@ -1572,7 +1579,7 @@ Subtopics to learn:
   - Callbacks and model evaluation
 Practice Task: Train Keras model and save results
 Deliverable: Keras notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 152 | 30 Oct 2026, Friday | Status: PLAN
 Main Topic: Keras MNIST ANN
@@ -1592,7 +1599,7 @@ Subtopics to learn:
   - Callbacks and model evaluation
 Practice Task: Train Keras model and save results
 Deliverable: Keras notebook
-Side Quest: DSA: 1 problem
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 # NOVEMBER 2026
 ------------------------------------------------------------------------------------------
@@ -1605,7 +1612,7 @@ Subtopics to learn:
   - Callbacks and model evaluation
 Practice Task: Train Keras model and save results
 Deliverable: Keras notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: GitHub/LinkedIn: update
 
 Day 155 | 02 Nov 2026, Monday | Status: PLAN
 Main Topic: PyTorch tensors
@@ -1615,7 +1622,7 @@ Subtopics to learn:
   - nn.Module, Dataset, DataLoader, training loop
 Practice Task: Build and train PyTorch model
 Deliverable: PyTorch notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 156 | 03 Nov 2026, Tuesday | Status: PLAN
 Main Topic: PyTorch autograd
@@ -1625,7 +1632,7 @@ Subtopics to learn:
   - nn.Module, Dataset, DataLoader, training loop
 Practice Task: Build and train PyTorch model
 Deliverable: PyTorch notebook
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 157 | 04 Nov 2026, Wednesday | Status: PLAN
 Main Topic: nn.Module
@@ -1635,7 +1642,7 @@ Subtopics to learn:
   - nn.Module, Dataset, DataLoader, training loop
 Practice Task: Build and train PyTorch model
 Deliverable: PyTorch notebook
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 158 | 05 Nov 2026, Thursday | Status: PLAN
 Main Topic: Dataset + DataLoader
@@ -1645,20 +1652,20 @@ Subtopics to learn:
   - nn.Module, Dataset, DataLoader, training loop
 Practice Task: Build and train PyTorch model
 Deliverable: PyTorch notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 159 | 06 Nov 2026, Friday | Status: PLAN
 Main Topic: PyTorch training loop
 Subtopics to learn:
   - Forward pass through model using model(X)
-  - Computing loss using criterion/output-target comparison
+  - Computing loss using criterion/outputtarget comparison
   - loss.backward() for gradient calculation
   - optimizer.step() for parameter update
   - optimizer.zero_grad() to clear old gradients
   - Epoch loop structure and tracking training loss
 Practice Task: Write a complete PyTorch training loop for MNIST or a simple tabular dataset and print average training loss per epoch.
 Deliverable: PyTorch training loop notebook/script with loss tracking
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 160 | 07 Nov 2026, Saturday | Status: PLAN
 Main Topic: Validation loop + save/load
@@ -1670,7 +1677,7 @@ Subtopics to learn:
   - Checkpointing the best model based on validation metric
 Practice Task: Add validation loop to PyTorch training code, save the best model checkpoint, reload it, and evaluate on test data.
 Deliverable: PyTorch train/validation script + best_model.pth checkpoint
-Side Quest: SQL: 30 min practice
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 161 | 08 Nov 2026, Sunday | Status: PLAN
 Main Topic: MNIST project cleanup
@@ -1680,7 +1687,7 @@ Subtopics to learn:
   - Error analysis
 Practice Task: Clean MNIST project and compare implementations
 Deliverable: MNIST project
-Side Quest: DSA: 1 problem
+Side Quest: Resume Milestone: Build ATS-optimized version (incorporating keywords for CNN, CV, and deep learning frameworks)
 
 Day 162 | 09 Nov 2026, Monday | Status: PLAN
 Main Topic: DL interview revision
@@ -1690,7 +1697,7 @@ Subtopics to learn:
   - Common project questions
 Practice Task: Answer 25 interview questions aloud
 Deliverable: Interview Q&A notes
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 163 | 10 Nov 2026, Tuesday | Status: PLAN
 Main Topic: Buffer/catch-up day
@@ -1700,7 +1707,7 @@ Subtopics to learn:
   - Write README and notes
 Practice Task: Clear backlog and commit work
 Deliverable: Clean repository
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 164 | 11 Nov 2026, Wednesday | Status: PLAN
 Main Topic: Computer Vision intro
@@ -1730,7 +1737,7 @@ Subtopics to learn:
   - Flattening and dense head
 Practice Task: Build CNN for image dataset
 Deliverable: CNN notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 167 | 14 Nov 2026, Saturday | Status: PLAN
 Main Topic: CNN implementation
@@ -1740,7 +1747,7 @@ Subtopics to learn:
   - Flattening and dense head
 Practice Task: Build CNN for image dataset
 Deliverable: CNN notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 168 | 15 Nov 2026, Sunday | Status: PLAN
 Main Topic: Famous CNN architectures
@@ -1749,32 +1756,32 @@ Subtopics to learn:
   - AlexNet: deeper CNN with ReLU and dropout
   - VGG: simple repeated 3x3 convolution blocks
   - ResNet: skip connections and solving vanishing gradient in deep networks
-  - Inception: multi-scale convolutions inside one block
+  - Inception: multiscale convolutions inside one block
   - EfficientNet: compound scaling of depth, width, and resolution
-  - High-level comparison of depth, parameters, accuracy, and use cases
+  - Highlevel comparison of depth, parameters, accuracy, and use cases
 Practice Task: Create a comparison table of LeNet, AlexNet, VGG, ResNet, Inception, and EfficientNet; then load one pretrained architecture for inference.
 Deliverable: CNN architecture comparison notes + pretrained model inference notebook
-Side Quest: SQL: 30 min practice
+Side Quest: GitHub/LinkedIn: update
 
 Day 169 | 16 Nov 2026, Monday | Status: PLAN
 Main Topic: Transfer learning theory
 Subtopics to learn:
   - Pretrained backbones
-  - Feature extraction vs fine-tuning
+  - Feature extraction vs finetuning
   - Freeze/unfreeze strategy
 Practice Task: Train Cat vs Dog using pretrained model
 Deliverable: Transfer learning project
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 170 | 17 Nov 2026, Tuesday | Status: PLAN
 Main Topic: Transfer learning code
 Subtopics to learn:
   - Pretrained backbones
-  - Feature extraction vs fine-tuning
+  - Feature extraction vs finetuning
   - Freeze/unfreeze strategy
 Practice Task: Train Cat vs Dog using pretrained model
 Deliverable: Transfer learning project
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 171 | 18 Nov 2026, Wednesday | Status: PLAN
 Main Topic: Data augmentation
@@ -1784,7 +1791,7 @@ Subtopics to learn:
   - Albumentations/Keras augmentation
 Practice Task: Apply augmentations and visualize samples
 Deliverable: Augmentation notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 172 | 19 Nov 2026, Thursday | Status: PLAN
 Main Topic: OpenCV basics
@@ -1794,7 +1801,7 @@ Subtopics to learn:
   - Edges, contours, webcam basics
 Practice Task: Process images with OpenCV
 Deliverable: OpenCV notebook
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 173 | 20 Nov 2026, Friday | Status: PLAN
 Main Topic: OpenCV edges/contours
@@ -1804,7 +1811,7 @@ Subtopics to learn:
   - Edges, contours, webcam basics
 Practice Task: Process images with OpenCV
 Deliverable: OpenCV notebook
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 174 | 21 Nov 2026, Saturday | Status: PLAN
 Main Topic: Object detection intro
@@ -1814,7 +1821,7 @@ Subtopics to learn:
   - YOLO inference workflow
 Practice Task: Run pretrained YOLO on sample images/video
 Deliverable: YOLO demo
-Side Quest: Interview: 10 Q&A
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 175 | 22 Nov 2026, Sunday | Status: PLAN
 Main Topic: YOLO basics
@@ -1830,8 +1837,8 @@ Day 176 | 23 Nov 2026, Monday | Status: PLAN
 Main Topic: Image segmentation
 Subtopics to learn:
   - Semantic vs instance segmentation
-  - U-Net encoder-decoder
-  - Pixel-wise masks
+  - UNet encoderdecoder
+  - Pixelwise masks
 Practice Task: Study U-Net and run small segmentation demo
 Deliverable: Segmentation notes
 Side Quest: SQL: 30 min practice
@@ -1851,22 +1858,22 @@ Main Topic: CV project deployment
 Subtopics to learn:
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 Practice Task: Gradio/Streamlit demo
 Deliverable: Daily notes + GitHub commit
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 179 | 26 Nov 2026, Thursday | Status: PLAN
 Main Topic: NLP introduction + end-to-end NLP pipeline
 Subtopics to learn:
   - What is NLP and common NLP applications
-  - End-to-end NLP pipeline: data collection, cleaning, representation, modeling, evaluation, deployment
+  - Endtoend NLP pipeline: data collection, cleaning, representation, modeling, evaluation, deployment
   - Tokenization: word tokenization and sentence tokenization
   - Lowercasing, punctuation removal, stopword removal, regex cleaning
   - Train/test split and leakage risks in NLP projects
 Practice Task: Take a small text dataset, create a full preprocessing pipeline, and document each step from raw text to cleaned tokens.
 Deliverable: NLP pipeline + preprocessing notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 180 | 27 Nov 2026, Friday | Status: PLAN
 Main Topic: Stemming + lemmatization
@@ -1881,13 +1888,13 @@ Side Quest: SQL: 30 min practice
 Day 181 | 28 Nov 2026, Saturday | Status: PLAN
 Main Topic: Bag of Words
 Subtopics to learn:
-  - Vocabulary creation and document-term matrix
+  - Vocabulary creation and documentterm matrix
   - CountVectorizer in sklearn
   - Sparse matrix representation
   - Limitations of Bag of Words: order loss, large vocabulary, sparsity
 Practice Task: Build a Bag of Words representation for a small text dataset and train Logistic Regression/Naive Bayes classifier.
 Deliverable: Bag of Words classification notebook
-Side Quest: DSA: 1 problem
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 182 | 29 Nov 2026, Sunday | Status: PLAN
 Main Topic: TF-IDF
@@ -1895,21 +1902,21 @@ Subtopics to learn:
   - Term Frequency and Inverse Document Frequency intuition
   - TfidfVectorizer in sklearn
   - Effect of max_features, min_df, max_df
-  - TF-IDF vs Bag of Words comparison
+  - TFIDF vs Bag of Words comparison
 Practice Task: Train the same text classifier using TF-IDF and compare metrics with Bag of Words.
 Deliverable: TF-IDF comparison notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: GitHub/LinkedIn: update
 
 Day 183 | 30 Nov 2026, Monday | Status: PLAN
 Main Topic: N-grams
 Subtopics to learn:
   - Unigrams, bigrams, trigrams
-  - How n-grams capture local word order
+  - How ngrams capture local word order
   - Vocabulary explosion and feature selection
   - Choosing ngram_range in CountVectorizer/TfidfVectorizer
 Practice Task: Compare unigram, bigram, and trigram models on a text classification dataset.
 Deliverable: N-gram experiment notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 # DECEMBER 2026
 ------------------------------------------------------------------------------------------
@@ -1918,23 +1925,23 @@ Day 184 | 01 Dec 2026, Tuesday | Status: PLAN
 Main Topic: Word2Vec and word embeddings
 Subtopics to learn:
   - Why dense word embeddings are better than sparse text vectors
-  - Word2Vec CBOW and Skip-gram intuition
-  - GloVe and FastText high-level comparison
+  - Word2Vec CBOW and Skipgram intuition
+  - GloVe and FastText highlevel comparison
   - Semantic similarity using cosine similarity
   - Average Word2Vec for text classification
 Practice Task: Train or load Word2Vec embeddings, calculate similar words, and build an average Word2Vec text classifier baseline.
 Deliverable: Word2Vec + average embedding classification notebook
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 185 | 02 Dec 2026, Wednesday | Status: PLAN
 Main Topic: RNN theory
 Subtopics to learn:
   - Sequential hidden state
-  - Many-to-one/many-to-many tasks
+  - Manytoone/manytomany tasks
   - Vanishing gradients
 Practice Task: Build simple RNN classifier conceptually/code
 Deliverable: RNN notes
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 186 | 03 Dec 2026, Thursday | Status: PLAN
 Main Topic: LSTM theory
@@ -1944,7 +1951,7 @@ Subtopics to learn:
   - BiLSTM and GRU comparison
 Practice Task: Train LSTM sentiment classifier
 Deliverable: LSTM/GRU notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 187 | 04 Dec 2026, Friday | Status: PLAN
 Main Topic: GRU + BiLSTM
@@ -1954,17 +1961,17 @@ Subtopics to learn:
   - BiLSTM and GRU comparison
 Practice Task: Train LSTM sentiment classifier
 Deliverable: LSTM/GRU notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 188 | 05 Dec 2026, Saturday | Status: PLAN
 Main Topic: Sentiment project ML
 Subtopics to learn:
   - Dataset cleaning
-  - TF-IDF or LSTM/BERT modeling
+  - TFIDF or LSTM/BERT modeling
   - Accuracy/F1/error analysis
 Practice Task: Build sentiment analysis project step
 Deliverable: Sentiment project
-Side Quest: SQL: 30 min practice
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 189 | 06 Dec 2026, Sunday | Status: PLAN
 Main Topic: Sentiment project LSTM
@@ -1974,38 +1981,38 @@ Subtopics to learn:
   - BiLSTM and GRU comparison
 Practice Task: Train LSTM sentiment classifier
 Deliverable: LSTM/GRU notebook
-Side Quest: DSA: 1 problem
+Side Quest: GitHub/LinkedIn: update
 
 Day 190 | 07 Dec 2026, Monday | Status: PLAN
 Main Topic: Resume screener NLP
 Subtopics to learn:
   - Resume text extraction and cleaning
   - Skill/entity extraction using rules or simple NLP
-  - TF-IDF/embedding based similarity matching
+  - TFIDF/embedding based similarity matching
   - Ranking candidates using cosine similarity
   - Limitations: bias, missing context, formatting issues
 Practice Task: Build a resume-to-job-description matching baseline using TF-IDF or sentence embeddings.
 Deliverable: Resume screener project baseline
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 191 | 08 Dec 2026, Tuesday | Status: PLAN
 Main Topic: POS Tagging + HMM/Viterbi + Duplicate Question Pairs
 Subtopics to learn:
   - Part of Speech tagging and why grammar features matter
   - Hidden Markov Model intuition for sequence tagging
-  - Viterbi algorithm high-level decoding idea
-  - Duplicate Question Pairs problem framing using Quora-style data
-  - Feature ideas: token overlap, length difference, fuzzy matching, TF-IDF similarity
+  - Viterbi algorithm highlevel decoding idea
+  - Duplicate Question Pairs problem framing using Quorastyle data
+  - Feature ideas: token overlap, length difference, fuzzy matching, TFIDF similarity
 Practice Task: Run POS tagging on sample sentences, then build a simple duplicate-question-pair baseline using text similarity features.
 Deliverable: POS tagging notes + duplicate question pairs baseline notebook
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 192 | 09 Dec 2026, Wednesday | Status: PLAN
 Main Topic: Attention mechanism
 Subtopics to learn:
   - Query, Key, Value
-  - Scaled dot-product attention
-  - Multi-head attention intuition
+  - Scaled dotproduct attention
+  - Multihead attention intuition
 Practice Task: Calculate attention on toy vectors
 Deliverable: Attention notes
 Side Quest: SQL: 30 min practice
@@ -2015,7 +2022,7 @@ Main Topic: Transformer architecture
 Subtopics to learn:
   - Positional encoding
   - Encoder/decoder blocks
-  - Add-norm and feed-forward layers
+  - Addnorm and feedforward layers
 Practice Task: Draw transformer architecture and explain flow
 Deliverable: Transformer notes
 Side Quest: DSA: 1 problem
@@ -2028,17 +2035,17 @@ Subtopics to learn:
   - CLS token for classification
 Practice Task: Run/fine-tune BERT classifier
 Deliverable: BERT notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 195 | 12 Dec 2026, Saturday | Status: PLAN
 Main Topic: GPT concept
 Subtopics to learn:
-  - Decoder-only transformer
+  - Decoderonly transformer
   - Autoregressive generation
   - Causal language modeling
 Practice Task: Write GPT concept notes
 Deliverable: GPT notes
-Side Quest: GitHub/LinkedIn: update
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 196 | 13 Dec 2026, Sunday | Status: PLAN
 Main Topic: Hugging Face basics
@@ -2048,7 +2055,7 @@ Subtopics to learn:
   - Datasets and Trainer basics
 Practice Task: Run HF pipeline and tokenization examples
 Deliverable: Hugging Face notebook
-Side Quest: SQL: 30 min practice
+Side Quest: GitHub/LinkedIn: update
 
 Day 197 | 14 Dec 2026, Monday | Status: PLAN
 Main Topic: Fine-tune BERT
@@ -2058,7 +2065,7 @@ Subtopics to learn:
   - CLS token for classification
 Practice Task: Run/fine-tune BERT classifier
 Deliverable: BERT notebook
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 198 | 15 Dec 2026, Tuesday | Status: PLAN
 Main Topic: Sentence Transformers
@@ -2068,27 +2075,27 @@ Subtopics to learn:
   - Embeddings for semantic search/RAG
 Practice Task: Build semantic similarity demo
 Deliverable: Sentence transformer notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 Day 199 | 16 Dec 2026, Wednesday | Status: PLAN
 Main Topic: LLM fundamentals
 Subtopics to learn:
   - Tokens and context window
-  - Temperature, top-p, top-k
+  - Temperature, topp, topk
   - API vs local LLMs
 Practice Task: Experiment with prompts and parameters
 Deliverable: LLM fundamentals notes
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 200 | 17 Dec 2026, Thursday | Status: PLAN
 Main Topic: Prompt engineering
 Subtopics to learn:
-  - Zero-shot and few-shot
+  - Zeroshot and fewshot
   - Role/task/context format
   - Structured outputs and evaluation
 Practice Task: Create 10 prompt templates
 Deliverable: Prompt library
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 201 | 18 Dec 2026, Friday | Status: PLAN
 Main Topic: LangChain basics
@@ -2100,7 +2107,7 @@ Subtopics to learn:
   - How LangChain components connect in GenAI apps
 Practice Task: Build a simple LangChain chain with PromptTemplate, model call, and structured output parsing.
 Deliverable: LangChain basics notebook
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 202 | 19 Dec 2026, Saturday | Status: PLAN
 Main Topic: Vector stores + retrievers
@@ -2112,7 +2119,7 @@ Subtopics to learn:
   - Retriever quality issues: irrelevant chunks, missing context, duplicate chunks
 Practice Task: Store document chunks in FAISS or Chroma, query them through a retriever, and inspect retrieved chunks manually.
 Deliverable: Vector store + retriever notebook
-Side Quest: Interview: 10 Q&A
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 203 | 20 Dec 2026, Sunday | Status: PLAN
 Main Topic: Basic RAG project
@@ -2131,7 +2138,7 @@ Main Topic: Advanced RAG: CRAG and Self-RAG
 Subtopics to learn:
   - Why basic RAG fails: poor retrieval, missing context, hallucination
   - Corrective RAG (CRAG): detect poor retrieval and correct/search again
-  - Self-RAG: model checks whether retrieved context is useful and whether answer is supported
+  - SelfRAG: model checks whether retrieved context is useful and whether answer is supported
   - Query rewriting and retrieval grading
   - Basic RAG evaluation: groundedness, answer relevance, context relevance
 Practice Task: Add retrieval-quality checks to your RAG project and compare answers before vs after correction/self-checking.
@@ -2161,17 +2168,17 @@ Subtopics to learn:
   - Iterative workflows and chatbot state
 Practice Task: Build a LangGraph chatbot or mini workflow with at least 3 nodes and one conditional route.
 Deliverable: LangGraph workflow demo notebook/app
-Side Quest: Interview: 10 Q&A
+Side Quest: SQL: 30 min practice
 
 Day 207 | 24 Dec 2026, Thursday | Status: PLAN
 Main Topic: MCP basics
 Subtopics to learn:
   - MCP client/server idea
   - Tools, resources, prompts
-  - AI-tool communication standard
+  - AItool communication standard
 Practice Task: Write MCP architecture notes
 Deliverable: MCP notes
-Side Quest: GitHub/LinkedIn: update
+Side Quest: DSA: 1 problem
 
 Day 208 | 25 Dec 2026, Friday | Status: PLAN
 Main Topic: FastAPI for ML
@@ -2179,19 +2186,21 @@ Subtopics to learn:
   - Path operations
   - Pydantic validation
   - Model prediction endpoint
+  - FastAPI: preparing requirements.txt and app scaffolding for containerization
 Practice Task: Serve ML model with FastAPI
 Deliverable: FastAPI app
 Side Quest: SQL: 30 min practice
 
 Day 209 | 26 Dec 2026, Saturday | Status: PLAN
-Main Topic: Docker basics
+Main Topic: Docker Basics: Containerizing APIs
 Subtopics to learn:
-  - Image vs container
-  - Dockerfile
-  - docker-compose basics
+  - Docker image vs container core concepts
+  - Writing a robust multi-stage Dockerfile for FastAPI
+  - Docker volume mappings and port forwarding
+  - docker-compose configuration for local multi-service testing
 Practice Task: Containerize Streamlit/FastAPI app
 Deliverable: Docker files
-Side Quest: DSA: 1 problem
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 210 | 27 Dec 2026, Sunday | Status: PLAN
 Main Topic: MLflow
@@ -2199,9 +2208,10 @@ Subtopics to learn:
   - Experiments and runs
   - Log params/metrics/artifacts
   - Model registry idea
+  - MLflow: running the tracking server inside a Docker container
 Practice Task: Track ML experiment using MLflow
 Deliverable: MLflow demo
-Side Quest: Interview: 10 Q&A
+Side Quest: GitHub/LinkedIn: update
 
 Day 211 | 28 Dec 2026, Monday | Status: PLAN
 Main Topic: DVC + GitHub Actions
@@ -2211,9 +2221,10 @@ Subtopics to learn:
   - Remote storage concept for data/model artifacts
   - GitHub Actions workflow file structure
   - CI checks: install dependencies, run tests, lint, train or validate pipeline
+  - DVC & CI/CD: building and testing Docker containers automatically in GitHub Actions
 Practice Task: Create a simple DVC pipeline for one ML project and add a GitHub Actions workflow that runs basic tests/checks on push.
 Deliverable: DVC pipeline + GitHub Actions workflow file
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 212 | 29 Dec 2026, Tuesday | Status: PLAN
 Main Topic: Cloud deployment
@@ -2223,7 +2234,7 @@ Subtopics to learn:
   - AWS EC2/S3 basics
 Practice Task: Deploy one finished app and save live URL
 Deliverable: Deployment checklist
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 213 | 30 Dec 2026, Wednesday | Status: PLAN
 Main Topic: Portfolio + resume finalization
@@ -2233,7 +2244,7 @@ Subtopics to learn:
   - Clear README and screenshots
 Practice Task: Update GitHub/LinkedIn and write post
 Deliverable: Portfolio checkpoint
-Side Quest: DSA: 1 problem
+Side Quest: SQL: 30 min practice
 
 Day 214 | 31 Dec 2026, Thursday | Status: PLAN
 Main Topic: Final review + placement plan
@@ -2243,7 +2254,7 @@ Subtopics to learn:
   - Weak area revision plan
 Practice Task: Do final self-assessment and placement plan
 Deliverable: Final action plan
-Side Quest: Interview: 10 Q&A
+Side Quest: DSA: 1 problem
 
 # JANUARY 2027
 ------------------------------------------------------------------------------------------
@@ -2259,7 +2270,7 @@ Subtopics to learn:
   - Basic automated checks using test questions and expected key points
 Practice Task: Create 20 test questions for your RAG/agent project, run outputs, score them for groundedness, relevance, and hallucination risk.
 Deliverable: llm_eval.py or evaluation notebook + RAG/agent evaluation report
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 216 | 02 Jan 2027, Saturday | Status: PLAN
 Main Topic: Cost/latency tradeoffs for LLM APIs
@@ -2272,21 +2283,20 @@ Subtopics to learn:
   - Choosing smaller/faster models vs larger/more accurate models
 Practice Task: Estimate token cost for 10 sample prompts, compare short vs long context prompts, add simple response caching to a GenAI app.
 Deliverable: LLM cost-latency notes + token cost calculator/caching demo
-Side Quest: SQL: 30 min practice
-
+Side Quest: Mock Interview: 5 ML questions, 2 Python questions, 2 SQL questions
 
 Day 217 | 03 Jan 2027, Sunday | Status: PLAN
 Main Topic: CampusX ML foundations catch-up
 Subtopics to learn:
   - AI vs ML vs DL difference
-  - Types of ML: supervised, unsupervised, semi-supervised, reinforcement learning
+  - Types of ML: supervised, unsupervised, semisupervised, reinforcement learning
   - Batch/offline learning vs online learning
-  - Instance-based learning vs model-based learning
+  - Instancebased learning vs modelbased learning
   - Common ML challenges: data quality, overfitting, underfitting, data drift
   - Machine Learning Development Life Cycle and ML job roles
 Practice Task: Create a one-page ML foundations summary and map your completed projects to the ML development life cycle.
 Deliverable: ML foundations cheat sheet + MLDLC project mapping
-Side Quest: Interview: 10 Q&A
+Side Quest: GitHub/LinkedIn: update
 
 Day 218 | 04 Jan 2027, Monday | Status: PLAN
 Main Topic: YouTube/Website RAG chatbot project
@@ -2294,23 +2304,23 @@ Subtopics to learn:
   - Loading web pages or YouTube transcript/content where legally available
   - Splitting long web/video content into useful chunks
   - Creating embeddings and vector store for web/video knowledge
-  - Retriever prompt design for source-grounded answers
+  - Retriever prompt design for sourcegrounded answers
   - Showing sources/timestamps/links where available
 Practice Task: Build a small RAG chatbot over one YouTube video transcript or one website/document and test 10 questions.
 Deliverable: YouTube/Website RAG chatbot demo
-Side Quest: GitHub/LinkedIn: update
+Side Quest: SQL: 30 min practice
 
 Day 219 | 05 Jan 2027, Tuesday | Status: PLAN
 Main Topic: LangGraph workflow deep dive
 Subtopics to learn:
-  - Sequential graph for fixed multi-step workflows
+  - Sequential graph for fixed multistep workflows
   - Parallel graph for independent tasks
   - Conditional graph for routing based on model/tool output
   - Iterative graph for retry/reflection loops
   - Persistent state and conversation memory in LangGraph chatbot
 Practice Task: Convert one simple LangChain chain into a LangGraph workflow with state and conditional routing.
 Deliverable: LangGraph deep-dive notebook + workflow diagram
-Side Quest: SQL: 30 min practice
+Side Quest: DSA: 1 problem
 
 Day 220 | 06 Jan 2027, Wednesday | Status: PLAN
 Main Topic: Advanced RAG retrieval improvement lab
@@ -2322,8 +2332,7 @@ Subtopics to learn:
   - Retrieval grading and answer groundedness scoring
 Practice Task: Run 3 RAG retrieval experiments and compare context relevance, groundedness, and answer quality.
 Deliverable: RAG retrieval experiment report
-Side Quest: DSA: 1 problem
-
+Side Quest: SQL: 30 min practice
 
 ==========================================================================================
 CAMPUSX PLAYLISTS TO FOLLOW

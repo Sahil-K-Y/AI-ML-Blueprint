@@ -33,6 +33,7 @@
 - Replaced Day 125 with classical ML model saving/versioning + inference script.
 - Fixed Day 066, Day 144, Day 159, Day 160, and Day 168 broken/copy-pasted subtopics.
 - Added Day 215 and Day 216 as January 2027 extension days for LLM evaluation and LLM cost/latency tradeoffs.
+- Added CampusX playlist missing-topic coverage: ML foundations, NLP pipeline/POS/HMM/Viterbi, Duplicate Question Pairs, LangGraph workflows, CRAG/Self-RAG, and YouTube/Website RAG chatbot.
 
 
 ## 📅 Detailed Daily Roadmap Schedule
@@ -57,7 +58,7 @@
 - **Subtopics to learn:**
   - Arithmetic/comparison/logical operators
   - String indexing, slicing, immutability
-  - f-strings and common string methods
+  - fstrings and common string methods
 - **Practice Task:** Solve string slicing + formatting exercises
 - **Deliverable:** `String practice file`
 - **Side Quest:** *Completed/covered earlier - revise if weak*
@@ -144,7 +145,7 @@
 - **Subtopics to learn:**
   - List/dict/set comprehensions
   - lambda, map, filter basics
-  - When readable code is better than one-liners
+  - When readable code is better than oneliners
 - **Practice Task:** Transform datasets using comprehensions and lambda
 - **Deliverable:** `Advanced Python practice`
 - **Side Quest:** *Completed/covered earlier - revise if weak*
@@ -305,7 +306,7 @@
 - **Subtopics to learn:**
   - Vectorization vs loops
   - Broadcasting rules
-  - Element-wise operations
+  - Elementwise operations
 - **Practice Task:** Replace Python loops with NumPy vectorized code
 - **Deliverable:** `Vectorization notebook`
 - **Side Quest:** *Completed/covered earlier - revise if weak*
@@ -345,7 +346,7 @@
 - **Subtopics to learn:**
   - mean, median, std, variance
   - random sampling and seeds
-  - axis-wise operations
+  - axiswise operations
 - **Practice Task:** Generate random data and summarize it
 - **Deliverable:** `NumPy stats notebook`
 - **Side Quest:** *Completed/covered earlier - revise if weak*
@@ -481,7 +482,7 @@
 - **Subtopics to learn:**
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 - **Practice Task:** Sales/customer group analysis
 - **Deliverable:** `Daily notes + GitHub commit`
 - **Side Quest:** *Completed/covered earlier - revise if weak*
@@ -507,7 +508,7 @@
 - **Subtopics to learn:**
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 - **Practice Task:** Combine 2-3 datasets
 - **Deliverable:** `Daily notes + GitHub commit`
 - **Side Quest:** *Completed/covered earlier - revise if weak*
@@ -533,7 +534,7 @@
 - **Subtopics to learn:**
   - List/dict/set comprehensions
   - lambda, map, filter basics
-  - When readable code is better than one-liners
+  - When readable code is better than oneliners
 - **Practice Task:** Transform datasets using comprehensions and lambda
 - **Deliverable:** `Advanced Python practice`
 - **Side Quest:** *Completed/covered earlier - revise if weak*
@@ -662,7 +663,7 @@
 #### [x] Day 030 — 30 Jun 2026, Tuesday — ✅ Completed
 - **Main Topic:** Core ML: Linear Regression intuition + code
 - **Subtopics to learn:**
-  - Best-fit line and cost function
+  - Bestfit line and cost function
   - Train/test split
   - MSE, RMSE, MAE, R2
 - **Practice Task:** Train Linear Regression and evaluate metrics
@@ -682,14 +683,15 @@
 ### 📅 JULY 2026
 
 #### [x] Day 031 — 01 Jul 2026, Wednesday — ✅ Completed
-- **Main Topic:** Classification start: sigmoid, loss, log loss
+- **Main Topic:** Classification start: sigmoid, loss, log loss & Git Basics
 - **Subtopics to learn:**
   - Sigmoid function and probability output
   - Binary cross entropy/log loss
   - Threshold and decision boundary
+  - Git: repository initialization, gitignore patterns, staging and committing
 - **Practice Task:** Plot sigmoid and calculate log loss manually
 - **Deliverable:** `Classification notes`
-- **Side Quest:** *Completed/covered earlier - revise if weak*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 26-30** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML070: Logistic Regression Part 1 | Perceptron Trick
   - ML071: Logistic Regression Part 2 | Perceptron Trick Code
@@ -704,26 +706,28 @@
 
 ---
 #### [ ] Day 032 — 02 Jul 2026, Thursday — ⏳ Scheduled
-- **Main Topic:** Logistic Regression implementation
+- **Main Topic:** Logistic Regression implementation & Git Branching
 - **Subtopics to learn:**
   - Logistic Regression workflow
   - StandardScaler before LR
   - predict vs predict_proba
+  - Git: creating, switching, and merging branches locally
 - **Practice Task:** Breast Cancer dataset: train LR and print metrics
 - **Deliverable:** `Breast cancer baseline notebook`
-- **Side Quest:** *SQL: Practice **SELECT, WHERE, ORDER BY, LIMIT basics** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Arrays: Product of Array Except Self** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
 #### [ ] Day 033 — 03 Jul 2026, Friday — ⏳ Scheduled
-- **Main Topic:** Classification metrics I
+- **Main Topic:** Classification metrics I & Git Collaboration
 - **Subtopics to learn:**
   - TP, TN, FP, FN
   - Accuracy, precision, recall
   - When accuracy is misleading
+  - Git: pull requests, remote cloning, and resolving merge conflicts
 - **Practice Task:** Calculate confusion matrix components (TP, FP, TN, FN) from predictions. Manually compute Accuracy, Precision, Recall, and F1-Score in Python code cells. Verify your calculations using scikit-learn metrics functions.
 - **Deliverable:** `Metrics notes part 1`
-- **Side Quest:** *DSA: Solve **Two Pointers: Valid Palindrome / Two Sum II** on LeetCode*
+- **Side Quest:** *SQL: Practice **Aggregate functions (COUNT, SUM, AVG, MIN, MAX)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML076: Accuracy and Confusion Matrix | Type 1 and Type 2 Errors | Classification Metrics Part 1
   - ML077: Precision, Recall and F1 Score | Classification Metrics Part 2
@@ -734,11 +738,13 @@
 
 ---
 #### [ ] Day 034 — 04 Jul 2026, Saturday — ⏳ Scheduled
-- **Main Topic:** Classification metrics II
+- **Main Topic:** Classification metrics II & Linux Basics I
 - **Subtopics to learn:**
   - TP, TN, FP, FN
   - Accuracy, precision, recall
   - When accuracy is misleading
+  - Linux: directory navigation (pwd, cd, ls), file management (cp, mv, rm)
+  - Linux: python environment control (pip, venv)
 - **Practice Task:** Calculate confusion matrix components (TP, FP, TN, FN) from predictions. Manually compute Accuracy, Precision, Recall, and F1-Score in Python code cells. Verify your calculations using scikit-learn metrics functions.
 - **Deliverable:** `Metrics notes part 1`
 - **Side Quest:** *Interview Prep: Prepare answers for **Decision Trees splitting criteria (Gini vs Entropy)** interview questions*
@@ -752,16 +758,18 @@
 
 ---
 #### [ ] Day 035 — 05 Jul 2026, Sunday — ⏳ Scheduled
-- **Main Topic:** ROC-AUC / PR-AUC curve interpretation
+- **Main Topic:** ROC-AUC / PR-AUC curve interpretation & Linux Basics II
 - **Subtopics to learn:**
   - ROC curve: TPR/Recall vs FPR at different thresholds
-  - AUC meaning: ranking quality and threshold-independent evaluation
+  - AUC meaning: ranking quality and thresholdindependent evaluation
   - PR curve: Precision vs Recall for imbalanced classification
-  - When ROC-AUC is misleading and PR-AUC is better
+  - When ROCAUC is misleading and PRAUC is better
   - Threshold selection using business cost: FP vs FN tradeoff
+  - Linux: file permissions (chmod), text search (grep)
+  - Linux: simple shell script execution
 - **Practice Task:** Compute probability scores using `predict_proba`. Use `roc_curve` and `precision_recall_curve` to calculate thresholds, TPR, FPR, Precision, and Recall. Plot both ROC Curve and Precision-Recall Curve. Compare metrics under different decision thresholds.
 - **Deliverable:** `ROC-AUC / PR-AUC interpretation notes + threshold comparison notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** ***Resume Milestone: Create Resume v1 (focus on foundational skills and initial Regression projects)***
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -804,10 +812,10 @@
 - **Subtopics to learn:**
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 - **Practice Task:** Clean notebook + README + GitHub upload
 - **Deliverable:** `Daily notes + GitHub commit`
-- **Side Quest:** *Interview Prep: Prepare answers for **K-Means clustering optimal K selection & scaling** interview questions*
+- **Side Quest:** *SQL: Practice **Window Functions (ROW_NUMBER, RANK, DENSE_RANK)** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -819,7 +827,7 @@
   - Information gain
 - **Practice Task:** Calculate Gini/entropy on small example
 - **Deliverable:** `Decision tree theory notes`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *DSA: Solve **Trees: Invert Binary Tree / Same Tree** on LeetCode*
 - **Playlist Videos:**
   - ML097: Decision Trees Geometric Intuition | Entropy | Gini impurity | Information Gain
   - ML098: Decision Trees - Hyperparameters | Overfitting and Underfitting in Decision Trees
@@ -858,10 +866,10 @@
 - **Subtopics to learn:**
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 - **Practice Task:** max_depth, min_samples_split experiments
 - **Deliverable:** `Daily notes + GitHub commit`
-- **Side Quest:** *DSA: Solve **Heaps: Kth Largest Element in an Array** on LeetCode*
+- **Side Quest:** *Interview Prep: Prepare answers for **MLOps: model drift, monitoring, and pipeline triggers** interview questions*
 - **Playlist Videos:**
   - ML097: Decision Trees Geometric Intuition | Entropy | Gini impurity | Information Gain
   - ML098: Decision Trees - Hyperparameters | Overfitting and Underfitting in Decision Trees
@@ -882,7 +890,7 @@
   - Communicating rules
 - **Practice Task:** Visualize trained tree and explain 5 paths
 - **Deliverable:** `Tree visualization notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Linear Regression assumptions & multicollinearity** interview questions*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
   - ML097: Decision Trees Geometric Intuition | Entropy | Gini impurity | Information Gain
   - ML098: Decision Trees - Hyperparameters | Overfitting and Underfitting in Decision Trees
@@ -899,11 +907,11 @@
 - **Main Topic:** Decision Tree regressor
 - **Subtopics to learn:**
   - Tree for regression
-  - MSE-based splitting intuition
+  - MSEbased splitting intuition
   - DT regressor limitations
 - **Practice Task:** Compare DT regressor with Linear Regression
 - **Deliverable:** `DT regression notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 6-10** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML097: Decision Trees Geometric Intuition | Entropy | Gini impurity | Information Gain
   - ML098: Decision Trees - Hyperparameters | Overfitting and Underfitting in Decision Trees
@@ -924,7 +932,7 @@
   - Feature importance basics
 - **Practice Task:** Train DT on Iris/Breast Cancer
 - **Deliverable:** `DT classification notebook`
-- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 11-15** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Dynamic Programming: Coin Change** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -936,7 +944,7 @@
   - Hard margin vs soft margin
 - **Practice Task:** Draw simple 2D SVM boundary conceptually
 - **Deliverable:** `SVM theory notes`
-- **Side Quest:** *DSA: Solve **Arrays: Two Sum / Contains Duplicate** on LeetCode*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 16-20** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML092: Support Vector Machines | Geometric Intuition
   - ML093: Mathematics of SVM | Support Vector Machines | Hard margin SVM
@@ -960,7 +968,7 @@
   - Decision boundary visualization
 - **Practice Task:** Train SVC and compare kernels
 - **Deliverable:** `SVC notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **ROC-AUC vs PR-AUC curves & imbalanced evaluation** interview questions*
+- **Side Quest:** *DSA: Solve **Arrays: Best Time to Buy and Sell Stock** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -972,7 +980,7 @@
   - Kernel choice
 - **Practice Task:** Grid experiment with C and gamma
 - **Deliverable:** `SVM tuning notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 26-30** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML092: Support Vector Machines | Geometric Intuition
   - ML093: Mathematics of SVM | Support Vector Machines | Hard margin SVM
@@ -996,7 +1004,7 @@
   - Scaling requirement
 - **Practice Task:** Train SVR on small regression dataset
 - **Deliverable:** `SVR notes`
-- **Side Quest:** *SQL: Practice **SELECT, WHERE, ORDER BY, LIMIT basics** on LeetCode/Hackerrank*
+- **Side Quest:** *Interview Prep: Prepare answers for **Decision Trees splitting criteria (Gini vs Entropy)** interview questions*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -1008,7 +1016,7 @@
   - Gaussian vs Multinomial vs Bernoulli NB
 - **Practice Task:** Train GaussianNB and MultinomialNB examples
 - **Deliverable:** `Naive Bayes notebook`
-- **Side Quest:** *DSA: Solve **Sliding Window: Longest Substring Without Repeating Characters** on LeetCode*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
   - ML082: Naive Bayes Classifier | Part 1 | Conditional Probability
   - ML083: Naive Bayes Classifier | Part 2 | Independent Events in Probability
@@ -1034,7 +1042,7 @@
   - Gaussian vs Multinomial vs Bernoulli NB
 - **Practice Task:** Train GaussianNB and MultinomialNB examples
 - **Deliverable:** `Naive Bayes notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **XGBoost mathematical advantages & regularization** interview questions*
+- **Side Quest:** *SQL: Practice **GROUP BY & HAVING filters** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML082: Naive Bayes Classifier | Part 1 | Conditional Probability
   - ML083: Naive Bayes Classifier | Part 2 | Independent Events in Probability
@@ -1060,7 +1068,7 @@
   - Choosing K and scaling effect
 - **Practice Task:** Train KNN with/without scaler and compare
 - **Deliverable:** `KNN notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *DSA: Solve **Binary Search: Search in Rotated Sorted Array** on LeetCode*
 - **Playlist Videos:**
   - ML091: What is K Nearest Neighbors? | KNN Explained in Hindi | Simple Overview in 1 Video | CampusX
   - DSMP219: Coding K Nearest Neighbors from Scratch | Batch 7 | 10 Feb 2021
@@ -1087,7 +1095,7 @@
 - **Subtopics to learn:**
   - Model selection criteria
   - Speed vs accuracy vs interpretability
-  - Metric-based comparison
+  - Metricbased comparison
 - **Practice Task:** Create model leaderboard for LR, DT, SVM, NB, KNN
 - **Deliverable:** `Comparison table`
 - **Side Quest:** *DSA: Solve **Trees: Maximum Depth of Binary Tree** on LeetCode*
@@ -1102,7 +1110,7 @@
   - KNN/Iterative imputation + indicators
 - **Practice Task:** Try 3 imputation methods
 - **Deliverable:** `Missing value notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Feature Engineering: handling outliers and missingness** interview questions*
+- **Side Quest:** *SQL: Practice **Window Functions (ROW_NUMBER, RANK, DENSE_RANK)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML039: KNN Imputer | Multivariate Imputation | Handling Missing Data Part 5
   - ML040: Multivariate Imputation by Chained Equations for Missing Value | MICE Algorithm | Iterative Imputer
@@ -1112,11 +1120,11 @@
 - **Main Topic:** Outlier treatment
 - **Subtopics to learn:**
   - IQR method
-  - Z-score method
+  - Zscore method
   - Winsorization/log transform
 - **Practice Task:** Detect and treat outliers in numeric columns
 - **Deliverable:** `Outlier notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *Interview Prep: Prepare answers for **MLOps: model drift, monitoring, and pipeline triggers** interview questions*
 - **Playlist Videos:**
   - ML041: What are Outliers | Outliers in Machine Learning
   - ML042: Outlier Detection and Removal using Z-score Method | Handling Outliers Part 2
@@ -1128,11 +1136,11 @@
 - **Main Topic:** Categorical encoding I
 - **Subtopics to learn:**
   - Nominal vs ordinal variables
-  - Label/ordinal/one-hot encoding
+  - Label/ordinal/onehot encoding
   - Target/frequency/binary encoding and leakage risk
 - **Practice Task:** Encode mixed categorical dataset
 - **Deliverable:** `Encoding notebook`
-- **Side Quest:** *SQL: Practice **String operations (CONCAT, SUBSTRING, REPLACE)** on LeetCode/Hackerrank*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
   - ML026: Encoding Categorical Data | Ordinal Encoding | Label Encoding
   - ML027: One Hot Encoding | Handling Categorical Data | Day 27 | 100 Days of Machine Learning
@@ -1142,11 +1150,11 @@
 - **Main Topic:** Categorical encoding II
 - **Subtopics to learn:**
   - Nominal vs ordinal variables
-  - Label/ordinal/one-hot encoding
+  - Label/ordinal/onehot encoding
   - Target/frequency/binary encoding and leakage risk
 - **Practice Task:** Encode mixed categorical dataset
 - **Deliverable:** `Encoding notebook`
-- **Side Quest:** *DSA: Solve **Graphs: Number of Islands** on LeetCode*
+- **Side Quest:** *SQL: Practice **CASE WHEN conditional logic** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML026: Encoding Categorical Data | Ordinal Encoding | Label Encoding
   - ML027: One Hot Encoding | Handling Categorical Data | Day 27 | 100 Days of Machine Learning
@@ -1161,7 +1169,7 @@
   - Which algorithms need scaling
 - **Practice Task:** Compare scaled vs unscaled model performance
 - **Deliverable:** `Scaling notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Logistic Regression derivation & log loss** interview questions*
+- **Side Quest:** *DSA: Solve **Dynamic Programming: Climbing Stairs** on LeetCode*
 - **Playlist Videos:**
   - ML024: Feature Scaling - Standardization | Day 24 | 100 Days of Machine Learning
   - ML025: Feature Scaling - Normalization | MinMaxScaling | MaxAbsScaling | RobustScaling
@@ -1170,12 +1178,12 @@
 #### [ ] Day 059 — 29 Jul 2026, Wednesday — ⏳ Scheduled
 - **Main Topic:** Feature transformations
 - **Subtopics to learn:**
-  - Log and square-root transform
-  - Box-Cox and Yeo-Johnson
+  - Log and squareroot transform
+  - BoxCox and YeoJohnson
   - Handling skewed distributions
 - **Practice Task:** Transform skewed columns and visualize before/after
 - **Deliverable:** `Transformation notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 6-10** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML030: Function Transformer | Log Transform | Reciprocal Transform | Square Root Transform
   - ML031: Power Transformer | Box - Cox Transform | Yeo - Johnson Transform
@@ -1184,12 +1192,12 @@
 #### [ ] Day 060 — 30 Jul 2026, Thursday — ⏳ Scheduled
 - **Main Topic:** Feature selection I
 - **Subtopics to learn:**
-  - Filter methods: correlation, Chi-square, ANOVA
+  - Filter methods: correlation, Chisquare, ANOVA
   - Wrapper methods: RFE
   - Embedded: Lasso and tree importance
 - **Practice Task:** Select top features and compare model score
 - **Deliverable:** `Feature selection notebook`
-- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 11-15** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Arrays: Two Sum / Contains Duplicate** on LeetCode*
 - **Playlist Videos:**
   - DSMP161: Session 54 - Feature Selection Part 1 | Filter Methods | Variance Threshold | Chi-Square | DSMP 2023
   - DSMP162: Session 55 - Feature Selection Part 2 | Wrapper Methods | DSMP 2023
@@ -1199,12 +1207,12 @@
 #### [ ] Day 061 — 31 Jul 2026, Friday — ⏳ Scheduled
 - **Main Topic:** Feature selection II
 - **Subtopics to learn:**
-  - Filter methods: correlation, Chi-square, ANOVA
+  - Filter methods: correlation, Chisquare, ANOVA
   - Wrapper methods: RFE
   - Embedded: Lasso and tree importance
 - **Practice Task:** Select top features and compare model score
 - **Deliverable:** `Feature selection notebook`
-- **Side Quest:** *DSA: Solve **Arrays: Best Time to Buy and Sell Stock** on LeetCode*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 16-20** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DSMP161: Session 54 - Feature Selection Part 1 | Filter Methods | Variance Threshold | Chi-Square | DSMP 2023
   - DSMP162: Session 55 - Feature Selection Part 2 | Wrapper Methods | DSMP 2023
@@ -1260,7 +1268,7 @@
 - **Subtopics to learn:**
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 - **Practice Task:** Correct preprocessing workflow
 - **Deliverable:** `Daily notes + GitHub commit`
 - **Side Quest:** *DSA: Solve **Stack: Valid Parentheses** on LeetCode*
@@ -1279,7 +1287,7 @@
   - Loading a saved pipeline in a new Python script for inference
 - **Practice Task:** Save a trained sklearn pipeline using joblib, load it in a separate inference.py script, pass new sample input, and generate prediction.
 - **Deliverable:** `Saved model/pipeline file + inference.py script + short README explaining how to run prediction`
-- **Side Quest:** *Interview Prep: Prepare answers for **K-Means clustering optimal K selection & scaling** interview questions*
+- **Side Quest:** *SQL: Practice **GROUP BY & HAVING filters** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -1291,7 +1299,7 @@
   - Feature engineering: title, family size, cabin/deck
 - **Practice Task:** Build Titanic notebook/app step for the day
 - **Deliverable:** `Titanic project commit`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *DSA: Solve **Linked List: Reverse Linked List / Merge Two Sorted Lists** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -1327,7 +1335,7 @@
   - Feature engineering: title, family size, cabin/deck
 - **Practice Task:** Build Titanic notebook/app step for the day
 - **Deliverable:** `Titanic project commit`
-- **Side Quest:** *DSA: Solve **Trees: Invert Binary Tree / Same Tree** on LeetCode*
+- **Side Quest:** *Interview Prep: Prepare answers for **MLOps: model drift, monitoring, and pipeline triggers** interview questions*
 - **Playlist Videos:**
   - ML092: Support Vector Machines | Geometric Intuition
   - ML093: Mathematics of SVM | Support Vector Machines | Hard margin SVM
@@ -1351,7 +1359,7 @@
   - Preventing data leakage
 - **Practice Task:** Build full preprocessing + model pipeline
 - **Deliverable:** `Pipeline notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Linear Regression assumptions & multicollinearity** interview questions*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -1363,7 +1371,7 @@
   - Feature engineering: title, family size, cabin/deck
 - **Practice Task:** Build Titanic notebook/app step for the day
 - **Deliverable:** `Titanic project commit`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **Window Functions (LAG, LEAD, SUM OVER)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML092: Support Vector Machines | Geometric Intuition
   - ML093: Mathematics of SVM | Support Vector Machines | Hard margin SVM
@@ -1387,7 +1395,7 @@
   - Feature engineering: title, family size, cabin/deck
 - **Practice Task:** Build Titanic notebook/app step for the day
 - **Deliverable:** `Titanic project commit`
-- **Side Quest:** *SQL: Practice **String operations (CONCAT, SUBSTRING, REPLACE)** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Graphs: Number of Islands** on LeetCode*
 - **Playlist Videos:**
   - DSMP062: Session on Streamlit | Paid Session | DSMP 2022-23
 
@@ -1400,7 +1408,7 @@
   - Feature engineering: title, family size, cabin/deck
 - **Practice Task:** Build Titanic notebook/app step for the day
 - **Deliverable:** `Titanic project commit`
-- **Side Quest:** *DSA: Solve **Dynamic Programming: Climbing Stairs** on LeetCode*
+- **Side Quest:** *SQL: Practice **CASE WHEN conditional logic** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML092: Support Vector Machines | Geometric Intuition
   - ML093: Mathematics of SVM | Support Vector Machines | Hard margin SVM
@@ -1421,20 +1429,20 @@
 - **Subtopics to learn:**
   - Why ensembles work
   - Bagging vs boosting vs stacking
-  - Bias-variance intuition
+  - Biasvariance intuition
 - **Practice Task:** Write ensemble comparison notes
 - **Deliverable:** `Ensemble theory notes`
-- **Side Quest:** *Interview Prep: Prepare answers for **ROC-AUC vs PR-AUC curves & imbalanced evaluation** interview questions*
+- **Side Quest:** *DSA: Solve **Dynamic Programming: Coin Change** on LeetCode*
 - **Playlist Videos:**
-  - ML108: Introduction to Random Forest | Intuition behind the Algorithm
-  - ML109: How Random Forest Performs So Well? Bias Variance Trade-Off in Random Forest
-  - ML110: Bagging Vs Random Forest | What is the difference between Bagging and Random Forest | Very Important
-  - ML111: Random Forest Hyper-parameters
-  - ML112: Hyperparameter Tuning Random Forest using GridSearchCV and RandomizedSearchCV | Code Example
-  - ML113: OOB Score | Out of Bag Evaluation in Random Forest | Machine Learning
-  - ML114: Feature Importance using Random Forest and Decision Trees | How is Feature Importance calculated
-  - DSMP209: Session 1 on Random Forest | Week 35 | DSMP
-  - DSMP210: Session 2 on Random Forest | Week 35 | DSMP |
+  - ML101: Introduction to Ensemble Learning | Ensemble Techniques in Machine Learning
+  - ML102: Voting Ensemble | Introduction and Core Idea | Part 1
+  - ML103: Voting Ensemble | Classification | Voting Classifier | Hard Voting Vs Soft Voting | Part 2
+  - ML104: Voting Ensemble | Regression | Part 3
+  - ML127: Stacking and Blending Ensembles
+  - DSMP227: Introduction to Ensemble Learning | Ensemble Techniques in Machine Learning
+  - DSMP228: Bagging | Introduction | Part 1
+  - DSMP229: Bagging Ensemble | Part 2 | Bagging Classifiers
+  - DSMP230: Bagging Ensemble | Part 3 | Bagging Regressor
 
 ---
 #### [ ] Day 075 — 14 Aug 2026, Friday — ⏳ Scheduled
@@ -1445,7 +1453,7 @@
   - OOB score and feature importance
 - **Practice Task:** Train Random Forest and plot importance
 - **Deliverable:** `Random Forest notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 6-10** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML105: Bagging | Introduction | Part 1
   - ML106: Bagging Ensemble | Part 2 | Bagging Classifiers
@@ -1460,7 +1468,7 @@
   - OOB score and feature importance
 - **Practice Task:** Train Random Forest and plot importance
 - **Deliverable:** `Random Forest notebook`
-- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 11-15** on LeetCode/Hackerrank*
+- **Side Quest:** *Interview Prep: Prepare answers for **Decision Trees splitting criteria (Gini vs Entropy)** interview questions*
 - **Playlist Videos:**
   - ML105: Bagging | Introduction | Part 1
   - ML106: Bagging Ensemble | Part 2 | Bagging Classifiers
@@ -1475,7 +1483,7 @@
   - OOB score and feature importance
 - **Practice Task:** Train Random Forest and plot importance
 - **Deliverable:** `Random Forest notebook`
-- **Side Quest:** *DSA: Solve **Arrays: Product of Array Except Self** on LeetCode*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
   - ML105: Bagging | Introduction | Part 1
   - ML106: Bagging Ensemble | Part 2 | Bagging Classifiers
@@ -1490,7 +1498,7 @@
   - OOB score and feature importance
 - **Practice Task:** Train Random Forest and plot importance
 - **Deliverable:** `Random Forest notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **XGBoost mathematical advantages & regularization** interview questions*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 21-25** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML105: Bagging | Introduction | Part 1
   - ML106: Bagging Ensemble | Part 2 | Bagging Classifiers
@@ -1505,7 +1513,7 @@
   - Sample weight updates
 - **Practice Task:** Train AdaBoost and tune estimators/learning rate
 - **Deliverable:** `AdaBoost notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *DSA: Solve **Sliding Window: Longest Substring Without Repeating Characters** on LeetCode*
 - **Playlist Videos:**
   - ML115: How Adaboost Classifier Works? | Geometric Intuition
   - ML116: AdaBoost - A Step by Step Explanation
@@ -1580,7 +1588,7 @@
   - Tree depth in boosting
 - **Practice Task:** Train GradientBoostingClassifier and tune
 - **Deliverable:** `Gradient Boosting notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Feature Engineering: handling outliers and missingness** interview questions*
+- **Side Quest:** *SQL: Practice **GROUP BY & HAVING filters** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -1592,7 +1600,7 @@
   - subsample, colsample, gamma, early stopping
 - **Practice Task:** Train XGBoost and evaluate feature importance
 - **Deliverable:** `XGBoost notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *Interview Prep: Prepare answers for **MLOps: model drift, monitoring, and pipeline triggers** interview questions*
 - **Playlist Videos:**
   - ML123: Introduction to XGBOOST | Machine Learning | CampusX
   - ML124: XGBoost for Regression | XGBoost Part 2 | CampusX
@@ -1612,7 +1620,7 @@
   - subsample, colsample, gamma, early stopping
 - **Practice Task:** Train XGBoost and evaluate feature importance
 - **Deliverable:** `XGBoost notebook`
-- **Side Quest:** *SQL: Practice **Self Joins & Subqueries** on LeetCode/Hackerrank*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
   - ML123: Introduction to XGBOOST | Machine Learning | CampusX
   - ML124: XGBoost for Regression | XGBoost Part 2 | CampusX
@@ -1632,7 +1640,7 @@
   - subsample, colsample, gamma, early stopping
 - **Practice Task:** Train XGBoost and evaluate feature importance
 - **Deliverable:** `XGBoost notebook`
-- **Side Quest:** *DSA: Solve **Trees: Binary Tree Level Order Traversal** on LeetCode*
+- **Side Quest:** *SQL: Practice **Common Table Expressions (CTEs)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML123: Introduction to XGBOOST | Machine Learning | CampusX
   - ML124: XGBoost for Regression | XGBoost Part 2 | CampusX
@@ -1652,7 +1660,7 @@
   - subsample, colsample, gamma, early stopping
 - **Practice Task:** Train XGBoost and evaluate feature importance
 - **Deliverable:** `XGBoost notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Logistic Regression derivation & log loss** interview questions*
+- **Side Quest:** *DSA: Solve **Heaps: Kth Largest Element in an Array** on LeetCode*
 - **Playlist Videos:**
   - ML123: Introduction to XGBOOST | Machine Learning | CampusX
   - ML124: XGBoost for Regression | XGBoost Part 2 | CampusX
@@ -1669,10 +1677,10 @@
 - **Subtopics to learn:**
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 - **Practice Task:** Use validation set for XGBoost
 - **Deliverable:** `Daily notes + GitHub commit`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **Window Functions (LAG, LEAD, SUM OVER)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML123: Introduction to XGBOOST | Machine Learning | CampusX
   - ML124: XGBoost for Regression | XGBoost Part 2 | CampusX
@@ -1687,12 +1695,12 @@
 #### [ ] Day 088 — 27 Aug 2026, Thursday — ⏳ Scheduled
 - **Main Topic:** LightGBM
 - **Subtopics to learn:**
-  - Leaf-wise growth
-  - Histogram-based splitting
+  - Leafwise growth
+  - Histogrambased splitting
   - When LightGBM is faster
 - **Practice Task:** Train LightGBM and compare with XGBoost
 - **Deliverable:** `LightGBM notebook`
-- **Side Quest:** *SQL: Practice **String operations (CONCAT, SUBSTRING, REPLACE)** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Dynamic Programming: Climbing Stairs** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -1704,7 +1712,7 @@
   - When CatBoost is useful
 - **Practice Task:** Train CatBoost on categorical dataset
 - **Deliverable:** `CatBoost notebook`
-- **Side Quest:** *DSA: Solve **Dynamic Programming: Coin Change** on LeetCode*
+- **Side Quest:** *SQL: Practice **CASE WHEN conditional logic** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -1732,15 +1740,22 @@
 #### [ ] Day 091 — 30 Aug 2026, Sunday — ⏳ Scheduled
 - **Main Topic:** StackingClassifier
 - **Subtopics to learn:**
-  - Level-0 base models
-  - Level-1 meta model
-  - Cross-validation in stacking
+  - Level0 base models
+  - Level1 meta model
+  - Crossvalidation in stacking
 - **Practice Task:** Build StackingClassifier
 - **Deliverable:** `Stacking notebook`
 - **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
-  - ML013: End to End Toy Project | Day 13 | 100 Days of Machine Learning
-  - ML014: How to Frame a Machine Learning Problem | How to plan a Data Science Project Effectively
+  - ML101: Introduction to Ensemble Learning | Ensemble Techniques in Machine Learning
+  - ML102: Voting Ensemble | Introduction and Core Idea | Part 1
+  - ML103: Voting Ensemble | Classification | Voting Classifier | Hard Voting Vs Soft Voting | Part 2
+  - ML104: Voting Ensemble | Regression | Part 3
+  - ML127: Stacking and Blending Ensembles
+  - DSMP227: Introduction to Ensemble Learning | Ensemble Techniques in Machine Learning
+  - DSMP228: Bagging | Introduction | Part 1
+  - DSMP229: Bagging Ensemble | Part 2 | Bagging Classifiers
+  - DSMP230: Bagging Ensemble | Part 3 | Bagging Regressor
 
 ---
 #### [ ] Day 092 — 31 Aug 2026, Monday — ⏳ Scheduled
@@ -1748,7 +1763,7 @@
 - **Subtopics to learn:**
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 - **Practice Task:** Compare RF, GB, XGB, LGBM, CatBoost
 - **Deliverable:** `Daily notes + GitHub commit`
 - **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 11-15** on LeetCode/Hackerrank*
@@ -1763,60 +1778,80 @@
 - **Subtopics to learn:**
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 - **Practice Task:** Interview notes + algorithm selection
 - **Deliverable:** `Daily notes + GitHub commit`
 - **Side Quest:** *DSA: Solve **Two Pointers: Valid Palindrome / Two Sum II** on LeetCode*
-- **Playlist Videos:** None (use official docs/implementation practice)
+- **Playlist Videos:**
+  - ML101: Introduction to Ensemble Learning | Ensemble Techniques in Machine Learning
+  - ML102: Voting Ensemble | Introduction and Core Idea | Part 1
+  - ML103: Voting Ensemble | Classification | Voting Classifier | Hard Voting Vs Soft Voting | Part 2
+  - ML104: Voting Ensemble | Regression | Part 3
+  - ML127: Stacking and Blending Ensembles
+  - DSMP227: Introduction to Ensemble Learning | Ensemble Techniques in Machine Learning
+  - DSMP228: Bagging | Introduction | Part 1
+  - DSMP229: Bagging Ensemble | Part 2 | Bagging Classifiers
+  - DSMP230: Bagging Ensemble | Part 3 | Bagging Regressor
 
 ---
 #### [ ] Day 094 — 02 Sep 2026, Wednesday — ⏳ Scheduled
-- **Main Topic:** Mini ensemble project
+- **Main Topic:** Kaggle Competition: Spaceship Titanic or Titanic - Setup & Baseline
 - **Subtopics to learn:**
-  - Core concept study
-  - Implementation details
-  - Interview-level intuition
-- **Practice Task:** Notebook with model leaderboard
-- **Deliverable:** `Daily notes + GitHub commit`
-- **Side Quest:** *Interview Prep: Prepare answers for **K-Means clustering optimal K selection & scaling** interview questions*
-- **Playlist Videos:** None (use official docs/implementation practice)
+  - Kaggle API credentials setup and local directory hygiene
+  - Exploring competition dataset and test files
+  - Building a baseline Random Forest classifier submission
+- **Practice Task:** Create Kaggle account, set up credentials, download competition data, build Random Forest baseline, and submit to leaderboard.
+- **Deliverable:** `Kaggle submission score screenshot + baseline notebook`
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 21-25** on LeetCode/Hackerrank*
+- **Playlist Videos:**
+  - ML108: Introduction to Random Forest | Intuition behind the Algorithm
+  - ML109: How Random Forest Performs So Well? Bias Variance Trade-Off in Random Forest
+  - ML110: Bagging Vs Random Forest | What is the difference between Bagging and Random Forest | Very Important
+  - ML111: Random Forest Hyper-parameters
+  - ML112: Hyperparameter Tuning Random Forest using GridSearchCV and RandomizedSearchCV | Code Example
+  - ML113: OOB Score | Out of Bag Evaluation in Random Forest | Machine Learning
+  - ML114: Feature Importance using Random Forest and Decision Trees | How is Feature Importance calculated
+  - DSMP209: Session 1 on Random Forest | Week 35 | DSMP
+  - DSMP210: Session 2 on Random Forest | Week 35 | DSMP |
 
 ---
 #### [ ] Day 095 — 03 Sep 2026, Thursday — ⏳ Scheduled
-- **Main Topic:** Cross-validation
+- **Main Topic:** Kaggle Validation: Cross-Validation Pipeline
 - **Subtopics to learn:**
-  - KFold and StratifiedKFold
-  - cross_val_score
-  - Validation vs test set
-- **Practice Task:** Run CV on 3 models
-- **Deliverable:** `CV notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+  - StratifiedKFold validation strategy locally
+  - Mapping local CV score to public leaderboard score
+  - Identifying and preventing validation data leakage
+- **Practice Task:** Implement a local 5-fold Stratified CV loop on the Kaggle training dataset and output average score.
+- **Deliverable:** `Kaggle cross-validation notebook`
+- **Side Quest:** *DSA: Solve **Stack: Valid Parentheses** on LeetCode*
 - **Playlist Videos:**
   - ML013: End to End Toy Project | Day 13 | 100 Days of Machine Learning
   - ML014: How to Frame a Machine Learning Problem | How to plan a Data Science Project Effectively
 
 ---
 #### [ ] Day 096 — 04 Sep 2026, Friday — ⏳ Scheduled
-- **Main Topic:** Bias-variance tradeoff
+- **Main Topic:** Kaggle Iteration: Feature Engineering & Learning Curves
 - **Subtopics to learn:**
-  - High bias vs high variance
-  - Learning curves
-  - Validation curves
-- **Practice Task:** Plot learning curve and diagnose model
-- **Deliverable:** `Bias-variance notes`
+  - Feature creation: scaling, cabin/deck extraction, family size indicators
+  - Plotting learning curves to diagnose model bias and variance
+  - Categorical encoding (target encoding, one-hot) on test sets safely
+- **Practice Task:** Generate 3-5 new features, plot training vs validation learning curves, and submit updated predictions.
+- **Deliverable:** `Kaggle feature engineering and learning curves notebook`
 - **Side Quest:** *SQL: Practice **SELECT, WHERE, ORDER BY, LIMIT basics** on LeetCode/Hackerrank*
-- **Playlist Videos:** None (use official docs/implementation practice)
+- **Playlist Videos:**
+  - ML026: Encoding Categorical Data | Ordinal Encoding | Label Encoding
+  - ML027: One Hot Encoding | Handling Categorical Data | Day 27 | 100 Days of Machine Learning
 
 ---
 #### [ ] Day 097 — 05 Sep 2026, Saturday — ⏳ Scheduled
-- **Main Topic:** GridSearchCV
+- **Main Topic:** Kaggle Tuning: GridSearchCV vs RandomizedSearchCV
 - **Subtopics to learn:**
-  - Parameter grid/distributions
-  - Scoring and cv
-  - Best params vs best estimator
-- **Practice Task:** Tune model using sklearn search
-- **Deliverable:** `Tuning notebook`
-- **Side Quest:** *DSA: Solve **Linked List: Reverse Linked List / Merge Two Sorted Lists** on LeetCode*
+  - Defining search spaces for tree models
+  - Scoring function selections and CV loops in tuning
+  - Extracting best estimator for leaderboard predictions
+- **Practice Task:** Tune Random Forest / LightGBM hyperparameters using GridSearchCV and RandomizedSearchCV, then submit predictions.
+- **Deliverable:** `Kaggle tuning and optimization notebook`
+- **Side Quest:** *Interview Prep: Prepare answers for **MLOps: model drift, monitoring, and pipeline triggers** interview questions*
 - **Playlist Videos:**
   - ML108: Introduction to Random Forest | Intuition behind the Algorithm
   - ML109: How Random Forest Performs So Well? Bias Variance Trade-Off in Random Forest
@@ -1830,24 +1865,24 @@
 
 ---
 #### [ ] Day 098 — 06 Sep 2026, Sunday — ⏳ Scheduled
-- **Main Topic:** RandomizedSearchCV
+- **Main Topic:** Kaggle Ensembles: Blending & Stacking Predictions
 - **Subtopics to learn:**
-  - Parameter grid/distributions
-  - Scoring and cv
-  - Best params vs best estimator
-- **Practice Task:** Tune model using sklearn search
-- **Deliverable:** `Tuning notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Linear Regression assumptions & multicollinearity** interview questions*
+  - Weighted average blending of probability scores
+  - StackingClassifier level-0 and level-1 configurations
+  - Final leaderboard submission audit and repository commit
+- **Practice Task:** Build a VotingClassifier or StackingClassifier using RF, LightGBM, and XGBoost; submit to Kaggle leaderboard.
+- **Deliverable:** `Final Kaggle submission score screenshot + ensemble notebook`
+- **Side Quest:** ***Resume Milestone: Update Resume v2 (add advanced ML models, pipelines, and Kaggle competition results)***
 - **Playlist Videos:**
-  - ML108: Introduction to Random Forest | Intuition behind the Algorithm
-  - ML109: How Random Forest Performs So Well? Bias Variance Trade-Off in Random Forest
-  - ML110: Bagging Vs Random Forest | What is the difference between Bagging and Random Forest | Very Important
-  - ML111: Random Forest Hyper-parameters
-  - ML112: Hyperparameter Tuning Random Forest using GridSearchCV and RandomizedSearchCV | Code Example
-  - ML113: OOB Score | Out of Bag Evaluation in Random Forest | Machine Learning
-  - ML114: Feature Importance using Random Forest and Decision Trees | How is Feature Importance calculated
-  - DSMP209: Session 1 on Random Forest | Week 35 | DSMP
-  - DSMP210: Session 2 on Random Forest | Week 35 | DSMP |
+  - ML101: Introduction to Ensemble Learning | Ensemble Techniques in Machine Learning
+  - ML102: Voting Ensemble | Introduction and Core Idea | Part 1
+  - ML103: Voting Ensemble | Classification | Voting Classifier | Hard Voting Vs Soft Voting | Part 2
+  - ML104: Voting Ensemble | Regression | Part 3
+  - ML127: Stacking and Blending Ensembles
+  - DSMP227: Introduction to Ensemble Learning | Ensemble Techniques in Machine Learning
+  - DSMP228: Bagging | Introduction | Part 1
+  - DSMP229: Bagging Ensemble | Part 2 | Bagging Classifiers
+  - DSMP230: Bagging Ensemble | Part 3 | Bagging Regressor
 
 ---
 #### [ ] Day 099 — 07 Sep 2026, Monday — ⏳ Scheduled
@@ -1858,7 +1893,7 @@
   - Optimization history
 - **Practice Task:** Tune ML model with Optuna
 - **Deliverable:** `Optuna notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **INNER JOIN & OUTER JOIN (LEFT/RIGHT)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML134: Hyperparameter Tuning using Optuna | Bayesian Optimization using Optuna
 
@@ -1871,7 +1906,7 @@
   - Optimization history
 - **Practice Task:** Tune ML model with Optuna
 - **Deliverable:** `Optuna notebook`
-- **Side Quest:** *SQL: Practice **Self Joins & Subqueries** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Trees: Binary Tree Level Order Traversal** on LeetCode*
 - **Playlist Videos:**
   - ML134: Hyperparameter Tuning using Optuna | Bayesian Optimization using Optuna
 
@@ -1884,7 +1919,7 @@
   - Isotonic regression
 - **Practice Task:** Plot calibration curve
 - **Deliverable:** `Calibration notebook`
-- **Side Quest:** *DSA: Solve **Heaps: Kth Largest Element in an Array** on LeetCode*
+- **Side Quest:** *SQL: Practice **Common Table Expressions (CTEs)** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -1896,7 +1931,7 @@
   - SMOTE/ADASYN/undersampling
 - **Practice Task:** Apply imbalance handling and compare PR-AUC/F1
 - **Deliverable:** `Imbalance notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **ROC-AUC vs PR-AUC curves & imbalanced evaluation** interview questions*
+- **Side Quest:** *DSA: Solve **Graphs: Number of Islands** on LeetCode*
 - **Playlist Videos:**
   - ML133: Imbalanced Data in Machine Learning | Undersampling | Oversampling | SMOTE
 
@@ -1909,7 +1944,7 @@
   - SMOTE/ADASYN/undersampling
 - **Practice Task:** Apply imbalance handling and compare PR-AUC/F1
 - **Deliverable:** `Imbalance notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **Window Functions (LAG, LEAD, SUM OVER)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML133: Imbalanced Data in Machine Learning | Undersampling | Oversampling | SMOTE
 
@@ -1922,7 +1957,7 @@
   - SMOTE/ADASYN/undersampling
 - **Practice Task:** Calculate confusion matrix components (TP, FP, TN, FN) from predictions. Manually compute Accuracy, Precision, Recall, and F1-Score in Python code cells. Verify your calculations using scikit-learn metrics functions.
 - **Deliverable:** `Imbalance notebook`
-- **Side Quest:** *SQL: Practice **String operations (CONCAT, SUBSTRING, REPLACE)** on LeetCode/Hackerrank*
+- **Side Quest:** *Interview Prep: Prepare answers for **Decision Trees splitting criteria (Gini vs Entropy)** interview questions*
 - **Playlist Videos:**
   - ML133: Imbalanced Data in Machine Learning | Undersampling | Oversampling | SMOTE
 
@@ -1935,7 +1970,7 @@
   - SHAP summary/waterfall plots
 - **Practice Task:** Explain model using SHAP
 - **Deliverable:** `SHAP notebook`
-- **Side Quest:** *DSA: Solve **Arrays: Two Sum / Contains Duplicate** on LeetCode*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -1947,7 +1982,7 @@
   - SHAP summary/waterfall plots
 - **Practice Task:** Explain model using SHAP
 - **Deliverable:** `SHAP notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **XGBoost mathematical advantages & regularization** interview questions*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 1-5** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -1959,7 +1994,7 @@
   - Limitations of LIME
 - **Practice Task:** Explain a few predictions with LIME
 - **Deliverable:** `LIME notes`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *DSA: Solve **Arrays: Product of Array Except Self** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -1968,25 +2003,18 @@
 - **Subtopics to learn:**
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 - **Practice Task:** CV + tuning + imbalance + XAI notes
 - **Deliverable:** `Daily notes + GitHub commit`
 - **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 11-15** on LeetCode/Hackerrank*
-- **Playlist Videos:**
-  - ML050: Simple Linear Regression | Code + Intuition | Simplest Explanation in Hindi
-  - ML051: Simple Linear Regression | Mathematical Formulation | Coding from Scratch
-  - ML052: Regression Metrics | MSE, MAE & RMSE | R2 Score & Adjusted R2 Score
-  - DSMP144: Introduction to Machine Learning
-  - DSMP145: Simple Linear Regression | Lecture 49 | DSMP 2023
-  - DSMP146: Session 50 - Multiple Linear Regression | DSMP 2023
-  - DSMP147: Level Up Your Data Science Skills with ChatGPT | Unlock the Secrets of AI-Assisted Learning
+- **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
 #### [ ] Day 109 — 17 Sep 2026, Thursday — ⏳ Scheduled
 - **Main Topic:** Project planning: Fraud Detection
 - **Subtopics to learn:**
   - Imbalanced classification framing
-  - Recall, precision, PR-AUC focus
+  - Recall, precision, PRAUC focus
   - XGBoost + SMOTE + thresholding
 - **Practice Task:** Build fraud detection project step
 - **Deliverable:** `Fraud project commit`
@@ -1998,11 +2026,11 @@
 - **Main Topic:** Fraud project EDA
 - **Subtopics to learn:**
   - Imbalanced classification framing
-  - Recall, precision, PR-AUC focus
+  - Recall, precision, PRAUC focus
   - XGBoost + SMOTE + thresholding
 - **Practice Task:** Build fraud detection project step
 - **Deliverable:** `Fraud project commit`
-- **Side Quest:** *Interview Prep: Prepare answers for **Feature Engineering: handling outliers and missingness** interview questions*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 21-25** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2010,11 +2038,11 @@
 - **Main Topic:** Fraud preprocessing
 - **Subtopics to learn:**
   - Imbalanced classification framing
-  - Recall, precision, PR-AUC focus
+  - Recall, precision, PRAUC focus
   - XGBoost + SMOTE + thresholding
 - **Practice Task:** Build fraud detection project step
 - **Deliverable:** `Fraud project commit`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *Interview Prep: Prepare answers for **MLOps: model drift, monitoring, and pipeline triggers** interview questions*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2022,11 +2050,11 @@
 - **Main Topic:** Fraud baseline models
 - **Subtopics to learn:**
   - Imbalanced classification framing
-  - Recall, precision, PR-AUC focus
+  - Recall, precision, PRAUC focus
   - XGBoost + SMOTE + thresholding
 - **Practice Task:** Build fraud detection project step
 - **Deliverable:** `Fraud project commit`
-- **Side Quest:** *SQL: Practice **SELECT, WHERE, ORDER BY, LIMIT basics** on LeetCode/Hackerrank*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2038,7 +2066,7 @@
   - subsample, colsample, gamma, early stopping
 - **Practice Task:** Train XGBoost and evaluate feature importance
 - **Deliverable:** `XGBoost notebook`
-- **Side Quest:** *DSA: Solve **Trees: Maximum Depth of Binary Tree** on LeetCode*
+- **Side Quest:** *SQL: Practice **Aggregate functions (COUNT, SUM, AVG, MIN, MAX)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML123: Introduction to XGBOOST | Machine Learning | CampusX
   - ML124: XGBoost for Regression | XGBoost Part 2 | CampusX
@@ -2058,7 +2086,7 @@
   - SHAP summary/waterfall plots
 - **Practice Task:** Explain model using SHAP
 - **Deliverable:** `SHAP notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Logistic Regression derivation & log loss** interview questions*
+- **Side Quest:** *DSA: Solve **Trees: Invert Binary Tree / Same Tree** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2066,11 +2094,11 @@
 - **Main Topic:** Fraud deployment
 - **Subtopics to learn:**
   - Imbalanced classification framing
-  - Recall, precision, PR-AUC focus
+  - Recall, precision, PRAUC focus
   - XGBoost + SMOTE + thresholding
 - **Practice Task:** Build fraud detection project step
 - **Deliverable:** `Fraud project commit`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **INNER JOIN & OUTER JOIN (LEFT/RIGHT)** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2082,7 +2110,7 @@
   - Explainable churn drivers
 - **Practice Task:** Build churn prediction project step
 - **Deliverable:** `Churn project commit`
-- **Side Quest:** *SQL: Practice **Self Joins & Subqueries** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Heaps: Kth Largest Element in an Array** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2094,7 +2122,7 @@
   - Explainable churn drivers
 - **Practice Task:** Build churn prediction project step
 - **Deliverable:** `Churn project commit`
-- **Side Quest:** *DSA: Solve **Graphs: Number of Islands** on LeetCode*
+- **Side Quest:** *SQL: Practice **Common Table Expressions (CTEs)** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2154,7 +2182,7 @@
   - Common project questions
 - **Practice Task:** Answer 25 interview questions aloud
 - **Deliverable:** `Interview Q&A notes`
-- **Side Quest:** *Interview Prep: Prepare answers for **K-Means clustering optimal K selection & scaling** interview questions*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 1-5** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2169,7 +2197,7 @@
   - Common project questions
 - **Practice Task:** Answer 25 interview questions aloud
 - **Deliverable:** `Interview Q&A notes`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *DSA: Solve **Two Pointers: Valid Palindrome / Two Sum II** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2195,7 +2223,7 @@
   - Production pattern: train.py, predict.py, model.pkl, requirements.txt
 - **Practice Task:** Take one trained classical ML model, save it with joblib, create predict.py for single-row and batch predictions, and test it from terminal.
 - **Deliverable:** `train.py + predict.py + saved model artifact + requirements.txt`
-- **Side Quest:** *DSA: Solve **Stack: Valid Parentheses** on LeetCode*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 16-20** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2207,7 +2235,7 @@
   - Business use cases
 - **Practice Task:** Write use-case map for unsupervised learning
 - **Deliverable:** `Unsupervised notes`
-- **Side Quest:** *Interview Prep: Prepare answers for **Linear Regression assumptions & multicollinearity** interview questions*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
   - ML128: K-Means Clustering Algorithm | Geometric Intuition | Clustering | Unsupervised Learning
   - ML129: K-Means Clustering Algorithm in Python | Practical Example | Student Clustering Example | sklearn
@@ -2222,7 +2250,7 @@
   - Elbow and silhouette method
 - **Practice Task:** Cluster Mall Customers dataset
 - **Deliverable:** `K-Means notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 26-30** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML128: K-Means Clustering Algorithm | Geometric Intuition | Clustering | Unsupervised Learning
   - ML129: K-Means Clustering Algorithm in Python | Practical Example | Student Clustering Example | sklearn
@@ -2237,7 +2265,7 @@
   - Elbow and silhouette method
 - **Practice Task:** Cluster Mall Customers dataset
 - **Deliverable:** `K-Means notebook`
-- **Side Quest:** *SQL: Practice **SELECT, WHERE, ORDER BY, LIMIT basics** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Trees: Maximum Depth of Binary Tree** on LeetCode*
 - **Playlist Videos:**
   - ML128: K-Means Clustering Algorithm | Geometric Intuition | Clustering | Unsupervised Learning
   - ML129: K-Means Clustering Algorithm in Python | Practical Example | Student Clustering Example | sklearn
@@ -2249,10 +2277,10 @@
 - **Subtopics to learn:**
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 - **Practice Task:** Choose optimal K
 - **Deliverable:** `Daily notes + GitHub commit`
-- **Side Quest:** *DSA: Solve **Trees: Invert Binary Tree / Same Tree** on LeetCode*
+- **Side Quest:** *SQL: Practice **Aggregate functions (COUNT, SUM, AVG, MIN, MAX)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML128: K-Means Clustering Algorithm | Geometric Intuition | Clustering | Unsupervised Learning
   - ML129: K-Means Clustering Algorithm in Python | Practical Example | Student Clustering Example | sklearn
@@ -2267,7 +2295,7 @@
   - Elbow and silhouette method
 - **Practice Task:** Cluster Mall Customers dataset
 - **Deliverable:** `K-Means notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **ROC-AUC vs PR-AUC curves & imbalanced evaluation** interview questions*
+- **Side Quest:** *DSA: Solve **Trees: Binary Tree Level Order Traversal** on LeetCode*
 - **Playlist Videos:**
   - ML128: K-Means Clustering Algorithm | Geometric Intuition | Clustering | Unsupervised Learning
   - ML129: K-Means Clustering Algorithm in Python | Practical Example | Student Clustering Example | sklearn
@@ -2279,10 +2307,10 @@
 - **Subtopics to learn:**
   - eps and min_samples
   - Core/border/noise points
-  - When DBSCAN beats K-Means
+  - When DBSCAN beats KMeans
 - **Practice Task:** Run DBSCAN on non-spherical/noisy data
 - **Deliverable:** `DBSCAN notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **INNER JOIN & OUTER JOIN (LEFT/RIGHT)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML131: Agglomerative Hierarchical Clustering | Python Code Example
   - ML132: DBSCAN Clustering Algorithms | Density Based Clustering | How DBSCAN Works | CampusX
@@ -2293,7 +2321,7 @@
 - **Subtopics to learn:**
   - eps and min_samples
   - Core/border/noise points
-  - When DBSCAN beats K-Means
+  - When DBSCAN beats KMeans
 - **Practice Task:** Run DBSCAN on non-spherical/noisy data
 - **Deliverable:** `DBSCAN notebook`
 - **Side Quest:** *SQL: Practice **Self Joins & Subqueries** on LeetCode/Hackerrank*
@@ -2310,7 +2338,7 @@
   - Dendrogram interpretation
 - **Practice Task:** Create dendrogram and choose clusters
 - **Deliverable:** `Hierarchical notebook`
-- **Side Quest:** *DSA: Solve **Dynamic Programming: Climbing Stairs** on LeetCode*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
   - ML131: Agglomerative Hierarchical Clustering | Python Code Example
   - ML132: DBSCAN Clustering Algorithms | Density Based Clustering | How DBSCAN Works | CampusX
@@ -2324,7 +2352,7 @@
   - Dendrogram interpretation
 - **Practice Task:** Create dendrogram and choose clusters
 - **Deliverable:** `Hierarchical notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **XGBoost mathematical advantages & regularization** interview questions*
+- **Side Quest:** *SQL: Practice **Window Functions (ROW_NUMBER, RANK, DENSE_RANK)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML131: Agglomerative Hierarchical Clustering | Python Code Example
   - ML132: DBSCAN Clustering Algorithms | Density Based Clustering | How DBSCAN Works | CampusX
@@ -2338,7 +2366,7 @@
   - Explained variance ratio
 - **Practice Task:** Reduce dimensions and plot PCA components
 - **Deliverable:** `PCA notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *DSA: Solve **Arrays: Two Sum / Contains Duplicate** on LeetCode*
 - **Playlist Videos:**
   - ML046: Curse of Dimensionality
   - ML047: Principle Component Analysis (PCA) | Part 1 | Geometric Intuition
@@ -2377,7 +2405,7 @@
 #### [ ] Day 137 — 15 Oct 2026, Thursday — ⏳ Scheduled
 - **Main Topic:** t-SNE
 - **Subtopics to learn:**
-  - Non-linear visualization
+  - Nonlinear visualization
   - Perplexity parameter
   - Why not for production features
 - **Practice Task:** Visualize high-dimensional data in 2D
@@ -2401,10 +2429,10 @@
 - **Subtopics to learn:**
   - Manifold learning intuition
   - n_neighbors/min_dist
-  - Faster alternative to t-SNE
+  - Faster alternative to tSNE
 - **Practice Task:** Create UMAP visualization
 - **Deliverable:** `UMAP notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Feature Engineering: handling outliers and missingness** interview questions*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 1-5** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML046: Curse of Dimensionality
   - ML047: Principle Component Analysis (PCA) | Part 1 | Geometric Intuition
@@ -2423,10 +2451,10 @@
 - **Subtopics to learn:**
   - Isolation Forest
   - Local Outlier Factor
-  - One-Class SVM
+  - OneClass SVM
 - **Practice Task:** Detect anomalies in tabular data
 - **Deliverable:** `Anomaly detection notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 6-10** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2434,15 +2462,22 @@
 - **Main Topic:** Customer segmentation project
 - **Subtopics to learn:**
   - Customer features
-  - K-Means + PCA
+  - KMeans + PCA
   - Cluster business profiling
 - **Practice Task:** Create segment profiles and recommendations
 - **Deliverable:** `Segmentation project`
-- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 11-15** on LeetCode/Hackerrank*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
-  - ML128: K-Means Clustering Algorithm | Geometric Intuition | Clustering | Unsupervised Learning
-  - ML129: K-Means Clustering Algorithm in Python | Practical Example | Student Clustering Example | sklearn
-  - ML130: K-Means Clustering Algorithm From Scratch In Python | ML Algorithms From Scratch
+  - ML046: Curse of Dimensionality
+  - ML047: Principle Component Analysis (PCA) | Part 1 | Geometric Intuition
+  - ML048: Principle Component Analysis (PCA) | Part 2 | Problem Formulation and Step by Step Solution
+  - ML049: Principle Component Analysis(PCA) | Part 3 | Code Example and Visualization
+  - DSMP179: Principle Component Analysis (PCA) | Part 1 | Geometric Intuition
+  - DSMP180: Principle Component Analysis (PCA) | Part 2 | Problem Formulation and Step by Step Solution
+  - DSMP181: Principle Component Analysis(PCA) | Part 3 | Code Example and Visualization
+  - DSMP182: Session on Eigen Vectors and Eigen Values | Week 29 | DSMP
+  - DSMP183: Session on Eigen Decomposition + PCA Variants | Week 29 | DSMP
+  - DSMP184: Session on Singular Value Decomposition
 
 ---
 #### [ ] Day 141 — 19 Oct 2026, Monday — ⏳ Scheduled
@@ -2453,7 +2488,7 @@
   - MLP architecture
 - **Practice Task:** Draw and code one-neuron prediction
 - **Deliverable:** `DL fundamentals notes`
-- **Side Quest:** *DSA: Solve **Binary Search: Search in Rotated Sorted Array** on LeetCode*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 16-20** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DL001: 100 Days of Deep Learning | Course Announcement
   - DL002: What is Deep Learning? Deep Learning Vs Machine Learning | Complete Deep Learning Course
@@ -2472,7 +2507,7 @@
   - Softmax output
 - **Practice Task:** Plot activation functions and derivatives
 - **Deliverable:** `Activation notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Logistic Regression derivation & log loss** interview questions*
+- **Side Quest:** *DSA: Solve **Linked List: Reverse Linked List / Merge Two Sorted Lists** on LeetCode*
 - **Playlist Videos:**
   - DL027: Activation Functions in Deep Learning | Sigmoid, Tanh and Relu Activation Function
   - DL028: Relu Variants Explained | Leaky Relu | Parametric Relu | Elu | Selu | Activation Functions Part 2
@@ -2482,11 +2517,11 @@
 - **Main Topic:** Forward propagation from scratch
 - **Subtopics to learn:**
   - Matrix multiplication through layers
-  - Layer-wise computation
+  - Layerwise computation
   - Batch dimension
 - **Practice Task:** Implement forward pass in NumPy
 - **Deliverable:** `Forward propagation code`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 26-30** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DL008: MLP Notation
   - DL009: Multi Layer Perceptron | MLP Intuition
@@ -2497,13 +2532,13 @@
 - **Main Topic:** Loss functions in DL
 - **Subtopics to learn:**
   - MSE and MAE for regression tasks
-  - Binary Cross-Entropy for binary classification
-  - Categorical Cross-Entropy and Sparse Categorical Cross-Entropy for multiclass classification
-  - Hinge loss for margin-based classification
+  - Binary CrossEntropy for binary classification
+  - Categorical CrossEntropy and Sparse Categorical CrossEntropy for multiclass classification
+  - Hinge loss for marginbased classification
   - How loss choice depends on task type and output layer activation
 - **Practice Task:** Implement MSE, MAE, Binary Cross-Entropy, and Categorical Cross-Entropy manually using NumPy; compare with framework loss functions.
 - **Deliverable:** `DL loss functions notebook + task-to-loss selection cheat sheet`
-- **Side Quest:** *SQL: Practice **SELECT, WHERE, ORDER BY, LIMIT basics** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Trees: Invert Binary Tree / Same Tree** on LeetCode*
 - **Playlist Videos:**
   - DL014: Loss Functions in Deep Learning | Deep Learning | CampusX
 
@@ -2516,7 +2551,7 @@
   - Weight updates
 - **Practice Task:** Code small neural network backprop in NumPy
 - **Deliverable:** `Backprop notebook`
-- **Side Quest:** *DSA: Solve **Trees: Binary Tree Level Order Traversal** on LeetCode*
+- **Side Quest:** *SQL: Practice **Aggregate functions (COUNT, SUM, AVG, MIN, MAX)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DL015: Backpropagation in Deep Learning | Part 1 | The What?
   - DL016: Backpropagation Part 2 | The How | Complete Deep Learning Playlist
@@ -2531,7 +2566,7 @@
   - Weight updates
 - **Practice Task:** Code small neural network backprop in NumPy
 - **Deliverable:** `Backprop notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Decision Trees splitting criteria (Gini vs Entropy)** interview questions*
+- **Side Quest:** *SQL: Practice **GROUP BY & HAVING filters** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DL015: Backpropagation in Deep Learning | Part 1 | The What?
   - DL016: Backpropagation Part 2 | The How | Complete Deep Learning Playlist
@@ -2541,7 +2576,7 @@
 #### [ ] Day 147 — 25 Oct 2026, Sunday — ⏳ Scheduled
 - **Main Topic:** Optimizers I
 - **Subtopics to learn:**
-  - SGD and mini-batch
+  - SGD and minibatch
   - Momentum/RMSprop
   - Adam and AdamW
 - **Practice Task:** Compare optimizers on small network
@@ -2563,7 +2598,7 @@
 #### [ ] Day 148 — 26 Oct 2026, Monday — ⏳ Scheduled
 - **Main Topic:** Optimizers II
 - **Subtopics to learn:**
-  - SGD and mini-batch
+  - SGD and minibatch
   - Momentum/RMSprop
   - Adam and AdamW
 - **Practice Task:** Compare optimizers on small network
@@ -2612,7 +2647,7 @@
   - Vanishing/exploding gradients
 - **Practice Task:** Compare initialization effects
 - **Deliverable:** `Initialization notes`
-- **Side Quest:** *Interview Prep: Prepare answers for **K-Means clustering optimal K selection & scaling** interview questions*
+- **Side Quest:** *SQL: Practice **Window Functions (ROW_NUMBER, RANK, DENSE_RANK)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DL018: Vanishing Gradient Problem in ANN | Exploding Gradient Problem | Code Example
   - DL021: How to Improve the Performance of a Neural Network
@@ -2634,7 +2669,7 @@
   - Callbacks and model evaluation
 - **Practice Task:** Train Keras model and save results
 - **Deliverable:** `Keras notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *DSA: Solve **Arrays: Best Time to Buy and Sell Stock** on LeetCode*
 - **Playlist Videos:**
   - DL051: Pretrained models in CNN | ImageNET Dataset | ILSVRC | Keras Code
   - DL052: What does a CNN see? | Visualizing CNN Filters and Feature Maps | CampusX
@@ -2667,7 +2702,7 @@
   - Callbacks and model evaluation
 - **Practice Task:** Train Keras model and save results
 - **Deliverable:** `Keras notebook`
-- **Side Quest:** *DSA: Solve **Two Pointers: Valid Palindrome / Two Sum II** on LeetCode*
+- **Side Quest:** *SQL: Practice **CASE WHEN conditional logic** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DL051: Pretrained models in CNN | ImageNET Dataset | ILSVRC | Keras Code
   - DL052: What does a CNN see? | Visualizing CNN Filters and Feature Maps | CampusX
@@ -2687,7 +2722,7 @@
   - Callbacks and model evaluation
 - **Practice Task:** Train Keras model and save results
 - **Deliverable:** `Keras notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Linear Regression assumptions & multicollinearity** interview questions*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
   - DL051: Pretrained models in CNN | ImageNET Dataset | ILSVRC | Keras Code
   - DL052: What does a CNN see? | Visualizing CNN Filters and Feature Maps | CampusX
@@ -2704,7 +2739,7 @@
   - nn.Module, Dataset, DataLoader, training loop
 - **Practice Task:** Build and train PyTorch model
 - **Deliverable:** `PyTorch notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 6-10** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - PT001: PyTorch for Beginners | Introduction to PyTorch | Video 1 | CampusX
   - PT002: Tensors in PyTorch | Video 2 | CampusX
@@ -2718,7 +2753,7 @@
   - nn.Module, Dataset, DataLoader, training loop
 - **Practice Task:** Build and train PyTorch model
 - **Deliverable:** `PyTorch notebook`
-- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 11-15** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Binary Search: Search in Rotated Sorted Array** on LeetCode*
 - **Playlist Videos:**
   - PT003: PyTorch Autograd | Video 3 | CampusX
 
@@ -2731,7 +2766,7 @@
   - nn.Module, Dataset, DataLoader, training loop
 - **Practice Task:** Build and train PyTorch model
 - **Deliverable:** `PyTorch notebook`
-- **Side Quest:** *DSA: Solve **Linked List: Reverse Linked List / Merge Two Sorted Lists** on LeetCode*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 16-20** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - PT005: PyTorch NN Module | Video 5 | CampusX
 
@@ -2744,7 +2779,7 @@
   - nn.Module, Dataset, DataLoader, training loop
 - **Practice Task:** Build and train PyTorch model
 - **Deliverable:** `PyTorch notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **ROC-AUC vs PR-AUC curves & imbalanced evaluation** interview questions*
+- **Side Quest:** *DSA: Solve **Trees: Maximum Depth of Binary Tree** on LeetCode*
 - **Playlist Videos:**
   - PT006: Dataset & DataLoader Class in PyTorch | Video 6 | CampusX
 
@@ -2753,14 +2788,14 @@
 - **Main Topic:** PyTorch training loop
 - **Subtopics to learn:**
   - Forward pass through model using model(X)
-  - Computing loss using criterion/output-target comparison
+  - Computing loss using criterion/outputtarget comparison
   - loss.backward() for gradient calculation
   - optimizer.step() for parameter update
   - optimizer.zero_grad() to clear old gradients
   - Epoch loop structure and tracking training loss
 - **Practice Task:** Write a complete PyTorch training loop for MNIST or a simple tabular dataset and print average training loss per epoch.
 - **Deliverable:** `PyTorch training loop notebook/script with loss tracking`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 26-30** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - PT004: PyTorch Training Pipeline | Video 4 | CampusX
 
@@ -2788,7 +2823,7 @@
   - Error analysis
 - **Practice Task:** Clean MNIST project and compare implementations
 - **Deliverable:** `MNIST project`
-- **Side Quest:** *DSA: Solve **Heaps: Kth Largest Element in an Array** on LeetCode*
+- **Side Quest:** ***Resume Milestone: Build ATS-optimized version (incorporating keywords for CNN, CV, and deep learning frameworks)***
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2800,7 +2835,7 @@
   - Common project questions
 - **Practice Task:** Answer 25 interview questions aloud
 - **Deliverable:** `Interview Q&A notes`
-- **Side Quest:** *Interview Prep: Prepare answers for **XGBoost mathematical advantages & regularization** interview questions*
+- **Side Quest:** *SQL: Practice **GROUP BY & HAVING filters** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2812,7 +2847,7 @@
   - Write README and notes
 - **Practice Task:** Clear backlog and commit work
 - **Deliverable:** `Clean repository`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *DSA: Solve **Dynamic Programming: Climbing Stairs** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2854,7 +2889,7 @@
   - Flattening and dense head
 - **Practice Task:** Build CNN for image dataset
 - **Deliverable:** `CNN notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Feature Engineering: handling outliers and missingness** interview questions*
+- **Side Quest:** *SQL: Practice **Window Functions (ROW_NUMBER, RANK, DENSE_RANK)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DL040: What is Convolutional Neural Network (CNN) | CNN Intution
   - DL041: CNN Vs Visual Cortex | The Famous Cat Experiment | History of CNN
@@ -2872,7 +2907,7 @@
   - Flattening and dense head
 - **Practice Task:** Build CNN for image dataset
 - **Deliverable:** `CNN notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **Window Functions (LAG, LEAD, SUM OVER)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DL040: What is Convolutional Neural Network (CNN) | CNN Intution
   - DL041: CNN Vs Visual Cortex | The Famous Cat Experiment | History of CNN
@@ -2889,12 +2924,12 @@
   - AlexNet: deeper CNN with ReLU and dropout
   - VGG: simple repeated 3x3 convolution blocks
   - ResNet: skip connections and solving vanishing gradient in deep networks
-  - Inception: multi-scale convolutions inside one block
+  - Inception: multiscale convolutions inside one block
   - EfficientNet: compound scaling of depth, width, and resolution
-  - High-level comparison of depth, parameters, accuracy, and use cases
+  - Highlevel comparison of depth, parameters, accuracy, and use cases
 - **Practice Task:** Create a comparison table of LeNet, AlexNet, VGG, ResNet, Inception, and EfficientNet; then load one pretrained architecture for inference.
 - **Deliverable:** `CNN architecture comparison notes + pretrained model inference notebook`
-- **Side Quest:** *SQL: Practice **String operations (CONCAT, SUBSTRING, REPLACE)** on LeetCode/Hackerrank*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2902,11 +2937,11 @@
 - **Main Topic:** Transfer learning theory
 - **Subtopics to learn:**
   - Pretrained backbones
-  - Feature extraction vs fine-tuning
+  - Feature extraction vs finetuning
   - Freeze/unfreeze strategy
 - **Practice Task:** Train Cat vs Dog using pretrained model
 - **Deliverable:** `Transfer learning project`
-- **Side Quest:** *DSA: Solve **Sliding Window: Longest Substring Without Repeating Characters** on LeetCode*
+- **Side Quest:** *SQL: Practice **CASE WHEN conditional logic** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DL051: Pretrained models in CNN | ImageNET Dataset | ILSVRC | Keras Code
   - DL052: What does a CNN see? | Visualizing CNN Filters and Feature Maps | CampusX
@@ -2919,11 +2954,11 @@
 - **Main Topic:** Transfer learning code
 - **Subtopics to learn:**
   - Pretrained backbones
-  - Feature extraction vs fine-tuning
+  - Feature extraction vs finetuning
   - Freeze/unfreeze strategy
 - **Practice Task:** Train Cat vs Dog using pretrained model
 - **Deliverable:** `Transfer learning project`
-- **Side Quest:** *Interview Prep: Prepare answers for **Logistic Regression derivation & log loss** interview questions*
+- **Side Quest:** *DSA: Solve **Stack: Valid Parentheses** on LeetCode*
 - **Playlist Videos:**
   - DL051: Pretrained models in CNN | ImageNET Dataset | ILSVRC | Keras Code
   - DL052: What does a CNN see? | Visualizing CNN Filters and Feature Maps | CampusX
@@ -2940,7 +2975,7 @@
   - Albumentations/Keras augmentation
 - **Practice Task:** Apply augmentations and visualize samples
 - **Deliverable:** `Augmentation notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 6-10** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -2952,7 +2987,7 @@
   - Edges, contours, webcam basics
 - **Practice Task:** Process images with OpenCV
 - **Deliverable:** `OpenCV notebook`
-- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 11-15** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Linked List: Reverse Linked List / Merge Two Sorted Lists** on LeetCode*
 - **Playlist Videos:**
   - ML015: Working with CSV files | Day 15 | 100 Days of Machine Learning;
   - ML016: Working with JSON/SQL | Day 16 | 100 Days of Machine Learning;
@@ -2978,7 +3013,7 @@
   - Edges, contours, webcam basics
 - **Practice Task:** Process images with OpenCV
 - **Deliverable:** `OpenCV notebook`
-- **Side Quest:** *DSA: Solve **Trees: Maximum Depth of Binary Tree** on LeetCode*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 16-20** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - ML015: Working with CSV files | Day 15 | 100 Days of Machine Learning;
   - ML016: Working with JSON/SQL | Day 16 | 100 Days of Machine Learning;
@@ -3004,7 +3039,7 @@
   - YOLO inference workflow
 - **Practice Task:** Run pretrained YOLO on sample images/video
 - **Deliverable:** `YOLO demo`
-- **Side Quest:** *Interview Prep: Prepare answers for **Decision Trees splitting criteria (Gini vs Entropy)** interview questions*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 21-25** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -3024,8 +3059,8 @@
 - **Main Topic:** Image segmentation
 - **Subtopics to learn:**
   - Semantic vs instance segmentation
-  - U-Net encoder-decoder
-  - Pixel-wise masks
+  - UNet encoderdecoder
+  - Pixelwise masks
 - **Practice Task:** Study U-Net and run small segmentation demo
 - **Deliverable:** `Segmentation notes`
 - **Side Quest:** *SQL: Practice **SELECT, WHERE, ORDER BY, LIMIT basics** on LeetCode/Hackerrank*
@@ -3051,26 +3086,27 @@
 - **Subtopics to learn:**
   - Core concept study
   - Implementation details
-  - Interview-level intuition
+  - Interviewlevel intuition
 - **Practice Task:** Gradio/Streamlit demo
 - **Deliverable:** `Daily notes + GitHub commit`
-- **Side Quest:** *Interview Prep: Prepare answers for **K-Means clustering optimal K selection & scaling** interview questions*
+- **Side Quest:** *SQL: Practice **GROUP BY & HAVING filters** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
 #### [ ] Day 179 — 26 Nov 2026, Thursday — ⏳ Scheduled
-- **Main Topic:** NLP intro + text preprocessing
+- **Main Topic:** NLP introduction + end-to-end NLP pipeline
 - **Subtopics to learn:**
-  - Tokenization
-  - Lowercase, punctuation, stopwords
-  - Regex cleaning
-- **Practice Task:** Build text preprocessing function
-- **Deliverable:** `NLP preprocessing notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+  - What is NLP and common NLP applications
+  - Endtoend NLP pipeline: data collection, cleaning, representation, modeling, evaluation, deployment
+  - Tokenization: word tokenization and sentence tokenization
+  - Lowercasing, punctuation removal, stopword removal, regex cleaning
+  - Train/test split and leakage risks in NLP projects
+- **Practice Task:** Take a small text dataset, create a full preprocessing pipeline, and document each step from raw text to cleaned tokens.
+- **Deliverable:** `NLP pipeline + preprocessing notebook`
+- **Side Quest:** *DSA: Solve **Dynamic Programming: Coin Change** on LeetCode*
 - **Playlist Videos:**
-  - NLP001: Introduction to NLP | NLP Lecture 1 | End to End NLP Course
-  - NLP002: End to End NLP Pipeline | NLP Pipeline | Lecture 2 NLP Course
-  - NLP003: Text Preprocessing | NLP Course Lecture 3
+  - ML013: End to End Toy Project | Day 13 | 100 Days of Machine Learning
+  - ML014: How to Frame a Machine Learning Problem | How to plan a Data Science Project Effectively
 
 ---
 #### [ ] Day 180 — 27 Nov 2026, Friday — ⏳ Scheduled
@@ -3088,12 +3124,13 @@
 #### [ ] Day 181 — 28 Nov 2026, Saturday — ⏳ Scheduled
 - **Main Topic:** Bag of Words
 - **Subtopics to learn:**
-  - CountVectorizer/TF-IDF
-  - Vocabulary and sparse matrix
-  - Unigrams, bigrams, trigrams
-- **Practice Task:** Train text classifier with vectorizer + ML model
-- **Deliverable:** `Text representation notebook`
-- **Side Quest:** *DSA: Solve **Arrays: Best Time to Buy and Sell Stock** on LeetCode*
+  - Vocabulary creation and documentterm matrix
+  - CountVectorizer in sklearn
+  - Sparse matrix representation
+  - Limitations of Bag of Words: order loss, large vocabulary, sparsity
+- **Practice Task:** Build a Bag of Words representation for a small text dataset and train Logistic Regression/Naive Bayes classifier.
+- **Deliverable:** `Bag of Words classification notebook`
+- **Side Quest:** *SQL: Practice **Common Table Expressions (CTEs)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - NLP004: Text Representation | NLP Lecture 4 | Bag of Words | Tf-Idf | N-grams, Bi-grams and Uni-grams
 
@@ -3101,25 +3138,26 @@
 #### [ ] Day 182 — 29 Nov 2026, Sunday — ⏳ Scheduled
 - **Main Topic:** TF-IDF
 - **Subtopics to learn:**
-  - CountVectorizer/TF-IDF
-  - Vocabulary and sparse matrix
-  - Unigrams, bigrams, trigrams
-- **Practice Task:** Train text classifier with vectorizer + ML model
-- **Deliverable:** `Text representation notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Linear Regression assumptions & multicollinearity** interview questions*
-- **Playlist Videos:**
-  - NLP004: Text Representation | NLP Lecture 4 | Bag of Words | Tf-Idf | N-grams, Bi-grams and Uni-grams
+  - Term Frequency and Inverse Document Frequency intuition
+  - TfidfVectorizer in sklearn
+  - Effect of max_features, min_df, max_df
+  - TFIDF vs Bag of Words comparison
+- **Practice Task:** Train the same text classifier using TF-IDF and compare metrics with Bag of Words.
+- **Deliverable:** `TF-IDF comparison notebook`
+- **Side Quest:** *GitHub/LinkedIn: update*
+- **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
 #### [ ] Day 183 — 30 Nov 2026, Monday — ⏳ Scheduled
 - **Main Topic:** N-grams
 - **Subtopics to learn:**
-  - CountVectorizer/TF-IDF
-  - Vocabulary and sparse matrix
   - Unigrams, bigrams, trigrams
-- **Practice Task:** Train text classifier with vectorizer + ML model
-- **Deliverable:** `Text representation notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+  - How ngrams capture local word order
+  - Vocabulary explosion and feature selection
+  - Choosing ngram_range in CountVectorizer/TfidfVectorizer
+- **Practice Task:** Compare unigram, bigram, and trigram models on a text classification dataset.
+- **Deliverable:** `N-gram experiment notebook`
+- **Side Quest:** *SQL: Practice **Window Functions (LAG, LEAD, SUM OVER)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - NLP004: Text Representation | NLP Lecture 4 | Bag of Words | Tf-Idf | N-grams, Bi-grams and Uni-grams
 
@@ -3128,14 +3166,16 @@
 ### 📅 DECEMBER 2026
 
 #### [ ] Day 184 — 01 Dec 2026, Tuesday — ⏳ Scheduled
-- **Main Topic:** Word embeddings
+- **Main Topic:** Word2Vec and word embeddings
 - **Subtopics to learn:**
-  - Word2Vec CBOW/Skip-gram
-  - GloVe and FastText
-  - Semantic vector similarity
-- **Practice Task:** Use pretrained embeddings or train tiny Word2Vec
-- **Deliverable:** `Embedding notes`
-- **Side Quest:** *SQL: Practice **String operations (CONCAT, SUBSTRING, REPLACE)** on LeetCode/Hackerrank*
+  - Why dense word embeddings are better than sparse text vectors
+  - Word2Vec CBOW and Skipgram intuition
+  - GloVe and FastText highlevel comparison
+  - Semantic similarity using cosine similarity
+  - Average Word2Vec for text classification
+- **Practice Task:** Train or load Word2Vec embeddings, calculate similar words, and build an average Word2Vec text classifier baseline.
+- **Deliverable:** `Word2Vec + average embedding classification notebook`
+- **Side Quest:** *DSA: Solve **Sliding Window: Longest Substring Without Repeating Characters** on LeetCode*
 - **Playlist Videos:**
   - NLP005: Word2vec Complete Tutorial | CBOW and Skip-gram | Game of Thrones Word2vec
 
@@ -3144,11 +3184,11 @@
 - **Main Topic:** RNN theory
 - **Subtopics to learn:**
   - Sequential hidden state
-  - Many-to-one/many-to-many tasks
+  - Manytoone/manytomany tasks
   - Vanishing gradients
 - **Practice Task:** Build simple RNN classifier conceptually/code
 - **Deliverable:** `RNN notes`
-- **Side Quest:** *DSA: Solve **Stack: Valid Parentheses** on LeetCode*
+- **Side Quest:** *SQL: Practice **CASE WHEN conditional logic** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DL055: Why RNNs are needed | RNNs Vs ANNs | RNN Part 1
   - DL056: Recurrent Neural Network | Forward Propagation | Architecture
@@ -3166,7 +3206,7 @@
   - BiLSTM and GRU comparison
 - **Practice Task:** Train LSTM sentiment classifier
 - **Deliverable:** `LSTM/GRU notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **ROC-AUC vs PR-AUC curves & imbalanced evaluation** interview questions*
+- **Side Quest:** *DSA: Solve **Binary Search: Search in Rotated Sorted Array** on LeetCode*
 - **Playlist Videos:**
   - DL061: LSTM | Long Short Term Memory | Part 1 | The What? | CampusX
   - DL062: LSTM Architecture | Part 2 | The How? | CampusX
@@ -3185,7 +3225,7 @@
   - BiLSTM and GRU comparison
 - **Practice Task:** Train LSTM sentiment classifier
 - **Deliverable:** `LSTM/GRU notebook`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 6-10** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - DL055: Why RNNs are needed | RNNs Vs ANNs | RNN Part 1
   - DL056: Recurrent Neural Network | Forward Propagation | Architecture
@@ -3199,13 +3239,12 @@
 - **Main Topic:** Sentiment project ML
 - **Subtopics to learn:**
   - Dataset cleaning
-  - TF-IDF or LSTM/BERT modeling
+  - TFIDF or LSTM/BERT modeling
   - Accuracy/F1/error analysis
 - **Practice Task:** Build sentiment analysis project step
 - **Deliverable:** `Sentiment project`
 - **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 11-15** on LeetCode/Hackerrank*
-- **Playlist Videos:**
-  - PT014: Next Word Predictor using Pytorch | LSTM using PyTorch | Video 14 | CampusX
+- **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
 #### [ ] Day 189 — 06 Dec 2026, Sunday — ⏳ Scheduled
@@ -3216,7 +3255,7 @@
   - BiLSTM and GRU comparison
 - **Practice Task:** Train LSTM sentiment classifier
 - **Deliverable:** `LSTM/GRU notebook`
-- **Side Quest:** *DSA: Solve **Trees: Invert Binary Tree / Same Tree** on LeetCode*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
   - DL055: Why RNNs are needed | RNNs Vs ANNs | RNN Part 1
   - DL056: Recurrent Neural Network | Forward Propagation | Architecture
@@ -3229,41 +3268,45 @@
 #### [ ] Day 190 — 07 Dec 2026, Monday — ⏳ Scheduled
 - **Main Topic:** Resume screener NLP
 - **Subtopics to learn:**
-  - Resume text extraction
-  - Skill matching and similarity
-  - Ranking candidates with NLP
-- **Practice Task:** Build resume screener baseline
-- **Deliverable:** `Resume screener project`
-- **Side Quest:** *Interview Prep: Prepare answers for **XGBoost mathematical advantages & regularization** interview questions*
+  - Resume text extraction and cleaning
+  - Skill/entity extraction using rules or simple NLP
+  - TFIDF/embedding based similarity matching
+  - Ranking candidates using cosine similarity
+  - Limitations: bias, missing context, formatting issues
+- **Practice Task:** Build a resume-to-job-description matching baseline using TF-IDF or sentence embeddings.
+- **Deliverable:** `Resume screener project baseline`
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 21-25** on LeetCode/Hackerrank*
 - **Playlist Videos:**
-  - DSMP041: Session 13 - Numpy Fundamentals | Data Science Mentorship Program (DSMP) 2022-23 | Free Session
-  - DSMP042: Resume Building for Data Scientist | Career Pe Charcha | DSMP 2022-23
-  - DSMP043: Session 14 - Advanced Numpy | Data Science Mentorship Program (DSMP) 2022-23 | Free Session
-  - DSMP044: Feedback Form for November | Data Science Mentorship Program(DSMP) 2022-23
-  - DSMP045: Session 15 - Numpy Tricks | Data Science Mentorship Program (DSMP) 2022-23 | Free Session
-  - DSMP047: Task 13 Solutions | Paid Recording | DSMP 2022-23
-  - DSMP048: Task 14 Solutions | Paid Recording | DSMP 2022-23
-  - DSMP049: Task 15 Solutions | Paid Recording | DSMP 2022-23
+  - ML035: Handling Missing Data | Part 1 | Complete Case Analysis
+  - ML036: Handling missing data | Numerical Data | Simple Imputer
+  - ML037: Handling Missing Categorical Data | Simple Imputer | Most Frequent Imputation | Missing Category Imp
+  - ML038: Missing Indicator | Random Sample Imputation | Handling Missing Data Part 4
+  - DSMP084: Session 28 - Data Assessing and Cleaning | DSMP 2022-23
+  - DSMP085: Task 23 Solutions | Paid Recording | DSMP 2023
+  - DSMP088: Session on Data Cleaning Case Study - Smartphone dataset
 
 ---
 #### [ ] Day 191 — 08 Dec 2026, Tuesday — ⏳ Scheduled
-- **Main Topic:** NLP project cleanup
+- **Main Topic:** POS Tagging + HMM/Viterbi + Duplicate Question Pairs
 - **Subtopics to learn:**
-  - Finish pending notebook
-  - Refactor messy code
-  - Write README and notes
-- **Practice Task:** Clear backlog and commit work
-- **Deliverable:** `Clean repository`
-- **Side Quest:** *GitHub/LinkedIn: update*
-- **Playlist Videos:** None (use official docs/implementation practice)
+  - Part of Speech tagging and why grammar features matter
+  - Hidden Markov Model intuition for sequence tagging
+  - Viterbi algorithm highlevel decoding idea
+  - Duplicate Question Pairs problem framing using Quorastyle data
+  - Feature ideas: token overlap, length difference, fuzzy matching, TFIDF similarity
+- **Practice Task:** Run POS tagging on sample sentences, then build a simple duplicate-question-pair baseline using text similarity features.
+- **Deliverable:** `POS tagging notes + duplicate question pairs baseline notebook`
+- **Side Quest:** *DSA: Solve **Heaps: Kth Largest Element in an Array** on LeetCode*
+- **Playlist Videos:**
+  - NLP007: POS Tagging | Part of Speech Tagging in NLP | Hidden Markov Models in NLP | Viterbi Algorithm in NLP
 
 ---
 #### [ ] Day 192 — 09 Dec 2026, Wednesday — ⏳ Scheduled
 - **Main Topic:** Attention mechanism
 - **Subtopics to learn:**
   - Query, Key, Value
-  - Scaled dot-product attention
-  - Multi-head attention intuition
+  - Scaled dotproduct attention
+  - Multihead attention intuition
 - **Practice Task:** Calculate attention on toy vectors
 - **Deliverable:** `Attention notes`
 - **Side Quest:** *SQL: Practice **SELECT, WHERE, ORDER BY, LIMIT basics** on LeetCode/Hackerrank*
@@ -3282,7 +3325,7 @@
 - **Subtopics to learn:**
   - Positional encoding
   - Encoder/decoder blocks
-  - Add-norm and feed-forward layers
+  - Addnorm and feedforward layers
 - **Practice Task:** Draw transformer architecture and explain flow
 - **Deliverable:** `Transformer notes`
 - **Side Quest:** *DSA: Solve **Dynamic Programming: Climbing Stairs** on LeetCode*
@@ -3310,19 +3353,19 @@
   - CLS token for classification
 - **Practice Task:** Run/fine-tune BERT classifier
 - **Deliverable:** `BERT notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Feature Engineering: handling outliers and missingness** interview questions*
+- **Side Quest:** *SQL: Practice **GROUP BY & HAVING filters** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
 #### [ ] Day 195 — 12 Dec 2026, Saturday — ⏳ Scheduled
 - **Main Topic:** GPT concept
 - **Subtopics to learn:**
-  - Decoder-only transformer
+  - Decoderonly transformer
   - Autoregressive generation
   - Causal language modeling
 - **Practice Task:** Write GPT concept notes
 - **Deliverable:** `GPT notes`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **INNER JOIN & OUTER JOIN (LEFT/RIGHT)** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -3334,7 +3377,7 @@
   - Datasets and Trainer basics
 - **Practice Task:** Run HF pipeline and tokenization examples
 - **Deliverable:** `Hugging Face notebook`
-- **Side Quest:** *SQL: Practice **Self Joins & Subqueries** on LeetCode/Hackerrank*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -3346,7 +3389,7 @@
   - CLS token for classification
 - **Practice Task:** Run/fine-tune BERT classifier
 - **Deliverable:** `BERT notebook`
-- **Side Quest:** *DSA: Solve **Arrays: Product of Array Except Self** on LeetCode*
+- **Side Quest:** *SQL: Practice **Common Table Expressions (CTEs)** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -3358,7 +3401,7 @@
   - Embeddings for semantic search/RAG
 - **Practice Task:** Build semantic similarity demo
 - **Deliverable:** `Sentence transformer notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Logistic Regression derivation & log loss** interview questions*
+- **Side Quest:** *DSA: Solve **Two Pointers: Valid Palindrome / Two Sum II** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -3366,11 +3409,11 @@
 - **Main Topic:** LLM fundamentals
 - **Subtopics to learn:**
   - Tokens and context window
-  - Temperature, top-p, top-k
+  - Temperature, topp, topk
   - API vs local LLMs
 - **Practice Task:** Experiment with prompts and parameters
 - **Deliverable:** `LLM fundamentals notes`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **Window Functions (LAG, LEAD, SUM OVER)** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - GENAI021: Ollama Masterclass 2026: Run Powerful Local LLMs with Ollama (3-Hour Full Course) | CampusX
 
@@ -3378,12 +3421,12 @@
 #### [ ] Day 200 — 17 Dec 2026, Thursday — ⏳ Scheduled
 - **Main Topic:** Prompt engineering
 - **Subtopics to learn:**
-  - Zero-shot and few-shot
+  - Zeroshot and fewshot
   - Role/task/context format
   - Structured outputs and evaluation
 - **Practice Task:** Create 10 prompt templates
 - **Deliverable:** `Prompt library`
-- **Side Quest:** *SQL: Practice **String operations (CONCAT, SUBSTRING, REPLACE)** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Stack: Valid Parentheses** on LeetCode*
 - **Playlist Videos:**
   - GENAI001: GenAI Roadmap for Beginners | End-to-End GenAI Course 2025 | CampusX
   - GENAI002: Generative AI using LangChain | GENAI for Beginners | CampusX
@@ -3395,26 +3438,33 @@
 #### [ ] Day 201 — 18 Dec 2026, Friday — ⏳ Scheduled
 - **Main Topic:** LangChain basics
 - **Subtopics to learn:**
-  - PromptTemplate
-  - Chains and output parsers
-  - Document loaders and splitters
-- **Practice Task:** Build a simple LangChain chain
-- **Deliverable:** `LangChain notebook`
-- **Side Quest:** *DSA: Solve **Binary Search: Search in Rotated Sorted Array** on LeetCode*
+  - PromptTemplate and structured prompt design
+  - Chains, runnables/LCEL basics, and output parsers
+  - Chat model wrapper and message format
+  - Document loaders and text splitters overview
+  - How LangChain components connect in GenAI apps
+- **Practice Task:** Build a simple LangChain chain with PromptTemplate, model call, and structured output parsing.
+- **Deliverable:** `LangChain basics notebook`
+- **Side Quest:** *SQL: Practice **CASE WHEN conditional logic** on LeetCode/Hackerrank*
 - **Playlist Videos:**
-  - GENAI012: Document Loaders in LangChain | Generative AI using LangChain | Video 10 | CampusX
-  - GENAI013: Text Splitters in LangChain | Generative AI using LangChain | Video 11 | CampusX
+  - GENAI001: GenAI Roadmap for Beginners | End-to-End GenAI Course 2025 | CampusX
+  - GENAI002: Generative AI using LangChain | GENAI for Beginners | CampusX
+  - GENAI006: Prompts in LangChain | Generative AI using LangChain | Video 4 | CampusX
+  - GENAI007: Structured Output in LangChain | Generative AI using LangChain | Video 5 | CampusX
+  - GENAI008: Output Parsers in LangChain | Generative AI using LangChain | Video 6 | CampusX
 
 ---
 #### [ ] Day 202 — 19 Dec 2026, Saturday — ⏳ Scheduled
-- **Main Topic:** Vector databases
+- **Main Topic:** Vector stores + retrievers
 - **Subtopics to learn:**
-  - Embeddings
-  - FAISS/Chroma indexing
-  - Similarity search
-- **Practice Task:** Store and retrieve document chunks
-- **Deliverable:** `Vector DB notebook`
-- **Side Quest:** *Interview Prep: Prepare answers for **Decision Trees splitting criteria (Gini vs Entropy)** interview questions*
+  - Embeddings and vector representation of chunks
+  - FAISS/Chroma vector store indexing
+  - Similarity search vs retriever abstraction
+  - k value, score threshold, metadata filtering
+  - Retriever quality issues: irrelevant chunks, missing context, duplicate chunks
+- **Practice Task:** Store document chunks in FAISS or Chroma, query them through a retriever, and inspect retrieved chunks manually.
+- **Deliverable:** `Vector store + retriever notebook`
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 1-5** on LeetCode/Hackerrank*
 - **Playlist Videos:**
   - GENAI014: Vector Stores in LangChain | Generative AI using LangChain | Video 12 | CampusX
   - GENAI015: Retrievers in LangChain | Generative AI using LangChain | Video 13 | CampusX
@@ -3423,39 +3473,43 @@
 #### [ ] Day 203 — 20 Dec 2026, Sunday — ⏳ Scheduled
 - **Main Topic:** Basic RAG project
 - **Subtopics to learn:**
-  - Load, split, embed, store
-  - Retrieve relevant chunks
-  - Generate grounded answer
-- **Practice Task:** Build Chat with PDF RAG pipeline
-- **Deliverable:** `RAG project`
+  - RAG pipeline: load documents, split text, embed chunks, store vectors, retrieve context, generate answer
+  - PDF/document loader usage
+  - Chunk size and chunk overlap tradeoffs
+  - Prompting the LLM to answer only from retrieved context
+  - Simple citations/source display
+- **Practice Task:** Build Chat with PDF using LangChain, FAISS/Chroma, retriever, and grounded answer prompt.
+- **Deliverable:** `Basic Chat with PDF RAG project`
 - **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:**
-  - GENAI016: Retrieval Augmented Generation | What is RAG | How does RAG Work | RAG Explained | CampusX
-  - GENAI017: YouTube Chatbot using LangChain | Building a RAG system in LangChain | Video 15 | CampusX
+  - GENAI012: Document Loaders in LangChain | Generative AI using LangChain | Video 10 | CampusX
+  - GENAI013: Text Splitters in LangChain | Generative AI using LangChain | Video 11 | CampusX
 
 ---
 #### [ ] Day 204 — 21 Dec 2026, Monday — ⏳ Scheduled
-- **Main Topic:** Advanced RAG
+- **Main Topic:** Advanced RAG: CRAG and Self-RAG
 - **Subtopics to learn:**
-  - Load, split, embed, store
-  - Retrieve relevant chunks
-  - Generate grounded answer
-- **Practice Task:** Build Chat with PDF RAG pipeline
-- **Deliverable:** `RAG project`
+  - Why basic RAG fails: poor retrieval, missing context, hallucination
+  - Corrective RAG (CRAG): detect poor retrieval and correct/search again
+  - SelfRAG: model checks whether retrieved context is useful and whether answer is supported
+  - Query rewriting and retrieval grading
+  - Basic RAG evaluation: groundedness, answer relevance, context relevance
+- **Practice Task:** Add retrieval-quality checks to your RAG project and compare answers before vs after correction/self-checking.
+- **Deliverable:** `Advanced RAG experiment notebook + evaluation table`
 - **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 11-15** on LeetCode/Hackerrank*
-- **Playlist Videos:**
-  - GENAI016: Retrieval Augmented Generation | What is RAG | How does RAG Work | RAG Explained | CampusX
-  - GENAI017: YouTube Chatbot using LangChain | Building a RAG system in LangChain | Video 15 | CampusX
+- **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
 #### [ ] Day 205 — 22 Dec 2026, Tuesday — ⏳ Scheduled
-- **Main Topic:** AI Agents
+- **Main Topic:** AI Agents fundamentals
 - **Subtopics to learn:**
-  - ReAct pattern
-  - Tools and agent executor
-  - Stateful/multi-agent workflows
-- **Practice Task:** Build simple tool-using agent demo
-- **Deliverable:** `Agent demo`
+  - Generative AI vs Agentic AI
+  - What makes a system agentic: goal, tools, memory/state, planning, feedback
+  - ReAct pattern: reasoning + acting with tools
+  - Tool calling and agent executor idea
+  - When not to use agents: simple chain is enough
+- **Practice Task:** Build a simple calculator/search/tool-using agent and log its reasoning steps/actions.
+- **Deliverable:** `Basic tool-using agent demo`
 - **Side Quest:** *DSA: Solve **Trees: Binary Tree Level Order Traversal** on LeetCode*
 - **Playlist Videos:**
   - GENAI018: Tools in LangChain | Generative AI using LangChain | Video 16 | CampusX
@@ -3464,18 +3518,18 @@
 
 ---
 #### [ ] Day 206 — 23 Dec 2026, Wednesday — ⏳ Scheduled
-- **Main Topic:** LangGraph + CrewAI
+- **Main Topic:** LangGraph workflows
 - **Subtopics to learn:**
-  - ReAct pattern
-  - Tools and agent executor
-  - Stateful/multi-agent workflows
-- **Practice Task:** Build simple tool-using agent demo
-- **Deliverable:** `Agent demo`
-- **Side Quest:** *Interview Prep: Prepare answers for **K-Means clustering optimal K selection & scaling** interview questions*
-- **Playlist Videos:**
-  - GENAI018: Tools in LangChain | Generative AI using LangChain | Video 16 | CampusX
-  - GENAI019: Tool Calling in LangChain | Generative AI using LangChain | Video 17 | CampusX
-  - GENAI020: Building end-to-end AI Agent in LangChain | Generative AI using LangChain | Video 18 | CampusX
+  - LangChain vs LangGraph: chains vs stateful graphs
+  - LangGraph core concepts: StateGraph, nodes, edges, state, conditional routing
+  - Sequential workflows
+  - Parallel workflows
+  - Conditional workflows
+  - Iterative workflows and chatbot state
+- **Practice Task:** Build a LangGraph chatbot or mini workflow with at least 3 nodes and one conditional route.
+- **Deliverable:** `LangGraph workflow demo notebook/app`
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 21-25** on LeetCode/Hackerrank*
+- **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
 #### [ ] Day 207 — 24 Dec 2026, Thursday — ⏳ Scheduled
@@ -3483,10 +3537,10 @@
 - **Subtopics to learn:**
   - MCP client/server idea
   - Tools, resources, prompts
-  - AI-tool communication standard
+  - AItool communication standard
 - **Practice Task:** Write MCP architecture notes
 - **Deliverable:** `MCP notes`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *DSA: Solve **Graphs: Number of Islands** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -3496,6 +3550,7 @@
   - Path operations
   - Pydantic validation
   - Model prediction endpoint
+  - FastAPI: preparing requirements.txt and app scaffolding for containerization
 - **Practice Task:** Serve ML model with FastAPI
 - **Deliverable:** `FastAPI app`
 - **Side Quest:** *SQL: Practice **SELECT, WHERE, ORDER BY, LIMIT basics** on LeetCode/Hackerrank*
@@ -3503,14 +3558,15 @@
 
 ---
 #### [ ] Day 209 — 26 Dec 2026, Saturday — ⏳ Scheduled
-- **Main Topic:** Docker basics
+- **Main Topic:** Docker Basics: Containerizing APIs
 - **Subtopics to learn:**
-  - Image vs container
-  - Dockerfile
-  - docker-compose basics
+  - Docker image vs container core concepts
+  - Writing a robust multi-stage Dockerfile for FastAPI
+  - Docker volume mappings and port forwarding
+  - docker-compose configuration for local multi-service testing
 - **Practice Task:** Containerize Streamlit/FastAPI app
 - **Deliverable:** `Docker files`
-- **Side Quest:** *DSA: Solve **Dynamic Programming: Coin Change** on LeetCode*
+- **Side Quest:** *SQL: Practice **Aggregate functions (COUNT, SUM, AVG, MIN, MAX)** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -3520,21 +3576,25 @@
   - Experiments and runs
   - Log params/metrics/artifacts
   - Model registry idea
+  - MLflow: running the tracking server inside a Docker container
 - **Practice Task:** Track ML experiment using MLflow
 - **Deliverable:** `MLflow demo`
-- **Side Quest:** *Interview Prep: Prepare answers for **Linear Regression assumptions & multicollinearity** interview questions*
+- **Side Quest:** *GitHub/LinkedIn: update*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
 #### [ ] Day 211 — 28 Dec 2026, Monday — ⏳ Scheduled
 - **Main Topic:** DVC + GitHub Actions
 - **Subtopics to learn:**
-  - Profile positioning
-  - Pinned repositories
-  - Clear README and screenshots
-- **Practice Task:** Update GitHub/LinkedIn and write post
-- **Deliverable:** `Portfolio checkpoint`
-- **Side Quest:** *GitHub/LinkedIn: update*
+  - DVC basics: tracking datasets, models, and metrics
+  - dvc.yaml pipeline stages and reproducible training
+  - Remote storage concept for data/model artifacts
+  - GitHub Actions workflow file structure
+  - CI checks: install dependencies, run tests, lint, train or validate pipeline
+  - DVC & CI/CD: building and testing Docker containers automatically in GitHub Actions
+- **Practice Task:** Create a simple DVC pipeline for one ML project and add a GitHub Actions workflow that runs basic tests/checks on push.
+- **Deliverable:** `DVC pipeline + GitHub Actions workflow file`
+- **Side Quest:** *SQL: Practice **INNER JOIN & OUTER JOIN (LEFT/RIGHT)** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -3546,7 +3606,7 @@
   - AWS EC2/S3 basics
 - **Practice Task:** Deploy one finished app and save live URL
 - **Deliverable:** `Deployment checklist`
-- **Side Quest:** *SQL: Practice **Self Joins & Subqueries** on LeetCode/Hackerrank*
+- **Side Quest:** *DSA: Solve **Arrays: Product of Array Except Self** on LeetCode*
 - **Playlist Videos:**
   - DSMP086: Session on ETL using AWS RDS | Paid Session | DSMP 2023
 
@@ -3559,7 +3619,7 @@
   - Clear README and screenshots
 - **Practice Task:** Update GitHub/LinkedIn and write post
 - **Deliverable:** `Portfolio checkpoint`
-- **Side Quest:** *DSA: Solve **Two Pointers: Valid Palindrome / Two Sum II** on LeetCode*
+- **Side Quest:** *SQL: Practice **Common Table Expressions (CTEs)** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -3571,7 +3631,7 @@
   - Weak area revision plan
 - **Practice Task:** Do final self-assessment and placement plan
 - **Deliverable:** `Final action plan`
-- **Side Quest:** *Interview Prep: Prepare answers for **ROC-AUC vs PR-AUC curves & imbalanced evaluation** interview questions*
+- **Side Quest:** *DSA: Solve **Sliding Window: Longest Substring Without Repeating Characters** on LeetCode*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -3589,7 +3649,7 @@
   - Basic automated checks using test questions and expected key points
 - **Practice Task:** Create 20 test questions for your RAG/agent project, run outputs, score them for groundedness, relevance, and hallucination risk.
 - **Deliverable:** `llm_eval.py or evaluation notebook + RAG/agent evaluation report`
-- **Side Quest:** *GitHub/LinkedIn: update*
+- **Side Quest:** *SQL: Practice **Window Functions (LAG, LEAD, SUM OVER)** on LeetCode/Hackerrank*
 - **Playlist Videos:** None (use official docs/implementation practice)
 
 ---
@@ -3612,6 +3672,77 @@
   - DL058: Types of RNN | Many to Many | One to Many | Many to One RNNs
   - DL059: How Backpropagation works in RNN | Backpropagation Through Time
   - DL060: Problems with RNN | 100 Days of Deep Learning
+
+---
+#### [ ] Day 217 — 03 Jan 2027, Sunday — ⏳ Scheduled
+- **Main Topic:** CampusX ML foundations catch-up
+- **Subtopics to learn:**
+  - AI vs ML vs DL difference
+  - Types of ML: supervised, unsupervised, semisupervised, reinforcement learning
+  - Batch/offline learning vs online learning
+  - Instancebased learning vs modelbased learning
+  - Common ML challenges: data quality, overfitting, underfitting, data drift
+  - Machine Learning Development Life Cycle and ML job roles
+- **Practice Task:** Create a one-page ML foundations summary and map your completed projects to the ML development life cycle.
+- **Deliverable:** `ML foundations cheat sheet + MLDLC project mapping`
+- **Side Quest:** *GitHub/LinkedIn: update*
+- **Playlist Videos:**
+  - ML001: What is Machine Learning? | 100 Days of Machine Learning
+  - ML002: AI Vs ML Vs DL for Beginners in Hindi
+  - ML003: Types of Machine Learning for Beginners | Types of Machine learning in Hindi | Types of ML in Depth
+  - ML004: Batch Machine Learning | Offline Vs Online Learning | Machine Learning Types
+  - ML005: Online Machine Learning | Online Learning | Online Vs Offline Machine Learning
+  - ML006: Instance-Based Vs Model-Based Learning | Types of Machine Learning
+  - ML007: Challenges in Machine Learning | Problems in Machine Learning
+  - ML008: Application of Machine Learning | Real Life Machine Learning Applications
+  - ML009: Machine Learning Development Life Cycle | MLDLC in Data Science
+  - ML010: Data Engineer Vs Data Analyst Vs Data Scientist Vs ML Engineer | Data Science Job Roles
+  - ML011: What are Tensors | Tensor In-depth Explanation | Tensor in Machine Learning
+  - ML012: Installing Anaconda For Data Science | Jupyter Notebook for Machine Learning | Google Colab for ML
+
+---
+#### [ ] Day 218 — 04 Jan 2027, Monday — ⏳ Scheduled
+- **Main Topic:** YouTube/Website RAG chatbot project
+- **Subtopics to learn:**
+  - Loading web pages or YouTube transcript/content where legally available
+  - Splitting long web/video content into useful chunks
+  - Creating embeddings and vector store for web/video knowledge
+  - Retriever prompt design for sourcegrounded answers
+  - Showing sources/timestamps/links where available
+- **Practice Task:** Build a small RAG chatbot over one YouTube video transcript or one website/document and test 10 questions.
+- **Deliverable:** `YouTube/Website RAG chatbot demo`
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 1-5** on LeetCode/Hackerrank*
+- **Playlist Videos:** None (use official docs/implementation practice)
+
+---
+#### [ ] Day 219 — 05 Jan 2027, Tuesday — ⏳ Scheduled
+- **Main Topic:** LangGraph workflow deep dive
+- **Subtopics to learn:**
+  - Sequential graph for fixed multistep workflows
+  - Parallel graph for independent tasks
+  - Conditional graph for routing based on model/tool output
+  - Iterative graph for retry/reflection loops
+  - Persistent state and conversation memory in LangGraph chatbot
+- **Practice Task:** Convert one simple LangChain chain into a LangGraph workflow with state and conditional routing.
+- **Deliverable:** `LangGraph deep-dive notebook + workflow diagram`
+- **Side Quest:** *DSA: Solve **Trees: Invert Binary Tree / Same Tree** on LeetCode*
+- **Playlist Videos:** None (use official docs/implementation practice)
+
+---
+#### [ ] Day 220 — 06 Jan 2027, Wednesday — ⏳ Scheduled
+- **Main Topic:** Advanced RAG retrieval improvement lab
+- **Subtopics to learn:**
+  - Chunking experiments: chunk size and overlap comparison
+  - Retriever k and score threshold tuning
+  - Metadata filtering
+  - Query rewriting before retrieval
+  - Retrieval grading and answer groundedness scoring
+- **Practice Task:** Run 3 RAG retrieval experiments and compare context relevance, groundedness, and answer quality.
+- **Deliverable:** `RAG retrieval experiment report`
+- **Side Quest:** *SQL: Practice **LeetCode SQL 50: Problems 11-15** on LeetCode/Hackerrank*
+- **Playlist Videos:**
+  - GENAI012: Document Loaders in LangChain | Generative AI using LangChain | Video 10 | CampusX
+  - GENAI013: Text Splitters in LangChain | Generative AI using LangChain | Video 11 | CampusX
 
 ---
 
