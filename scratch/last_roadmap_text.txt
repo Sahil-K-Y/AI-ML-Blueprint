@@ -1,0 +1,1059 @@
+AI/ML ENGINEER
+MASTER ROADMAP — FINAL
+1 June 2026 → 31 December 2026  |  214 Days  |  16 Phases
+Sky (Sahil) — BTech CSE, 3rd Year
+This document is LOCKED. No further roadmap rebuilds.
+Phase Overview & Progress Tracker
+Phase
+Title
+Days
+Dates
+Status
+01
+Foundation — Tooling, Python, EDA
+Day 001-015
+01 Jun 2026 - 15 Jun 2026
+COMPLETED
+02
+Regression + Deployment
+Day 016-029
+16 Jun 2026 - 29 Jun 2026
+COMPLETED
+03
+Classification Foundations + Logging/Pytest
+Day 030-044
+30 Jun 2026 - 14 Jul 2026
+ACTIVE
+04
+Advanced Preprocessing + Core Classifiers
+Day 045-060
+15 Jul 2026 - 30 Jul 2026
+UPCOMING
+05
+Ensembles, Boosting & Unsupervised Learning
+Day 061-082
+31 Jul 2026 - 21 Aug 2026
+UPCOMING
+06
+Model Optimization + FastAPI Deployment
+Day 083-095
+22 Aug 2026 - 03 Sept 2026
+UPCOMING
+07
+Deep Learning Fundamentals + PyTorch
+Day 096-112
+04 Sept 2026 - 20 Sept 2026
+UPCOMING
+08
+Computer Vision — CNNs & OpenCV
+Day 113-128
+21 Sept 2026 - 06 Oct 2026
+UPCOMING
+09
+NLP & Sequence Models
+Day 129-143
+07 Oct 2026 - 21 Oct 2026
+UPCOMING
+10
+Transformers, LLMs, RAG & Agents
+Day 144-159
+22 Oct 2026 - 06 Nov 2026
+UPCOMING
+11
+React / Web Frontend
+Day 160-168
+07 Nov 2026 - 15 Nov 2026
+UPCOMING
+12
+Full-Stack AI Integration
+Day 169-175
+16 Nov 2026 - 22 Nov 2026
+UPCOMING
+13
+MLOps & Production Pipelines
+Day 176-187
+23 Nov 2026 - 04 Dec 2026
+UPCOMING
+14
+Capstone Development
+Day 188-201
+05 Dec 2026 - 18 Dec 2026
+UPCOMING
+15
+Job Readiness & Portfolio
+Day 202-212
+19 Dec 2026 - 29 Dec 2026
+UPCOMING
+16
+Final Review
+Day 213-214
+30 Dec 2026 - 31 Dec 2026
+UPCOMING
+Current Status (as of 1 July 2026)
+✅ Completed: Phase 1 (Foundation) — Days 1-15
+✅ Completed: Phase 2 (Regression + Deployment) — Days 16-29
+✅ Completed: Day 30 (Classification Project Architecture & Logging)
+🔴 ACTIVE: Day 31 — Pipeline Verification with Pytest (start today)
+📌 Note: Logistic Regression theory & math notation already understood — continue into Day 32 onward.
+PHASE 01: FOUNDATION — TOOLING, PYTHON, EDA
+Day 001 - Day 015  |  01 Jun 2026 - 15 Jun 2026  |  Status: COMPLETED
+Day
+Date
+Topic
+Status
+001
+01 Jun 2026
+Environment Setup (Anaconda, Jupyter, VS Code, pip/conda)
+Completed
+002
+02 Jun 2026
+Python Core Refresher — Variables, Loops, Functions
+Completed
+003
+03 Jun 2026
+Python OOP — Classes, Inheritance, Polymorphism
+Completed
+004
+04 Jun 2026
+File Handling & Exception Handling
+Completed
+005
+05 Jun 2026
+Comprehensions, Lambda, Map/Filter, Decorators
+Completed
+006
+06 Jun 2026
+NumPy Fundamentals — Arrays, Broadcasting
+Completed
+007
+07 Jun 2026
+NumPy Advanced — Reshaping, Linear Algebra Ops
+Completed
+008
+08 Jun 2026
+Pandas — Series & DataFrame Basics
+Completed
+009
+09 Jun 2026
+Pandas — Indexing (loc/iloc), GroupBy, Merge/Join
+Completed
+010
+10 Jun 2026
+Matplotlib Visualization
+Completed
+011
+11 Jun 2026
+Seaborn Visualization
+Completed
+012
+12 Jun 2026
+Statistics Foundations — Mean, Median, Variance, Distributions
+Completed
+013
+13 Jun 2026
+Probability & Bayes Theorem
+Completed
+014
+14 Jun 2026
+Linear Algebra Basics — Vectors, Matrices, Eigenvalues
+Completed
+015
+15 Jun 2026
+EDA Capstone — Full Exploratory Analysis Project
+Completed
+PHASE 02: REGRESSION + DEPLOYMENT
+Day 016 - Day 029  |  16 Jun 2026 - 29 Jun 2026  |  Status: COMPLETED
+Day
+Date
+Topic
+Status
+016
+16 Jun 2026
+Simple Linear Regression — Theory & Math
+Completed
+017
+17 Jun 2026
+Simple Linear Regression — Implementation
+Completed
+018
+18 Jun 2026
+Multiple Linear Regression — Multicollinearity & VIF
+Completed
+019
+19 Jun 2026
+Polynomial Regression
+Completed
+020
+20 Jun 2026
+Gradient Descent — Batch, SGD, Mini-batch
+Completed
+021
+21 Jun 2026
+Regression Metrics — MSE, RMSE, MAE, R²
+Completed
+022
+22 Jun 2026
+Ridge Regression (L2)
+Completed
+023
+23 Jun 2026
+Lasso Regression (L1) & Elastic Net
+Completed
+024
+24 Jun 2026
+Feature Scaling for Regression
+Completed
+025
+25 Jun 2026
+Regression Project — Data Preprocessing (House Price)
+Completed
+026
+26 Jun 2026
+Regression Project — Model Training & Comparison
+Completed
+027
+27 Jun 2026
+Regression Project — Evaluation & Serialization
+Completed
+028
+28 Jun 2026
+Streamlit Basics for Deployment
+Completed
+029
+29 Jun 2026
+Deploy Regression Project (Streamlit Cloud)
+Completed
+PHASE 03: CLASSIFICATION FOUNDATIONS + LOGGING/PYTEST
+Day 030 - Day 044  |  30 Jun 2026 - 14 Jul 2026  |  Status: ACTIVE
+Day
+Date
+Topic
+Status
+030
+30 Jun 2026
+Classification Project Architecture & Logging
+Completed
+031
+01 Jul 2026
+Pipeline Verification with Pytest
+Current
+032
+02 Jul 2026
+Sigmoid, Odds & Log-Odds
+Upcoming
+033
+03 Jul 2026
+Logistic Regression — Implementation
+Upcoming
+034
+04 Jul 2026
+Log Loss & Maximum Likelihood Intuition
+Upcoming
+035
+05 Jul 2026
+Multiclass Logistic Regression & Softmax
+Upcoming
+036
+06 Jul 2026
+Regularization in Logistic Regression (L1/L2, C parameter)
+Upcoming
+037
+07 Jul 2026
+Confusion Matrix, Accuracy, Type I/II Errors
+Upcoming
+038
+08 Jul 2026
+Precision, Recall & F1 Score
+Upcoming
+039
+09 Jul 2026
+ROC-AUC & PR-AUC Curves
+Upcoming
+040
+10 Jul 2026
+Decision Trees — Entropy & Gini Impurity
+Upcoming
+041
+11 Jul 2026
+Decision Trees — Information Gain & Splitting
+Upcoming
+042
+12 Jul 2026
+Decision Trees — Overfitting & Pruning
+Upcoming
+043
+13 Jul 2026
+Decision Tree Regressor + Visualization
+Upcoming
+044
+14 Jul 2026
+Classification Capstone — Loan Approval Full Pipeline + Tests
+Upcoming
+PHASE 04: ADVANCED PREPROCESSING + CORE CLASSIFIERS
+Day 045 - Day 060  |  15 Jul 2026 - 30 Jul 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+045
+15 Jul 2026
+SVM — Hyperplane & Margin
+Upcoming
+046
+16 Jul 2026
+SVM — Kernel Trick (Linear, RBF, Polynomial)
+Upcoming
+047
+17 Jul 2026
+SVM — Parameter Tuning (C, Gamma)
+Upcoming
+048
+18 Jul 2026
+Support Vector Regression (SVR)
+Upcoming
+049
+19 Jul 2026
+Naive Bayes — Theory & Bayes Theorem
+Upcoming
+050
+20 Jul 2026
+Naive Bayes — Gaussian / Multinomial / Bernoulli
+Upcoming
+051
+21 Jul 2026
+KNN — Core Algorithm & Distance Metrics
+Upcoming
+052
+22 Jul 2026
+KNN — K Selection & KNN Regressor
+Upcoming
+053
+23 Jul 2026
+Missing Value Imputation (Mean/Median/KNN/Iterative)
+Upcoming
+054
+24 Jul 2026
+Outlier Treatment (IQR, Z-score, Winsorization)
+Upcoming
+055
+25 Jul 2026
+Categorical Encoding Deep Dive
+Upcoming
+056
+26 Jul 2026
+Feature Scaling Deep Dive (Standard/MinMax/Robust)
+Upcoming
+057
+27 Jul 2026
+Feature Transformation (Log, Box-Cox, Yeo-Johnson)
+Upcoming
+058
+28 Jul 2026
+Feature Selection (Filter/Wrapper/Embedded Methods)
+Upcoming
+059
+29 Jul 2026
+sklearn ColumnTransformer & Pipelines
+Upcoming
+060
+30 Jul 2026
+Classifier Comparison Capstone Project
+Upcoming
+PHASE 05: ENSEMBLES, BOOSTING & UNSUPERVISED LEARNING
+Day 061 - Day 082  |  31 Jul 2026 - 21 Aug 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+061
+31 Jul 2026
+Bagging & Bootstrap Sampling
+Upcoming
+062
+01 Aug 2026
+Random Forest — Architecture
+Upcoming
+063
+02 Aug 2026
+Random Forest — Hyperparameters
+Upcoming
+064
+03 Aug 2026
+AdaBoost — Weak Learners & Weight Updates
+Upcoming
+065
+04 Aug 2026
+AdaBoost — Implementation
+Upcoming
+066
+05 Aug 2026
+Gradient Boosting — Mechanics
+Upcoming
+067
+06 Aug 2026
+Gradient Boosting — Implementation
+Upcoming
+068
+07 Aug 2026
+XGBoost — Math Intuition
+Upcoming
+069
+08 Aug 2026
+XGBoost — Hyperparameters
+Upcoming
+070
+09 Aug 2026
+XGBoost — Early Stopping & Missing Values
+Upcoming
+071
+10 Aug 2026
+XGBoost — Project
+Upcoming
+072
+11 Aug 2026
+LightGBM
+Upcoming
+073
+12 Aug 2026
+CatBoost
+Upcoming
+074
+13 Aug 2026
+Stacking Classifier/Regressor
+Upcoming
+075
+14 Aug 2026
+Voting Classifier/Regressor
+Upcoming
+076
+15 Aug 2026
+Ensemble Comparison Capstone Project
+Upcoming
+077
+16 Aug 2026
+K-Means Clustering
+Upcoming
+078
+17 Aug 2026
+K-Means — Elbow Method & Silhouette Score
+Upcoming
+079
+18 Aug 2026
+DBSCAN
+Upcoming
+080
+19 Aug 2026
+Hierarchical Clustering & Dendrograms
+Upcoming
+081
+20 Aug 2026
+PCA — Math & Implementation
+Upcoming
+082
+21 Aug 2026
+Clustering + PCA Capstone Project
+Upcoming
+PHASE 06: MODEL OPTIMIZATION + FASTAPI DEPLOYMENT
+Day 083 - Day 095  |  22 Aug 2026 - 03 Sept 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+083
+22 Aug 2026
+Cross Validation Strategies (K-Fold, Stratified)
+Upcoming
+084
+23 Aug 2026
+Bias-Variance Tradeoff
+Upcoming
+085
+24 Aug 2026
+Hyperparameter Tuning — GridSearch/RandomSearch
+Upcoming
+086
+25 Aug 2026
+Optuna for Hyperparameter Tuning
+Upcoming
+087
+26 Aug 2026
+Handling Imbalanced Data — SMOTE
+Upcoming
+088
+27 Aug 2026
+SHAP Values — Global/Local Interpretability
+Upcoming
+089
+28 Aug 2026
+LIME — Local Explanations
+Upcoming
+090
+29 Aug 2026
+FastAPI Basics — Path Operations, Pydantic
+Upcoming
+091
+30 Aug 2026
+FastAPI — Model Serving Endpoint
+Upcoming
+092
+31 Aug 2026
+Docker Basics — Dockerfile
+Upcoming
+093
+01 Sept 2026
+Docker — Containerizing an ML API
+Upcoming
+094
+02 Sept 2026
+ML Project — Fraud Detection (XGBoost + SMOTE + SHAP)
+Upcoming
+095
+03 Sept 2026
+Deploy Fraud Detection API (FastAPI + Docker)
+Upcoming
+PHASE 07: DEEP LEARNING FUNDAMENTALS + PYTORCH
+Day 096 - Day 112  |  04 Sept 2026 - 20 Sept 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+096
+04 Sept 2026
+Neural Network Basics — Perceptron
+Upcoming
+097
+05 Sept 2026
+Multi-Layer Perceptron (MLP)
+Upcoming
+098
+06 Sept 2026
+Forward Propagation from Scratch
+Upcoming
+099
+07 Sept 2026
+Backpropagation Math — Chain Rule
+Upcoming
+100
+08 Sept 2026
+Backpropagation — Implementation (NumPy)
+Upcoming
+101
+09 Sept 2026
+Activation Functions (Sigmoid, Tanh, ReLU family)
+Upcoming
+102
+10 Sept 2026
+Loss Functions (MSE, BCE, CCE)
+Upcoming
+103
+11 Sept 2026
+Optimizers — SGD, Momentum, RMSprop
+Upcoming
+104
+12 Sept 2026
+Optimizers — Adam, AdamW
+Upcoming
+105
+13 Sept 2026
+Regularization — Dropout, Batch Normalization
+Upcoming
+106
+14 Sept 2026
+Weight Initialization (Xavier, He)
+Upcoming
+107
+15 Sept 2026
+PyTorch — Tensors & Autograd
+Upcoming
+108
+16 Sept 2026
+PyTorch — nn.Module & Dataset/DataLoader
+Upcoming
+109
+17 Sept 2026
+PyTorch — Training Loop
+Upcoming
+110
+18 Sept 2026
+PyTorch — Model Serialization
+Upcoming
+111
+19 Sept 2026
+Learning Rate Schedulers
+Upcoming
+112
+20 Sept 2026
+MNIST Capstone (NumPy → PyTorch Comparison)
+Upcoming
+PHASE 08: COMPUTER VISION — CNNS & OPENCV
+Day 113 - Day 128  |  21 Sept 2026 - 06 Oct 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+113
+21 Sept 2026
+CNN Basics — Convolutions & Kernels
+Upcoming
+114
+22 Sept 2026
+CNN — Padding & Stride
+Upcoming
+115
+23 Sept 2026
+CNN — Pooling & Flattening
+Upcoming
+116
+24 Sept 2026
+CNN — Implementation in PyTorch
+Upcoming
+117
+25 Sept 2026
+Famous Architectures — LeNet, AlexNet, VGG
+Upcoming
+118
+26 Sept 2026
+Famous Architectures — ResNet, MobileNet
+Upcoming
+119
+27 Sept 2026
+Transfer Learning — Feature Extraction
+Upcoming
+120
+28 Sept 2026
+Transfer Learning — Fine-Tuning
+Upcoming
+121
+29 Sept 2026
+Data Augmentation
+Upcoming
+122
+30 Sept 2026
+Object Detection Concepts & YOLO
+Upcoming
+123
+01 Oct 2026
+YOLOv8 Custom Detection Project
+Upcoming
+124
+02 Oct 2026
+OpenCV Basics
+Upcoming
+125
+03 Oct 2026
+OpenCV Video Processing
+Upcoming
+126
+04 Oct 2026
+Image Segmentation & U-Net
+Upcoming
+127
+05 Oct 2026
+CV Capstone Project — Cat vs Dog / Emotion Detection
+Upcoming
+128
+06 Oct 2026
+CV Capstone — Deployment
+Upcoming
+PHASE 09: NLP & SEQUENCE MODELS
+Day 129 - Day 143  |  07 Oct 2026 - 21 Oct 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+129
+07 Oct 2026
+Text Preprocessing Pipeline
+Upcoming
+130
+08 Oct 2026
+Stemming vs Lemmatization
+Upcoming
+131
+09 Oct 2026
+Bag of Words (BoW)
+Upcoming
+132
+10 Oct 2026
+TF-IDF
+Upcoming
+133
+11 Oct 2026
+Word2Vec (CBOW & Skip-gram)
+Upcoming
+134
+12 Oct 2026
+GloVe & FastText
+Upcoming
+135
+13 Oct 2026
+RNN — Sequential Processing
+Upcoming
+136
+14 Oct 2026
+RNN — Vanishing Gradients
+Upcoming
+137
+15 Oct 2026
+LSTM Architecture
+Upcoming
+138
+16 Oct 2026
+GRU
+Upcoming
+139
+17 Oct 2026
+Bidirectional LSTM
+Upcoming
+140
+18 Oct 2026
+NLP Project — Sentiment Analysis (TF-IDF + ML)
+Upcoming
+141
+19 Oct 2026
+NLP Project — Sentiment Analysis (LSTM)
+Upcoming
+142
+20 Oct 2026
+Named Entity Recognition
+Upcoming
+143
+21 Oct 2026
+NLP Capstone — Resume Screener
+Upcoming
+PHASE 10: TRANSFORMERS, LLMS, RAG & AGENTS
+Day 144 - Day 159  |  22 Oct 2026 - 06 Nov 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+144
+22 Oct 2026
+Attention Mechanism
+Upcoming
+145
+23 Oct 2026
+Multi-Head Attention
+Upcoming
+146
+24 Oct 2026
+Transformer Encoder Block
+Upcoming
+147
+25 Oct 2026
+Transformer Decoder Block
+Upcoming
+148
+26 Oct 2026
+BERT — MLM & NSP
+Upcoming
+149
+27 Oct 2026
+BERT Variants & Fine-Tuning
+Upcoming
+150
+28 Oct 2026
+GPT Family & Causal Language Modeling
+Upcoming
+151
+29 Oct 2026
+Hugging Face Pipeline API
+Upcoming
+152
+30 Oct 2026
+Hugging Face AutoModel/AutoTokenizer + Fine-Tuning
+Upcoming
+153
+31 Oct 2026
+LLM Fundamentals — Tokens, Temperature, Top-P/K
+Upcoming
+154
+01 Nov 2026
+Prompt Engineering (Zero/Few-shot, Chain-of-Thought)
+Upcoming
+155
+02 Nov 2026
+LangChain Core Components
+Upcoming
+156
+03 Nov 2026
+Vector Databases (FAISS, ChromaDB)
+Upcoming
+157
+04 Nov 2026
+RAG Pipeline — Basic
+Upcoming
+158
+05 Nov 2026
+RAG Pipeline — Advanced (Hybrid Search, Re-ranking)
+Upcoming
+159
+06 Nov 2026
+AI Agents — LangGraph / CrewAI / MCP Introduction
+Upcoming
+PHASE 11: REACT / WEB FRONTEND
+Day 160 - Day 168  |  07 Nov 2026 - 15 Nov 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+160
+07 Nov 2026
+HTML/CSS/JS Refresher for React
+Upcoming
+161
+08 Nov 2026
+React Basics — Components, Props, State
+Upcoming
+162
+09 Nov 2026
+React Hooks (useState, useEffect)
+Upcoming
+163
+10 Nov 2026
+React — API Integration (fetch/axios)
+Upcoming
+164
+11 Nov 2026
+React — Forms & Routing
+Upcoming
+165
+12 Nov 2026
+Tailwind CSS for Styling
+Upcoming
+166
+13 Nov 2026
+Building an ML Model UI in React
+Upcoming
+167
+14 Nov 2026
+React State Management
+Upcoming
+168
+15 Nov 2026
+React Project — ML Dashboard Frontend
+Upcoming
+PHASE 12: FULL-STACK AI INTEGRATION
+Day 169 - Day 175  |  16 Nov 2026 - 22 Nov 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+169
+16 Nov 2026
+Connecting React Frontend to FastAPI Backend
+Upcoming
+170
+17 Nov 2026
+Full-Stack Auth Basics
+Upcoming
+171
+18 Nov 2026
+Full-Stack Project — Chat-with-PDF (RAG) UI
+Upcoming
+172
+19 Nov 2026
+Full-Stack Project — Backend Integration
+Upcoming
+173
+20 Nov 2026
+Full-Stack Project — Testing & Debugging
+Upcoming
+174
+21 Nov 2026
+Full-Stack Project — Deployment
+Upcoming
+175
+22 Nov 2026
+Full-Stack Capstone Review
+Upcoming
+PHASE 13: MLOPS & PRODUCTION PIPELINES
+Day 176 - Day 187  |  23 Nov 2026 - 04 Dec 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+176
+23 Nov 2026
+MLflow — Experiment Tracking
+Upcoming
+177
+24 Nov 2026
+MLflow — Model Registry
+Upcoming
+178
+25 Nov 2026
+DVC — Data Version Control
+Upcoming
+179
+26 Nov 2026
+GitHub Actions — CI/CD Basics
+Upcoming
+180
+27 Nov 2026
+GitHub Actions — Auto-Test Pipeline
+Upcoming
+181
+28 Nov 2026
+Monitoring — Evidently AI (Data Drift)
+Upcoming
+182
+29 Nov 2026
+Docker Compose — Multi-Container Apps
+Upcoming
+183
+30 Nov 2026
+AWS EC2 Basics
+Upcoming
+184
+01 Dec 2026
+AWS S3 for Model/Data Storage
+Upcoming
+185
+02 Dec 2026
+MLOps Pipeline Project — Setup
+Upcoming
+186
+03 Dec 2026
+MLOps Pipeline Project — Integration
+Upcoming
+187
+04 Dec 2026
+MLOps Pipeline Project — Full Deployment
+Upcoming
+PHASE 14: CAPSTONE DEVELOPMENT
+Day 188 - Day 201  |  05 Dec 2026 - 18 Dec 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+188
+05 Dec 2026
+Capstone — Idea Selection & Scoping
+Upcoming
+189
+06 Dec 2026
+Capstone — Data Collection
+Upcoming
+190
+07 Dec 2026
+Capstone — EDA
+Upcoming
+191
+08 Dec 2026
+Capstone — Feature Engineering
+Upcoming
+192
+09 Dec 2026
+Capstone — Model Building (v1)
+Upcoming
+193
+10 Dec 2026
+Capstone — Model Evaluation & Iteration
+Upcoming
+194
+11 Dec 2026
+Capstone — Model Building (v2 / Ensemble)
+Upcoming
+195
+12 Dec 2026
+Capstone — FastAPI Backend Build
+Upcoming
+196
+13 Dec 2026
+Capstone — React Frontend Build
+Upcoming
+197
+14 Dec 2026
+Capstone — Frontend-Backend Integration
+Upcoming
+198
+15 Dec 2026
+Capstone — Testing & Bug Fixing
+Upcoming
+199
+16 Dec 2026
+Capstone — Dockerization
+Upcoming
+200
+17 Dec 2026
+Capstone — Cloud Deployment
+Upcoming
+201
+18 Dec 2026
+Capstone — Documentation & Demo Video
+Upcoming
+PHASE 15: JOB READINESS & PORTFOLIO
+Day 202 - Day 212  |  19 Dec 2026 - 29 Dec 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+202
+19 Dec 2026
+GitHub Profile README
+Upcoming
+203
+20 Dec 2026
+Portfolio Website
+Upcoming
+204
+21 Dec 2026
+Resume Building (ATS-Optimized)
+Upcoming
+205
+22 Dec 2026
+LinkedIn Optimization
+Upcoming
+206
+23 Dec 2026
+SQL Basics + Joins
+Upcoming
+207
+24 Dec 2026
+SQL Window Functions + LeetCode SQL 50
+Upcoming
+208
+25 Dec 2026
+ML Theory Interview Prep
+Upcoming
+209
+26 Dec 2026
+DL Theory Interview Prep
+Upcoming
+210
+27 Dec 2026
+ML System Design
+Upcoming
+211
+28 Dec 2026
+DSA Practice — Arrays through Trees (Problem Solving)
+Upcoming
+212
+29 Dec 2026
+Mock Interviews
+Upcoming
+PHASE 16: FINAL REVIEW
+Day 213 - Day 214  |  30 Dec 2026 - 31 Dec 2026  |  Status: UPCOMING
+Day
+Date
+Topic
+Status
+213
+30 Dec 2026
+Full Roadmap Revision — Concept Recap
+Upcoming
+214
+31 Dec 2026
+Final Mock Interview + Application Strategy Launch
+Upcoming
+Final Deliverables by 31 December 2026
+4 Classical ML Projects deployed (Titanic, Fraud Detection, Segmentation, Employee Churn)
+1 PyTorch Deep Learning Project (MNIST, from-scratch + framework comparison)
+1 Computer Vision Project (YOLOv8 Detection or U-Net Segmentation)
+1 NLP Project (Resume Screener / Sentiment Analysis)
+1 LLM/RAG/Agent Project (Chat-with-PDF or Multi-Agent System)
+1 Full-Stack Capstone (React + FastAPI + Docker + Cloud Deployment)
+MLOps Evidence: MLflow runs, CI/CD pipeline, monitoring dashboard
+Job-Readiness: Resume, Portfolio site, LinkedIn, SQL 50, Mock Interviews
+This roadmap is FINAL. It will not be rebuilt again — only followed, one day at a time.
