@@ -231,12 +231,11 @@ It is not just a notes repository — it is a **day-by-day implementation-driven
 ```text
 AI-ML-Blueprint/
 │
-├── 📁 01 - June - Foundations/            → Completed: Python, OOP, NumPy, Pandas, EDA, Viz, Stats
-├── 📁 02 - June - Regression/             → Completed: OLS Linear Regression, Metrics & Streamlit UIs
-├── 📁 03 - July - Classification/         → Active: Classification, Decision Trees, SVM, KNN, Naive Bayes, Clustering
-│   ├── 📁 notebooks/                      → Daily Jupyter notebooks for concept execution
-│   ├── 📁 src/                            → Python script pipelines and logs
-│   └── train.csv                          → Active classification datasets
+├── 📁 Phase-1 - EDA & Feature Engineering/   → Completed: Python, OOP, NumPy, Pandas, EDA, Viz, Stats
+├── 📁 Phase-2 - Regression & Streamlit/      → Completed: OLS Linear Regression, Metrics & Streamlit UIs
+├── 📁 Phase-3 - Logistic Regression Deep Dive/ → Active: Classification, Decision Trees, SVM, KNN, Naive Bayes, Clustering
+│   ├── 📝 31.ipynb                          → Hand-coded notebooks (Sigmoid, Log Loss, BCE curves)
+│   └── 📊 train.csv                         → Active classification datasets
 │
 ├── 📝 final.md                            → Master Daily progress tracker, tasks, and playlist links (June → January)
 ├── 📝 roadmap (1).txt                     → Raw source text file of the beginner roadmap
