@@ -1,0 +1,1334 @@
+==========================================================================================
+
+  COMPLETE AI/ML ENGINEER ROADMAP — DAY BY DAY (BASIC TO ADVANCED)
+
+  Timeline: 1 June 2026 → 11 January 2027 (225 Days)
+
+  Daily Commitment: 5 Hours | Goal: Job-Ready AI/ML Engineer
+
+  Author: Sahil-K-Y
+
+==========================================================================================
+
+==========================================================================================
+
+  PHASE INDEX
+
+==========================================================================================
+
+  Phase 1:  Python Foundation (Days 001-015)
+  Phase 2:  Numerical Computing with NumPy (Days 016-020)
+  Phase 3:  Data Manipulation with Pandas (Days 021-030)
+  Phase 4:  Data Visualization (Days 031-035)
+  Phase 5:  Statistics & Probability (Days 036-040)
+  Phase 6:  ML Fundamentals — Regression to Classification (Days 041-055)
+  Phase 7:  Tree Models & SVM (Days 056-070)
+  Phase 8:  Boosting & Advanced Ensembles (Days 071-082)
+  Phase 9:  Feature Engineering & Preprocessing (Days 083-092)
+  Phase 10: Imbalanced Learning & XAI (Days 093-100)
+  Phase 11: Unsupervised Learning (Days 101-112)
+  Phase 12: Time Series Analysis (Days 113-118)
+  Phase 13: Deep Learning — ANN, CNN, RNN (Days 119-145)
+  Phase 14: Natural Language Processing (Days 146-165)
+  Phase 15: Computer Vision (Days 166-180)
+  Phase 16: MLOps & Model Deployment (Days 181-200)
+  Phase 17: LLMs & Generative AI (Days 201-218)
+  Phase 18: Career Preparation (Days 219-225)
+
+==========================================================================================
+
+  DAILY STUDY PLAN (5 Hours)
+
+==========================================================================================
+
+  • Theory & Concept Study: 90-120 min
+  • Coding & Notebook Practice: 120 min
+  • Project Implementation: 60 min
+  • Revision & Notes: 30 min
+  • SQL/DSA/Interview: 30 min
+
+==========================================================================================
+
+  DETAILED ROADMAP
+
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+  Phase 1: Python Foundation
+------------------------------------------------------------------------------------------
+
+--- Day 001 | 01 Jun Mon ---
+Topic: Python Setup, Variables & Data Types
+Subtopics: Python 3.10+ installation, VS Code setup, Jupyter Notebook basics, variables (int/float/str/bool), type() function, type casting, f-strings, input()/print(), naming conventions, comments
+Deliverable: 01_variables.ipynb
+
+--- Day 002 | 02 Jun Tue ---
+Topic: Operators & Strings
+Subtopics: Arithmetic operators (+, -, *, /, //, %, **), comparison operators (==, !=, <, >, <=, >=), logical operators (and, or, not), string indexing & slicing [start:stop:step], string immutability, string methods (upper, lower, strip, split, join, replace, find, count, startswith, endswith), f-string formatting (.2f, .0%, :, padding)
+Deliverable: 02_strings.ipynb
+
+--- Day 003 | 03 Jun Wed ---
+Topic: Conditionals & Loops
+Subtopics: if/elif/else statement, nested conditions, ternary operator, for loop with range(), while loop, break/continue/pass statements, enumerate(), zip(), nested loops, pattern printing, loop else clause
+Deliverable: 03_conditionals_loops.ipynb
+
+--- Day 004 | 04 Jun Thu ---
+Topic: Lists, Tuples, Sets, Dictionaries
+Subtopics: List methods (append, insert, remove, pop, sort, reverse, index, count), list slicing, list comprehension, tuple packing/unpacking, tuple immutability, set operations (union, intersection, difference, symmetric_difference), set methods (add, remove, discard, pop), dictionary methods (keys, values, items, get, update, pop, setdefault), dict comprehension
+Deliverable: 04_data_structures.ipynb
+
+--- Day 005 | 05 Jun Fri ---
+Topic: Functions & Scope
+Subtopics: def statement, return values, parameters (positional, keyword, default), *args (variable positional), **kwargs (variable keyword), lambda functions, map()/filter()/reduce(), docstrings, function annotations, scope rules (LEGB), global/nonlocal keywords, nested functions, closures
+Deliverable: 05_functions.ipynb
+
+--- Day 006 | 06 Jun Sat ---
+Topic: Comprehensions, Generators & Itertools
+Subtopics: List comprehension (nested, conditional), dict comprehension, set comprehension, generator expressions vs list comprehensions, generator functions with yield, yield from, itertools (chain, combinations, permutations, product, cycle, count, accumulate), memory efficiency comparison
+Deliverable: 06_comprehensions.ipynb
+
+--- Day 007 | 07 Jun Sun ---
+Topic: OOP Basics — Classes & Objects
+Subtopics: class keyword, __init__ constructor, self parameter, instance variables vs class variables, instance methods, class variables, __str__ and __repr__ magic methods, __len__, __del__, object instantiation, isinstance()/issubclass()
+Deliverable: 07_oop_basics.ipynb
+
+--- Day 008 | 08 Jun Mon ---
+Topic: OOP — Inheritance, Polymorphism & Encapsulation
+Subtopics: Single inheritance, multiple inheritance, method overriding, super() function, MRO (Method Resolution Order), polymorphism with duck typing, encapsulation with _protected and __private attributes, name mangling, @property decorator (getter/setter/deleter), @classmethod vs @staticmethod
+Deliverable: 08_oop_advanced.ipynb
+
+--- Day 009 | 09 Jun Tue ---
+Topic: OOP — Magic Methods & Context Managers
+Subtopics: __add__, __sub__, __mul__ (arithmetic operators), __eq__, __lt__, __gt__ (comparison), __getitem__, __setitem__, __iter__, __next__, __call__, __enter__/__exit__ (context managers), __hash__, __bool__, operator overloading patterns
+Deliverable: 09_magic_methods.ipynb
+
+--- Day 010 | 10 Jun Wed ---
+Topic: File Handling — TXT, CSV, JSON
+Subtopics: open() function (r/w/a/r+/w+), with statement context manager, read()/readline()/readlines(), write()/writelines(), CSV module (reader/writer/DictReader/DictWriter), JSON module (dump/load/dumps/loads), pathlib.Path basics (mkdir, glob, read_text, write_text), file encoding (utf-8)
+Deliverable: 10_file_handling.ipynb
+
+--- Day 011 | 11 Jun Thu ---
+Topic: Exception Handling & Custom Exceptions
+Subtopics: try/except/else/finally blocks, catching specific exceptions (ValueError, TypeError, KeyError, FileNotFoundError), raise statement, custom exception classes (subclass Exception), assert statement, exception chaining, try-except in loops, best practices
+Deliverable: 11_exceptions.ipynb
+
+--- Day 012 | 12 Jun Fri ---
+Topic: Python Decorators & Advanced Functions
+Subtopics: Decorator pattern (@decorator), wrapper functions, functools.wraps, decorators with arguments, class decorators, property decorator deep dive, functools.partial, functools.lru_cache, functools.singledispatch
+Deliverable: 12_decorators.ipynb
+
+--- Day 013 | 13 Jun Sat ---
+Topic: Python Modules, Packages & venv
+Subtopics: Module creation and import, __name__ == '__main__' guard, from/import/as variants, __init__.py and packages, absolute vs relative imports, virtual environments (venv), pip package manager, requirements.txt, common built-in modules (math, datetime, os, sys, collections, random)
+Deliverable: 13_modules.ipynb
+
+--- Day 014 | 14 Jun Sun ---
+Topic: Python Revision & Practice
+Subtopics: Comprehensive revision of all Python topics, 30 mixed practice problems, debugging techniques (pdb, print, logging), code optimization tips, writing clean Python code (PEP 8), type hints introduction (typing module)
+Deliverable: 14_revision.ipynb
+
+--- Day 015 | 15 Jun Mon ---
+Topic: Python Mini Project — Data Analysis CLI Tool
+Subtopics: Build a command-line tool that reads CSV files, performs basic statistics, filters data, and generates summary reports. Apply all Python concepts: OOP, file handling, exception handling, functions, comprehensions
+Deliverable: 15_python_project.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 2: Numerical Computing with NumPy
+------------------------------------------------------------------------------------------
+
+--- Day 016 | 16 Jun Tue ---
+Topic: NumPy Arrays, Indexing & Slicing
+Subtopics: np.array(), np.zeros, np.ones, np.full, np.eye, np.arange, np.linspace, np.random.randn, np.random.randint, array attributes (shape, dtype, ndim, size, itemsize), indexing and slicing 1D/2D arrays, boolean indexing, fancy indexing, copies vs views
+Deliverable: 16_numpy_arrays.ipynb
+
+--- Day 017 | 17 Jun Wed ---
+Topic: NumPy Vectorization & Broadcasting
+Subtopics: Vectorized operations vs Python loops (speed comparison), element-wise arithmetic, broadcasting rules (dimension alignment from right), universal functions (ufunc): np.exp, np.log, np.sqrt, np.sin, np.cos, np.abs, np.where, np.clip
+Deliverable: 17_numpy_vectorization.ipynb
+
+--- Day 018 | 18 Jun Thu ---
+Topic: NumPy Reshaping, Stacking & Splitting
+Subtopics: reshape(), ravel(), flatten(), resize(), transpose() and .T, hstack/vstack/column_stack, np.concatenate, np.split/array_split, np.newaxis for dimension expansion, squeeze(), expand_dims()
+Deliverable: 18_numpy_shapes.ipynb
+
+--- Day 019 | 19 Jun Fri ---
+Topic: NumPy Statistics & Random Module
+Subtopics: np.mean, np.median, np.std, np.var, np.min, np.max, np.argmin, np.argmax, np.percentile, np.unique, np.histogram, np.random.seed for reproducibility, np.random.uniform, np.random.normal, np.random.binomial, np.random.choice, axis parameter operations
+Deliverable: 19_numpy_stats.ipynb
+
+--- Day 020 | 20 Jun Sat ---
+Topic: NumPy Linear Algebra
+Subtopics: Dot product (np.dot, @ operator), matrix multiplication, np.linalg.inv (inverse), np.linalg.det (determinant), np.linalg.eig (eigenvalues/vectors), np.linalg.svd (singular value decomposition), np.linalg.lstsq (least squares), np.linalg.norm
+Deliverable: 20_numpy_linalg.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 3: Data Manipulation with Pandas
+------------------------------------------------------------------------------------------
+
+--- Day 021 | 21 Jun Sun ---
+Topic: Pandas Series & DataFrame Basics
+Subtopics: pd.Series creation (from list, dict, array), pd.DataFrame creation (from dict, list of dicts, CSV), pd.read_csv() parameters (sep, header, index_col, usecols, dtype, parse_dates), df.head/tail/sample, df.info(), df.describe(), df.dtypes, df.shape, df.columns, df.values
+Deliverable: 21_pandas_basics.ipynb
+
+--- Day 022 | 22 Jun Mon ---
+Topic: Pandas Indexing — loc, iloc & Filtering
+Subtopics: df.loc[label] label-based indexing, df.iloc[position] integer-based indexing, boolean filtering (df[condition]), df.query() for SQL-like filtering, df.isin(), df.between(), df.str.contains() for string filtering, chained indexing vs .loc/.iloc
+Deliverable: 22_pandas_indexing.ipynb
+
+--- Day 023 | 23 Jun Tue ---
+Topic: Missing Values & Duplicate Handling
+Subtopics: MCAR/MAR/MNAR missing data mechanisms, df.isnull()/df.isna(), df.notnull(), df.dropna() (axis, how, thresh, subset), df.fillna() (value, method=ffill/bfill), df.interpolate(), SimpleImputer/KNNImputer from sklearn, df.duplicated()/df.drop_duplicates()
+Deliverable: 23_missing_values.ipynb
+
+--- Day 024 | 24 Jun Wed ---
+Topic: GroupBy & Aggregation
+Subtopics: df.groupby() syntax, splitting data into groups, aggregation with .agg() (multiple functions per column), .transform() for same-shape operations, .filter() for group filtering, .apply() for custom group operations, GroupBy object attributes (groups, size, first, last, nth)
+Deliverable: 24_groupby.ipynb
+
+--- Day 025 | 25 Jun Thu ---
+Topic: Merge, Join, Concatenate
+Subtopics: pd.merge() with how (inner/left/right/outer), on, left_on/right_on, suffixes, indicator parameter, pd.concat() (axis, join, keys, ignore_index), df.join() for index-based joins, handling overlapping column names, many-to-many joins
+Deliverable: 25_merge_join.ipynb
+
+--- Day 026 | 26 Jun Fri ---
+Topic: Apply, Map & Feature Creation
+Subtopics: df.apply(func, axis=0/1) for row/column operations, df.applymap() element-wise, Series.map() for value mapping, Series.replace(), pd.cut() for binning numeric data, pd.qcut() for quantile-based binning, pd.get_dummies() for one-hot encoding, creating polynomial and interaction features
+Deliverable: 26_feature_creation.ipynb
+
+--- Day 027 | 27 Jun Sat ---
+Topic: DateTime in Pandas & Time Series
+Subtopics: pd.to_datetime() parsing, dt accessor (year, month, day, dayofweek, quarter, is_month_start, is_month_end), pd.date_range() for date sequences, df.resample() for time aggregation (D/W/M/Q/Y), rolling windows with .rolling(), expanding windows, time-based indexing and slicing
+Deliverable: 27_datetime.ipynb
+
+--- Day 028 | 28 Jun Sun ---
+Topic: Pandas Revision & Performance Tips
+Subtopics: df.eval() and df.query() for memory efficient operations, optimizing dtypes with pd.to_numeric/astype, category dtype for memory savings, vectorized string operations with .str accessor, working with large datasets (chunksize in read_csv), multi-index DataFrames (set_index, stack, unstack, reset_index)
+Deliverable: 28_pandas_advanced.ipynb
+
+--- Day 029 | 29 Jun Mon ---
+Topic: Pandas Mini Project — Sales Data Analysis
+Subtopics: Load sales dataset, clean missing values, create date-based features, group by region/product, calculate KPIs (total sales, growth rate, moving average), generate summary report with visual insights
+Deliverable: 29_pandas_project.ipynb
+
+--- Day 030 | 30 Jun Tue ---
+Topic: Pandas Mini Project — Customer Data Analysis
+Subtopics: Customer segmentation analysis using RFM (Recency, Frequency, Monetary) metrics, cohort analysis, customer lifetime value calculation, data aggregation and pivot tables, write findings to report
+Deliverable: 30_pandas_customer.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 4: Data Visualization
+------------------------------------------------------------------------------------------
+
+--- Day 031 | 01 Jul Wed ---
+Topic: Matplotlib Fundamentals
+Subtopics: plt.figure() and plt.axes(), plt.plot() (line, marker, linestyle, color, alpha), plt.scatter(), plt.bar()/barh(), plt.hist() (bins, density, cumulative, alpha), plt.pie(), plt.xlabel/ylabel/title, plt.legend(), plt.grid(), plt.xlim/ylim, plt.xticks/yticks, plt.text()/annotate()
+Deliverable: 31_matplotlib_basics.ipynb
+
+--- Day 032 | 02 Jul Thu ---
+Topic: Matplotlib Subplots, Styling & Advanced
+Subtopics: plt.subplots() figure/axes array, plt.subplot_mosaic() for complex layouts, plt.tight_layout()/constrained_layout, plt.savefig() (dpi, bbox_inches), style sheets (plt.style.available, 'seaborn-v0_8', 'ggplot', 'fivethirtyeight'), customizing with rcParams, twinx()/twiny() for dual axes, fill_between() for confidence bands
+Deliverable: 32_matplotlib_advanced.ipynb
+
+--- Day 033 | 03 Jul Fri ---
+Topic: Seaborn for Statistical Plots
+Subtopics: sns.set_theme() styling, sns.countplot(), sns.barplot(), sns.boxplot(), sns.violinplot(), sns.histplot()/kdeplot()/ecdfplot(), sns.scatterplot(), sns.lineplot(), sns.regplot()/lmplot(), sns.pairplot() with hue, sns.heatmap() with annot/mask/cmap
+Deliverable: 33_seaborn.ipynb
+
+--- Day 034 | 04 Jul Sat ---
+Topic: Advanced Seaborn & Categorical Plots
+Subtopics: sns.catplot() with kind (strip, swarm, box, violin, boxen, point, bar), sns.relplot() for relational plots, sns.displot() for distribution plots, sns.jointplot() with kind (scatter, kde, hex, reg), sns.clustermap() for hierarchical clustering heatmap, FacetGrid for multi-panel plots, customizing seaborn styles
+Deliverable: 34_seaborn_advanced.ipynb
+
+--- Day 035 | 05 Jul Sun ---
+Topic: EDA Visualization Project
+Subtopics: Complete EDA on a real dataset with visual storytelling: univariate analysis with histograms/boxplots, bivariate analysis with scatterplots/barplots, multivariate analysis with pairplots/heatmaps, correlation analysis, outlier visualization, insights documentation
+Deliverable: 35_eda_viz_project.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 5: Statistics & Probability
+------------------------------------------------------------------------------------------
+
+--- Day 036 | 06 Jul Mon ---
+Topic: Descriptive Statistics & Distributions
+Subtopics: Mean, median, mode, variance, standard deviation, range, IQR, skewness (left/right symmetric), kurtosis (leptokurtic/platykurtic/mesokurtic), normal distribution (68-95-99.7 rule), uniform distribution, binomial distribution, Poisson distribution, central tendency vs dispersion
+Deliverable: 36_descriptive_stats.ipynb
+
+--- Day 037 | 07 Jul Tue ---
+Topic: Probability Fundamentals
+Subtopics: Probability axioms, conditional probability P(A|B), Bayes theorem (prior, likelihood, posterior), law of total probability, independent vs dependent events, random variables (discrete/continuous), PDF/PMF/CDF, expected value, variance, covariance, correlation vs causation
+Deliverable: 37_probability.ipynb
+
+--- Day 038 | 08 Jul Wed ---
+Topic: Inferential Statistics & Hypothesis Testing
+Subtopics: Population vs sample, sampling methods, central limit theorem, confidence intervals, p-value interpretation, Type I error (α/false positive), Type II error (β/false negative), statistical power, one-tailed vs two-tailed tests, t-test (one-sample/independent/paired), chi-square test, ANOVA
+Deliverable: 38_inferential_stats.ipynb
+
+--- Day 039 | 09 Jul Thu ---
+Topic: Hypothesis Testing in Python
+Subtopics: scipy.stats for statistical tests, ttest_ind/ttest_rel/ttest_1samp, chi2_contingency, f_oneway for ANOVA, normaltest for normality, mannwhitneyu for non-parametric, interpreting p-values and test statistics, effect size (Cohen's d), power analysis
+Deliverable: 39_hypothesis_testing.ipynb
+
+--- Day 040 | 10 Jul Fri ---
+Topic: Statistics Mini Project — A/B Testing Analysis
+Subtopics: Design and analyze an A/B test: formulate hypothesis, calculate required sample size, run test, check assumptions (normality, equal variance), interpret results with confidence intervals and effect size, make data-driven recommendation
+Deliverable: 40_ab_testing_project.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 6: ML Fundamentals
+------------------------------------------------------------------------------------------
+
+--- Day 041 | 11 Jul Sat ---
+Topic: ML Introduction — Concepts & Types
+Subtopics: What is Machine Learning, supervised vs unsupervised vs reinforcement learning, regression vs classification vs clustering, training/testing split, features vs target, parametric vs non-parametric models, overfitting vs underfitting, bias-variance tradeoff, the ML workflow (data → train → evaluate → deploy)
+Deliverable: 41_ml_intro.ipynb
+
+--- Day 042 | 12 Jul Sun ---
+Topic: Linear Regression — Intuition & Mathematics
+Subtopics: Best-fit line equation y = mx + b / y = β₀ + β₁x, Ordinary Least Squares (OLS) closed-form solution, cost function MSE, minimizing sum of squared residuals, R² and Adjusted R², assumptions of linear regression (linearity, independence, homoscedasticity, normality of residuals), correlation vs regression
+Deliverable: 42_lr_theory.ipynb
+
+--- Day 043 | 13 Jul Mon ---
+Topic: Linear Regression — Implementation with sklearn
+Subtopics: sklearn.linear_model.LinearRegression, train_test_split (stratify, random_state), model.fit()/predict(), evaluation metrics: MSE, RMSE, MAE, R² score, residual analysis (plot residuals vs fitted), interpreting coefficients, feature scaling for regression
+Deliverable: 43_lr_implementation.ipynb
+
+--- Day 044 | 14 Jul Tue ---
+Topic: Multiple & Polynomial Linear Regression
+Subtopics: Multiple independent variables, multicollinearity detection (VIF), interaction terms, PolynomialFeatures (degree, interaction_only, include_bias), polynomial regression for non-linear relationships, overfitting with high-degree polynomials, choosing degree with cross-validation
+Deliverable: 44_polynomial_regression.ipynb
+
+--- Day 045 | 15 Jul Wed ---
+Topic: Gradient Descent — From Scratch
+Subtopics: Batch Gradient Descent algorithm, learning rate hyperparameter (too small → slow, too large → diverges), convergence criteria, Stochastic Gradient Descent (SGD), Mini-batch Gradient Descent, feature scaling for GD, learning rate scheduling, momentum-based GD
+Deliverable: 45_gradient_descent.ipynb
+
+--- Day 046 | 16 Jul Thu ---
+Topic: Regularization — Ridge, Lasso & ElasticNet
+Subtopics: Overfitting problem, L2 Regularization (Ridge): penalty = λ∑w², L1 Regularization (Lasso): penalty = λ∑|w| — feature selection property, ElasticNet: λ₁∑|w| + λ₂∑w², alpha parameter tuning, regularization path plots, bias-variance tradeoff with λ
+Deliverable: 46_regularization.ipynb
+
+--- Day 047 | 17 Jul Fri ---
+Topic: Cross-Validation & Model Selection
+Subtopics: Hold-out validation vs cross-validation, K-Fold CV, StratifiedKFold (classification), GroupKFold, Leave-One-Out (LOOCV), cross_val_score/cross_validate, GridSearchCV for hyperparameter tuning, RandomizedSearchCV, bias-variance tradeoff in CV, nested cross-validation
+Deliverable: 47_cross_validation.ipynb
+
+--- Day 048 | 18 Jul Sat ---
+Topic: Linear Regression Project — House Price Prediction
+Subtopics: Complete project: load housing dataset, EDA with visualizations, feature engineering, handle missing values and outliers, build multiple regression models (linear, polynomial, ridge, lasso), evaluate with RMSE and R², hyperparameter tuning, feature importance analysis, final model selection and inference
+Deliverable: 48_house_price_project.ipynb
+
+--- Day 049 | 19 Jul Sun ---
+Topic: Logistic Regression — Intuition & Sigmoid
+Subtopics: Classification vs regression, sigmoid function σ(z) = 1/(1+e⁻ᶻ), probability output [0,1], decision boundary at P=0.5, log-odds interpretation, maximum likelihood estimation (MLE), log loss / binary cross-entropy loss, odds ratio interpretation of coefficients
+Deliverable: 49_logistic_regression_theory.ipynb
+
+--- Day 050 | 20 Jul Mon ---
+Topic: Logistic Regression — Implementation
+Subtopics: sklearn.linear_model.LogisticRegression, predict vs predict_proba vs decision_function, StandardScaler before LR, C parameter (inverse regularization), penalty (l1, l2, elasticnet), solver options (liblinear, lbfgs, saga, newton-cg), multi_class = 'ovr' vs 'multinomial', max_iter tolerance
+Deliverable: 50_lr_implementation.ipynb
+
+--- Day 051 | 21 Jul Tue ---
+Topic: Classification Metrics — Confusion Matrix & Curves
+Subtopics: Confusion Matrix (TP, TN, FP, FN), accuracy (when misleading), precision = TP/(TP+FP), recall/sensitivity = TP/(TP+FN), F1 score = 2×P×R/(P+R), specificity = TN/(TN+FP), classification_report, precision-recall tradeoff, macro vs micro vs weighted average, log loss metric
+Deliverable: 51_classification_metrics.ipynb
+
+--- Day 052 | 22 Jul Wed ---
+Topic: ROC-AUC & PR-AUC Curves
+Subtopics: ROC curve: TPR vs FPR at all thresholds, AUC interpretation (ranking quality), PR curve: precision vs recall, PR-AUC for imbalanced datasets, when ROC-AUC is misleading, threshold selection using business cost (FP vs FN cost matrix), youden's index for optimal threshold
+Deliverable: 52_roc_auc.ipynb
+
+--- Day 053 | 23 Jul Thu ---
+Topic: Multiclass Classification (OvR, OvO, Softmax)
+Subtopics: One-vs-Rest (OvR) — N binary classifiers, One-vs-One (OvO) — N(N-1)/2 classifiers, Softmax/multinomial regression, predict_proba for multiclass, macro/micro/weighted metrics for multiclass, confusion matrix for multiclass, label binarization
+Deliverable: 53_multiclass.ipynb
+
+--- Day 054 | 24 Jul Fri ---
+Topic: Regularization in Logistic Regression
+Subtopics: C parameter (small C = strong regularization), L1 vs L2 penalties, feature selection with L1, solver compatibility with penalties, warm_start for incremental fitting, regularization path in LR, comparing regularized vs unregularized coefficients
+Deliverable: 54_lr_regularization.ipynb
+
+--- Day 055 | 25 Jul Sat ---
+Topic: Logistic Regression Project — Breast Cancer Classifier
+Subtopics: Complete classification project: load breast cancer dataset, EDA and feature analysis, train-test split with stratification, standardize features, tune C and penalty with GridSearchCV, evaluate with multiple metrics, plot ROC-AUC and PR curves, interpret coefficients, save final model
+Deliverable: 55_breast_cancer_project.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 7: Tree Models & SVM
+------------------------------------------------------------------------------------------
+
+--- Day 056 | 26 Jul Sun ---
+Topic: Decision Tree — Intuition & Mathematics
+Subtopics: Tree structure: root, internal nodes, leaf nodes, splitting criteria — Gini impurity (classification), entropy / information gain, MSE (regression), recursive binary splitting, CART algorithm, pure vs impure nodes, feature importance from impurity decrease
+Deliverable: 56_dt_theory.ipynb
+
+--- Day 057 | 27 Jul Mon ---
+Topic: Decision Tree — Implementation with sklearn
+Subtopics: DecisionTreeClassifier / DecisionTreeRegressor, max_depth (pruning), min_samples_split, min_samples_leaf, max_features, criterion (gini/entropy/mse), feature_importances_ attribute, tree_ attribute for tree structure, model interpretation via decision rules
+Deliverable: 57_dt_implementation.ipynb
+
+--- Day 058 | 28 Jul Tue ---
+Topic: Decision Tree — Overfitting, Pruning & Visualization
+Subtopics: Overfitting symptom: perfect training score but poor test score, max_depth control, min_samples_leaf regularization, ccp_alpha cost-complexity pruning, plot_tree and export_graphviz visualization, export_text for rule extraction, comparing default vs pruned tree performance
+Deliverable: 58_dt_pruning.ipynb
+
+--- Day 059 | 29 Jul Wed ---
+Topic: Decision Tree — Regressor & Comparison
+Subtopics: DecisionTreeRegressor, MSE-based splitting intuition, tree limitations (high variance, instability, lack of smoothness), DT vs Linear Regression comparison, examples where trees excel (non-linear, interaction-heavy data), DT sensitivity to data orientation
+Deliverable: 59_dt_regressor.ipynb
+
+--- Day 060 | 30 Jul Thu ---
+Topic: SVM — Support Vector Machine Intuition
+Subtopics: Maximum margin classifier, support vectors (points on margin boundary), hard margin (separable data), soft margin (C parameter for tolerance), optimization objective (maximize margin subject to constraints), primal vs dual formulation, hinge loss interpretation
+Deliverable: 60_svm_theory.ipynb
+
+--- Day 061 | 31 Jul Fri ---
+Topic: SVM — Implementation & Kernel Trick
+Subtopics: SVC (classification) / SVR (regression), linear kernel, RBF kernel (γ parameter), polynomial kernel (degree, coef0), sigmoid kernel, kernel trick explanation (implicit mapping to higher dimension), scaling requirement for SVM, decision boundary visualization for different kernels
+Deliverable: 61_svm_kernels.ipynb
+
+--- Day 062 | 01 Aug Sat ---
+Topic: SVM — Hyperparameter Tuning
+Subtopics: C parameter (low C → softer margin, high C → hard margin), γ parameter (low γ → broad Gaussian, high γ → narrow Gaussian), kernel comparison, grid search for C and γ, training time vs accuracy tradeoff, SVM vs logistic regression comparison, NuSVC (ν parameter controls margin errors)
+Deliverable: 62_svm_tuning.ipynb
+
+--- Day 063 | 02 Aug Sun ---
+Topic: Naive Bayes — Theory & Variants
+Subtopics: Bayes theorem: P(A|B) = P(B|A)P(A)/P(B), naive independence assumption, GaussianNB (continuous features, normal distribution), MultinomialNB (count features, text classification), BernoulliNB (binary features), Laplace smoothing (alpha parameter), prior probability adjustment
+Deliverable: 63_naive_bayes.ipynb
+
+--- Day 064 | 03 Aug Mon ---
+Topic: KNN — k-Nearest Neighbors
+Subtopics: Lazy learning (instance-based, no training), distance metrics (Euclidean, Manhattan, Minkowski, Cosine), choosing k (small = complex, large = smooth), scaling requirement (dominated by large-scale features), weighted KNN (distance weighting), KNN vs radius-based neighbors
+Deliverable: 64_knn.ipynb
+
+--- Day 065 | 04 Aug Tue ---
+Topic: KNN Implementation & Scaling Impact
+Subtopics: KNeighborsClassifier / KNeighborsRegressor / RadiusNeighborsClassifier, n_neighbors, weights (uniform/distance), p for Minkowski, metric parameter, algorithm (auto/ball_tree/kd_tree/brute), leaf_size for tree-based algorithms, comparing scaled vs unscaled performance, elbow curve for k selection
+Deliverable: 65_knn_implementation.ipynb
+
+--- Day 066 | 05 Aug Wed ---
+Topic: Algorithm Comparison — LR, DT, RF, SVM, NB, KNN
+Subtopics: Compare all algorithms on same dataset, metrics (accuracy, precision, recall, F1, training time, inference time), interpretability vs performance tradeoff, algorithm assumptions and requirements, model selection guidelines, creating a model leaderboard with visualization
+Deliverable: 66_algo_comparison.ipynb
+
+--- Day 067 | 06 Aug Thu ---
+Topic: Classification Project — Algorithm Selection
+Subtopics: Apply all classifiers on a real-world dataset, systematic evaluation with cross-validation, hyperparameter tuning for each algorithm, compare and select best model, document decision process with pros and cons of each approach
+Deliverable: 67_classification_project.ipynb
+
+--- Day 068 | 07 Aug Fri ---
+Topic: Ensemble Methods — Voting & Bagging
+Subtopics: Why ensembles work (variance reduction, bias reduction), VotingClassifier (hard/soft voting), diversity among base models, Bagging (Bootstrap AGGregatING), BaggingClassifier/Regressor, out-of-bag (OOB) score, parallel ensemble training, random subspace method
+Deliverable: 68_ensemble_basics.ipynb
+
+--- Day 069 | 08 Aug Sat ---
+Topic: Random Forest — Theory & Implementation
+Subtopics: Bagging + random feature subset selection, RandomForestClassifier / RandomForestRegressor, n_estimators (more is better up to a point), max_features (sqrt for classification, n/3 for regression), oob_score_ attribute, feature_importances_ (mean decrease in impurity), parallel training with n_jobs
+Deliverable: 69_random_forest.ipynb
+
+--- Day 070 | 09 Aug Sun ---
+Topic: Random Forest — Hyperparameter Tuning
+Subtopics: Key hyperparameters: n_estimators, max_depth, min_samples_split, min_samples_leaf, max_features, bootstrap, criterion, tuning with RandomizedSearchCV, feature importance analysis and selection, partial dependence plots, comparing RF with single DT, memory and speed considerations
+Deliverable: 70_rf_tuning.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 8: Boosting & Advanced Ensembles
+------------------------------------------------------------------------------------------
+
+--- Day 071 | 10 Aug Mon ---
+Topic: AdaBoost — Adaptive Boosting
+Subtopics: Sequential ensemble learning, adaptive sample weight adjustment, weak learners (stumps = 1-level trees), weighted error rate, estimator weight from error, sample weight update (increase misclassified), AdaBoostClassifier / AdaBoostRegressor, learning_rate parameter
+Deliverable: 71_adaboost.ipynb
+
+--- Day 072 | 11 Aug Tue ---
+Topic: Gradient Boosting — Theory & Implementation
+Subtopics: Sequential residual fitting, GradientBoostingClassifier/Regressor, learning_rate (shrinkage), n_estimators, subsample (stochastic GB), max_depth (typically 3-5), criterion, loss functions (deviance, exponential for classification; ls, lad, huber for regression), feature importance from GB
+Deliverable: 72_gradient_boosting.ipynb
+
+--- Day 073 | 12 Aug Wed ---
+Topic: XGBoost — Setup, Intuition & First Model
+Subtopics: XGBoost advantages over sklearn GB (regularization, parallelization, tree pruning, sparsity awareness), XGBClassifier / XGBRegressor, objective parameter (binary:logistic, multi:softmax, reg:squarederror), booster (gbtree/gblinear/dart), eval_metric, training API with DMatrix
+Deliverable: 73_xgboost_intro.ipynb
+
+--- Day 074 | 13 Aug Thu ---
+Topic: XGBoost — Hyperparameter Deep Dive
+Subtopics: Tree parameters: max_depth, min_child_weight, gamma (min split loss), subsample, colsample_bytree/colsample_bylevel/colsample_bynode, Learning task parameters: learning_rate (eta), n_estimators, reg_alpha (L1), reg_lambda (L2), scale_pos_weight for imbalance, parameter tuning order and best practices
+Deliverable: 74_xgboost_params.ipynb
+
+--- Day 075 | 14 Aug Fri ---
+Topic: XGBoost — Early Stopping & Callbacks
+Subtopics: Early stopping with eval_set and early_stopping_rounds, best_iteration and best_score attributes, evaluation sets (train + validation), callbacks (EarlyStopping, LearningRateScheduler, ModelCheckpoint), cv() function for cross-validation with early stopping, plotting learning curves
+Deliverable: 75_xgboost_early_stopping.ipynb
+
+--- Day 076 | 15 Aug Sat ---
+Topic: LightGBM — Leaf-wise Growth & Speed
+Subtopics: LightGBM advantages: leaf-wise tree growth (vs level-wise), histogram-based splitting for speed, handling categorical features natively, categorical_feature parameter, num_leaves (key parameter, controls model complexity), min_data_in_leaf, max_depth, feature_fraction, bagging_fraction
+Deliverable: 76_lightgbm.ipynb
+
+--- Day 077 | 16 Aug Sun ---
+Topic: CatBoost — Native Categorical Handling
+Subtopics: CatBoost advantages: ordered boosting (target leakage prevention), native support for categorical features (no one-hot encoding needed), CatBoostClassifier/Regressor, cat_features parameter, one_hot_max_size, depth, learning_rate, l2_leaf_reg, overfitting detector with od_type and od_wait
+Deliverable: 77_catboost.ipynb
+
+--- Day 078 | 17 Aug Mon ---
+Topic: Ensemble Comparison — RF vs XGBoost vs LightGBM vs CatBoost
+Subtopics: Systematic comparison on multiple datasets, speed vs accuracy tradeoff, categorical feature handling, missing value handling, interpretability, memory usage, creating comparison dashboard with speed, accuracy, and parameter sensitivity analysis
+Deliverable: 78_ensemble_comparison.ipynb
+
+--- Day 079 | 18 Aug Tue ---
+Topic: Stacking & Blending Ensembles
+Subtopics: StackingClassifier / StackingRegressor, base models (level-0), meta model (level-1), cross-validation in stacking (cv parameter), passthrough for including original features, blend predictions by weighted averaging, comparing stacking vs voting vs single models
+Deliverable: 79_stacking.ipynb
+
+--- Day 080 | 19 Aug Wed ---
+Topic: Kaggle Competition — Setup, EDA & Baseline
+Subtopics: Kaggle API setup (kaggle.json), downloading competition data, exploring train/test structure, building baseline model (Random Forest), creating submission CSV, submitting to leaderboard, understanding leaderboard scoring, getting first baseline score
+Deliverable: 80_kaggle_baseline.ipynb
+
+--- Day 081 | 20 Aug Thu ---
+Topic: Kaggle — Feature Engineering & Validation
+Subtopics: StratifiedKFold validation strategy, mapping local CV to LB score, feature engineering (new features from existing), feature selection, creating cross-validation pipeline, preventing data leakage in CV, comparing CV score vs leaderboard score
+Deliverable: 81_kaggle_feature_eng.ipynb
+
+--- Day 082 | 21 Aug Fri ---
+Topic: Kaggle — Hyperparameter Tuning & Submission
+Subtopics: GridSearchCV vs RandomizedSearchCV for boosting models, defining search spaces, Optuna integration for advanced tuning, ensemble blending (weighted average of top models), final feature selection, creating best submission, post-competition analysis
+Deliverable: 82_kaggle_tuning.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 9: Feature Engineering
+------------------------------------------------------------------------------------------
+
+--- Day 083 | 22 Aug Sat ---
+Topic: Feature Engineering — Missing Value Imputation
+Subtopics: SimpleImputer strategy (mean/median/mode/constant), KNNImputer (n_neighbors, weights), IterativeImputer (MICE), adding missing indicators (add_indicator parameter), comparing imputation methods with cross-validation, domain-specific imputation strategies
+Deliverable: 83_missing_imputation.ipynb
+
+--- Day 084 | 23 Aug Sun ---
+Topic: Outlier Detection & Treatment
+Subtopics: Z-score method (|z| > 3), IQR method (Q1 - 1.5*IQR, Q3 + 1.5*IQR), winsorization (clipping at percentiles), Isolation Forest for outlier detection, Local Outlier Factor, EllipticEnvelope, DBSCAN for outlier detection, domain-specific outlier handling
+Deliverable: 84_outliers.ipynb
+
+--- Day 085 | 24 Aug Mon ---
+Topic: Categorical Encoding Techniques
+Subtopics: Label Encoding (ordinal), One-Hot Encoding (nominal, handle_unknown='ignore'), OrdinalEncoder with categories parameter, Target Encoding (mean encoding with smoothing), Frequency Encoding, Binary Encoding, Helmert Contrast, Backward Difference Encoding, CatBoostEncoder, leakage risk in target encoding
+Deliverable: 85_categorical_encoding.ipynb
+
+--- Day 086 | 25 Aug Tue ---
+Topic: Feature Scaling & Normalization
+Subtopics: StandardScaler (z-score), MinMaxScaler [0,1], RobustScaler (median/IQR — handles outliers), MaxAbsScaler, Normalizer (unit norm), PowerTransformer (Box-Cox, Yeo-Johnson), QuantileTransformer (uniform/Gaussian output), which algorithms require scaling, scaling for tree vs distance-based models
+Deliverable: 86_feature_scaling.ipynb
+
+--- Day 087 | 26 Aug Wed ---
+Topic: Feature Transformations (Log, Box-Cox, Yeo-Johnson)
+Subtopics: Log transform for right-skewed data, square root transform, reciprocal transform, Box-Cox transform (λ parameter, requires positive values), Yeo-Johnson transform (handles negative values), PowerTransformer in sklearn, quantile transform, comparing distribution before/after transformation
+Deliverable: 87_feature_transforms.ipynb
+
+--- Day 088 | 27 Aug Thu ---
+Topic: Feature Selection — Filter, Wrapper & Embedded
+Subtopics: Filter methods: correlation matrix, chi-square test (SelectKBest, chi2), ANOVA F-test (f_classif, f_regression), mutual information, VarianceThreshold (removing constant/low-variance features), Wrapper methods: RFE (Recursive Feature Elimination), RFECV (with CV), Embedded methods: Lasso, tree importance, SelectFromModel
+Deliverable: 88_feature_selection.ipynb
+
+--- Day 089 | 28 Aug Fri ---
+Topic: Feature Creation — Polynomial, Interaction & Domain
+Subtopics: PolynomialFeatures (degree, interaction_only), spline features (SplineTransformer), binning with KBinsDiscretizer, date-time feature extraction (dayofweek, month, quarter, is_weekend, hour_of_day), text feature extraction (character count, word count, avg word length), domain-specific feature creation
+Deliverable: 89_feature_creation.ipynb
+
+--- Day 090 | 29 Aug Sat ---
+Topic: sklearn Pipeline & ColumnTransformer
+Subtopics: Pipeline class (list of transformers + estimator), make_pipeline shortcut, ColumnTransformer for heterogeneous data, FeatureUnion for combining different transformations, pipeline visualization with set_config(display='diagram'), pipeline with GridSearchCV (stepname__param naming), saving pipeline with joblib
+Deliverable: 90_pipeline.ipynb
+
+--- Day 091 | 30 Aug Sun ---
+Topic: Data Leakage Prevention
+Subtopics: Train-test contamination (scaling before split, encoding before split), target leakage (using future information), feature selection before CV, leakage in time series data, leakage detection techniques, proper train/val/test workflow, leakage examples and fixes
+Deliverable: 91_data_leakage.ipynb
+
+--- Day 092 | 31 Aug Mon ---
+Topic: Model Calibration & Probability Tuning
+Subtopics: Well-calibrated vs poorly calibrated probabilities, calibration curve (reliability diagram), Platt scaling (sigmoid calibration), Isotonic regression (non-parametric), CalibratedClassifierCV, Brier score for calibration evaluation, threshold tuning for business costs
+Deliverable: 92_calibration.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 10: Imbalanced Learning & XAI
+------------------------------------------------------------------------------------------
+
+--- Day 093 | 01 Sep Tue ---
+Topic: Imbalanced Classification — Problem & Metrics
+Subtopics: Class imbalance problem, why accuracy fails, appropriate metrics (PR-AUC, F1, recall at precision, balanced accuracy), confusion matrix for imbalanced data, cost-sensitive evaluation, precision-recall vs ROC for imbalanced data, imbalanced dataset examples (fraud, medical diagnosis)
+Deliverable: 93_imbalanced_intro.ipynb
+
+--- Day 094 | 02 Sep Wed ---
+Topic: Imbalanced Data — Sampling Techniques
+Subtopics: Random undersampling (NearMiss, TomekLinks, EditedNearestNeighbours), Random oversampling (RandomOverSampler), SMOTE (Synthetic Minority Oversampling TEchnique), SMOTE variants (BorderlineSMOTE, SVMSMOTE, ADASYN), combined methods (SMOTE + Tomek, SMOTE + ENN), imbalanced-learn library
+Deliverable: 94_sampling_techniques.ipynb
+
+--- Day 095 | 03 Sep Thu ---
+Topic: Imbalanced Data — Algorithmic Approaches
+Subtopics: Class weights in sklearn models (class_weight='balanced'), focal loss for hard examples, threshold moving (finding optimal threshold with PR curve), cost-sensitive learning, one-class classification, ensemble methods for imbalance (BalancedRandomForest, EasyEnsemble, RUSBoost)
+Deliverable: 95_imbalanced_algorithms.ipynb
+
+--- Day 096 | 04 Sep Fri ---
+Topic: SHAP — SHapley Additive exPlanations
+Subtopics: Game theory foundation: Shapley values, SHAP as model-agnostic explanation method, KernelExplainer, TreeExplainer (fast for tree models), summary_plot (global importance), waterfall_plot (single prediction), dependence_plot (feature interaction), force_plot (visual explanation), interpreting SHAP values (positive/negative contribution)
+Deliverable: 96_shap.ipynb
+
+--- Day 097 | 05 Sep Sat ---
+Topic: SHAP — Advanced & Local Explanations
+Subtopics: Multiple SHAP summary plots (dot, bar, violin), SHAP interaction values (interaction effects), SHAP for deep learning models (DeepExplainer, GradientExplainer), SHAP clustering (shapley values as features for clustering), SHAP-based feature selection, comparing SHAP across models
+Deliverable: 97_shap_advanced.ipynb
+
+--- Day 098 | 06 Sep Sun ---
+Topic: LIME & Other Explainability Methods
+Subtopics: LIME (Local Interpretable Model-agnostic Explanations), LIME for tabular/text/image data, LimeTabularExplainer, LimeTextExplainer, permutation importance (eli5), partial dependence plots (PDP), individual conditional expectation (ICE), accumulated local effects (ALE), explainability comparison (SHAP vs LIME vs PDP)
+Deliverable: 98_lime_xai.ipynb
+
+--- Day 099 | 07 Sep Mon ---
+Topic: Optuna — Hyperparameter Optimization
+Subtopics: Optuna installation and basics, study/trial/objective function pattern, suggest_float/suggest_int/suggest_categorical, TPESampler (Tree-structured Parzen Estimator), GridSampler, RandomSampler, pruning with MedianPruner (early stopping of bad trials), study visualization (plot_optimization_history, plot_parallel_coordinate, plot_contour)
+Deliverable: 99_optuna.ipynb
+
+--- Day 100 | 08 Sep Tue ---
+Topic: Feature Engineering & Optimization — Revision Project
+Subtopics: End-to-end project: load imbalanced dataset, apply feature engineering pipeline, handle imbalance with SMOTE + class weights, optimize with Optuna, explain model with SHAP, create a polished notebook with all techniques applied
+Deliverable: 100_imbalanced_project.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 11: Unsupervised Learning
+------------------------------------------------------------------------------------------
+
+--- Day 101 | 09 Sep Wed ---
+Topic: Unsupervised Learning — Introduction & Types
+Subtopics: Supervised vs unsupervised vs self-supervised, clustering (grouping similar points), dimensionality reduction (compressing features), density estimation, anomaly detection, association rules, market basket analysis, use cases (customer segmentation, anomaly detection, feature learning, compression)
+Deliverable: 101_unsupervised_intro.ipynb
+
+--- Day 102 | 10 Sep Thu ---
+Topic: K-Means Clustering — Theory & Implementation
+Subtopics: Lloyd's algorithm (initialization, assignment, update, converge), KMeans from sklearn, n_clusters, init (k-means++ vs random), n_init (multiple runs to avoid local minima), max_iter, inertia (within-cluster sum of squares), elbow method for k selection, silhouette score, KMeans limitations (spherical clusters assumption, sensitivity to initialization)
+Deliverable: 102_kmeans.ipynb
+
+--- Day 103 | 11 Sep Fri ---
+Topic: K-Means — Elbow, Silhouette & Cluster Analysis
+Subtopics: Elbow method (inertia vs k plot), silhouette analysis (silhouette_score, silhouette_samples, silhouette plot), Davies-Bouldin index, Calinski-Harabasz index, cluster profiling (characterizing each cluster by feature means), visualizing clusters with PCA, KMeans for image compression
+Deliverable: 103_kmeans_analysis.ipynb
+
+--- Day 104 | 12 Sep Sat ---
+Topic: DBSCAN — Density-Based Clustering
+Subtopics: Density-based spatial clustering (vs distance-based), eps (neighborhood radius), min_samples (core point threshold), core/border/noise points, DBSCAN advantages (arbitrary shapes, handles outliers, no need to specify k), limitations (varying densities, high dimensions), choosing eps with k-distance graph, HDBSCAN (hierarchical variant)
+Deliverable: 104_dbscan.ipynb
+
+--- Day 105 | 13 Sep Sun ---
+Topic: Hierarchical Clustering & Dendrograms
+Subtopics: Agglomerative (bottom-up) vs divisive (top-down), AgglomerativeClustering, linkage criteria (ward, complete, average, single), distance threshold for flat clustering, dendrogram interpretation (height = distance), cophenetic correlation coefficient, hierarchical clustering use cases (taxonomy, gene expression)
+Deliverable: 105_hierarchical.ipynb
+
+--- Day 106 | 14 Sep Mon ---
+Topic: PCA — Principal Component Analysis
+Subtopics: Dimensionality reduction: preserving variance while reducing features, PCA algorithm: standardize → covariance matrix → eigenvectors/eigenvalues → sort by eigenvalue → select top k, explained_variance_ratio_, cumulative explained variance for k selection, PCA components as new features, PCA for visualization (2D/3D), PCA limitations (linear, interpretation difficulty)
+Deliverable: 106_pca.ipynb
+
+--- Day 107 | 15 Sep Tue ---
+Topic: t-SNE & UMAP for Visualization
+Subtopics: t-SNE: non-linear, preserves local structure, perplexity parameter (data density balance), computational cost, stochastic nature (different runs = different results), t-SNE for visualization only (not for preprocessing), UMAP: faster than t-SNE, preserves more global structure, n_neighbors and min_dist parameters, comparing PCA vs t-SNE vs UMAP
+Deliverable: 107_tsne_umap.ipynb
+
+--- Day 108 | 16 Sep Wed ---
+Topic: Anomaly Detection — Isolation Forest & LOF
+Subtopics: Isolation Forest (isolate anomalies with fewer splits), contamination parameter, anomaly score, Local Outlier Factor (density-based, compare local density with neighbors), EllipticEnvelope (assumes Gaussian distribution), One-Class SVM (boundary around normal data), comparing anomaly detection methods, threshold selection for anomaly score
+Deliverable: 108_anomaly_detection.ipynb
+
+--- Day 109 | 17 Sep Thu ---
+Topic: Gaussian Mixture Models (GMM)
+Subtopics: Probabilistic clustering, GaussianMixture, n_components, covariance_type (full/tied/diag/spherical), EM algorithm (E-step: responsibility, M-step: update parameters), AIC/BIC for component selection, soft clustering (probabilities), GMM vs KMeans comparison (GMM handles overlapping clusters, elliptical shapes)
+Deliverable: 109_gmm.ipynb
+
+--- Day 110 | 18 Sep Fri ---
+Topic: Customer Segmentation Project
+Subtopics: Complete project: load customer data, EDA and feature engineering, scale features, apply KMeans + PCA, determine optimal k using elbow + silhouette + business understanding, profile clusters, create segment personas, visualize segments, derive business recommendations, build cluster prediction model
+Deliverable: 110_segmentation_project.ipynb
+
+--- Day 111 | 19 Sep Sat ---
+Topic: Dimensionality Reduction Project
+Subtopics: Apply PCA, t-SNE, and UMAP on high-dimensional dataset, compare explained variance vs visualization quality, use PCA components for supervised learning (speed vs accuracy tradeoff), feature extraction from autoencoders (introduction to deep learning-based dimensionality reduction)
+Deliverable: 111_dim_reduction_project.ipynb
+
+--- Day 112 | 20 Sep Sun ---
+Topic: Unsupervised Learning — Revision & Assessment
+Subtopics: Compare all clustering algorithms on synthetic datasets with known structure, evaluate with adjusted Rand index, mutual information, completeness/homogeneity, write comprehensive comparison notes, solve unsupervised learning interview questions
+Deliverable: 112_unsupervised_revision.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 12: Time Series Analysis
+------------------------------------------------------------------------------------------
+
+--- Day 113 | 21 Sep Mon ---
+Topic: Time Series — Components & Visualization
+Subtopics: Time series components: trend, seasonality (fixed period), cyclical (business cycle), residual/noise, additive vs multiplicative decomposition, moving averages for smoothing, lag plots and autocorrelation, pandas resample and rolling for time series, visualizing trend/seasonality/residual with seasonal_decompose
+Deliverable: 113_ts_intro.ipynb
+
+--- Day 114 | 22 Sep Tue ---
+Topic: Stationarity, ACF & PACF
+Subtopics: Stationarity concept (constant mean, variance, autocorrelation over time), Augmented Dickey-Fuller (ADF) test, KPSS test, differencing for stationarity (first difference, seasonal difference), ACF (AutoCorrelation Function) for MA order, PACF (Partial ACF) for AR order, identifying ARIMA orders from ACF/PACF plots
+Deliverable: 114_stationarity.ipynb
+
+--- Day 115 | 23 Sep Wed ---
+Topic: ARIMA & SARIMA Models
+Subtopics: AR (AutoRegressive): p order, I (Integrated): d differencing, MA (Moving Average): q order, ARIMA(p,d,q) model, auto_arima for automatic order selection, SARIMA with seasonal component (P,D,Q,m), model diagnostics (residuals should be white noise, Ljung-Box test), forecasting with ARIMA, confidence intervals for predictions
+Deliverable: 115_arima.ipynb
+
+--- Day 116 | 24 Sep Thu ---
+Topic: Prophet — Time Series Forecasting
+Subtopics: Facebook Prophet: additive model (trend + seasonality + holidays/events), changepoint detection for trend changes, seasonality modes (additive/multiplicative), holiday effects (custom holiday schedules), uncertainty intervals, forecast visualization with components, cross-validation for time series, comparison with ARIMA
+Deliverable: 116_prophet.ipynb
+
+--- Day 117 | 25 Sep Fri ---
+Topic: Time Series with ML Models
+Subtopics: Feature engineering for time series: lag features, rolling statistics, date-time features, time since last event, Using tree models (RF, XGBoost) for time series, walk-forward validation (time series split), multi-step forecasting (direct/recursive/multiple output strategies), evaluating forecasts (MAE, RMSE, MAPE, sMAPE)
+Deliverable: 117_ml_ts.ipynb
+
+--- Day 118 | 26 Sep Sat ---
+Topic: Time Series Project — Demand Forecasting
+Subtopics: End-to-end: load sales data, EDA with time components, test stationarity, build ARIMA, SARIMA, and Prophet models, compare with ML approach, feature engineering for tree model, walk-forward validation, evaluate and select best model, forecast future periods with confidence intervals
+Deliverable: 118_ts_project.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 13: Deep Learning
+------------------------------------------------------------------------------------------
+
+--- Day 119 | 27 Sep Sun ---
+Topic: Deep Learning — Introduction & Perceptron
+Subtopics: Artificial neuron: weighted sum + activation, perceptron (binary linear classifier), limitations of perceptron (XOR problem), multi-layer perceptron (MLP), hidden layers for non-linearity, universal approximation theorem, forward propagation through layers, activation functions at hidden vs output layer
+Deliverable: 119_dl_intro.ipynb
+
+--- Day 120 | 28 Sep Mon ---
+Topic: Activation Functions — Sigmoid, Tanh, ReLU, Softmax
+Subtopics: Sigmoid: σ(x)=1/(1+e⁻ˣ), range (0,1), vanishing gradient problem, Tanh: range (-1,1), zero-centered, ReLU: max(0,x), sparse activation, dying ReLU problem, Leaky ReLU/PReLU/ELU/SELU, Swish/GELU (modern alternatives), Softmax for multi-class probability output, activation function selection guidelines
+Deliverable: 120_activations.ipynb
+
+--- Day 121 | 29 Sep Tue ---
+Topic: Loss Functions — MSE, Binary Cross-Entropy, Categorical Cross-Entropy
+Subtopics: Regression losses: MSE (L2), MAE (L1), Huber loss (combination), Log-Cosh loss, Classification losses: Binary Cross-Entropy (log loss), Categorical Cross-Entropy (multi-class), Sparse Categorical Cross-Entropy (integer labels), Hinge loss (SVM), custom loss functions, loss function selection by problem type
+Deliverable: 121_loss_functions.ipynb
+
+--- Day 122 | 30 Sep Wed ---
+Topic: Backpropagation — Chain Rule & Gradient Flow
+Subtopics: Backpropagation intuition: computing gradients of loss w.r.t. weights using chain rule, forward pass → compute loss → backward pass → update weights, gradient computation for each layer, chain rule in computational graphs, automatic differentiation (autograd), manual backpropagation for a 2-layer network
+Deliverable: 122_backpropagation.ipynb
+
+--- Day 123 | 01 Oct Thu ---
+Topic: Gradient Descent Optimizers — SGD, Momentum, Adam
+Subtopics: SGD (stochastic, one sample at a time), Mini-batch GD (batch size power of 2), SGD with Momentum (accelerating through relevant directions), Nesterov Accelerated Gradient (look-ahead), Adagrad (adaptive learning rate per parameter), RMSprop (exponentially decaying average), Adam (Momentum + RMSprop), AdamW (decoupled weight decay), learning rate scheduling (StepLR, CosineAnnealing, ReduceLROnPlateau)
+Deliverable: 123_optimizers.ipynb
+
+--- Day 124 | 02 Oct Fri ---
+Topic: TensorFlow & Keras — Fundamentals
+Subtopics: TensorFlow 2.x eager execution, tf.constant, tf.Variable, tf.GradientTape for automatic differentiation, Keras Sequential API (layers.Dense, layers.Dropout, layers.Flatten), model.compile (optimizer, loss, metrics), model.fit (epochs, batch_size, validation_split, callbacks), model.evaluate/predict, saving/loading models (save_weights, save whole model)
+Deliverable: 124_tensorflow_basics.ipynb
+
+--- Day 125 | 03 Oct Sat ---
+Topic: ANN Implementation — Regression & Classification
+Subtopics: Build ANN for regression (Boston Housing/MNIST): input normalization, hidden layers with ReLU, output with linear activation, MSE loss, Build ANN for classification (binary/multi-class): hidden layers, output with sigmoid/softmax, cross-entropy loss, metrics tracking, overfitting detection with validation curves
+Deliverable: 125_ann_implementation.ipynb
+
+--- Day 126 | 04 Oct Sun ---
+Topic: PyTorch — Fundamentals
+Subtopics: PyTorch vs TensorFlow comparison, torch.tensor creation, tensor operations, GPU with .cuda()/to(device), torch.nn.Module (defining models as classes), nn.Linear, nn.ReLU, nn.Sequential, loss functions (nn.MSELoss, nn.BCELoss, nn.CrossEntropyLoss), optim (SGD, Adam), training loop (forward, loss, backward, step), model.eval() for inference
+Deliverable: 126_pytorch_basics.ipynb
+
+--- Day 127 | 05 Oct Mon ---
+Topic: PyTorch — Training Loop & Custom Model
+Subtopics: Custom Dataset class (__getitem__, __len__), DataLoader (batch, shuffle, num_workers), complete training loop with validation, model.state_dict() for saving/loading, tensorboard logging, early stopping implementation, gradient clipping for stability, learning rate schedulers in PyTorch
+Deliverable: 127_pytorch_training.ipynb
+
+--- Day 128 | 06 Oct Tue ---
+Topic: Overfitting — Dropout, BatchNorm & Regularization
+Subtopics: Dropout: randomly dropping neurons during training (rate parameter), Dropout layer placement, Batch Normalization: normalizing layer inputs (mean, variance), learnable parameters (γ, β), BatchNorm before/after activation, L1/L2 weight regularization (weight_decay in optimizer), early stopping as regularization, data augmentation, comparing regularization techniques
+Deliverable: 128_regularization.ipynb
+
+--- Day 129 | 07 Oct Wed ---
+Topic: ANN Hyperparameter Tuning
+Subtopics: Hyperparameters: number of layers, neurons per layer, activation function, batch size, learning rate, optimizer, dropout rate, weight initialization (Xavier/Glorot, He), tuning with Keras Tuner / Optuna, learning curves analysis (underfitting vs overfitting), systematic hyperparameter search, automation with Grid/Random/Bayesian search
+Deliverable: 129_ann_tuning.ipynb
+
+--- Day 130 | 08 Oct Thu ---
+Topic: Weight Initialization & Batch Normalization Deep Dive
+Subtopics: Zero initialization (symmetry problem), Random initialization (small/large), Xavier/Glorot initialization (sigmoid/tanh), He initialization (ReLU), Lecun initialization (SELU), Batch Normalization: training vs inference mode, running mean/variance, effect on gradient flow, Layer Normalization vs Batch Normalization vs Group Normalization
+Deliverable: 130_weight_init.ipynb
+
+--- Day 131 | 09 Oct Fri ---
+Topic: CNN — Convolutional Neural Networks Intuition
+Subtopics: Convolution operation: filter/kernel sliding over input, stride (step size), padding (valid/same), channels (input, output), feature maps, spatial arrangement (height, width, channels), convolution equation (output size formula), pooling layers (MaxPool, AvgPool, GlobalAvgPool), why CNNs work (translation invariance, local connectivity, parameter sharing)
+Deliverable: 131_cnn_intro.ipynb
+
+--- Day 132 | 10 Oct Sat ---
+Topic: CNN — Implementation with Keras
+Subtopics: Conv2D (filters, kernel_size, strides, padding, activation), MaxPooling2D, Flatten, Dense layers, CNN for image classification (CIFAR-10/MNIST), model.summary() for parameter count, visualizing filters/feature maps, data augmentation for CNNs (RandomFlip, RandomRotation, RandomZoom, RandomContrast), training CNN with augmented data
+Deliverable: 132_cnn_implementation.ipynb
+
+--- Day 133 | 11 Oct Sun ---
+Topic: CNN Architectures — LeNet, AlexNet, VGG, ResNet
+Subtopics: LeNet-5 (1998, digit recognition, 2 conv + 3 dense), AlexNet (2012, ImageNet breakthrough, ReLU, Dropout, overlapping pooling), VGG16/VGG19 (2014, very deep, 3×3 conv blocks), ResNet (2015, skip connections, identity mapping, solves vanishing gradient), Inception/GoogLeNet (parallel conv, 1×1 bottleneck), depthwise separable convolutions (MobileNet)
+Deliverable: 133_cnn_architectures.ipynb
+
+--- Day 134 | 12 Oct Mon ---
+Topic: Transfer Learning — Feature Extraction & Fine-Tuning
+Subtopics: Pre-trained models on ImageNet (ResNet50, EfficientNet, MobileNetV2), transfer learning approaches: feature extraction (freeze base, train new classifier), fine-tuning (unfreeze top layers, lower learning rate), layer freezing/unfreezing strategy, discriminative learning rates (lower for base, higher for classifier), implementation with Keras Applications
+Deliverable: 134_transfer_learning.ipynb
+
+--- Day 135 | 13 Oct Tue ---
+Topic: CNN Project — Image Classification with Transfer Learning
+Subtopics: Complete project: load custom image dataset, organize with ImageDataGenerator, apply transfer learning with EfficientNet, data augmentation, fine-tuning, evaluate with confusion matrix and classification report, Grad-CAM visualization for model interpretability, save and deploy model
+Deliverable: 135_cnn_project.ipynb
+
+--- Day 136 | 14 Oct Wed ---
+Topic: RNN — Recurrent Neural Networks Intuition
+Subtopics: Sequential data processing, hidden state as memory, shared weights across time steps, RNN cell computation (hₜ = tanh(Wₕ·hₜ₋₁ + Wₓ·xₜ + b)), many-to-one (sentiment), many-to-many (translation), one-to-many (image captioning), backpropagation through time (BPTT), vanishing/exploding gradient problem in RNNs
+Deliverable: 136_rnn_intro.ipynb
+
+--- Day 137 | 15 Oct Thu ---
+Topic: LSTM — Long Short-Term Memory
+Subtopics: Gating mechanism: forget gate (what to discard), input gate (what to store), output gate (what to output), cell state (long-term memory), hidden state (short-term/output), LSTM equations (σ, tanh gates), LSTM solves vanishing gradient (constant error carousel), Keras LSTM layer (units, return_sequences, return_state), stacked LSTM
+Deliverable: 137_lstm.ipynb
+
+--- Day 138 | 16 Oct Fri ---
+Topic: GRU — Gated Recurrent Unit
+Subtopics: GRU simplification (update gate + reset gate, no separate cell state), LSTM vs GRU comparison (GRU fewer parameters, similar performance), bidirectional RNN/LSTM/GRU (Bidirectional wrapper, forward + backward states), implementation with Keras Bidirectional layer, when to use BiLSTM vs LSTM
+Deliverable: 138_gru.ipynb
+
+--- Day 139 | 17 Oct Sat ---
+Topic: Sequence Models — Time Series & Text
+Subtopics: Sequence preprocessing: creating sequences (windowed dataset), TimeseriesGenerator, pad_sequences for variable-length text, RNN/LSTM for time series forecasting (multi-step), RNN for text generation (character-level, temperature sampling), sequence-to-sequence models (encoder-decoder architecture)
+Deliverable: 139_sequence_models.ipynb
+
+--- Day 140 | 18 Oct Sun ---
+Topic: RNN Project — Stock Price / Weather Forecasting
+Subtopics: Complete project: load and visualize time series, create sequences, build LSTM model, train with early stopping, evaluate with MAE/RMSE, visualize predictions vs actual, multi-step forecasting (recursive/direct/seq2seq), uncertainty estimation with dropout at inference
+Deliverable: 140_rnn_project.ipynb
+
+--- Day 141 | 19 Oct Mon ---
+Topic: Autoencoders — Dimensionality Reduction & Anomaly Detection
+Subtopics: Autoencoder architecture: encoder (compress) → bottleneck (latent) → decoder (reconstruct), undercomplete vs regularized vs sparse autoencoders, reconstruction loss (MSE), denoising autoencoders (corrupt input → reconstruct clean), autoencoder for anomaly detection (high reconstruction error = anomaly), variational autoencoder (VAE) intuition
+Deliverable: 141_autoencoders.ipynb
+
+--- Day 142 | 20 Oct Tue ---
+Topic: GANs — Generative Adversarial Networks
+Subtopics: Generator (create fake data) vs Discriminator (distinguish real vs fake), minimax game (adversarial training), training dynamics (G and D alternate updates, D tries to maximize log D(x) + log(1-D(G(z))), G tries to minimize log(1-D(G(z)))), mode collapse problem, DCGAN (Deep Convolutional GAN), GAN applications (image generation, super-resolution, style transfer)
+Deliverable: 142_gans.ipynb
+
+--- Day 143 | 21 Oct Wed ---
+Topic: DL Project — Multi-Classifier with ANN & Hyperparameter Tuning
+Subtopics: End-to-end project: load dataset, build ANN with Keras and PyTorch, compare frameworks, hyperparameter tuning (layers, neurons, lr, batch_size, dropout), regularization comparison, model interpretability with SHAP, save best model, inference script
+Deliverable: 143_dl_project.ipynb
+
+--- Day 144 | 22 Oct Thu ---
+Topic: Keras Callbacks & Advanced Training
+Subtopics: ModelCheckpoint (save best model based on val_metric), EarlyStopping (patience, restore_best_weights), ReduceLROnPlateau (reduce lr when plateau), CSVLogger, TensorBoard (visualize metrics, graphs, histograms), custom callback (subclass Callback), LearningRateScheduler, LambdaCallback for debugging
+Deliverable: 144_keras_callbacks.ipynb
+
+--- Day 145 | 23 Oct Fri ---
+Topic: TensorFlow Data Pipeline & Performance
+Subtopics: tf.data.Dataset (from_tensor_slices, from_generator), dataset transformations (map, batch, shuffle, repeat, prefetch, cache), performance optimization (prefetch overlap, parallel map, caching), TFRecord format for large datasets, reducing CPU-GPU bottleneck, mixed precision training (float16) for speedup
+Deliverable: 145_tf_data.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 14: Natural Language Processing
+------------------------------------------------------------------------------------------
+
+--- Day 146 | 24 Oct Sat ---
+Topic: NLP — Pipeline & Text Preprocessing
+Subtopics: NLP pipeline: raw text → cleaning → tokenization → normalization → vectorization → modeling, text cleaning (lowercase, remove punctuation/numbers/special chars, regex for pattern removal), NLTK vs spaCy vs regex, sentence tokenization and word tokenization, TreebankWordTokenizer vs TweetTokenizer
+Deliverable: 146_nlp_pipeline.ipynb
+
+--- Day 147 | 25 Oct Sun ---
+Topic: Text Normalization — Stemming, Lemmatization & Stop Words
+Subtopics: Stemming: PorterStemmer, LancasterStemmer, SnowballStemmer (rule-based, may produce non-words), Lemmatization: WordNetLemmatizer (dictionary-based, produces real words, needs POS tag), stop words removal (NLTK stopwords corpus, custom stop words), removing rare/frequent words, handling contractions and special tokens
+Deliverable: 147_text_normalization.ipynb
+
+--- Day 148 | 26 Oct Mon ---
+Topic: Bag of Words & TF-IDF Vectorization
+Subtopics: CountVectorizer: vocabulary building, token counts, n-gram range (unigram, bigram, trigram), min_df/max_df for frequency filtering, TfidfVectorizer: term frequency × inverse document frequency, formula: tf-idf(t,d) = tf(t,d) × log((1+N)/(1+df(t)))+1, normalization (l1/l2), sublinear_tf (using log of tf), vocabulary inspection with get_feature_names_out()
+Deliverable: 148_tfidf.ipynb
+
+--- Day 149 | 27 Oct Tue ---
+Topic: Word Embeddings — Word2Vec & GloVe
+Subtopics: Dense vectors vs sparse one-hot/TF-IDF, distributional hypothesis (similar context → similar meaning), Word2Vec: CBOW (predict word from context) vs Skip-gram (predict context from word), negative sampling, gensim Word2Vec implementation (vector_size, window, min_count, sg=0/1), GloVe (Global Vectors, count matrix + factorization), pre-trained embeddings, OOV handling
+Deliverable: 149_word_embeddings.ipynb
+
+--- Day 150 | 28 Oct Wed ---
+Topic: Text Classification with ML Models
+Subtopics: Text classification pipeline: clean → TF-IDF → classifier, MultinomialNB for text (works well with word counts), Logistic Regression with TF-IDF, SVM with linear kernel, comparing ML classifiers on text data, evaluating with precision/recall/F1 for each class, confusion matrix for misclassification analysis
+Deliverable: 150_text_classification.ipynb
+
+--- Day 151 | 29 Oct Thu ---
+Topic: Text Classification with Deep Learning
+Subtopics: Embedding layer: mapping words to dense vectors, Embedding(input_dim, output_dim, input_length), tokenizer and pad_sequences for text encoding, embedding visualization with TensorBoard, 1D CNN for text (Conv1D + GlobalMaxPooling1D), LSTM for text classification, stacked embedding (pre-trained + trainable), text classification with transfer learning (Universal Sentence Encoder)
+Deliverable: 151_dl_text_classification.ipynb
+
+--- Day 152 | 30 Oct Fri ---
+Topic: Attention Mechanism — Intuition & Implementation
+Subtopics: Attention: weighted focus on relevant parts of input, encoder-decoder attention (align hidden states), self-attention (each position attends to all positions), query-key-value attention (QKV), scaled dot-product attention: softmax(Q·Kᵀ/√dₖ)·V, multi-head attention (parallel attention heads), attention visualization (heatmaps over text)
+Deliverable: 152_attention.ipynb
+
+--- Day 153 | 31 Oct Sat ---
+Topic: Transformer Architecture — Encoder & Decoder
+Subtopics: "Attention Is All You Need" (Vaswani et al. 2017), Transformer architecture: encoder (self-attention + FFN + residual + layer norm) × N, decoder (masked self-attention + cross-attention + FFN) × N, positional encoding (sin/cos functions, absolute/relative), layer normalization + residual connections (pre-norm vs post-norm), encoder-only (BERT), decoder-only (GPT), encoder-decoder (T5)
+Deliverable: 153_transformer.ipynb
+
+--- Day 154 | 01 Nov Sun ---
+Topic: BERT — Bidirectional Encoder Representations from Transformers
+Subtopics: BERT: encoder-only, bidirectional context (masked language model), pre-training tasks: Masked LM (15% masked tokens, predict masked) + Next Sentence Prediction (NSP), BERT variants (BERT-base: 12 layers, 768 hidden, 110M params; BERT-large: 24 layers, 1024 hidden, 340M params), HuggingFace transformers library, AutoTokenizer, AutoModel, pipeline API for NLP tasks
+Deliverable: 154_bert.ipynb
+
+--- Day 155 | 02 Nov Mon ---
+Topic: Fine-Tuning BERT for Classification
+Subtopics: BertForSequenceClassification, tokenizer (padding, truncation, max_length, return_tensors), dataset preparation for BERT, training arguments (TrainingArguments), Trainer class for fine-tuning, evaluation metrics (accuracy, F1, precision, recall), saving and loading fine-tuned model, inference with fine-tuned BERT, comparing BERT with traditional ML approaches
+Deliverable: 155_bert_finetuning.ipynb
+
+--- Day 156 | 03 Nov Tue ---
+Topic: Named Entity Recognition (NER) & POS Tagging
+Subtopics: Named Entity Recognition (NER): identifying entities (person, org, location, date, etc.), spaCy NER pipeline (nlp.add_pipe, nlp.ents), custom NER training (spaCy v3 config-based training, BERT-based NER with token classification), Part of Speech (POS) tagging: Universal POS tags, spaCy POS tags and dependency parse, POS for feature extraction
+Deliverable: 156_ner.ipynb
+
+--- Day 157 | 04 Nov Wed ---
+Topic: Topic Modeling — LDA & NMF
+Subtopics: Topic modeling: discovering latent topics in document collection, Latent Dirichlet Allocation (LDA): documents as topic mixtures, topics as word distributions, sklearn.decomposition.LatentDirichletAllocation, n_components (number of topics), learning_method ('batch'/'online'), topic interpretation (top words per topic), Non-negative Matrix Factorization (NMF) for topic modeling, coherence score for topic quality evaluation
+Deliverable: 157_topic_modeling.ipynb
+
+--- Day 158 | 05 Nov Thu ---
+Topic: Sequence-to-Sequence & Machine Translation
+Subtopics: Encoder-decoder architecture for seq2seq, encoder: processes input sequence, final hidden state as context vector, decoder: generates output sequence from context, teacher forcing during training, attention in seq2seq (attention mechanism connects decoder to encoder hidden states), machine translation with Transformers (MarianMT, T5, mBART), BLEU score for translation evaluation
+Deliverable: 158_seq2seq.ipynb
+
+--- Day 159 | 06 Nov Fri ---
+Topic: Text Summarization — Extractive & Abstractive
+Subtopics: Extractive summarization: selecting important sentences (textrank, sumy, BERT-based), sentence scoring by TF-IDF/position/word frequency, Abstractive summarization: generating new sentences (BART, T5, Pegasus), HuggingFace summarization pipeline, T5-small/base/large for summarization, evaluating summaries (ROUGE-1/2/L, BERTScore), comparing extractive vs abstractive
+Deliverable: 159_summarization.ipynb
+
+--- Day 160 | 07 Nov Sat ---
+Topic: NLP Project — Sentiment Analysis System
+Subtopics: End-to-end: scrape/review dataset, text preprocessing, traditional ML approach (TF-IDF + LR/NB), deep learning approach (Embedding + LSTM), transformer approach (fine-tune BERT/T5), compare approaches on accuracy/F1/inference speed, deploy as FastAPI endpoint, interactive Streamlit/HTML interface
+Deliverable: 160_sentiment_project.ipynb
+
+--- Day 161 | 08 Nov Sun ---
+Topic: NLP Project — Question Answering System
+Subtopics: Extractive QA: SQuAD dataset, BERT for QA (BertForQuestionAnswering), tokenizer returning start/end positions, predicting answer span, Evaluating with exact match (EM) and F1 score, Building QA pipeline with HuggingFace, integrating with document retrieval (open-domain QA)
+Deliverable: 161_qa_project.ipynb
+
+--- Day 162 | 09 Nov Mon ---
+Topic: NLP Project — Duplicate Question Pairs
+Subtopics: Quora duplicate questions dataset, Siamese network architecture (shared weights, twin networks), sentence embeddings (Universal Sentence Encoder, SBERT), cosine similarity between embeddings, pairwise classification with BERT (cross-encoder vs bi-encoder), evaluation with accuracy, F1, log loss, deployment as similarity API
+Deliverable: 162_duplicate_questions.ipynb
+
+--- Day 163 | 10 Nov Tue ---
+Topic: NLP — Advanced Topics (BART, T5, Distillation)
+Subtopics: BART: denoising autoencoder (masked LM + text infilling corruption), T5 (Text-to-Text Transfer Transformer): all NLP tasks as text-to-text format, prefix tuning 'summarize: ...', 'translate English to German: ...', knowledge distillation for smaller/faster models (DistilBERT, TinyBERT, MobileBERT), model compression: pruning + quantization for deployment
+Deliverable: 163_advanced_nlp.ipynb
+
+--- Day 164 | 11 Nov Wed ---
+Topic: NLP — Revision & Interview Preparation
+Subtopics: NLP interview topics: BOW vs word embeddings, word2vec vs GloVe vs FastText, RNN vs LSTM vs GRU, attention mechanism intuition, BERT vs GPT vs T5, sequence labeling (NER) vs classification vs seq2seq, evaluation metrics (BLEU, ROUGE, METEOR, perplexity), practical: implement tokenizer from scratch, word2vec from scratch
+Deliverable: 164_nlp_revision.ipynb
+
+--- Day 165 | 12 Nov Thu ---
+Topic: NLP — Comprehensive Revision & Assessment
+Subtopics: NLP assessment quiz (50 questions covering all topics), implement end-to-end text classification pipeline from scratch, compare traditional ML vs DL vs transformer approaches, ethical considerations in NLP (bias in embeddings, fairness, toxicity detection), build NLP cheatsheet for quick reference
+Deliverable: 165_nlp_assessment.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 15: Computer Vision
+------------------------------------------------------------------------------------------
+
+--- Day 166 | 13 Nov Fri ---
+Topic: OpenCV — Image Basics & Operations
+Subtopics: cv2.imread (color modes: IMREAD_COLOR, IMREAD_GRAYSCALE, IMREAD_UNCHANGED), cv2.imshow (display), cv2.imwrite (save), image as NumPy array (h,w,c), pixel access and manipulation, color space conversion (BGR↔RGB, BGR↔GRAY, BGR↔HSV), image arithmetic (add, subtract, blend, alpha/beta), region of interest (ROI) slicing
+Deliverable: 166_opencv_basics.ipynb
+
+--- Day 167 | 14 Nov Sat ---
+Topic: OpenCV — Image Processing Filters
+Subtopics: Resizing (cv2.resize, interpolation methods: INTER_LINEAR, INTER_CUBIC, INTER_AREA), rotation and affine transformation (cv2.getRotationMatrix2D, cv2.warpAffine), translation, perspective transformation (cv2.getPerspectiveTransform, cv2.warpPerspective), smoothing/blurring (GaussianBlur, MedianBlur, BilateralFilter), sharpening with kernel, morphological operations (erode, dilate, open, close, gradient, tophat, blackhat)
+Deliverable: 167_opencv_filters.ipynb
+
+--- Day 168 | 15 Nov Sun ---
+Topic: OpenCV — Edge Detection & Contours
+Subtopics: Canny edge detection: Gaussian blur → gradient computation → non-max suppression → double threshold → hysteresis, Sobel and Laplacian edge detection, finding contours (cv2.findContours, RETR_TREE/EXTERNAL/LIST, CHAIN_APPROX_SIMPLE/NONE), drawing contours (cv2.drawContours), contour features (area, perimeter, bounding rect, convex hull, solidity), contour approximation
+Deliverable: 168_edge_contours.ipynb
+
+--- Day 169 | 16 Nov Mon ---
+Topic: Feature Detection — SIFT, ORB & Image Matching
+Subtopics: Keypoint detection and descriptors, SIFT (Scale-Invariant Feature Transform, patented, scale/rotation invariant), ORB (Oriented FAST and Rotated BRIEF, free, efficient), feature matching (BFMatcher, FLANN-based matcher), Lowe's ratio test for good matches, homography estimation for image alignment, image stitching/panorama basics
+Deliverable: 169_feature_matching.ipynb
+
+--- Day 170 | 17 Nov Tue ---
+Topic: Object Detection — YOLO (You Only Look Once)
+Subtopics: Object detection overview: classification + localization, YOLO: single forward pass (grid-based, bounding box regression, class probability), YOLOv8 architecture (backbone + neck + head, anchor-free), ultralytics YOLO library, model = YOLO('yolov8n.pt'), results parsing (boxes, masks, keypoints, probs), confidence threshold and NMS (Non-Maximum Suppression), IoU (Intersection over Union) metric, mAP (mean Average Precision)
+Deliverable: 170_yolo.ipynb
+
+--- Day 171 | 18 Nov Wed ---
+Topic: Object Detection — YOLO Training & Custom Dataset
+Subtopics: Custom dataset preparation: labeling formats (YOLO format: class x_center y_center width height), Roboflow for dataset management, YOLOv8 training (model.train(data, epochs, imgsz, batch)), hyperparameters (lr, momentum, weight_decay, augmentations: hsv_h, hsv_s, hsv_v, degrees, translate, scale, fliplr), validation and testing, model export (ONNX, TensorRT, CoreML), deployment with FastAPI
+Deliverable: 171_yolo_training.ipynb
+
+--- Day 172 | 19 Nov Thu ---
+Topic: Image Segmentation — U-Net & Mask R-CNN
+Subtopics: Semantic segmentation (per-pixel classification) vs instance segmentation (each instance separately), U-Net: encoder (downsampling) + decoder (upsampling) + skip connections, U-Net for medical image segmentation, Mask R-CNN (Faster R-CNN + mask branch): bounding box + segmentation mask, YOLOv8 segmentation variant (YOLOv8-seg), segmentation evaluation metrics (IoU, Dice coefficient, pixel accuracy)
+Deliverable: 172_segmentation.ipynb
+
+--- Day 173 | 20 Nov Fri ---
+Topic: Face Detection & Recognition
+Subtopics: Haar Cascade Classifier (cv2.CascadeClassifier, haarcascade_frontalface_default.xml), face detection parameters (scaleFactor, minNeighbors, minSize), HOG + SVM for face detection (dlib), MTCNN for face detection, face recognition: FaceNet (triplet loss, embeddings), DeepFace library, comparing faces with cosine distance, face recognition pipeline: detect → align → embed → match
+Deliverable: 173_face_recognition.ipynb
+
+--- Day 174 | 21 Nov Sat ---
+Topic: Image Generation — GANs & Stable Diffusion
+Subtopics: Generative models overview, DCGAN (deep convolutional GAN) training, GAN training challenges (mode collapse, non-convergence), StyleGAN architecture (progressive growing, style modulation, noise injection), Diffusion models: forward diffusion (adding noise) → reverse denoising (UNet), Stable Diffusion: text-to-image, latent diffusion, CLIP text conditioning, HuggingFace diffusers library, prompting and CFG (Classifier-Free Guidance) scale
+Deliverable: 174_image_generation.ipynb
+
+--- Day 175 | 22 Nov Sun ---
+Topic: CV Project — Real-Time Object Detection App
+Subtopics: Build real-time object detection: YOLOv8 for webcam/video feed, FPS optimization (frame skipping, resizing, model size tradeoff), bounding box drawing with class labels and confidence, tracking objects across frames (ByteTrack, DeepSORT), Streamlit/OpenCV UI for detection app, deploy as Docker container, test on video files and live camera
+Deliverable: 175_cv_project.ipynb
+
+--- Day 176 | 23 Nov Mon ---
+Topic: Optical Flow & Video Processing
+Subtopics: Optical flow: motion estimation between frames, Lucas-Kanade method (sparse optical flow, good features to track), Farneback method (dense optical flow), video processing with OpenCV (cv2.VideoCapture, cv2.VideoWriter), reading/writing video, frame-by-frame processing, background subtraction (MOG2, KNN, GMG), motion detection applications
+Deliverable: 176_video_processing.ipynb
+
+--- Day 177 | 24 Nov Tue ---
+Topic: Image Captioning & Visual Question Answering
+Subtopics: Image captioning: CNN encoder (extract features) + RNN/Transformer decoder (generate caption), Show Attend and Tell (attention on image regions), BLIP/BLIP-2 (Bootstrapping Language-Image Pre-training), Visual Question Answering (VQA): answer questions about images, CLIP (Contrastive Language-Image Pre-training): zero-shot image classification, similarity between text and image embeddings
+Deliverable: 177_image_captioning.ipynb
+
+--- Day 178 | 25 Nov Wed ---
+Topic: Multi-Modal Models — CLIP, BLIP, LLaVA
+Subtopics: CLIP: image-text contrastive learning (batch of pairs, contrastive loss), zero-shot image classification with CLIP, image-text retrieval, BLIP-2: Q-Former bridging image encoder and LLM, LLaVA (Large Language and Vision Assistant): visual instruction tuning, GPT-4V capabilities, multi-modal applications (image understanding, visual QA, document analysis)
+Deliverable: 178_multimodal.ipynb
+
+--- Day 179 | 26 Nov Thu ---
+Topic: CV — Revision & Interview Preparation
+Subtopics: CV interview topics: CNN architecture, convolution arithmetic, pooling operations, transfer learning, object detection (YOLO vs R-CNN variants), image segmentation, face recognition, data augmentation, deployment challenges (latency, model size, edge devices), evaluation metrics (IoU, mAP, FPS), hands-on: implement convolution from scratch, IoU calculation
+Deliverable: 179_cv_revision.ipynb
+
+--- Day 180 | 27 Nov Fri ---
+Topic: CV — Comprehensive Assessment & Mini Project
+Subtopics: CV assessment: 40 questions covering all topics, implement image classifier from scratch using OpenCV + sklearn (HOG features + SVM), compare with deep learning approach, deployment planning: model optimization (quantization, pruning, ONNX), edge deployment (TFLite, CoreML, TensorRT)
+Deliverable: 180_cv_assessment.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 16: MLOps & Model Deployment
+------------------------------------------------------------------------------------------
+
+--- Day 181 | 28 Nov Sat ---
+Topic: MLOps — Introduction & Workflow
+Subtopics: MLOps: ML + DevOps + Data Engineering, ML lifecycle: data collection → feature engineering → training → evaluation → deployment → monitoring → retraining, MLOps maturity levels (manual, automated CI/CD, full automation), MLOps challenges (reproducibility, versioning, monitoring, governance), MLOps vs traditional software DevOps, MLOps tools landscape
+Deliverable: 181_mlops_intro.ipynb
+
+--- Day 182 | 29 Nov Sun ---
+Topic: Docker — Images, Containers & Dockerfile
+Subtopics: Docker vs virtual machines, images as templates, containers as running instances, Dockerfile instructions: FROM (base image), WORKDIR (working directory), COPY/ADD (files), RUN (commands during build), EXPOSE (port), CMD/ENTRYPOINT (container startup), .dockerignore for excluding files, docker build and docker run, docker ps/logs/exec/stop/rm, Docker Hub for image registry, docker push/pull
+Deliverable: 182_docker_basics.ipynb
+
+--- Day 183 | 30 Nov Mon ---
+Topic: Docker Compose for ML Stack
+Subtopics: Docker Compose: defining multi-container applications, docker-compose.yml structure (services, networks, volumes, environment), service configuration (build context, ports, depends_on, environment variables, volumes), networking between containers (service name as hostname), volumes for persistent data (named volumes, bind mounts), docker-compose up/down/logs, example: app + database + redis stack
+Deliverable: 183_docker_compose.ipynb
+
+--- Day 184 | 01 Dec Tue ---
+Topic: MLflow — Experiment Tracking
+Subtopics: MLflow tracking: logging parameters, metrics, artifacts, models, mlflow.set_experiment(), mlflow.start_run()/end_run(), mlflow.log_param/log_metric/log_metrics/log_artifact, MLflow UI (mlflow ui), autologging (mlflow.autolog() for sklearn, tensorflow, pytorch), nested runs for hyperparameter sweeps, comparing runs in UI, tracking server setup
+Deliverable: 184_mlflow_tracking.ipynb
+
+--- Day 185 | 02 Dec Wed ---
+Topic: MLflow — Model Registry & Deployment
+Subtopics: MLflow Models: model flavors (sklearn, pytorch, tensorflow, pyfunc), mlflow.pyfunc for custom models, MLflow Model Registry: registered model → versions → stages (Staging, Production, Archived), transition model stage via UI/API, model serving with mlflow models serve, batch inference with Spark UDF, model versioning and lineage
+Deliverable: 185_mlflow_registry.ipynb
+
+--- Day 186 | 03 Dec Thu ---
+Topic: FastAPI — Building ML APIs
+Subtopics: FastAPI: ASGI framework for Python APIs, path operations (@app.get, @app.post), path/query/body parameters, Pydantic models for request/response validation, async support, automatic OpenAPI docs (/docs, /redoc), dependency injection for shared resources, CORS middleware, background tasks, serving ML model in FastAPI: load at startup, predict endpoint, batch prediction
+Deliverable: 186_fastapi.ipynb
+
+--- Day 187 | 04 Dec Fri ---
+Topic: Model Serving — FastAPI + Docker Deployment
+Subtopics: Dockerize FastAPI app: Dockerfile with python:3.11-slim, copy requirements, install deps, copy app code, CMD for uvicorn, docker-compose with API + MLflow, testing API with curl and requests, production considerations: workers (gunicorn + uvicorn workers), auto-scaling, health checks (/health endpoint), graceful shutdown, logging and error handling
+Deliverable: 187_fastapi_deploy.ipynb
+
+--- Day 188 | 05 Dec Sat ---
+Topic: Streamlit — Interactive ML Apps
+Subtopics: Streamlit: fastest way to build data apps, st.write/success/error/info, st.dataframe/st.table, st.pyplot/st.plotly_chart, st.line_chart/st.bar_chart, user input widgets (st.slider, st.selectbox, st.file_uploader, st.text_input), st.cache for performance, multipage apps (st.page, st.navigation), deploying Streamlit app (Streamlit Cloud, HuggingFace Spaces, Docker)
+Deliverable: 188_streamlit.ipynb
+
+--- Day 189 | 06 Dec Sun ---
+Topic: Streamlit Project — Regression/Classification Dashboard
+Subtopics: Build interactive dashboard: upload dataset, select target, choose model type, training with progress bar, display metrics and plots, feature importance visualization, download predictions, deploy on Streamlit Cloud/HuggingFace Spaces, add user authentication (st.secrets), session state for multi-step workflows
+Deliverable: 189_streamlit_project.ipynb
+
+--- Day 190 | 07 Dec Mon ---
+Topic: CI/CD for ML — GitHub Actions
+Subtopics: GitHub Actions fundamentals: workflows (YAML), events (push, pull_request, schedule), jobs and steps, runner environments (ubuntu-latest, windows-latest), CI pipeline: checkout → setup-python → install deps → lint → test, CD pipeline: build Docker → push to registry → deploy to server, matrix strategy for multi-version testing, secrets management, artifacts for passing files between jobs
+Deliverable: 190_github_actions.ipynb
+
+--- Day 191 | 08 Dec Tue ---
+Topic: ML CI/CD — Model Training & Evaluation Pipeline
+Subtopics: Automated ML pipeline: data validation (Great Expectations) → training (parameterized) → evaluation (compare with baseline) → model registry → deploy if improved, GitHub Actions for scheduled retraining (cron trigger), creating reusable workflows, Docker caching for faster builds, parallel job execution, notification on failure (Slack, email)
+Deliverable: 191_ml_pipeline.ipynb
+
+--- Day 192 | 09 Dec Wed ---
+Topic: Model Monitoring — Evidently & Detection
+Subtopics: Model monitoring: data drift, prediction drift, concept drift, performance degradation, Evidently AI: data drift detection (DataDriftPreset), model performance (RegressionPreset, ClassificationPreset), target drift, JSON/HTML reports, integrating Evidently with FastAPI, Prometheus for metrics collection, Grafana for dashboards, alerting on drift/drop in performance, scheduled monitoring reports
+Deliverable: 192_model_monitoring.ipynb
+
+--- Day 193 | 10 Dec Thu ---
+Topic: DVC — Data Version Control
+Subtopics: DVC: version control for data and ML models, dvc init, dvc add (track large files with .dvc files), dvc push/pull (remote storage: S3, GCS, Google Drive, SSH), dvc run (define pipeline stages), dvc.yaml (pipeline definition), dvc repro (reproduce pipeline), dependency graph (DAG), comparing data versions, DVC + Git workflow (code in Git, data in DVC)
+Deliverable: 193_dvc.ipynb
+
+--- Day 194 | 11 Dec Fri ---
+Topic: Feature Store — Feast Basics
+Subtopics: Feature Store concept: centralized feature management, serving for training and inference, Feast: offline store (historical features for training), online store (real-time features for inference), feature definition with Python SDK (FeatureView, Entity, ValueType), feature serving (get_historical_features, get_online_features), feature validation, feature store vs feature engineering pipeline
+Deliverable: 194_feature_store.ipynb
+
+--- Day 195 | 12 Dec Sat ---
+Topic: Cloud Deployment — AWS SageMaker & GCP Vertex AI
+Subtopics: AWS SageMaker: managed ML platform, SageMaker Studio (IDE), training jobs (estimator, hyperparameter tuning), model hosting (endpoint, auto-scaling), SageMaker Pipelines for MLOps, batch transform for batch inference, GCP Vertex AI: unified ML platform, Vertex AI Workbench, Custom training, Vertex AI endpoints, AI Platform Prediction, comparison AWS vs GCP for ML
+Deliverable: 195_cloud_deployment.ipynb
+
+--- Day 196 | 13 Dec Sun ---
+Topic: Kubernetes Basics for ML Serving
+Subtopics: Kubernetes: container orchestration, pods (smallest deployable unit), deployments (desired state, replica sets), services (load balancing, ClusterIP, NodePort, LoadBalancer), kubectl commands (get, describe, logs, exec, apply, delete), ConfigMaps and Secrets for configuration, K8s for model serving (scaling, rolling updates, self-healing), KFServing/Seldon for ML-specific Kubernetes serving, Helm charts for packaging
+Deliverable: 196_kubernetes.ipynb
+
+--- Day 197 | 14 Dec Mon ---
+Topic: Model Optimization — Quantization, Pruning & ONNX
+Subtopics: Model optimization techniques: quantization (FP32→INT8, post-training vs quantization-aware training, weight vs activation quantization), pruning (magnitude pruning, structured pruning, lottery ticket hypothesis), TensorFlow Lite for mobile/edge (converter, interpreter, delegate), ONNX (Open Neural Network Exchange): cross-framework format, onnxruntime for inference, converting Keras/PyTorch to ONNX, speed/accuracy tradeoffs for deployment
+Deliverable: 197_model_optimization.ipynb
+
+--- Day 198 | 15 Dec Tue ---
+Topic: Model A/B Testing & Shadow Deployment
+Subtopics: A/B testing for ML models: serving two model versions (control vs treatment), routing traffic percentage, metrics comparison (business metrics, model metrics), statistical significance of A/B test, shadow deployment: mirror traffic to new model without serving (compare outputs), canary deployment (gradual rollout), multi-armed bandit for traffic allocation, feature flags for model switching
+Deliverable: 198_ab_testing.ipynb
+
+--- Day 199 | 16 Dec Wed ---
+Topic: MLOps Project — End-to-End ML Pipeline
+Subtopics: Build complete MLOps pipeline: data versioning (DVC), experiment tracking (MLflow), model training with hyperparameter tuning, model registry (promote best to production), packaging with Docker, CI/CD (GitHub Actions: test → build → deploy), monitoring (Evidently for drift), serving API (FastAPI), frontend (Streamlit), deploy on cloud (AWS/GCP)
+Deliverable: 199_mlops_project.ipynb
+
+--- Day 200 | 17 Dec Thu ---
+Topic: MLOps — Revision & Interview Preparation
+Subtopics: MLOps interview topics: ML pipeline components, experiment tracking, model versioning, CI/CD for ML, monitoring vs observability, data drift vs concept drift, Docker vs K8s, cloud platforms, feature stores, model optimization for deployment, MLOps maturity model, tradeoffs (batch vs real-time, cost vs accuracy, latency vs throughput)
+Deliverable: 200_mlops_revision.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 17: LLMs & Generative AI
+------------------------------------------------------------------------------------------
+
+--- Day 201 | 18 Dec Fri ---
+Topic: LLM Architecture — GPT, LLaMA, Mistral
+Subtopics: LLM fundamentals: autoregressive language modeling (predict next token), GPT architecture (decoder-only, causal attention mask), model sizes (GPT-2 1.5B, GPT-3 175B, GPT-4, LLaMA 7B-70B, Mistral 7B, Mixtral MoE), tokenization (BPE, SentencePiece, Tiktoken), context window (4K, 8K, 32K, 128K tokens), temperature/top-k/top-p sampling, scaling laws (compute-optimal training, Chinchilla optimal)
+Deliverable: 201_llm_architecture.ipynb
+
+--- Day 202 | 19 Dec Sat ---
+Topic: Prompt Engineering — Zero-shot, Few-shot, Chain-of-Thought
+Subtopics: Prompt engineering principles (clear instructions, context, role assignment, output format specification), zero-shot prompting, few-shot prompting (in-context learning with examples), Chain-of-Thought (CoT): step-by-step reasoning ("Let's think step by step"), Tree-of-Thoughts (ToT): multi-path reasoning, self-consistency (multiple CoT paths, majority vote), prompt chaining, structured output (JSON, XML), avoiding prompt injection, system/user/assistant message roles
+Deliverable: 202_prompt_engineering.ipynb
+
+--- Day 203 | 20 Dec Sun ---
+Topic: OpenAI API — Chat Completions, Function Calling, Embeddings
+Subtopics: OpenAI API setup (API key, organization), Chat Completions API: model selection (gpt-4, gpt-4-turbo, gpt-3.5-turbo), messages format (system, user, assistant, function), temperature/max_tokens/top_p/frequency_penalty/presence_penalty, streaming responses (stream=True), Function Calling: defining functions schema, API calling functions, executing functions locally, Embeddings API: text-embedding-3-small/large, cosine similarity for search, token usage and pricing
+Deliverable: 203_openai_api.ipynb
+
+--- Day 204 | 21 Dec Mon ---
+Topic: LangChain — Chains, Prompts & Memory
+Subtopics: LangChain framework: modular components for LLM apps, LLMs vs ChatModels, PromptTemplate and ChatPromptTemplate, LLMChain: prompt → LLM → output parser, Runnable interface (invoke, batch, stream), memory types: ConversationBufferMemory, ConversationBufferWindowMemory, ConversationSummaryMemory, VectorStoreRetrieverMemory, memory integration into chains
+Deliverable: 204_langchain_basics.ipynb
+
+--- Day 205 | 22 Dec Tue ---
+Topic: LangChain — Tools, Agents & Toolkits
+Subtopics: Tools: custom tool creation (@tool decorator, BaseTool class), built-in tools (DuckDuckGoSearch, Wikipedia, Calculator, PythonREPL, Arxiv, PubMed), Agents: ReAct (Reason + Act), AgentType (ZERO_SHOT_REACT_DESCRIPTION, CONVERSATIONAL_REACT_DESCRIPTION, OPENAI_FUNCTIONS), AgentExecutor (max_iterations, early_stopping_method), Toolkits: SQLDatabaseToolkit, CSVAgent, PandasDataFrameAgent, agent debugging (verbose=True, intermediate_steps)
+Deliverable: 205_langchain_agents.ipynb
+
+--- Day 206 | 23 Dec Wed ---
+Topic: RAG — Retrieval-Augmented Generation
+Subtopics: RAG architecture: user query → retrieve relevant documents → augment prompt with context → generate response, retrieval: sparse (BM25, TF-IDF) vs dense (embedding similarity, cosine), document chunking strategies (fixed size, recursive character split, semantic splitting), chunk size and overlap optimization, embedding models (text-embedding-3-small, instructor-xl, BGE), vector databases (Chroma, Pinecone, Weaviate, Qdrant, Milvus), RAG evaluation (faithfulness, answer relevance, context precision/recall)
+Deliverable: 206_rag_architecture.ipynb
+
+--- Day 207 | 24 Dec Thu ---
+Topic: RAG Implementation — LangChain + Chroma
+Subtopics: Complete RAG implementation: load documents (DocumentLoaders: PDF, web, CSV, YouTube), text splitting (RecursiveCharacterTextSplitter, chunk_size=500, chunk_overlap=50), embedding with OpenAIEmbeddings, vector store with Chroma (persist_directory), retriever (similarity_search, mmr, similarity_score_threshold), QA chain (RetrievalQA, ConversationalRetrievalChain), streaming response, source citations
+Deliverable: 207_rag_implementation.ipynb
+
+--- Day 208 | 25 Dec Fri ---
+Topic: Advanced RAG — Query Transformations & Fusion
+Subtopics: Advanced RAG techniques: Multi-query retrieval (generate multiple query variants), HyDE (Hypothetical Document Embeddings: generate synthetic document from query → use its embedding for retrieval), Contextual compression (compress retrieved docs, extract only relevant parts), Self-RAG (retrieve on demand, critique own generation), CRAG (Corrective RAG: correct irrelevant retrievals), RAG fusion (reciprocal rank fusion for multi-source retrieval), parent document retriever (retrieve small chunks, return parent for context)
+Deliverable: 208_advanced_rag.ipynb
+
+--- Day 209 | 26 Dec Sat ---
+Topic: Fine-tuning LLMs — LoRA & QLoRA
+Subtopics: Full fine-tuning vs parameter-efficient fine-tuning (PEFT), LoRA (Low-Rank Adaptation): low-rank decomposition of weight updates (A·B, rank r), LoRA hyperparameters (rank r, alpha, target_modules), QLoRA: quantized LoRA (4-bit NormalFloat quantization, double quantization, paged optimizers for memory), fine-tuning with HuggingFace PEFT + transformers, TrainingArguments, SFTTrainer, dataset formatting (instruction-following format), evaluating fine-tuned model (perplexity, task metrics)
+Deliverable: 209_finetuning_lora.ipynb
+
+--- Day 210 | 27 Dec Sun ---
+Topic: RLHF & Alignment — Reinforcement Learning from Human Feedback
+Subtopics: RLHF process: SFT (Supervised Fine-Tuning on demonstrations) → Reward Model (trained on human preference comparisons) → PPO (Proximal Policy Optimization), reward model training (pairwise preference data, Bradley-Terry model), PPO training (policy + value model, KL penalty for not diverging too far), DPO (Direct Preference Optimization): simpler alternative to RLHF, alignment evaluation (Helpful/Honest/Harmless, bias, toxicity), constitutional AI (self-critique + revision)
+Deliverable: 210_rlhf.ipynb
+
+--- Day 211 | 28 Dec Mon ---
+Topic: AI Agents — ReAct, AutoGPT, Tool Use
+Subtopics: AI agent: LLM + tools + memory + planning, ReAct agent (interleaving reasoning traces with actions), AutoGPT: autonomous task decomposition (think/do/observe loop), function calling agents (OpenAI tools), multi-step planning (subgoal decomposition), tool selection (relevant tool from description), error recovery/retry, agent memory (short-term: conversation buffer, long-term: vector store), agent observability (LangSmith, Langfuse for tracing agent steps)
+Deliverable: 211_ai_agents.ipynb
+
+--- Day 212 | 29 Dec Tue ---
+Topic: Multi-Agent Systems — CrewAI & AutoGen
+Subtopics: Multi-agent architectures: hierarchical (manager + workers), collaborative (agents share info, vote), debate (agents argue for different views), CrewAI: Agent (role, goal, backstory, tools, llm), Task (description, expected_output, agent), Crew (agents, tasks, process=sequential/hierarchical), AutoGen (Microsoft): assistant agent + user proxy agent, group chat with manager, tool registration, multi-agent conversation patterns (two-agent collaboration, group chat, nested chats)
+Deliverable: 212_multi_agent.ipynb
+
+--- Day 213 | 30 Dec Wed ---
+Topic: LangGraph — Agent Workflows & State Machines
+Subtopics: LangGraph: graph-based orchestration for agent workflows, StateGraph (nodes + edges), node = function that updates state, edge = conditional or unconditional transition, AgentState (TypedDict for shared state), message persistence (checkpointer), human-in-the-loop (interrupt_before, NodeInterrupt), agent supervisor pattern (LLM decides next agent), parallel node execution, subgraphs for modularity
+Deliverable: 213_langgraph.ipynb
+
+--- Day 214 | 31 Dec Thu ---
+Topic: LLM Evaluation — BLEU, ROUGE, BERTScore & LLM-as-Judge
+Subtopics: Evaluation metrics: perplexity (intrinsic), BLEU (precision-based, n-gram overlap for translation), ROUGE (recall-based, ROUGE-1/2/L for summarization), METEOR (synonym matching), BERTScore (embedding similarity, precision/recall/F1), LLM-as-judge: using GPT-4 to evaluate outputs (pairwise comparison, absolute scoring), human evaluation (Chatbot Arena, Elo ratings), evaluation datasets (MMLU, HellaSwag, ARC, GSM8K, HumanEval for code), promptfoo for systematic evaluation
+Deliverable: 214_llm_evaluation.ipynb
+
+--- Day 215 | 01 Jan Fri ---
+Topic: LLM Safety — Red-teaming, Guardrails & Content Filtering
+Subtopics: LLM safety concerns: hallucination, bias, toxicity, jailbreaking, prompt injection, data leakage, Red-teaming: systematic adversarial testing (manual + automated), Guardrails: NeMo Guardrails (colang, rails: topical, safety, dialog), Guardrails AI (validators, reasks), content filtering (OpenAI Moderation API, Perspective API), PII detection and masking, output verification (factuality, safety, relevance), responsible AI principles
+Deliverable: 215_llm_safety.ipynb
+
+--- Day 216 | 02 Jan Sat ---
+Topic: LLM Project — RAG Chatbot with Streamlit
+Subtopics: Build production RAG chatbot: document ingestion (PDF, web, text), chunking and embedding, vector store (Chroma/Pinecone), LangChain retrieval chain, conversational memory, Streamlit UI (chat history, file upload, source display), Docker deployment, monitoring with LangSmith/Langfuse, evaluation (answer accuracy, retrieval precision)
+Deliverable: 216_rag_chatbot_project.ipynb
+
+--- Day 217 | 03 Jan Sun ---
+Topic: LLM Project — Multi-Agent Research System
+Subtopics: Build multi-agent system: Research agent (search, summarize), Writer agent (compose report), Reviewer agent (critique, fact-check), implement with CrewAI/LangGraph, orchestrate agents (sequential/hierarchical), tool integration (web search, arxiv, calculator), structured output (PDF report, markdown), deployment as API
+Deliverable: 217_multi_agent_project.ipynb
+
+--- Day 218 | 04 Jan Mon ---
+Topic: LLM — Revision & Interview Preparation
+Subtopics: LLM interview topics: transformer architecture, attention mechanisms (self, cross, multi-head), pretraining (MLM, CLM, denoising), scaling laws, fine-tuning (full vs PEFT), RAG (indexing, retrieval, generation), agents (ReAct, planning, tool use), evaluation, alignment (RLHF, DPO), safety, efficiency (KV-cache, FlashAttention, speculative decoding), quantization
+Deliverable: 218_llm_revision.ipynb
+
+------------------------------------------------------------------------------------------
+  Phase 18: Career Preparation
+------------------------------------------------------------------------------------------
+
+--- Day 219 | 05 Jan Tue ---
+Topic: ML System Design — Architecture & Tradeoffs
+Subtopics: ML system design framework: requirements (functional, non-functional: latency, throughput, availability, scalability), data pipeline (batch vs streaming, feature store), training (experiment tracking, model selection, hyperparameter optimization), deployment (serving: batch/real-time/streaming, infrastructure: on-prem/cloud/edge), monitoring (drift detection, performance alerts), tradeoffs (accuracy vs latency, cost vs performance, batch vs real-time, centralized vs distributed), practice design: recommendation system, fraud detection, search ranking, autonomous vehicle perception
+Deliverable: 219_system_design.ipynb
+
+--- Day 220 | 06 Jan Wed ---
+Topic: ML Coding Interview — Algorithms from Scratch
+Subtopics: Implement ML algorithms from scratch (without sklearn): Linear Regression (normal equation + GD), Logistic Regression (GD, binary cross-entropy), KNN (distance computation + majority vote), K-Means (Lloyd's algorithm), PCA (eigendecomposition), Decision Tree (CART, gini/entropy splitting), Naive Bayes (Gaussian), evaluation metrics (confusion matrix, precision, recall, F1, ROC-AUC from scratch), common coding problems (matrix operations, statistics, probability)
+Deliverable: 220_coding_interview.ipynb
+
+--- Day 221 | 07 Jan Thu ---
+Topic: Behavioral Interviews & Resume Polish
+Subtopics: STAR method (Situation, Task, Action, Result), 10 common behavioral questions with STAR answers (tell me about yourself, biggest challenge, teamwork, failure, leadership, conflict, achievement, why ML, why this company, career goals), resume tailoring for ML roles (keywords: deployed, optimized, scaled, production, pipeline, framework), portfolio website essentials (about, projects, skills, blog, contact), LinkedIn optimization (headline, about, experience, skills assessment, recommendations)
+Deliverable: 221_behavioral_resume.ipynb
+
+--- Day 222 | 08 Jan Fri ---
+Topic: Job Application Strategy & Portfolio Polish
+Subtopics: Job search strategy: target companies (FAANG, startups, mid-size), job boards (LinkedIn, Indeed, wellfound, Kaggle), networking (LinkedIn outreach, cold emails, referrals), portfolio polish (GitHub profile README, pinned projects, commit history, project READMEs with screenshots, tech stack, results), Kaggle for portfolio, writing cover letters, offer negotiation, interview scheduling, daily job application routine
+Deliverable: 222_job_strategy.ipynb
+
+--- Day 223 | 09 Jan Sat ---
+Topic: Portfolio Checkpoint — Final Review
+Subtopics: Review all 13+ projects: ensure each has README (problem, approach, results, tech stack), clean notebook, requirements.txt, deploy script if applicable, GitHub commits and branches, LinkedIn showcase with project screenshots, portfolio website update, create final journey summary post, celebrate progress and plan next steps
+Deliverable: 223_portfolio_checkpoint.ipynb
+
+--- Day 224 | 10 Jan Sun ---
+Topic: Mock Interview — Full Day Practice
+Subtopics: Full mock interview: ML coding (30 min), ML theory (30 min), system design (45 min), behavioral (30 min), SQL (15 min), receive feedback, identify weak areas, targeted practice for weak spots, record self for improvement, review common mistakes and improvement areas
+Deliverable: 224_mock_interview.ipynb
+
+--- Day 225 | 11 Jan Mon ---
+Topic: Final Day — Celebration & Continuous Learning Plan
+Subtopics: Review 225-day journey, completed projects and notebooks, skills acquired, reflection on growth, set continuous learning plan (arXiv papers, ML newsletters, online courses, open source contribution, mentoring), write journey summary and share, thank support system, plan next 90-day advanced specialization, celebrate achievement
+Deliverable: 225_final_day.ipynb
+
+==========================================================================================
+
+  END OF AI/ML ENGINEER ROADMAP
+
+==========================================================================================
+
+  Total Days: 225
+  Total Phases: 18
+  Total Projects: 15+
+  Timeline: June 2026 → January 2027
+
+==========================================================================================
+
+  PROJECTS SUMMARY
+
+==========================================================================================
+
+  Phase 6:  House Price Prediction (Regression)
+  Phase 6:  Breast Cancer Classifier (Classification)
+  Phase 8:  Kaggle Competition Entry
+  Phase 10: Imbalanced Dataset Project
+  Phase 11: Customer Segmentation (Clustering)
+  Phase 11: Dimensionality Reduction Project
+  Phase 12: Demand Forecasting (Time Series)
+  Phase 13: Image Classification with Transfer Learning
+  Phase 13: RNN Time Series Forecasting
+  Phase 14: Sentiment Analysis System
+  Phase 14: Question Answering System
+  Phase 15: Real-Time Object Detection App
+  Phase 16: End-to-End MLOps Pipeline
+  Phase 17: RAG Chatbot
+  Phase 17: Multi-Agent Research System
+
+==========================================================================================
+
+  KEY RESOURCES
+
+==========================================================================================
+
+  BOOKS:
+  1. Hands-On Machine Learning — Aurélien Géron
+  2. Deep Learning — Ian Goodfellow
+  3. Designing Machine Learning Systems — Chip Huyen
+  4. Python Machine Learning — Sebastian Raschka
+  5. Machine Learning System Design Interview — Ali Aminian
+
+  COURSES:
+  1. Andrew Ng's ML Specialization (Coursera)
+  2. Fast.ai Practical Deep Learning
+  3. Stanford CS229, CS231n, CS224n
+  4. Full Stack Deep Learning
+  5. Made With ML
+
+  TOOLS:
+  - Python, NumPy, Pandas, Scikit-learn
+  - PyTorch, TensorFlow/Keras
+  - XGBoost, LightGBM, CatBoost
+  - Hugging Face Transformers
+  - LangChain, LangGraph, CrewAI
+  - FastAPI, Streamlit, Docker
+  - MLflow, DVC, Evidently
+  - AWS SageMaker, GCP Vertex AI
+
+==========================================================================================
+
+  DAILY SCHEDULE TEMPLATE
+
+==========================================================================================
+
+  06:00 - 07:30  Theory & Concept Study
+  07:30 - 08:00  Break
+  08:00 - 10:00  Coding & Notebook Practice
+  10:00 - 10:30  Break
+  10:30 - 11:30  Project Implementation
+  11:30 - 12:00  Revision & Notes
+  21:00 - 21:30  SQL/DSA/Interview Prep
+
+==========================================================================================
+
+  GOOD LUCK ON YOUR AI/ML ENGINEERING JOURNEY! 🚀
+
+==========================================================================================

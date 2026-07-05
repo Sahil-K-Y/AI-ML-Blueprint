@@ -14,3 +14,14 @@ pdf_text.txt
 # Logs
 *.log
 Phase-3 - Logistic Regression Deep Dive/logs/
+
+# Large datasets (too big for GitHub)
+creditcard.csv
+fifa_world_cup_2026_player_performance.csv
+ai_student_impact_dataset (1).csv
+
+# Redundant roadmap files
+final_aiml.txt
+final_roadmap*.txt
+complete_day_by_day_roadmap.txt
+AI_ML_Complete_Roadmap_Day_by_Day.ipynb
