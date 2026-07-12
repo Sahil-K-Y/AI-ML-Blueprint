@@ -3,12 +3,12 @@
 
   <br/>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Building+an+AI%2FML+Engineer+profile+in+public;17+Phases+%7C+214+Days+%7C+14%2B+Projects;From+Linear+Regression+to+Advanced+Agents;Day+022+Active+%7C+Phase+3+Tree+Models+%26+SVM" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Building+an+AI%2FML+Engineer+profile+in+public;17+Phases+%7C+214+Days+%7C+14%2B+Projects;From+Linear+Regression+to+Advanced+Agents;Day+028+Active+%7C+Phase+3+Tree+Models+%26+SVM" alt="Typing SVG" />
 
   <br/><br/>
 
   <img src="https://img.shields.io/badge/Timeline-1%20June%202026%20to%2031%20December%202026-0f172a?style=for-the-badge&logo=googlecalendar&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-Day%20022%20Active-3b82f6?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Day%20028%20Active-3b82f6?style=for-the-badge&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/Goal-Job--Ready%20AIML%20Engineer-0ea5e9?style=for-the-badge&logo=target&logoColor=white" />
   <img src="https://img.shields.io/badge/Daily-5%20Hours-2563eb?style=for-the-badge&logo=clock&logoColor=white" />
 </div>
@@ -104,6 +104,7 @@ AI-ML-Blueprint/
 ├── 📁 Phase-0 - EDA & Feature Engineering/        → Historical reference of EDA & visualization notebooks
 ├── 📁 Phase-1 - Linear Regression & Regularization/ → Cost function, GD, multiple regression, Streamlit GUI app
 ├── 📁 Phase-2 - Logistic Regression & Classification/ → Sigmoid, Multiclass classification, Breast Cancer project
+├── 📁 Phase-3 - Tree Models & SVM/                → Decision Trees, SVM, KNN, Naive Bayes, RF, Ensembles
 │
 ├── 📝 roadmap.txt                                 → Complete 214-day roadmap (17 phases, all topics)
 └── 📝 README.md                                   → This file
