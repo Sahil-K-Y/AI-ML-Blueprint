@@ -25,37 +25,6 @@
 
 ## 🧠 Core Philosophy & Execution
 
-```python
-import torch
-import torch.nn as nn
-
-class AdvancedAIMLBlueprint(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.duration_days = 214
-        self.daily_commitment_hrs = 5
-        self.author = "Sahil-K-Y"
-        
-        self.curriculum = nn.Sequential(
-            MathFoundations(level="Rigorous"),
-            ClassicalML(focus="Derivations & From-Scratch Implementation"),
-            DeepLearning(framework="PyTorch", architecture="State-of-the-Art"),
-            GenerativeAI(topics=["QLoRA", "LangGraph", "CrewAI"]),
-            MLOps(tools=["Docker", "ONNX", "Triton", "Kubernetes"])
-        )
-
-    def forward(self, consistency):
-        if consistency >= self.daily_commitment_hrs:
-            return "Production-Ready AI/ML Engineer"
-        raise ConvergenceError("Consistency is the bottleneck of mastery.")
-
-# Initialize the journey
-roadmap = AdvancedAIMLBlueprint()
-print(roadmap.forward(consistency=5))
-```
-
----
-
 ## 🗺️ The Architecture of Mastery
 
 ```mermaid
