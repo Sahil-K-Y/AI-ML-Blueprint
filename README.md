@@ -62,7 +62,7 @@ graph TD
 | :---: | :--- | :---: | :---: | :--- |
 | **01** | Linear Regression, Regularization & Math | Days 01–13 | ✅ | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 `100%` |
 | **02** | Logistic Regression & Classification | Days 14–21 | ✅ | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 `100%` |
-| **03** | Tree Models, SVM & Base Ensembles | Days 22–38 | ✅ | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 `70%` |
+| **03** | Tree Models, SVM & Base Ensembles | Days 22–38 | ✅ | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 `100%` |
 | **04** | Boosting & Advanced Ensembles | Days 39–53 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ `0%` |
 | **05** | Adv. Preprocessing, Imbalanced Learning & XAI | Days 54–69 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ `0%` |
 | **06** | Unsupervised Learning & PCA | Days 70–85 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ `0%` |
