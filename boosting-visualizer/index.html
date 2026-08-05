@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boosting Masterclass — Interactive Visual Guide</title>
+  <meta name="description" content="Interactive animated guide to understand Gradient Boosting, XGBoost, LightGBM, CatBoost — regression & classification with step-by-step math visualizations.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ═══════════════════ NAVIGATION ═══════════════════ -->
+  <nav id="main-nav">
+    <div class="nav-brand">🔥 Boosting Visualizer</div>
+    <div class="nav-links">
+      <a href="#hero" class="nav-link active">Home</a>
+      <a href="#gb-regression" class="nav-link">GB Regression</a>
+      <a href="#gb-classification" class="nav-link">GB Classification</a>
+      <a href="#xgb-math" class="nav-link">XGBoost Math</a>
+      <a href="#overfitting" class="nav-link">Overfitting</a>
+      <a href="#tree-growth" class="nav-link">Tree Growth</a>
+      <a href="#adaboost" class="nav-link">AdaBoost</a>
+      <a href="#comparison" class="nav-link">Compare All</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <section id="hero" class="section hero-section">
+    <div class="hero-bg-animation"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Interactive Learning Experience</div>
+      <h1>Boosting Algorithms<br><span class="gradient-text">Visualized & Animated</span></h1>
+      <p class="hero-subtitle">Gradient Boosting, XGBoost, LightGBM, CatBoost — Math, Splits, Overfitting<br>
+        Regression & Classification dono ka complete visual walkthrough</p>
+      <div class="hero-cards">
+        <div class="hero-card" onclick="scrollToSection('gb-regression')">
+          <div class="hero-card-icon">📈</div>
+          <h3>GB Regression</h3>
+          <p>Residual fitting step-by-step</p>
+        </div>
+        <div class="hero-card" onclick="scrollToSection('gb-classification')">
+          <div class="hero-card-icon">🎯</div>
+          <h3>GB Classification</h3>
+          <p>LogLoss & probability updates</p>
+        </div>
+        <div class="hero-card" onclick="scrollToSection('xgb-math')">
+          <div class="hero-card-icon">⚡</div>
+          <h3>XGBoost Math</h3>
+          <p>Similarity, Gain, Splits</p>
+        </div>
+        <div class="hero-card" onclick="scrollToSection('overfitting')">
+          <div class="hero-card-icon">🎛️</div>
+          <h3>Overfitting</h3>
+          <p>Interactive parameter tuning</p>
+        </div>
+        <div class="hero-card" onclick="scrollToSection('tree-growth')">
+          <div class="hero-card-icon">🌳</div>
+          <h3>Tree Growth</h3>
+          <p>Level-wise vs Leaf-wise</p>
+        </div>
+        <div class="hero-card" onclick="scrollToSection('adaboost')">
+          <div class="hero-card-icon">🎪</div>
+          <h3>AdaBoost</h3>
+          <p>Weight rebalancing animation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ GB REGRESSION ═══════════════════ -->
+  <section id="gb-regression" class="section">
+    <div class="section-header">
+      <div class="section-badge">Regression</div>
+      <h2>Gradient Boosting — <span class="gradient-text">Regression</span></h2>
+      <p class="section-desc">Dekh kaise har tree RESIDUALS (galtiyan) ko fit karta hai — sculptor analogy! 🗿</p>
+    </div>
+    <div class="viz-container">
+      <div class="viz-panel">
+        <div class="viz-controls">
+          <button id="gb-reg-reset" class="btn btn-secondary" onclick="gbRegReset()">🔄 Reset</button>
+          <button id="gb-reg-step" class="btn btn-primary" onclick="gbRegStep()">▶ Next Tree</button>
+          <button id="gb-reg-auto" class="btn btn-accent" onclick="gbRegAuto()">⏩ Auto Play</button>
+          <div class="control-group">
+            <label>Learning Rate (η): <span id="gb-reg-lr-val">0.5</span></label>
+            <input type="range" id="gb-reg-lr" min="0.1" max="1.0" step="0.1" value="0.5" oninput="gbRegUpdateLR(this.value)">
+          </div>
+        </div>
+        <canvas id="gb-reg-canvas" width="800" height="400"></canvas>
+        <div class="viz-info">
+          <div class="info-card" id="gb-reg-iteration">
+            <div class="info-label">Iteration</div>
+            <div class="info-value">0</div>
+          </div>
+          <div class="info-card" id="gb-reg-mse">
+            <div class="info-label">MSE Loss</div>
+            <div class="info-value">—</div>
+          </div>
+          <div class="info-card" id="gb-reg-trees">
+            <div class="info-label">Trees Used</div>
+            <div class="info-value">0</div>
+          </div>
+        </div>
+      </div>
+      <div class="math-panel" id="gb-reg-math">
+        <h3>📐 Math Breakdown</h3>
+        <div class="math-step active" id="gb-reg-math-init">
+          <div class="step-badge">Step 0</div>
+          <p><strong>Initial Prediction:</strong></p>
+          <div class="formula">F₀(x) = mean(y) = average of all target values</div>
+          <p class="hint">Sabse pehle simple average se start karo — ye hamari "rough sculpture" hai</p>
+        </div>
+        <div class="math-step" id="gb-reg-math-residual">
+          <div class="step-badge">Step 1</div>
+          <p><strong>Calculate Residuals:</strong></p>
+          <div class="formula">rᵢ = yᵢ − F(xᵢ) = actual − predicted</div>
+          <p class="hint">Residual = kitna galat hai current prediction. Canvas pe RED arrows dekh!</p>
+        </div>
+        <div class="math-step" id="gb-reg-math-tree">
+          <div class="step-badge">Step 2</div>
+          <p><strong>Fit Tree on Residuals:</strong></p>
+          <div class="formula">hₜ(x) = DecisionTree.fit(X, residuals)</div>
+          <p class="hint">Naya tree RESIDUALS ko predict karta hai — original values ko NAHI!</p>
+        </div>
+        <div class="math-step" id="gb-reg-math-update">
+          <div class="step-badge">Step 3</div>
+          <p><strong>Update Prediction:</strong></p>
+          <div class="formula">F_new(x) = F_old(x) + η × hₜ(x)</div>
+          <p class="hint">Purani prediction + learning_rate × tree ka fix = better prediction!</p>
+        </div>
+      </div>
+    </div>
+    <!-- Residual Table -->
+    <div class="data-table-container" id="gb-reg-table-container">
+      <h3>📊 Live Data Table</h3>
+      <table class="data-table" id="gb-reg-table">
+        <thead>
+          <tr>
+            <th>Sample</th>
+            <th>x</th>
+            <th>y (actual)</th>
+            <th>F(x) (predicted)</th>
+            <th>Residual (y − F)</th>
+          </tr>
+        </thead>
+        <tbody id="gb-reg-table-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ GB CLASSIFICATION ═══════════════════ -->
+  <section id="gb-classification" class="section">
+    <div class="section-header">
+      <div class="section-badge">Classification</div>
+      <h2>Gradient Boosting — <span class="gradient-text">Classification</span></h2>
+      <p class="section-desc">Log-odds, Sigmoid, Probability updates — sab animated! 🎯</p>
+    </div>
+    <div class="viz-container">
+      <div class="viz-panel">
+        <div class="viz-controls">
+          <button id="gb-cls-reset" class="btn btn-secondary" onclick="gbClsReset()">🔄 Reset</button>
+          <button id="gb-cls-step" class="btn btn-primary" onclick="gbClsStep()">▶ Next Tree</button>
+          <button id="gb-cls-auto" class="btn btn-accent" onclick="gbClsAuto()">⏩ Auto Play</button>
+          <div class="control-group">
+            <label>Learning Rate (η): <span id="gb-cls-lr-val">0.5</span></label>
+            <input type="range" id="gb-cls-lr" min="0.1" max="1.0" step="0.1" value="0.5" oninput="gbClsUpdateLR(this.value)">
+          </div>
+        </div>
+        <canvas id="gb-cls-canvas" width="800" height="400"></canvas>
+        <div class="viz-info">
+          <div class="info-card" id="gb-cls-iteration">
+            <div class="info-label">Iteration</div>
+            <div class="info-value">0</div>
+          </div>
+          <div class="info-card" id="gb-cls-logloss">
+            <div class="info-label">Log Loss</div>
+            <div class="info-value">—</div>
+          </div>
+          <div class="info-card" id="gb-cls-accuracy">
+            <div class="info-label">Accuracy</div>
+            <div class="info-value">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="math-panel" id="gb-cls-math">
+        <h3>📐 Classification Math</h3>
+        <div class="math-step active">
+          <div class="step-badge">Step 0</div>
+          <p><strong>Initial Log-Odds:</strong></p>
+          <div class="formula">F₀ = log(p / (1−p)) = log(count₁ / count₀)</div>
+          <p class="hint">Start with log-odds of positive class ratio</p>
+        </div>
+        <div class="math-step">
+          <div class="step-badge">Step 1</div>
+          <p><strong>Convert to Probability:</strong></p>
+          <div class="formula">p = σ(F) = 1 / (1 + e⁻ᶠ)</div>
+          <p class="hint">Sigmoid function maps log-odds → probability [0,1]</p>
+        </div>
+        <div class="math-step">
+          <div class="step-badge">Step 2</div>
+          <p><strong>Pseudo-Residuals:</strong></p>
+          <div class="formula">rᵢ = yᵢ − pᵢ = actual_label − predicted_prob</div>
+          <p class="hint">Class 1 ke liye: r = 1 − p (positive). Class 0 ke liye: r = 0 − p (negative)</p>
+        </div>
+        <div class="math-step">
+          <div class="step-badge">Step 3</div>
+          <p><strong>Leaf Output (special for classification):</strong></p>
+          <div class="formula">leaf_value = Σrᵢ / Σ(pᵢ × (1−pᵢ))</div>
+          <p class="hint">Ye hai gradient / hessian — 2nd order optimization!</p>
+        </div>
+        <div class="math-step">
+          <div class="step-badge">Step 4</div>
+          <p><strong>Update:</strong></p>
+          <div class="formula">F_new = F_old + η × leaf_value<br>p_new = σ(F_new)</div>
+          <p class="hint">Probabilities shift closer to correct labels!</p>
+        </div>
+      </div>
+    </div>
+    <!-- Classification Table -->
+    <div class="data-table-container" id="gb-cls-table-container">
+      <h3>📊 Live Classification Data</h3>
+      <table class="data-table" id="gb-cls-table">
+        <thead>
+          <tr>
+            <th>Sample</th>
+            <th>x</th>
+            <th>y (label)</th>
+            <th>F(x) (log-odds)</th>
+            <th>p (probability)</th>
+            <th>Residual (y − p)</th>
+            <th>Predicted</th>
+          </tr>
+        </thead>
+        <tbody id="gb-cls-table-body"></tbody>
+      </table>
+    </div>
+    <!-- Sigmoid Viz -->
+    <div class="sigmoid-container">
+      <h3>🔔 Sigmoid Function — Live View</h3>
+      <canvas id="sigmoid-canvas" width="600" height="300"></canvas>
+      <p class="hint">Points move along sigmoid as F(x) (log-odds) updates each iteration</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ XGBOOST MATH ═══════════════════ -->
+  <section id="xgb-math" class="section">
+    <div class="section-header">
+      <div class="section-badge">XGBoost</div>
+      <h2>XGBoost — <span class="gradient-text">Split Math Calculator</span></h2>
+      <p class="section-desc">Similarity Score, Gain, Optimal Leaf Weight — interactive calculator! ⚡</p>
+    </div>
+    <div class="xgb-layout">
+      <!-- Tree Visualization -->
+      <div class="xgb-tree-panel">
+        <h3>🌳 Tree Split Visualization</h3>
+        <canvas id="xgb-tree-canvas" width="700" height="420"></canvas>
+      </div>
+      <!-- Calculator -->
+      <div class="xgb-calc-panel">
+        <h3>🧮 XGBoost Split Calculator</h3>
+        <div class="calc-section">
+          <h4>Data Setup</h4>
+          <div class="calc-row">
+            <label>Residuals (comma-separated):</label>
+            <input type="text" id="xgb-residuals" value="-4, -2, 1, 3, 5" class="calc-input" oninput="xgbCalcUpdate()">
+          </div>
+          <div class="calc-row">
+            <label>Split after index:</label>
+            <input type="range" id="xgb-split-idx" min="1" max="4" value="2" oninput="xgbCalcUpdate()">
+            <span id="xgb-split-idx-val">2</span>
+          </div>
+          <div class="calc-row">
+            <label>λ (L2 regularization):</label>
+            <input type="range" id="xgb-lambda" min="0" max="10" step="0.5" value="1" oninput="xgbCalcUpdate()">
+            <span id="xgb-lambda-val">1</span>
+          </div>
+          <div class="calc-row">
+            <label>γ (gamma, min split gain):</label>
+            <input type="range" id="xgb-gamma" min="0" max="20" step="0.5" value="0" oninput="xgbCalcUpdate()">
+            <span id="xgb-gamma-val">0</span>
+          </div>
+        </div>
+        <div class="calc-results" id="xgb-results">
+          <!-- Filled by JS -->
+        </div>
+        <div class="formula-ref">
+          <h4>📐 Key Formulas</h4>
+          <div class="formula">Similarity = G² / (H + λ)</div>
+          <div class="formula">Gain = Sim_Left + Sim_Right − Sim_Parent − γ</div>
+          <div class="formula">Optimal Weight w* = −G / (H + λ)</div>
+          <p class="hint">For MSE: gᵢ = ŷᵢ − yᵢ (= −residual), hᵢ = 1</p>
+        </div>
+      </div>
+    </div>
+    <!-- Regularization Explainer -->
+    <div class="reg-explainer">
+      <h3>🛡️ Regularization Effect — λ and γ</h3>
+      <div class="reg-grid">
+        <div class="reg-card">
+          <h4>λ (Lambda) — L2 Regularization</h4>
+          <canvas id="lambda-canvas" width="350" height="200"></canvas>
+          <div class="reg-control">
+            <input type="range" id="lambda-slider" min="0" max="20" step="1" value="1" oninput="updateLambdaViz()">
+            <span id="lambda-demo-val">λ = 1</span>
+          </div>
+          <p class="hint">λ badhao → leaf weights CHHOTE hote hain → smoother predictions → less overfit</p>
+        </div>
+        <div class="reg-card">
+          <h4>γ (Gamma) — Pruning Penalty</h4>
+          <canvas id="gamma-canvas" width="350" height="200"></canvas>
+          <div class="reg-control">
+            <input type="range" id="gamma-slider" min="0" max="20" step="1" value="0" oninput="updateGammaViz()">
+            <span id="gamma-demo-val">γ = 0</span>
+          </div>
+          <p class="hint">γ badhao → minimum gain threshold BADHA → kam splits → simpler tree</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ OVERFITTING ═══════════════════ -->
+  <section id="overfitting" class="section">
+    <div class="section-header">
+      <div class="section-badge">Overfitting</div>
+      <h2>Overfitting — <span class="gradient-text">Interactive Demo</span></h2>
+      <p class="section-desc">Sliders ghuma ke dekh kaise parameters overfitting control karte hain! 🎛️</p>
+    </div>
+    <div class="overfit-layout">
+      <div class="overfit-canvas-panel">
+        <h3>📉 Train vs Validation Loss</h3>
+        <canvas id="overfit-canvas" width="700" height="380"></canvas>
+        <div class="overfit-legend">
+          <span class="legend-item"><span class="dot train-dot"></span> Training Loss</span>
+          <span class="legend-item"><span class="dot val-dot"></span> Validation Loss</span>
+          <span class="legend-item"><span class="dot opt-dot"></span> Optimal Point</span>
+        </div>
+      </div>
+      <div class="overfit-controls-panel">
+        <h3>🎛️ Tune Parameters</h3>
+        <div class="overfit-control">
+          <label>n_estimators (trees): <strong id="of-n-val">100</strong></label>
+          <input type="range" id="of-n-estimators" min="10" max="500" step="10" value="100" oninput="updateOverfitViz()">
+          <p class="param-hint">Zyada trees = zyada complex model</p>
+        </div>
+        <div class="overfit-control">
+          <label>learning_rate (η): <strong id="of-lr-val">0.1</strong></label>
+          <input type="range" id="of-lr" min="0.01" max="1.0" step="0.01" value="0.1" oninput="updateOverfitViz()">
+          <p class="param-hint">Bada LR = fast learning but overfit risk</p>
+        </div>
+        <div class="overfit-control">
+          <label>max_depth: <strong id="of-depth-val">3</strong></label>
+          <input type="range" id="of-depth" min="1" max="15" step="1" value="3" oninput="updateOverfitViz()">
+          <p class="param-hint">Deep trees = complex patterns capture but overfit</p>
+        </div>
+        <div class="overfit-control">
+          <label>λ (L2 reg): <strong id="of-lambda-val">1</strong></label>
+          <input type="range" id="of-lambda" min="0" max="20" step="1" value="1" oninput="updateOverfitViz()">
+          <p class="param-hint">Higher λ = smoother, less overfit</p>
+        </div>
+        <div class="overfit-diagnosis" id="overfit-diagnosis">
+          <div class="diagnosis-icon">🤔</div>
+          <div class="diagnosis-text">Adjust parameters to see diagnosis</div>
+        </div>
+      </div>
+    </div>
+    <!-- Bias-Variance Visualizer -->
+    <div class="bias-var-section">
+      <h3>⚖️ Bias-Variance Tradeoff</h3>
+      <canvas id="bias-var-canvas" width="700" height="250"></canvas>
+      <div class="bias-var-controls">
+        <label>Model Complexity: <strong id="bv-complexity-val">5</strong></label>
+        <input type="range" id="bv-complexity" min="1" max="10" step="1" value="5" oninput="updateBiasVar()">
+      </div>
+      <div class="bias-var-legend">
+        <span class="legend-item"><span class="dot" style="background:#ff6b6b"></span> Bias²</span>
+        <span class="legend-item"><span class="dot" style="background:#4ecdc4"></span> Variance</span>
+        <span class="legend-item"><span class="dot" style="background:#ffd93d"></span> Total Error</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ TREE GROWTH ═══════════════════ -->
+  <section id="tree-growth" class="section">
+    <div class="section-header">
+      <div class="section-badge">LightGBM vs XGBoost</div>
+      <h2>Tree Growth — <span class="gradient-text">Level-wise vs Leaf-wise</span></h2>
+      <p class="section-desc">Dekh kaise XGBoost aur LightGBM ALAG-ALAG tarike se trees grow karte hain! 🌳</p>
+    </div>
+    <div class="tree-growth-layout">
+      <div class="tree-panel">
+        <h3>XGBoost — Level-wise 📏</h3>
+        <p class="tree-desc">Har level pe SAARE nodes split hote hain</p>
+        <canvas id="levelwise-canvas" width="500" height="350"></canvas>
+      </div>
+      <div class="tree-panel">
+        <h3>LightGBM — Leaf-wise 🌿</h3>
+        <p class="tree-desc">Sirf BEST leaf split hota hai (max loss reduction)</p>
+        <canvas id="leafwise-canvas" width="500" height="350"></canvas>
+      </div>
+    </div>
+    <div class="tree-growth-controls">
+      <button class="btn btn-secondary" onclick="treeGrowthReset()">🔄 Reset</button>
+      <button class="btn btn-primary" onclick="treeGrowthStep()">▶ Grow One Level / Leaf</button>
+      <button class="btn btn-accent" onclick="treeGrowthAuto()">⏩ Auto Grow</button>
+    </div>
+    <div class="tree-growth-info">
+      <div class="info-card">
+        <div class="info-label">Level-wise Leaves</div>
+        <div class="info-value" id="lw-leaves">1</div>
+      </div>
+      <div class="info-card">
+        <div class="info-label">Leaf-wise Leaves</div>
+        <div class="info-value" id="fw-leaves">1</div>
+      </div>
+      <div class="info-card highlight-card">
+        <div class="info-label">Key Insight</div>
+        <div class="info-value" id="tree-insight" style="font-size:0.85rem">Leaf-wise focuses computation on most impactful splits</div>
+      </div>
+    </div>
+    <!-- Symmetric Trees -->
+    <div class="symmetric-section">
+      <h3>🐱 CatBoost — Symmetric (Oblivious) Trees</h3>
+      <canvas id="symmetric-canvas" width="700" height="300"></canvas>
+      <p class="hint">Dekh: Har level pe SAME feature aur threshold se split hota hai — ye CatBoost ki specialty hai!</p>
+      <button class="btn btn-primary" onclick="drawSymmetricDemo()">🔄 Show Symmetric vs Normal</button>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ ADABOOST ═══════════════════ -->
+  <section id="adaboost" class="section">
+    <div class="section-header">
+      <div class="section-badge">AdaBoost</div>
+      <h2>AdaBoost — <span class="gradient-text">Weight Rebalancing</span></h2>
+      <p class="section-desc">Dekh kaise galat samples ka weight BADHTA hai — animated! 🎪</p>
+    </div>
+    <div class="ada-layout">
+      <div class="ada-canvas-panel">
+        <canvas id="ada-canvas" width="700" height="400"></canvas>
+        <div class="ada-controls">
+          <button class="btn btn-secondary" onclick="adaReset()">🔄 Reset</button>
+          <button class="btn btn-primary" onclick="adaStep()">▶ Next Round</button>
+          <button class="btn btn-accent" onclick="adaAuto()">⏩ Auto Play</button>
+        </div>
+        <div class="viz-info">
+          <div class="info-card" id="ada-round">
+            <div class="info-label">Round</div>
+            <div class="info-value">0</div>
+          </div>
+          <div class="info-card" id="ada-error">
+            <div class="info-label">Weighted Error (ε)</div>
+            <div class="info-value">—</div>
+          </div>
+          <div class="info-card" id="ada-alpha">
+            <div class="info-label">Alpha (α)</div>
+            <div class="info-value">—</div>
+          </div>
+        </div>
+      </div>
+      <div class="ada-math-panel">
+        <h3>📐 AdaBoost Math</h3>
+        <div class="math-step active">
+          <div class="step-badge">Formula 1</div>
+          <p><strong>Weighted Error:</strong></p>
+          <div class="formula">ε = Σ wᵢ × I(yᵢ ≠ ŷᵢ)</div>
+          <p class="hint">Galat predictions ka weighted sum</p>
+        </div>
+        <div class="math-step active">
+          <div class="step-badge">Formula 2</div>
+          <p><strong>Learner Importance:</strong></p>
+          <div class="formula">α = ½ × ln((1−ε) / ε)</div>
+          <p class="hint">Low error → high alpha → zyada credible teacher</p>
+        </div>
+        <div class="math-step active">
+          <div class="step-badge">Formula 3</div>
+          <p><strong>Weight Update:</strong></p>
+          <div class="formula">Misclassified: w × e^(+α) ↑<br>Correct: w × e^(−α) ↓</div>
+          <p class="hint">Galat → weight UP (bigger circle). Sahi → weight DOWN (smaller circle)</p>
+        </div>
+        <div class="math-step active">
+          <div class="step-badge">Formula 4</div>
+          <p><strong>Final Prediction:</strong></p>
+          <div class="formula">F(x) = sign(Σ αₜ × hₜ(x))</div>
+          <p class="hint">Weighted vote of all weak learners</p>
+        </div>
+        <!-- Alpha Curve -->
+        <div class="alpha-chart-container">
+          <h4>α vs Error (ε) Curve</h4>
+          <canvas id="alpha-curve-canvas" width="300" height="180"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ COMPARISON ═══════════════════ -->
+  <section id="comparison" class="section">
+    <div class="section-header">
+      <div class="section-badge">Battle Royale</div>
+      <h2>Algorithm — <span class="gradient-text">Grand Comparison</span></h2>
+      <p class="section-desc">Saare boosting algorithms ek jagah — kab kaunsa use karna hai! 🏆</p>
+    </div>
+    <div class="compare-cards">
+      <div class="compare-card adaboost-card">
+        <div class="compare-icon">🎪</div>
+        <h3>AdaBoost</h3>
+        <div class="compare-tag">The OG (1995)</div>
+        <ul>
+          <li><strong>Approach:</strong> Sample reweighting</li>
+          <li><strong>Loss:</strong> Exponential</li>
+          <li><strong>Base:</strong> Decision Stumps</li>
+          <li><strong>Speed:</strong> 🐢 Slow</li>
+          <li><strong>Regularization:</strong> ❌ None</li>
+          <li><strong>Categorical:</strong> ❌ Manual</li>
+          <li><strong>Missing Values:</strong> ❌ Manual</li>
+        </ul>
+        <div class="compare-best">Best for: Simple problems, interpretability</div>
+      </div>
+      <div class="compare-card gb-card">
+        <div class="compare-icon">📈</div>
+        <h3>Gradient Boosting</h3>
+        <div class="compare-tag">The Framework (1999)</div>
+        <ul>
+          <li><strong>Approach:</strong> Fit residuals (gradients)</li>
+          <li><strong>Loss:</strong> Any differentiable</li>
+          <li><strong>Optimization:</strong> 1st order only</li>
+          <li><strong>Speed:</strong> 🐢 Slow</li>
+          <li><strong>Regularization:</strong> ⚠️ Basic</li>
+          <li><strong>Categorical:</strong> ❌ Manual</li>
+          <li><strong>Missing Values:</strong> ❌ Manual</li>
+        </ul>
+        <div class="compare-best">Best for: Understanding the theory</div>
+      </div>
+      <div class="compare-card xgb-card">
+        <div class="compare-icon">⚡</div>
+        <h3>XGBoost</h3>
+        <div class="compare-tag">The Champion (2014)</div>
+        <ul>
+          <li><strong>Approach:</strong> Regularized GB</li>
+          <li><strong>Optimization:</strong> 2nd order (Hessian)</li>
+          <li><strong>Tree Growth:</strong> Level-wise</li>
+          <li><strong>Speed:</strong> 🏃 Fast</li>
+          <li><strong>Regularization:</strong> ✅ L1 + L2 + γ</li>
+          <li><strong>Categorical:</strong> ❌ Manual</li>
+          <li><strong>Missing Values:</strong> ✅ Auto</li>
+        </ul>
+        <div class="compare-best">Best for: Competitions, interpretability (SHAP)</div>
+      </div>
+      <div class="compare-card lgbm-card">
+        <div class="compare-icon">🏎️</div>
+        <h3>LightGBM</h3>
+        <div class="compare-tag">Speed Demon (2017)</div>
+        <ul>
+          <li><strong>Approach:</strong> GB + 3 tricks</li>
+          <li><strong>Tree Growth:</strong> Leaf-wise 🌿</li>
+          <li><strong>Tricks:</strong> GOSS + EFB + Histogram</li>
+          <li><strong>Speed:</strong> ⚡ Fastest</li>
+          <li><strong>Regularization:</strong> ✅ L1 + L2</li>
+          <li><strong>Categorical:</strong> ✅ Native</li>
+          <li><strong>Missing Values:</strong> ✅ Auto</li>
+        </ul>
+        <div class="compare-best">Best for: Large datasets, speed-critical apps</div>
+      </div>
+      <div class="compare-card catboost-card">
+        <div class="compare-icon">🐱</div>
+        <h3>CatBoost</h3>
+        <div class="compare-tag">Category King (2017)</div>
+        <ul>
+          <li><strong>Approach:</strong> Ordered Boosting</li>
+          <li><strong>Trees:</strong> Symmetric (Oblivious)</li>
+          <li><strong>Encoding:</strong> Ordered Target Stats</li>
+          <li><strong>Speed:</strong> 🏃 Fast</li>
+          <li><strong>Regularization:</strong> ✅ L2 + Ordered</li>
+          <li><strong>Categorical:</strong> ✅✅ Best native</li>
+          <li><strong>Missing Values:</strong> ✅ Auto</li>
+        </ul>
+        <div class="compare-best">Best for: Categorical-heavy data, minimal tuning</div>
+      </div>
+    </div>
+    <!-- Decision Flowchart -->
+    <div class="decision-flow">
+      <h3>🤔 Which Algorithm Should I Use?</h3>
+      <div class="flow-container">
+        <div class="flow-node start-node">Start: What's your data like?</div>
+        <div class="flow-row">
+          <div class="flow-branch">
+            <div class="flow-question">Large dataset? (>1M rows)</div>
+            <div class="flow-answer yes">YES → <strong>LightGBM</strong> ⚡</div>
+          </div>
+          <div class="flow-branch">
+            <div class="flow-question">Many categorical features?</div>
+            <div class="flow-answer yes">YES → <strong>CatBoost</strong> 🐱</div>
+          </div>
+          <div class="flow-branch">
+            <div class="flow-question">Need interpretability?</div>
+            <div class="flow-answer yes">YES → <strong>XGBoost</strong> ⚡</div>
+          </div>
+          <div class="flow-branch">
+            <div class="flow-question">Quick baseline?</div>
+            <div class="flow-answer yes">YES → <strong>LightGBM</strong> ⚡</div>
+          </div>
+          <div class="flow-branch">
+            <div class="flow-question">Kaggle competition?</div>
+            <div class="flow-answer yes">Try ALL 3, then ensemble! 🏆</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Built with 🔥 for the <strong>AI-ML-Blueprint</strong> Roadmap</p>
+    <p class="footer-sub">Boosting Masterclass — Interactive Visual Guide</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

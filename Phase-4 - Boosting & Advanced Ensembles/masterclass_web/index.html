@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔥 Advanced Classical ML Masterclass (Days 050–056)</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Prism.js Dark Theme for Syntax Highlighting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+  
+  <!-- Custom Glassmorphism Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- MathJax 3 for LaTeX Rendering -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="brand-badge">Phase 4 — Masterclass</div>
+        <h1>Classical ML Blueprint</h1>
+        <p>Days 050 – 056 Complete Review</p>
+      </div>
+
+      <div class="search-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search modules, math, code...">
+      </div>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" data-day="day050">
+            <span>⚙️ Sklearn Pipelines</span>
+            <span class="day-tag">Day 050</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-day="day051">
+            <span>⚖️ Imbalanced Learning</span>
+            <span class="day-tag">Day 051</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-day="day052">
+            <span>🎯 Calibration & Thresholds</span>
+            <span class="day-tag">Day 052</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-day="day053">
+            <span>🔍 Model Interpretability (XAI)</span>
+            <span class="day-tag">Day 053</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-day="day054">
+            <span>🚨 Outlier & Anomaly Detection</span>
+            <span class="day-tag">Day 054</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-day="day055">
+            <span>🧪 ML Comparison & Harness</span>
+            <span class="day-tag">Day 055</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-day="day056">
+            <span>🧠 Derivations & Interview Prep</span>
+            <span class="day-tag">Day 056</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="sidebar-footer">
+        <p>Author: Sahil Kumar (Yd)</p>
+        <p>Target: Transition to Unsupervised ML</p>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+
+      <!-- =================================================================== -->
+      <!-- DAY 050: Production Sklearn Pipelines -->
+      <!-- =================================================================== -->
+      <section id="day050" class="day-section active">
+        <div class="section-header">
+          <span class="section-badge">Production Architecture</span>
+          <h2>Day 050 — Production Sklearn Pipelines & Custom Transformers</h2>
+          <p>Preventing Training-Serving Skew & Data Leakage with Custom Estimators</p>
+        </div>
+
+        <!-- 1. Intuition & Analogy -->
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">💡</span> 1. Intuition & Real-World Problem Analogy
+          </div>
+          <p>In machine learning engineering, transitioning from Jupyter notebooks to production REST APIs (FastAPI/Flask) is where most projects fail due to <strong>Training-Serving Skew</strong> and <strong>Data Leakage</strong>.</p>
+          
+          <div class="analogy-box">
+            <h4>🚰 The Analogy — Industrial Water Purification Plant</h4>
+            <ul>
+              <li><strong>Without Pipelines:</strong> You clean river water in bucket A, test pH in bucket B, add chlorine in bucket C. When deploying to the city supply, you attempt to repeat all manual steps. If someone skips bucket B, contaminated water flows to citizens!</li>
+              <li><strong>With Scikit-Learn Pipeline:</strong> You construct a single sealed purification pipe. Dirty water goes in at one end; purified water comes out at the other. The pipe remembers exact calibration parameters.</li>
+            </ul>
+          </div>
+
+          <p><strong>Data Leakage Prevention Mechanism:</strong> If you run <code>StandardScaler().fit_transform(X)</code> on your entire dataset before splitting into train/test, the scaler learns the mean $\mu_{\text{total}}$ and variance $\sigma^2_{\text{total}}$ of test data! Using <code>Pipeline.fit(X_train, y_train)</code> guarantees transformations are computed strictly inside fold splits.</p>
+        </div>
+
+        <!-- 2. Mathematical Formulations -->
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">📐</span> 2. Mathematical Formulation & Architecture
+          </div>
+          <p>To integrate into Scikit-Learn's ecosystem, custom classes must inherit from two base classes:</p>
+          <div class="math-box">
+            <div class="math-title">Inheritance Architecture</div>
+            $$\text{CustomTransformer} \in \text{BaseEstimator} \times \text{TransformerMixin}$$
+            <p>1. <code>BaseEstimator</code>: Grants automated <code>get_params()</code> and <code>set_params()</code> for <code>GridSearchCV</code> & <code>Optuna</code> integration.</p>
+            <p>2. <code>TransformerMixin</code>: Automatically synthesizes <code>fit_transform(X, y)</code> by chaining <code>fit(X, y)</code> followed by <code>transform(X)</code>.</p>
+          </div>
+
+          <div class="math-box">
+            <div class="math-title">IQR Outlier Clipping Formula</div>
+            $$\text{Q25} = \text{Percentile}(x, 25), \quad \text{Q75} = \text{Percentile}(x, 75)$$
+            $$\text{IQR} = \text{Q75} - \text{Q25}$$
+            $$\text{Lower Bound} = \text{Q25} - c \cdot \text{IQR}, \quad \text{Upper Bound} = \text{Q75} + c \cdot \text{IQR}$$
+            $$\hat{x}_i = \min\left(\max\left(x_i, \text{Lower Bound}\right), \text{Upper Bound}\right)$$
+          </div>
+        </div>
+
+        <!-- 3. Production Python Implementation -->
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">💻</span> 3. Step-by-Step Production Python Implementation
+          </div>
+          <div class="code-container">
+            <div class="code-header">
+              <span>050_production_pipeline.py</span>
+              <button class="btn-copy">Copy Code</button>
+            </div>
+            <pre><code class="language-python">import numpy as np
+import pandas as pd
+import joblib
+from sklearn.base import BaseEstimator, TransformerMixin
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split, cross_val_score
+
+# 1. Custom Transformer for IQR Outlier Clipping
+class IQROutlierClipper(BaseEstimator, TransformerMixin):
+    def __init__(self, factor=1.5):
+        self.factor = factor
+        self.lower_bounds_ = {}
+        self.upper_bounds_ = {}
+
+    def fit(self, X, y=None):
+        X_df = pd.DataFrame(X)
+        for col in X_df.columns:
+            q25 = X_df[col].quantile(0.25)
+            q75 = X_df[col].quantile(0.75)
+            iqr = q75 - q25
+            self.lower_bounds_[col] = q25 - self.factor * iqr
+            self.upper_bounds_[col] = q75 + self.factor * iqr
+        return self
+
+    def transform(self, X):
+        X_df = pd.DataFrame(X).copy()
+        for col in X_df.columns:
+            X_df[col] = X_df[col].clip(
+                lower=self.lower_bounds_[col], 
+                upper=self.upper_bounds_[col]
+            )
+        return X_df.values
+
+# 2. Build Sub-Pipelines & Full Pipeline
+numeric_features = ['age', 'income', 'credit_score']
+categorical_features = ['education', 'city']
+
+num_pipeline = Pipeline([
+    ('imputer', SimpleImputer(strategy='median')),
+    ('clipper', IQROutlierClipper(factor=1.5)),
+    ('scaler', StandardScaler())
+])
+
+cat_pipeline = Pipeline([
+    ('imputer', SimpleImputer(strategy='most_frequent')),
+    ('encoder', OneHotEncoder(handle_unknown='ignore', sparse_output=False))
+])
+
+preprocessor = ColumnTransformer([
+    ('num', num_pipeline, numeric_features),
+    ('cat', cat_pipeline, categorical_features)
+])
+
+full_pipeline = Pipeline([
+    ('preprocessor', preprocessor),
+    ('classifier', RandomForestClassifier(n_estimators=100, random_state=42))
+])
+
+# 3. Model Training, CV & Serialization
+# full_pipeline.fit(X_train, y_train)
+# joblib.dump(full_pipeline, 'production_pipeline.joblib')</code></pre>
+          </div>
+
+          <!-- Terminal Output Simulation -->
+          <div class="terminal-box">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span>Terminal Output — 050_production_pipeline.py</span>
+            </div>
+            <div class="terminal-body">
+✅ 5-Fold Cross-Validation Accuracy: 0.8425 +/- 0.0118
+📦 Serialized pipeline successfully saved to 'production_pipeline.joblib'
+🎯 Production Inference -> Payload: {'age': 35.0, 'income': 120000.0, 'credit_score': 720, 'education': 'Master', 'city': 'NYC'}
+🎯 Model Output -> Class: 1 (Prediction Probability: 0.7842)
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Syntax & Parameter Breakdown -->
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">🔍</span> 4. Line-by-Line Syntax & Parameter Breakdown
+          </div>
+          <ul class="syntax-list">
+            <li class="syntax-item">
+              <span class="syntax-code">self.lower_bounds_</span>: Trailing underscore is a Scikit-Learn convention denoting attributes learned dynamically during <code>.fit()</code>.
+            </li>
+            <li class="syntax-item">
+              <span class="syntax-code">handle_unknown='ignore'</span>: Critical production parameter. If an unseen categorical level arrives during live REST API inference, it outputs all zeros instead of raising a server error!
+            </li>
+            <li class="syntax-item">
+              <span class="syntax-code">ColumnTransformer(...)</span>: Directs separate processing pipelines to numerical vs categorical sub-features seamlessly.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- =================================================================== -->
+      <!-- DAY 051: Imbalanced Learning -->
+      <!-- =================================================================== -->
+      <section id="day051" class="day-section">
+        <div class="section-header">
+          <span class="section-badge">Resampling & Cost Sensitivity</span>
+          <h2>Day 051 — Imbalanced Learning (SMOTE, ADASYN, Tomek Links)</h2>
+          <p>Overcoming the Accuracy Paradox in High-Skew Datasets</p>
+        </div>
+
+        <!-- 1. Intuition & Accuracy Paradox -->
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">💡</span> 1. Intuition & Real-World Problem Analogy
+          </div>
+          <div class="analogy-box">
+            <h4>⚠️ The Accuracy Paradox</h4>
+            <p>In credit card fraud detection with 99,900 legitimate transactions (Class 0) and 100 fraudulent transactions (Class 1), a dummy model predicting <em>"All transactions are normal"</em> scores <strong>99.9% Accuracy</strong>, but catches <strong>0% of fraud</strong>, causing millions in losses!</p>
+          </div>
+          <p><strong>Resampling Strategies:</strong></p>
+          <ul>
+            <li><code>class_weight='balanced'</code>: Penalizes minority misclassification proportionally in the loss function without modifying data length.</li>
+            <li><strong>SMOTE</strong>: Creates synthetic samples along line segments connecting k-nearest minority neighbors.</li>
+            <li><strong>ADASYN</strong>: Focuses synthetic generation in dense boundary regions where classes overlap.</li>
+            <li><strong>Tomek Links</strong>: Removes majority points from opposite-class nearest-neighbor pairs to clean noisy decision boundaries.</li>
+          </ul>
+        </div>
+
+        <!-- 2. Math Formulations -->
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">📐</span> 2. Mathematical Formulations
+          </div>
+          <div class="math-box">
+            <div class="math-title">Cost-Sensitive Class Loss Multiplier</div>
+            $$w_j = \frac{N}{C \times N_j}$$
+            <p>For 95% Class 0 ($N_0 = 950$) and 5% Class 1 ($N_1 = 50$):</p>
+            $$w_0 = \frac{1000}{2 \times 950} \approx 0.526, \quad w_1 = \frac{1000}{2 \times 50} = 10.0$$
+          </div>
+
+          <div class="math-box">
+            <div class="math-title">SMOTE Synthetic Point Generation</div>
+            $$x_{\text{new}} = x_i + \lambda (x_{zi} - x_i) \quad \text{where } \lambda \sim U(0, 1)$$
+          </div>
+
+          <div class="analogy-box">
+            <h4>🚨 Critical Pipeline Gotcha</h4>
+            <p>Standard <code>sklearn.pipeline.Pipeline</code> cannot modify sample lengths during <code>fit()</code>. You <strong>MUST</strong> use <code>imblearn.pipeline.Pipeline</code> when incorporating SMOTE or Tomek Links!</p>
+          </div>
+        </div>
+
+        <!-- 3. Python Code & Visualization -->
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">💻</span> 3. Resampling Pipeline Code & Visual Comparison
+          </div>
+          <div class="code-container">
+            <div class="code-header">
+              <span>051_imbalanced_learning.py</span>
+              <button class="btn-copy">Copy Code</button>
+            </div>
+            <pre><code class="language-python">from imblearn.over_sampling import SMOTE
+from imblearn.under_sampling import TomekLinks
+from imblearn.combine import SMOTETomek
+from imblearn.pipeline import Pipeline as ImbPipeline
+from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import StandardScaler
+
+# Imbalanced Pipeline with SMOTE + Tomek Links
+imb_pipeline = ImbPipeline(steps=[
+    ('scaler', StandardScaler()),
+    ('resample', SMOTETomek(smote=SMOTE(k_neighbors=5, random_state=42), tomek=TomekLinks())),
+    ('classifier', LogisticRegression(random_state=42))
+])
+
+imb_pipeline.fit(X_train, y_train)
+preds = imb_pipeline.predict(X_test)</code></pre>
+          </div>
+
+          <!-- Chart.js Visualization -->
+          <div class="chart-container">
+            <div class="chart-header">
+              <span class="chart-title">Class Distribution: Raw Data vs SMOTE + Tomek Links</span>
+              <span class="pill pill-cyan">Interactive Visual</span>
+            </div>
+            <div class="chart-canvas-wrapper">
+              <canvas id="chartDay051"></canvas>
+            </div>
+          </div>
+
+          <!-- Terminal Output Simulation -->
+          <div class="terminal-box">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span>Terminal Output — Imbalanced Comparison</span>
+            </div>
+            <div class="terminal-body">
+--- ❌ Baseline Model (Imbalanced) ---
+              precision    recall  f1-score   support
+    Majority       0.96      0.99      0.98       380
+    Minority       0.60      0.15      0.24        20
+    accuracy                           0.95       400
+
+--- ✅ SMOTE + Tomek Links Pipeline ---
+              precision    recall  f1-score   support
+    Majority       0.99      0.92      0.95       380
+    Minority       0.36      0.85      0.51        20
+🎯 ROC-AUC Score: 0.9382
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- =================================================================== -->
+      <!-- DAY 052: Probability Calibration & Threshold Tuning -->
+      <!-- =================================================================== -->
+      <section id="day052" class="day-section">
+        <div class="section-header">
+          <span class="section-badge">Model Optimization</span>
+          <h2>Day 052 — Threshold Tuning & Probability Calibration</h2>
+          <p>Aligning Model Confidence with Real-World Decision Boundaries</p>
+        </div>
+
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">💡</span> 1. Intuition & Weather Forecaster Analogy
+          </div>
+          <p>Imagine a forecaster stating <em>"80% chance of rain"</em>. If it rains on 80 out of 100 days when this forecast is given, the model is <strong>well-calibrated</strong>. Tree ensembles (Random Forest, XGBoost) yield distorted probabilities clustered away from 0 and 1.</p>
+          <p><strong>Threshold Tuning:</strong> Default <code>.predict()</code> uses $T = 0.5$. In healthcare, missing a tumor (False Negative) is disastrous! We tune $T$ to maximize $F_1$ or custom business profit functions.</p>
+        </div>
+
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">📐</span> 2. Mathematical Formulations
+          </div>
+          <div class="math-box">
+            <div class="math-title">Brier Score Loss Formula</div>
+            $$\text{BS} = \frac{1}{N} \sum_{i=1}^N (p_i - y_i)^2$$
+          </div>
+
+          <div class="math-box">
+            <div class="math-title">Platt Scaling (Sigmoid Method)</div>
+            $$\hat{P}(y=1 \mid x) = \frac{1}{1 + \exp(A \cdot f(x) + B)}$$
+          </div>
+
+          <div class="math-box">
+            <div class="math-title">Optimal Threshold Cutoff</div>
+            $$T^* = \arg\max_T F_1(T) = \arg\max_T \frac{2 \cdot P(T) \cdot R(T)}{P(T) + R(T)}$$
+          </div>
+        </div>
+
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">💻</span> 3. Code & Reliability Curve Visualization
+          </div>
+          <div class="code-container">
+            <div class="code-header">
+              <span>052_calibration_tuning.py</span>
+              <button class="btn-copy">Copy Code</button>
+            </div>
+            <pre><code class="language-python">from sklearn.calibration import CalibratedClassifierCV
+from sklearn.metrics import precision_recall_curve, brier_score_loss, f1_score
+
+# 1. Isotonic Probability Calibration
+calibrated_rf = CalibratedClassifierCV(estimator=rf, method='isotonic', cv='prefit')
+calibrated_rf.fit(X_train, y_train)
+prob_cal = calibrated_rf.predict_proba(X_test)[:, 1]
+
+# 2. Threshold Optimization
+precisions, recalls, thresholds = precision_recall_curve(y_test, prob_cal)
+f1_scores = 2 * (precisions * recalls) / (precisions + recalls + 1e-10)
+best_threshold = thresholds[np.argmax(f1_scores)]</code></pre>
+          </div>
+
+          <!-- Chart.js Calibration Curve -->
+          <div class="chart-container">
+            <div class="chart-header">
+              <span class="chart-title">Probability Calibration Reliability Diagram</span>
+              <span class="pill pill-emerald">Isotonic vs Uncalibrated</span>
+            </div>
+            <div class="chart-canvas-wrapper">
+              <canvas id="chartDay052"></canvas>
+            </div>
+          </div>
+
+          <div class="terminal-box">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span>Terminal Output — Calibration & Tuning</span>
+            </div>
+            <div class="terminal-body">
+Uncalibrated Brier Score Loss: 0.0824
+Calibrated Brier Score Loss:   0.0412 (50% reduction in error!)
+
+Default (0.50) Threshold F1-Score: 0.6842
+🎯 Optimal (0.2841) Threshold F1-Score: 0.8125
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- =================================================================== -->
+      <!-- DAY 053: Model Interpretability (XAI) -->
+      <!-- =================================================================== -->
+      <section id="day053" class="day-section">
+        <div class="section-header">
+          <span class="section-badge">Explainable AI</span>
+          <h2>Day 053 — Model Interpretability & XAI (SHAP & LIME)</h2>
+          <p>Unveiling Black-Box Machine Learning Decisions</p>
+        </div>
+
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">💡</span> 1. Intuition & Legal Regulatory Framework
+          </div>
+          <p>Under GDPR and banking regulations, financial institutions cannot reject loans without specific explanations. <strong>SHAP</strong> calculates exact fair contributions based on cooperative game theory, while <strong>LIME</strong> fits a local linear surrogate model around a single prediction point.</p>
+        </div>
+
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">📐</span> 2. Shapley Value Formulation & Additive Property
+          </div>
+          <div class="math-box">
+            <div class="math-title">Shapley Value Equation</div>
+            $$\phi_i(v) = \sum_{S \subseteq N \setminus \{i\}} \frac{|S|!(|N|-|S|-1)!}{|N|!} \left( v(S \cup \{i\}) - v(S) \right)$$
+          </div>
+
+          <div class="math-box">
+            <div class="math-title">Additive Efficiency Property</div>
+            $$\hat{f}(x) = E[f(x)] + \sum_{j=1}^M \phi_j(x)$$
+            <p>The total model prediction equals base expected value plus the sum of all individual feature SHAP contributions!</p>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">💻</span> 3. Code & SHAP Feature Attribution Visualization
+          </div>
+          <div class="code-container">
+            <div class="code-header">
+              <span>053_shap_xai.py</span>
+              <button class="btn-copy">Copy Code</button>
+            </div>
+            <pre><code class="language-python">import shap
+from xgboost import XGBClassifier
+
+model = XGBClassifier(n_estimators=100, max_depth=4).fit(X_train, y_train)
+
+# Fast exact Shapley value computation for tree models
+explainer = shap.TreeExplainer(model)
+shap_values = explainer(X_test).values
+base_value = explainer.expected_value</code></pre>
+          </div>
+
+          <!-- Chart.js SHAP Attribution -->
+          <div class="chart-container">
+            <div class="chart-header">
+              <span class="chart-title">Global Feature Importance via SHAP Values</span>
+              <span class="pill pill-purple">Additive Attribution</span>
+            </div>
+            <div class="chart-canvas-wrapper">
+              <canvas id="chartDay053"></canvas>
+            </div>
+          </div>
+
+          <div class="terminal-box">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span>Terminal Output — Additive Property Verification</span>
+            </div>
+            <div class="terminal-body">
+Base Expected Model Output E[f(x)]: -1.4285
+SHAP Values Matrix Shape: (6513, 12)
+
+Sample 0 Model Prediction Score:  -0.1245
+Base Value + Sum(SHAP Values):   -0.1245 (Matches Additive Property exactly! ✅)
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- =================================================================== -->
+      <!-- DAY 054: Anomaly & Outlier Detection -->
+      <!-- =================================================================== -->
+      <section id="day054" class="day-section">
+        <div class="section-header">
+          <span class="section-badge">Unsupervised Security</span>
+          <h2>Day 054 — Anomaly & Outlier Detection</h2>
+          <p>Isolation Forest, Local Outlier Factor (LOF) & One-Class SVM</p>
+        </div>
+
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">💡</span> 1. Intuition & Algorithm Comparison
+          </div>
+          <p>In network security and fraud detection, anomaly labels are rare or absent. Algorithms must isolate low-density instances without supervision.</p>
+          <ul>
+            <li><strong>Isolation Forest:</strong> Randomly partitions feature space. Anomalies isolate early near tree roots (short path length).</li>
+            <li><strong>LOF:</strong> Compares local density relative to k-nearest neighbors. Great for multi-density clusters.</li>
+            <li><strong>One-Class SVM:</strong> Constructs a hyper-sphere boundary surrounding normal points in high-dimensional kernel space.</li>
+          </ul>
+        </div>
+
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">📐</span> 2. Isolation Forest Anomaly Score Formula
+          </div>
+          <div class="math-box">
+            <div class="math-title">Anomaly Score Equation</div>
+            $$s(x, n) = 2^{-\frac{E(h(x))}{c(n)}}$$
+            $$c(n) = 2 \ln(n - 1) + 0.5772156649 - \frac{2(n - 1)}{n}$$
+            <p>If $E(h(x)) \to 0 \implies s \to 1.0$ (Flagged as Anomaly). If $E(h(x)) \to c(n) \implies s \to 0.5$ (Normal Instance).</p>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">💻</span> 3. Code & 2D Outlier Scatter Plot
+          </div>
+          <div class="code-container">
+            <div class="code-header">
+              <span>054_anomaly_detection.py</span>
+              <button class="btn-copy">Copy Code</button>
+            </div>
+            <pre><code class="language-python">from sklearn.ensemble import IsolationForest
+from sklearn.neighbors import LocalOutlierFactor
+from sklearn.svm import OneClassSVM
+
+# 1. Isolation Forest
+iso_forest = IsolationForest(contamination=0.05, random_state=42)
+pred_iso = iso_forest.fit_predict(X)
+
+# 2. LOF (Novelty Detection Mode)
+lof = LocalOutlierFactor(n_neighbors=20, contamination=0.05, novelty=True)
+lof.fit(X_normal)
+pred_lof = lof.predict(X_test)</code></pre>
+          </div>
+
+          <!-- Chart.js Outlier Scatter -->
+          <div class="chart-container">
+            <div class="chart-header">
+              <span class="chart-title">2D Anomaly Detection Simulation (Isolation Forest)</span>
+              <span class="pill pill-rose">Path Isolation</span>
+            </div>
+            <div class="chart-canvas-wrapper">
+              <canvas id="chartDay054"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- =================================================================== -->
+      <!-- DAY 055: Benchmarking Harness -->
+      <!-- =================================================================== -->
+      <section id="day055" class="day-section">
+        <div class="section-header">
+          <span class="section-badge">Empirical Engineering</span>
+          <h2>Day 055 — Classical ML Comparison Lab & Benchmarking Harness</h2>
+          <p>Rigorous Cross-Validation Harness across 6 Core Algorithms</p>
+        </div>
+
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">🧪</span> Benchmarking Leaderboard & Performance Chart
+          </div>
+          <p>Senior ML Engineers evaluate models across multiple dimensions: Accuracy, F1-Score, ROC-AUC, Fit Time, and Latency before selecting production candidates.</p>
+
+          <!-- Chart.js Benchmark -->
+          <div class="chart-container">
+            <div class="chart-header">
+              <span class="chart-title">Benchmark Leaderboard across 6 Algorithms</span>
+              <span class="pill pill-cyan">Stratified 5-Fold CV</span>
+            </div>
+            <div class="chart-canvas-wrapper">
+              <canvas id="chartDay055"></canvas>
+            </div>
+          </div>
+
+          <div class="terminal-box">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span>Terminal Output — Benchmark Harness Table</span>
+            </div>
+            <div class="terminal-body">
+=== 📊 FINAL MODEL BENCHMARK RESULTS ===
+| Model               | Accuracy          | F1-Score          | ROC-AUC           | Fit Time (s) |
+|:--------------------|:------------------|:------------------|:------------------|:-------------|
+| CatBoost            | 0.8920 +/- 0.0081 | 0.8654 +/- 0.0102 | 0.9321 +/- 0.0064 | 1.240s       |
+| LightGBM            | 0.8875 +/- 0.0094 | 0.8592 +/- 0.0118 | 0.9288 +/- 0.0071 | 0.412s 🚀    |
+| XGBoost             | 0.8840 +/- 0.0102 | 0.8541 +/- 0.0125 | 0.9245 +/- 0.0080 | 0.685s       |
+| Random Forest       | 0.8560 +/- 0.0115 | 0.8210 +/- 0.0141 | 0.8990 +/- 0.0092 | 0.850s       |
+| SVM (RBF Kernel)    | 0.8240 +/- 0.0130 | 0.7845 +/- 0.0155 | 0.8650 +/- 0.0110 | 1.820s       |
+| Logistic Regression | 0.7780 +/- 0.0150 | 0.7321 +/- 0.0180 | 0.8112 +/- 0.0145 | 0.085s       |
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- =================================================================== -->
+      <!-- DAY 056: Assessment & Mathematical Derivations -->
+      <!-- =================================================================== -->
+      <section id="day056" class="day-section">
+        <div class="section-header">
+          <span class="section-badge">Mathematical Rigor</span>
+          <h2>Day 056 — Advanced ML Assessment, Derivations & Interview Prep</h2>
+          <p>Mathematical Proofs for XGBoost Optimal Weights & Similarity Scores</p>
+        </div>
+
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">🧠</span> 1. Mathematical Derivation: XGBoost Optimal Leaf Weight ($w^*$)
+          </div>
+          <p>The regularized objective at step $t$ using 2nd Order Taylor expansion:</p>
+          <div class="math-box">
+            $$\mathcal{L}^{(t)} \approx \sum_{i=1}^n \left[ g_i w_{q(x_i)} + \frac{1}{2} h_i w_{q(x_i)}^2 \right] + \gamma T + \frac{1}{2} \lambda \sum_{j=1}^T w_j^2$$
+            <p>Group by leaf instance set $I_j = \{i \mid q(x_i) = j\}$:</p>
+            $$\mathcal{L}^{(t)} = \sum_{j=1}^T \left[ \left(\sum_{i \in I_j} g_i\right) w_j + \frac{1}{2} \left(\sum_{i \in I_j} h_i + \lambda\right) w_j^2 \right] + \gamma T$$
+            <p>Let $G_j = \sum_{i \in I_j} g_i$ and $H_j = \sum_{i \in I_j} h_i$. Differentiating w.r.t $w_j$ and setting to zero:</p>
+            $$\frac{\partial \mathcal{L}}{\partial w_j} = G_j + (H_j + \lambda) w_j = 0 \implies w^*_j = -\frac{G_j}{H_j + \lambda}$$
+            <p>Plugging $w^*_j$ back yields the Leaf Similarity Score:</p>
+            $$S_j = -\frac{1}{2} \frac{G_j^2}{H_j + \lambda}$$
+          </div>
+        </div>
+
+        <!-- Interactive XGBoost Calculator -->
+        <div class="content-card">
+          <div class="card-title">
+            <span class="icon">⚡</span> 2. Interactive XGBoost Leaf Weight Calculator
+          </div>
+          <div class="calc-card">
+            <div class="calc-grid">
+              <div class="input-group">
+                <label>Gradients ($g_i$ separated by comma):</label>
+                <input type="text" id="calcGradients" value="0.5, -1.2, 0.8, -0.4">
+              </div>
+              <div class="input-group">
+                <label>Hessians ($h_i$ separated by comma):</label>
+                <input type="text" id="calcHessians" value="1.0, 1.0, 1.0, 1.0">
+              </div>
+              <div class="input-group">
+                <label>Regularization Lambda ($\lambda$):</label>
+                <input type="number" id="calcLambda" value="1.0" step="0.1">
+              </div>
+            </div>
+
+            <div class="calc-results">
+              <div class="res-box">
+                <div id="resWeight" class="res-val">-0.0600</div>
+                <div class="res-lbl">Optimal Leaf Weight ($w^*$)</div>
+              </div>
+              <div class="res-box">
+                <div id="resSimilarity" class="res-val">0.0360</div>
+                <div class="res-lbl">Similarity Score ($S_j$)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Mobile Menu Toggle Button -->
+  <button id="mobileToggle" class="mobile-toggle">☰</button>
+
+  <!-- Prism.js Syntax Highlighting Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+
+  <!-- App Main Script -->
+  <script src="app.js"></script>
+</body>
+</html>
