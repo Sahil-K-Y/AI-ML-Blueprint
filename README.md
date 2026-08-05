@@ -10,10 +10,8 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Status-Active_Execution-10B981?style=for-the-badge&logo=githubactions&logoColor=white" />
 <img src="https://img.shields.io/badge/Timeline-365_Days-0E7490?style=for-the-badge&logo=clock&logoColor=white" />
 <img src="https://img.shields.io/badge/Focus-Math_%7C_PyTorch_%7C_MLOps-8B5CF6?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/Progress-Day%2050%20%2F%20365-38BDF8?style=for-the-badge&logo=googlemaps&logoColor=white" />
 
 <br/><br/>
 
@@ -37,22 +35,25 @@
 
 ---
 
-## 📊 Live Progress Tracker
+## 🗺️ Curriculum Phases
 
-| Phase | Focus Area | Days | Status | Progress |
-| :---: | :--- | :---: | :---: | :--- |
-| **01** | **Core ML & Foundations** — Regression, Classification, SVM, Trees, Ensembles | 001–038 | ✅ | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 `100%` |
-| **02** | **Advanced Classical ML** — XGBoost, LightGBM, CatBoost, Feature Engineering, XAI | 039–056 | 🔄 | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ `67%` |
-| **03** | **Unsupervised & Time Series** — Clustering, PCA, ARIMA + E2E ML Project | 057–077 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
-| **04** | **Deep Learning & PyTorch** — MLP, Backpropagation, Adam/AdamW, Training Loops | 078–119 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
-| **05** | **Computer Vision** — CNNs, ResNet, YOLOv8, U-Net, Vision Transformers | 120–161 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
-| **06** | **Sequence Models** — RNN, LSTM/GRU, BPTT, Attention Mechanism | 162–182 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
-| **07** | **NLP & Transformers** — Word2Vec, BERT, GPT, Hugging Face Fine-Tuning | 183–231 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
-| **08** | **MLOps** — SQL, FastAPI, Docker, MLflow, DVC, CI/CD, Drift Monitoring | 232–259 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
-| **09** | **Generative AI & RAG** — LLMs, Vector DBs, RAG, LoRA/QLoRA Fine-Tuning | 260–308 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
-| **10** | **Agentic AI** — LangGraph, Multi-Agent, Tool Calling, MCP, HITL | 309–336 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
-| **11** | **Reinforcement Learning** — MDP, Q-Learning, SARSA, DQN, PPO | 337–350 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
-| **12** | **LLMOps & Capstone** — Langfuse, Caching, Security, Enterprise Capstone | 351–365 | 🔜 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| Phase | Focus Area | Days |
+| :---: | :--- | :---: |
+| **00** | **EDA & Feature Engineering** — Data Cleaning, Scaling, Encoding, Imputation, Skewness | Foundations |
+| **01** | **Linear Regression & Regularization** — Cost Function, Gradient Descent, Ridge, Lasso, ElasticNet | 001–013 |
+| **02** | **Logistic Regression & Classification** — Sigmoid, Log-Loss, OvR/OvO, Softmax, ROC-AUC | 014–021 |
+| **03** | **Tree Models & SVM** — Decision Trees, SVM Kernels, Naive Bayes, KNN, Random Forest | 022–038 |
+| **04** | **Boosting & Advanced Ensembles** — AdaBoost, XGBoost, LightGBM, CatBoost, Optuna | 039–056 |
+| **05** | **Unsupervised & Time Series** — Clustering, PCA, Time Series + E2E Tabular ML System | 057–077 |
+| **06** | **Deep Learning & PyTorch** — MLP, Backpropagation, Adam/AdamW, PyTorch Pipelines | 078–119 |
+| **07** | **Computer Vision** — CNNs, ResNet, YOLOv8, U-Net, Vision Transformers | 120–161 |
+| **08** | **Sequence Models** — RNN, LSTM/GRU, BPTT, Attention Mechanism | 162–182 |
+| **09** | **NLP & Transformers** — Word2Vec, BERT, GPT, Hugging Face Fine-Tuning | 183–231 |
+| **10** | **MLOps & Data Engineering** — SQL, FastAPI, Docker, MLflow, DVC, CI/CD, Drift | 232–259 |
+| **11** | **Generative AI & RAG** — LLMs, Vector DBs, RAG, LoRA/QLoRA Fine-Tuning | 260–308 |
+| **12** | **Agentic AI** — LangGraph, Multi-Agent, Tool Calling, MCP, HITL | 309–336 |
+| **13** | **Reinforcement Learning** — MDP, Q-Learning, SARSA, DQN, PPO | 337–350 |
+| **14** | **LLMOps & Capstone** — Langfuse, Caching, Security, Enterprise Capstone | 351–365 |
 
 ---
 
