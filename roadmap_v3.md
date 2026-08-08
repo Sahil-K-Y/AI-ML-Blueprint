@@ -1,8 +1,7 @@
 # 🎯 365-Day AI/ML Engineer Master Roadmap — FINAL MERGED VERSION
 
 **Sahil Kumar (Yd)** | BTech CSE (AI/ML), DAV University, Jalandhar
-**Goal:** Entry-level AI/ML Engineer role | **Target:** December 2026
-**Pace:** 3–4 hrs/day
+**Goal:** Entry-level AI/ML Engineer role
 
 > **Merge note:** This file consolidates `roadmap_v2.txt` and `roadmap_v3.md`. Both contained the identical 365-day / 15-phase (Phase 0–14) / 8-project curriculum — v2 in plain-text form, v3 in structured Markdown. This final version keeps v3's cleaner structure and has been checked day-by-day against v2 to confirm zero content loss — every topic, task, and output file across all 365 days is preserved.
 
@@ -34,14 +33,14 @@
 
 | # | Day | Project | Core Stack |
 |---|---|---|---|
-| 1 | 069–076 | End-to-End Tabular ML System | Sklearn Pipeline → Optuna → FastAPI → Streamlit → Docker |
-| 2 | 111–117 | Deep Learning PyTorch Pipeline | PyTorch → WandB → FastAPI → pytest → Docker |
-| 3 | 150–159 | Computer Vision System | YOLOv8/U-Net → Grad-CAM → FastAPI → ONNX → Docker |
-| 4 | 219–226 | Transformer NLP Application | Fine-tuned BERT/RoBERTa → FastAPI → Docker |
-| 5 | 254–258 | Production MLOps Pipeline | MLflow → DVC → Docker → CI/CD → Drift Monitoring |
-| 6 | 299–307 | Advanced Production RAG System | Hybrid Search, Reranker, RAGAS, Langfuse, Docker |
-| 7 | 329–335 | Production Agentic AI System | LangGraph, Tools, HITL, MCP, Docker |
-| 8 | 359–362 | Flagship Capstone — Enterprise AI System | Multi-Agent + RAG + MLOps + Guardrails + Cloud |
+| 1 |  069–076  | End-to-End Tabular ML System | Sklearn Pipeline → Optuna → FastAPI → Streamlit → Docker |
+| 2 |  111–117  | Deep Learning PyTorch Pipeline | PyTorch → WandB → FastAPI → pytest → Docker |
+| 3 |  150–159  | Computer Vision System | YOLOv8/U-Net → Grad-CAM → FastAPI → ONNX → Docker |
+| 4 |  219–226  | Transformer NLP Application | Fine-tuned BERT/RoBERTa → FastAPI → Docker |
+| 5 |  254–258  | Production MLOps Pipeline | MLflow → DVC → Docker → CI/CD → Drift Monitoring |
+| 6 |  299–307  | Advanced Production RAG System | Hybrid Search, Reranker, RAGAS, Langfuse, Docker |
+| 7 |  329–335  | Production Agentic AI System | LangGraph, Tools, HITL, MCP, Docker |
+| 8 |  359–362  | Flagship Capstone — Enterprise AI System | Multi-Agent + RAG + MLOps + Guardrails + Cloud |
 
 ---
 
@@ -49,20 +48,20 @@
 
 ---
 
-# 🟢 PHASE 0: EDA & Feature Engineering `[LOCKED / VERBATIM]`
+# 🟢 PHASE 0: EDA & Feature Engineering
 > **Folder:** `Phase-0 - EDA & Feature Engineering`
 > **Focus:** Data Cleaning, Univariate/Bivariate/Multivariate Analysis, Outlier Detection, Feature Encoding, Scaling, Skewness Handling, and Preprocessing Pipelines (16 Core Foundations Notebooks).
 
 ---
 
-# 🟢 PHASE 1: Linear Regression & Regularization (Days 001–013) `[LOCKED / VERBATIM]`
+# 🟢 PHASE 1: Linear Regression & Regularization (Days 001–013)
 > **Folder:** `Phase-1 - Linear Regression & Regularization`
 
 ---
 
 ### Day 001 — Cost Function MSE
 - **Tasks (3-4h):** Residual calculations, cost curves, error definitions.
-- **Output:** `001 - Cost Function MSE.ipynb`
+- **Output:** ``001 - Cost Function MSE.ipynb`
 - **Topics:**
   - Residual (Error) — difference between actual and predicted values
   - Mean Squared Error (MSE) — mathematical formula and properties
@@ -2533,7 +2532,7 @@
 | 4 | `-[y·log(p) + (1-y)·log(1-p)]` | Log Loss (Binary Cross-Entropy) |
 | 5 | `1 - Σpᵢ²` | Gini Impurity |
 | 6 | `-Σpᵢ·log₂(pᵢ)` | Shannon Entropy |
-| 7 | `P(A\|B) = P(B\|A)·P(A) / P(B)` | Bayes' Theorem |
+| 7 | P(A\ |B) = P(B\|A)·P(A) / P(B)` | Bayes' Theorem |
 | 8 | `α = ½·ln((1-ε)/ε)` | AdaBoost Alpha |
 | 9 | `(Σgᵢ)² / (Σhᵢ + λ)` | XGBoost Similarity Score |
 | 10 | `max(0, z)` | ReLU Activation |
@@ -2543,7 +2542,7 @@
 | 14 | `softmax(QKᵀ/√d_k)·V` | Scaled Dot-Product Attention |
 | 15 | `z = (x - μ) / σ` | Standard Scaler |
 | 16 | `R + γ·max V(s')` | Bellman Equation |
-| 17 | `2\|A∩B\| / (\|A\| + \|B\|)` | Dice Coefficient |
+| 17 | 2\ |A∩B\| / (\|A\| + \|B\|)` | Dice Coefficient |
 | 18 | `exp(zᵢ) / Σexp(zⱼ)` | Softmax Function |
 | 19 | `W = W₀ + (α/r)·B·A` | LoRA Weight Update |
 | 20 | `exp(zᵢ) / Σexp(zⱼ)` | Softmax Function |
