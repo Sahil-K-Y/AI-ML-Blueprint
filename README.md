@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 AI-ML Blueprint — 365-Day Master Curriculum
+# 🧠 AI-ML
 
 ### *From Mathematical Foundations to Production-Grade GenAI & MLOps*
 
@@ -106,11 +106,6 @@ AI-ML-Blueprint/
 
 ---
 
-## 📅 Current Execution State
-
-* **Current Day**: Day 050 — Production Sklearn Pipelines
-* **Active Phase**: Phase 2 — Advanced Classical ML & Feature Engineering (12/18 days done)
-* **Next Milestone**: Phase 3 — Unsupervised Learning & E2E Project
 
 ---
 
