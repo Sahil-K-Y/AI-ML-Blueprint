@@ -11,8 +11,10 @@ parsed_roadmap.json
 pdf_text.txt
 *.pdf
 
-# Logs
+# Logs & Training Info
 *.log
+catboost_info/
+*/catboost_info/
 Phase-3 - Logistic Regression Deep Dive/logs/
 
 # Large datasets (too big for GitHub)
@@ -25,3 +27,4 @@ final_aiml.txt
 final_roadmap*.txt
 complete_day_by_day_roadmap.txt
 AI_ML_Complete_Roadmap_Day_by_Day.ipynb
+roadmap_v2.txt

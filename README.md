@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 AI-ML
+# 🧠 AI-ML Blueprint — 365-Day Master Curriculum
 
 ### *From Mathematical Foundations to Production-Grade GenAI & MLOps*
 
@@ -45,15 +45,15 @@
 | **03** | **Tree Models & SVM** — Decision Trees, SVM Kernels, Naive Bayes, KNN, Random Forest | 022–038 |
 | **04** | **Boosting & Advanced Ensembles** — AdaBoost, XGBoost, LightGBM, CatBoost, Optuna | 039–056 |
 | **05** | **Unsupervised & Time Series** — Clustering, PCA, Time Series + E2E Tabular ML System | 057–077 |
-| **06** | **Deep Learning & PyTorch** — MLP, Backpropagation, Adam/AdamW, PyTorch Pipelines | 078–119 |
-| **07** | **Computer Vision** — CNNs, ResNet, YOLOv8, U-Net, Vision Transformers | 120–161 |
-| **08** | **Sequence Models** — RNN, LSTM/GRU, BPTT, Attention Mechanism | 162–182 |
-| **09** | **NLP & Transformers** — Word2Vec, BERT, GPT, Hugging Face Fine-Tuning | 183–231 |
-| **10** | **MLOps & Data Engineering** — SQL, FastAPI, Docker, MLflow, DVC, CI/CD, Drift | 232–259 |
-| **11** | **Generative AI & RAG** — LLMs, Vector DBs, RAG, LoRA/QLoRA Fine-Tuning | 260–308 |
-| **12** | **Agentic AI** — LangGraph, Multi-Agent, Tool Calling, MCP, HITL | 309–336 |
-| **13** | **Reinforcement Learning** — MDP, Q-Learning, SARSA, DQN, PPO | 337–350 |
-| **14** | **LLMOps & Capstone** — Langfuse, Caching, Security, Enterprise Capstone | 351–365 |
+| **06** | **Deep Learning & PyTorch** — MLP, Backpropagation, Adam/AdamW, PyTorch Pipelines | 078–122 |
+| **07** | **Computer Vision & Multimodal AI** — CNNs, ResNet, YOLOv8, U-Net, Vision Transformers | 123–164 |
+| **08** | **Sequence Models & Recommender Systems** — RNN, LSTM/GRU, BPTT, Attention Mechanism | 165–189 |
+| **09** | **NLP & Transformers** — Word2Vec, BERT, GPT, Hugging Face Fine-Tuning | 190–238 |
+| **10** | **MLOps & Data Engineering** — SQL, FastAPI, Docker, MLflow, DVC, CI/CD, Drift | 239–267 |
+| **11** | **Generative AI & RAG** — LLMs, Vector DBs, RAG, LoRA/QLoRA Fine-Tuning | 268–316 |
+| **12** | **Agentic AI** — LangGraph, Multi-Agent, Tool Calling, MCP, HITL | 317–344 |
+| **13** | **Reinforcement Learning** — MDP, Q-Learning, SARSA, DQN, PPO | 345–358 |
+| **14** | **LLMOps & Capstone** — Langfuse, Caching, Security, Enterprise Capstone | 359–374 |
 
 ---
 
@@ -75,7 +75,7 @@ AI-ML-Blueprint/
 │   ├── 022 - Decision Tree Intuition.ipynb
 │   ├── ...
 │   └── 038 - Trees SVM Assessment.ipynb
-├── Phase-4 - Boosting & Advanced Ensembles/   ← CURRENT
+├── Phase-4 - Boosting & Advanced Ensembles/
 │   ├── 039 - AdaBoost.ipynb
 │   ├── 040_gradient_boosting.ipynb
 │   ├── 042_xgboost_practice.ipynb
@@ -96,16 +96,13 @@ AI-ML-Blueprint/
 | # | Project | Days | Core Stack |
 |---|---|---|---|
 | 1 | End-to-End Tabular ML System | 069–076 | Sklearn → Optuna → FastAPI → Streamlit → Docker |
-| 2 | Deep Learning PyTorch Pipeline | 111–117 | PyTorch → WandB → FastAPI → pytest → Docker |
-| 3 | Computer Vision System | 150–159 | YOLOv8/U-Net → Grad-CAM → ONNX → Docker |
-| 4 | Transformer NLP Application | 219–226 | BERT/RoBERTa → FastAPI → Docker |
-| 5 | Production MLOps Pipeline | 254–258 | MLflow → DVC → Docker → CI/CD → Drift Monitor |
-| 6 | Advanced RAG System | 299–307 | Hybrid Search → Reranker → RAGAS → Langfuse |
-| 7 | Agentic AI System | 329–335 | LangGraph → Tools → HITL → MCP → Docker |
-| 8 | Flagship Enterprise Capstone | 359–362 | Multi-Agent + RAG + MLOps + Guardrails + Cloud |
-
----
-
+| 2 | Deep Learning PyTorch Pipeline | 114–120 | PyTorch → WandB → FastAPI → pytest → Docker |
+| 3 | Computer Vision System | 153–162 | YOLOv8/U-Net → Grad-CAM → ONNX → Docker |
+| 4 | Transformer NLP Application | 226–233 | BERT/RoBERTa → FastAPI → Docker |
+| 5 | Production MLOps Pipeline | 262–266 | MLflow → DVC → Docker → CI/CD → Drift Monitor |
+| 6 | Advanced RAG System | 307–315 | Hybrid Search → Reranker → RAGAS → Langfuse |
+| 7 | Agentic AI System | 337–343 | LangGraph → Tools → HITL → MCP → Docker |
+| 8 | Flagship Enterprise Capstone | 368–371 | Multi-Agent + RAG + MLOps + Guardrails + Cloud |
 
 ---
 

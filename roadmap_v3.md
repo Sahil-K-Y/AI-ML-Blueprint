@@ -1,9 +1,7 @@
-# 🎯 365-Day AI/ML Engineer Master Roadmap — FINAL MERGED VERSION
+# 🎯 365-Day AI/ML Engineer Master Roadmap
 
-**Sahil Kumar (Yd)** | BTech CSE (AI/ML), DAV University, Jalandhar
+**Sahil Kumar (Sky)** | BTech CSE (AI/ML), DAV University, Jalandhar
 **Goal:** Entry-level AI/ML Engineer role
-
-> **Merge note:** This file consolidates `roadmap_v2.txt` and `roadmap_v3.md`. Both contained the identical 365-day / 15-phase (Phase 0–14) / 8-project curriculum — v2 in plain-text form, v3 in structured Markdown. This final version keeps v3's cleaner structure and has been checked day-by-day against v2 to confirm zero content loss — every topic, task, and output file across all 365 days is preserved.
 
 ---
 
@@ -17,15 +15,15 @@
 | Phase 3 | Phase-3 - Tree Models & SVM | 022–038 | Decision Trees, SVM Kernels, Naive Bayes, KNN, Ensembles, Random Forest |
 | Phase 4 | Phase-4 - Boosting & Advanced Ensembles | 039–056 | AdaBoost, Gradient Boosting, XGBoost, LightGBM, CatBoost, Optuna, Feature Selection |
 | Phase 5 | Phase-5 - Unsupervised Learning | 057–077 | Clustering, PCA, Time Series & E2E Tabular ML Production System |
-| Phase 6 | Phase-6 - Deep Learning & PyTorch | 078–119 | Neural Networks, PyTorch, Backpropagation, WandB, PyTorch Pipeline Project |
-| Phase 7 | Phase-7 - Computer Vision & Multimodal AI | 120–161 | CNNs, ResNet, YOLOv8, U-Net, Grad-CAM, Computer Vision System Project |
-| Phase 8 | Phase-8 - Sequence Models | 162–182 | RNNs, LSTMs, GRUs, Attention Mechanism |
-| Phase 9 | Phase-9 - NLP & Transformer Ecosystem | 183–231 | BERT, RoBERTa, GPT, Hugging Face Fine-Tuning, Transformer NLP App Project |
-| Phase 10 | Phase-10 - MLOps & Data Engineering | 232–259 | Docker, MLflow, DVC, FastAPI, CI/CD, Drift Monitoring, MLOps Project |
-| Phase 11 | Phase-11 - Generative AI & RAG | 260–308 | LLMs, Vector DBs, RAG, Hybrid Search, LoRA/QLoRA, RAG System Project |
-| Phase 12 | Phase-12 - Agentic AI Systems | 309–336 | LangGraph, Multi-Agent Supervisors, HITL, MCP, Agentic AI System Project |
-| Phase 13 | Phase-13 - Reinforcement Learning | 337–350 | MDP, Bellman Equations, Q-Learning, DQN, PPO |
-| Phase 14 | Phase-14 - LLMOps & Capstone | 351–365 | Observability, Guardrails, Enterprise AI System Capstone Project |
+| Phase 6 | Phase-6 - Deep Learning & PyTorch | 078–122 | Neural Networks, PyTorch, Backpropagation, WandB, Docker, FastAPI, pytest, PyTorch Pipeline Project |
+| Phase 7 | Phase-7 - Computer Vision & Multimodal AI | 123–164 | CNNs, ResNet, YOLOv8, U-Net, Grad-CAM, Computer Vision System Project |
+| Phase 8 | Phase-8 - Sequence Models & Recommender Systems | 165–189 | RNNs, LSTMs, GRUs, Attention Mechanism, Recommender Systems (CF, Matrix Factorization, Hybrid, NDCG) |
+| Phase 9 | Phase-9 - NLP & Transformer Ecosystem | 190–238 | BERT, RoBERTa, GPT, Hugging Face Fine-Tuning, Transformer NLP App Project |
+| Phase 10 | Phase-10 - MLOps & Data Engineering | 239–267 | Docker, MLflow, DVC, FastAPI, CI/CD, Drift Monitoring, A/B Testing, MLOps Project |
+| Phase 11 | Phase-11 - Generative AI & RAG | 268–316 | LLMs, Vector DBs, RAG, Hybrid Search, LoRA/QLoRA, RAG System Project |
+| Phase 12 | Phase-12 - Agentic AI Systems | 317–344 | LangGraph, Multi-Agent Supervisors, HITL, MCP, Agentic AI System Project |
+| Phase 13 | Phase-13 - Reinforcement Learning | 345–358 | MDP, Bellman Equations, Q-Learning, DQN, PPO |
+| Phase 14 | Phase-14 - LLMOps & Capstone | 359–374 | Observability, Guardrails, Responsible AI, Enterprise AI System Capstone Project |
 
 ---
 
@@ -34,13 +32,13 @@
 | # | Day | Project | Core Stack |
 |---|---|---|---|
 | 1 |  069–076  | End-to-End Tabular ML System | Sklearn Pipeline → Optuna → FastAPI → Streamlit → Docker |
-| 2 |  111–117  | Deep Learning PyTorch Pipeline | PyTorch → WandB → FastAPI → pytest → Docker |
-| 3 |  150–159  | Computer Vision System | YOLOv8/U-Net → Grad-CAM → FastAPI → ONNX → Docker |
-| 4 |  219–226  | Transformer NLP Application | Fine-tuned BERT/RoBERTa → FastAPI → Docker |
-| 5 |  254–258  | Production MLOps Pipeline | MLflow → DVC → Docker → CI/CD → Drift Monitoring |
-| 6 |  299–307  | Advanced Production RAG System | Hybrid Search, Reranker, RAGAS, Langfuse, Docker |
-| 7 |  329–335  | Production Agentic AI System | LangGraph, Tools, HITL, MCP, Docker |
-| 8 |  359–362  | Flagship Capstone — Enterprise AI System | Multi-Agent + RAG + MLOps + Guardrails + Cloud |
+| 2 |  114–120  | Deep Learning PyTorch Pipeline | PyTorch → WandB → FastAPI → pytest → Docker |
+| 3 |  153–162  | Computer Vision System | YOLOv8/U-Net → Grad-CAM → FastAPI → ONNX → Docker |
+| 4 |  226–233  | Transformer NLP Application | Fine-tuned BERT/RoBERTa → FastAPI → Docker |
+| 5 |  262–266  | Production MLOps Pipeline | MLflow → DVC → Docker → CI/CD → Drift Monitoring |
+| 6 |  307–315  | Advanced Production RAG System | Hybrid Search, Reranker, RAGAS, Langfuse, Docker |
+| 7 |  337–343  | Production Agentic AI System | LangGraph, Tools, HITL, MCP, Docker |
+| 8 |  368–371  | Flagship Capstone — Enterprise AI System | Multi-Agent + RAG + MLOps + Guardrails + Cloud |
 
 ---
 
@@ -894,7 +892,7 @@
 
 ---
 
-# 🟣 PHASE 6: Deep Learning Foundations & PyTorch (Days 078–119)
+# 🟣 PHASE 6: Deep Learning Foundations & PyTorch (Days 078–122)
 
 ---
 
@@ -1232,7 +1230,37 @@
   - Representation quality — cluster separation in latent space
   - Comparison with PCA — non-linear vs linear representations
 
-### Day 111 — [PROJECT 2] PyTorch DL System Setup
+### Day 111 — Docker Fundamentals
+- **Tasks (3-4h):** Containers vs VMs, Docker architecture, essential commands (build, run, ps, exec, stop)
+- **Output:** `111_docker_basics.sh`
+- **Topics:**
+  - Containers vs VMs — isolation, resource sharing, speed differences
+  - Docker architecture — daemon, client, images, containers, registry
+  - Essential CLI commands — build, run, ps, exec, stop, rm, rmi
+  - Dockerfile basics — FROM, WORKDIR, COPY, RUN, CMD, EXPOSE
+  - Container lifecycle — created, running, paused, stopped, exited
+
+### Day 112 — FastAPI Fundamentals
+- **Tasks (3-4h):** Path/query parameters, request body schemas, Swagger docs
+- **Output:** `112_fastapi_basics.py`
+- **Topics:**
+  - FastAPI framework overview — automatic docs, high performance, type hints
+  - Path parameters vs Query parameters — definitions and routing
+  - Request body schemas — Pydantic models for data validation
+  - Interactive Swagger / OpenAPI docs — automatic generation at /docs
+  - Running FastAPI server — uvicorn server startup and reload
+
+### Day 113 — pytest Fundamentals
+- **Tasks (3-4h):** Unit tests, assertions, fixtures (@pytest.fixture), mocking
+- **Output:** `113_pytest_basics.py`
+- **Topics:**
+  - Automated testing principles — unit vs integration vs regression testing
+  - Writing pytest functions — assertion statements and test naming conventions
+  - Pytest fixtures — `@pytest.fixture` for setup and teardown reuse
+  - Mocking dependencies — using `unittest.mock` / `mocker` to isolate units
+  - Running test suites — flags (`-v`, `-k`, `--cov`), test output interpretation
+
+### Day 114 — [PROJECT 2] PyTorch DL System Setup
 - **Tasks (3-4h):** Project planning, repository structuring, problem selection (e.g., custom image/tabular classification)
 - **Output:** `Project_2/01_setup.md`
 - **Topics:**
@@ -1242,7 +1270,7 @@
   - Technology stack — PyTorch, WandB, FastAPI
   - Milestones and deliverables planning
 
-### Day 112 — [PROJECT 2] Dataset & Model Build
+### Day 115 — [PROJECT 2] Dataset & Model Build
 - **Tasks (3-4h):** Custom PyTorch Dataset, DataLoader with augmentations, custom PyTorch model architecture script
 - **Output:** `Project_2/src/dataset.py`
 - **Topics:**
@@ -1252,7 +1280,7 @@
   - Data preprocessing — normalization, augmentation strategy
   - Train/val/test split — data partitioning
 
-### Day 113 — [PROJECT 2] Training & Tracking
+### Day 116 — [PROJECT 2] Training & Tracking
 - **Tasks (3-4h):** Complete training pipeline with WandB experiment tracking, Learning Rate scheduler, validation loop
 - **Output:** `Project_2/src/train.py`
 - **Topics:**
@@ -1262,7 +1290,7 @@
   - Experiment tracking — logging loss, accuracy, learning rate
   - Checkpoint saving — best model persistence
 
-### Day 114 — [PROJECT 2] Evaluation & Diagnostics
+### Day 117 — [PROJECT 2] Evaluation & Diagnostics
 - **Tasks (3-4h):** Confusion matrix computation, per-class F1-score evaluation, misclassification analysis
 - **Output:** `Project_2/src/evaluate.py`
 - **Topics:**
@@ -1272,7 +1300,7 @@
   - Error categorization — systematic failure pattern identification
   - Model improvement recommendations — based on error analysis
 
-### Day 115 — [PROJECT 2] Model Serving REST API
+### Day 118 — [PROJECT 2] Model Serving REST API
 - **Tasks (3-4h):** Wrapping PyTorch model in FastAPI endpoint, handling tensor conversions, returning JSON response
 - **Output:** `Project_2/app/serve.py`
 - **Topics:**
@@ -1282,7 +1310,7 @@
   - Async endpoint — non-blocking inference
   - API documentation — Swagger/OpenAPI auto-generated docs
 
-### Day 116 — [PROJECT 2] Testing & Containerization
+### Day 119 — [PROJECT 2] Testing & Containerization
 - **Tasks (3-4h):** Unit testing PyTorch model shapes & outputs via pytest, writing production Dockerfile
 - **Output:** `Project_2/Dockerfile`
 - **Topics:**
@@ -1292,7 +1320,7 @@
   - Dockerfile — containerizing PyTorch application
   - Docker build and test — local container verification
 
-### Day 117 — [PROJECT 2] Deployment & Report
+### Day 120 — [PROJECT 2] Deployment & Report
 - **Tasks (3-4h):** Deploying containerized PyTorch service, writing comprehensive project README.md with WandB plots
 - **Output:** `Project_2/README.md + Live URL`
 - **Topics:**
@@ -1304,9 +1332,9 @@
 
 > 🏆 **Project 2 Complete — Deep Learning PyTorch Pipeline**
 
-### Day 118 — Deep Learning Foundations Revision
+### Day 121 — Deep Learning Foundations Revision
 - **Tasks (3-4h):** Deep Learning math review, backpropagation derivation check, PyTorch syntax refresh
-- **Output:** `118_dl_revision.md`
+- **Output:** `121_dl_revision.md`
 - **Topics:**
   - Deep Learning math review — backpropagation derivations check
   - PyTorch syntax refresh — API patterns and best practices
@@ -1314,9 +1342,9 @@
   - Regularization review — dropout, weight decay, batch norm
   - Architecture design principles — depth, width, skip connections
 
-### Day 119 — Deep Learning Assessment Drill
+### Day 122 — Deep Learning Assessment Drill
 - **Tasks (3-4h):** Solving 20 advanced PyTorch & neural network architecture interview questions
-- **Output:** `119_dl_assessment.md`
+- **Output:** `122_dl_assessment.md`
 - **Topics:**
   - Advanced PyTorch interview questions — 20 problems
   - Neural network architecture design questions
@@ -1326,13 +1354,13 @@
 
 ---
 
-# 🟠 PHASE 7: Computer Vision & Multimodal AI (Days 120–161)
+# 🟠 PHASE 7: Computer Vision & Multimodal AI (Days 123–164)
 
 ---
 
-### Day 120 — Digital Image Fundamentals & OpenCV
+### Day 123 — Digital Image Fundamentals & OpenCV
 - **Tasks (3-4h):** Image representation (RGB, BGR, HSV, Grayscale), pixel arrays, OpenCV basic operations, color spaces
-- **Output:** `120_opencv_basics.ipynb`
+- **Output:** `123_opencv_basics.ipynb`
 - **Topics:**
   - Image representation — RGB, BGR, HSV, Grayscale pixel arrays
   - OpenCV library basics — cv2.imread, cv2.imshow, cv2.cvtColor
@@ -1340,9 +1368,9 @@
   - Pixel manipulation — accessing and modifying pixel values
   - Basic operations — resizing, cropping, rotating images
 
-### Day 121 — Convolution Operation Mechanics
+### Day 124 — Convolution Operation Mechanics
 - **Tasks (3-4h):** 2D Spatial Convolution math, Kernels/Filters (Sobel, Gaussian, Laplacian), feature map computation
-- **Output:** `121_convolution_math.ipynb`
+- **Output:** `124_convolution_math.ipynb`
 - **Topics:**
   - 2D Spatial Convolution — sliding kernel over image
   - Kernel/Filter types — Sobel (edge), Gaussian (blur), Laplacian (edge)
@@ -1350,9 +1378,9 @@
   - Convolution vs correlation — kernel flipping difference
   - Edge detection — applying Sobel filters to detect gradients
 
-### Day 122 — Padding, Stride & Output Dimensions
+### Day 125 — Padding, Stride & Output Dimensions
 - **Tasks (3-4h):** Valid vs Same Padding, Stride parameter impact, mathematical formula for output dimension calculations
-- **Output:** `122_conv_dimensions_math.md`
+- **Output:** `125_conv_dimensions_math.md`
 - **Topics:**
   - Valid Padding — no padding, output smaller than input
   - Same Padding — zero padding to keep output size equal to input
@@ -1360,9 +1388,9 @@
   - Output dimension formula — O = (I - K + 2P) / S + 1
   - Multi-channel convolution — 3D kernels for RGB images
 
-### Day 123 — Pooling Operations
+### Day 126 — Pooling Operations
 - **Tasks (3-4h):** Max Pooling, Average Pooling, Global Average Pooling math, translation invariance properties
-- **Output:** `123_pooling_layers.ipynb`
+- **Output:** `126_pooling_layers.ipynb`
 - **Topics:**
   - Max Pooling — taking maximum value in each pooling window
   - Average Pooling — taking mean value in each pooling window
@@ -1370,9 +1398,9 @@
   - Translation invariance — pooling providing spatial robustness
   - Dimensionality reduction — reducing spatial dimensions while keeping channels
 
-### Day 124 — Convolutional Neural Network (CNN)
+### Day 127 — Convolutional Neural Network (CNN)
 - **Tasks (3-4h):** Stacking Conv-ReLU-Pool layers, Flattening, Dense layers, receptive field expansion concept
-- **Output:** `124_cnn_architecture.ipynb`
+- **Output:** `127_cnn_architecture.ipynb`
 - **Topics:**
   - CNN architecture — stacking Conv → ReLU → Pool layers
   - Flattening — converting 3D feature maps to 1D vector
@@ -1380,9 +1408,9 @@
   - Receptive field — how deep layers see larger input regions
   - Feature hierarchy — low-level edges → mid-level textures → high-level objects
 
-### Day 125 — Classic Architectures (LeNet & AlexNet)
+### Day 128 — Classic Architectures (LeNet & AlexNet)
 - **Tasks (3-4h):** Historical evolution: LeNet-5 vs AlexNet, ReLU activation shift, GPU training introduction
-- **Output:** `125_lenet_alexnet.ipynb`
+- **Output:** `128_lenet_alexnet.ipynb`
 - **Topics:**
   - LeNet-5 (1998) — pioneering CNN for digit recognition
   - AlexNet (2012) — deeper CNN, ReLU activation, GPU training
@@ -1390,9 +1418,9 @@
   - ReLU activation shift — replacing sigmoid/tanh in CNNs
   - Dropout introduction in AlexNet — regularization for deep networks
 
-### Day 126 — VGG Architecture & 3×3 Convolutions
+### Day 129 — VGG Architecture & 3×3 Convolutions
 - **Tasks (3-4h):** VGG-16 / VGG-19 design principles, power of stacked small 3×3 filters over large filters
-- **Output:** `126_vgg16_architecture.ipynb`
+- **Output:** `129_vgg16_architecture.ipynb`
 - **Topics:**
   - VGG-16 / VGG-19 architecture — very deep, uniform design
   - 3×3 convolution stacking — two 3×3 = one 5×5 receptive field
@@ -1400,9 +1428,9 @@
   - VGG design principles — simplicity and uniformity
   - Parameter count analysis — why VGG is memory-heavy
 
-### Day 127 — ResNet & Skip Connections
+### Day 130 — ResNet & Skip Connections
 - **Tasks (3-4h):** Vanishing gradient in deep networks, Residual Block math (F(x) + x), Identity mappings, ResNet-50
-- **Output:** `127_resnet_skip_connections.ipynb`
+- **Output:** `130_resnet_skip_connections.ipynb`
 - **Topics:**
   - Vanishing gradient in very deep CNNs — degradation problem
   - Residual Block — F(x) + x skip connection
@@ -1410,9 +1438,9 @@
   - ResNet-50 architecture — bottleneck blocks with 1×1 convolutions
   - Why ResNets work — easier to learn residual than full mapping
 
-### Day 128 — Custom CNN in PyTorch from Scratch
+### Day 131 — Custom CNN in PyTorch from Scratch
 - **Tasks (3-4h):** Building multi-layer PyTorch CNN from scratch with explicit shape calculation comments
-- **Output:** `128_pytorch_cnn_scratch.py`
+- **Output:** `131_pytorch_cnn_scratch.py`
 - **Topics:**
   - Custom CNN in PyTorch — nn.Conv2d, nn.MaxPool2d, nn.Linear
   - Shape calculation — tracking tensor dimensions through layers
@@ -1420,9 +1448,9 @@
   - Training on image dataset — MNIST/CIFAR classification
   - Model evaluation — accuracy and loss curves
 
-### Day 129 — Computer Vision Data Augmentation
+### Day 132 — Computer Vision Data Augmentation
 - **Tasks (3-4h):** Spatial transformations: random cropping, flipping, rotation, color jittering using torchvision.transforms
-- **Output:** `129_vision_augmentations.ipynb`
+- **Output:** `132_vision_augmentations.ipynb`
 - **Topics:**
   - Random cropping — RandomResizedCrop for scale invariance
   - Random flipping — RandomHorizontalFlip for mirror invariance
@@ -1430,9 +1458,9 @@
   - Color jittering — brightness, contrast, saturation, hue variation
   - torchvision.transforms — composing augmentation pipelines
 
-### Day 130 — Advanced Augmentation (Albumentations)
+### Day 133 — Advanced Augmentation (Albumentations)
 - **Tasks (3-4h):** Advanced techniques: CutMix, MixUp, Mosaic augmentation using Albumentations library
-- **Output:** `130_advanced_albumentations.ipynb`
+- **Output:** `133_advanced_albumentations.ipynb`
 - **Topics:**
   - CutMix — replacing image patch with another image's patch
   - MixUp — blending two images with interpolated labels
@@ -1440,9 +1468,9 @@
   - Albumentations library — fast, flexible augmentation pipeline
   - Advanced spatial transforms — elastic, grid distortion, perspective
 
-### Day 131 — Transfer Learning Concepts
+### Day 134 — Transfer Learning Concepts
 - **Tasks (3-4h):** Pretrained models on ImageNet, Feature Extraction (freezing backbone) vs Fine-Tuning top layers
-- **Output:** `131_transfer_learning_intro.ipynb`
+- **Output:** `134_transfer_learning_intro.ipynb`
 - **Topics:**
   - Pretrained models — ImageNet weights as starting point
   - Feature Extraction — freezing backbone, training only classifier head
@@ -1450,9 +1478,9 @@
   - Transfer learning benefits — less data needed, faster convergence
   - When to freeze vs fine-tune — dataset size and domain similarity
 
-### Day 132 — Transfer Learning Fine-Tuning Lab
+### Day 135 — Transfer Learning Fine-Tuning Lab
 - **Tasks (3-4h):** Unfreezing upper convolutional blocks, differential learning rates, fine-tuning ResNet in PyTorch
-- **Output:** `132_transfer_learning_lab.py`
+- **Output:** `135_transfer_learning_lab.py`
 - **Topics:**
   - Selective unfreezing — unfreezing upper convolutional blocks first
   - Differential learning rates — lower LR for early layers, higher for later
@@ -1460,9 +1488,9 @@
   - Training strategy — freeze → train head → unfreeze → fine-tune
   - Performance comparison — feature extraction vs full fine-tuning
 
-### Day 133 — EfficientNet & MobileNet
+### Day 136 — EfficientNet & MobileNet
 - **Tasks (3-4h):** Depthwise Separable Convolutions (MobileNet), Compound Scaling law (EfficientNet) for edge devices
-- **Output:** `133_efficientnet_mobilenet.ipynb`
+- **Output:** `136_efficientnet_mobilenet.ipynb`
 - **Topics:**
   - Depthwise Separable Convolutions — depthwise + pointwise factorization
   - MobileNet architecture — efficient model for mobile/edge devices
@@ -1470,9 +1498,9 @@
   - FLOPs and parameter efficiency — MobileNet vs VGG comparison
   - Edge deployment considerations — latency and model size constraints
 
-### Day 134 — CV Performance Metrics
+### Day 137 — CV Performance Metrics
 - **Tasks (3-4h):** Precision, Recall, F1-Score, Top-1 vs Top-5 Accuracy, Confusion Matrix visualization
-- **Output:** `134_cv_metrics.ipynb`
+- **Output:** `137_cv_metrics.ipynb`
 - **Topics:**
   - Precision, Recall, F1-Score — per-class and macro/micro averaging
   - Top-1 Accuracy — correct class has highest probability
@@ -1480,9 +1508,9 @@
   - Confusion Matrix visualization — heatmap of predictions vs actuals
   - Multi-class evaluation — micro vs macro vs weighted averaging
 
-### Day 135 — Object Detection Fundamentals
+### Day 138 — Object Detection Fundamentals
 - **Tasks (3-4h):** Bounding box representations, anchor boxes concept
-- **Output:** `135_object_detection_intro.md`
+- **Output:** `138_object_detection_intro.md`
 - **Topics:**
   - Bounding box representations — (x, y, w, h) center format
   - Bounding box representations — (x_min, y_min, x_max, y_max) corner format
@@ -1490,9 +1518,9 @@
   - Object detection pipeline — region proposal + classification
   - Single-stage vs Two-stage detectors — speed vs accuracy tradeoff
 
-### Day 136 — Detection Evaluation (IoU, NMS, mAP)
+### Day 139 — Detection Evaluation (IoU, NMS, mAP)
 - **Tasks (3-4h):** Intersection over Union (IoU) math, Non-Maximum Suppression (NMS) algorithm, mAP@50, mAP@50-95
-- **Output:** `136_iou_nms_map_math.ipynb`
+- **Output:** `139_iou_nms_map_math.ipynb`
 - **Topics:**
   - Intersection over Union (IoU) — overlap area / union area
   - Non-Maximum Suppression (NMS) — removing duplicate detections
@@ -1500,9 +1528,9 @@
   - mAP@50-95 — averaged over IoU thresholds from 0.5 to 0.95
   - Precision-Recall curve — computing AP as area under PR curve
 
-### Day 137 — YOLO Single-Stage Architecture
+### Day 140 — YOLO Single-Stage Architecture
 - **Tasks (3-4h):** Single-shot object detection intuition, grid cell prediction, YOLO loss function components
-- **Output:** `137_yolo_architecture.md`
+- **Output:** `140_yolo_architecture.md`
 - **Topics:**
   - YOLO concept — You Only Look Once, single-pass detection
   - Grid cell prediction — dividing image into S×S grid
@@ -1510,9 +1538,9 @@
   - Anchor-based prediction — predicting offsets from anchor boxes
   - Speed advantage — real-time detection capability
 
-### Day 138 — Custom Object Detection (YOLOv8)
+### Day 141 — Custom Object Detection (YOLOv8)
 - **Tasks (3-4h):** Ultralytics YOLOv8 library, dataset formatting (Roboflow), training YOLOv8 on custom object dataset
-- **Output:** `138_yolov8_custom_training.ipynb`
+- **Output:** `141_yolov8_custom_training.ipynb`
 - **Topics:**
   - Ultralytics YOLOv8 library — modern YOLO implementation
   - Dataset formatting — Roboflow annotation export
@@ -1520,9 +1548,9 @@
   - Training monitoring — mAP, loss curves during training
   - Inference on custom images — model.predict() usage
 
-### Day 139 — Image Segmentation Concepts
+### Day 142 — Image Segmentation Concepts
 - **Tasks (3-4h):** Semantic Segmentation vs Instance Segmentation vs Panoptic Segmentation concepts
-- **Output:** `139_segmentation_concepts.md`
+- **Output:** `142_segmentation_concepts.md`
 - **Topics:**
   - Semantic Segmentation — classifying every pixel (no instance distinction)
   - Instance Segmentation — separate mask per object instance
@@ -1530,9 +1558,9 @@
   - Pixel-level classification — dense prediction task
   - Applications — autonomous driving, medical imaging, satellite analysis
 
-### Day 140 — U-Net Architecture
+### Day 143 — U-Net Architecture
 - **Tasks (3-4h):** Encoder-Decoder contracting/expanding path, Skip Connections between encoder and decoder blocks
-- **Output:** `140_unet_architecture.ipynb`
+- **Output:** `143_unet_architecture.ipynb`
 - **Topics:**
   - U-Net architecture — symmetric encoder-decoder structure
   - Contracting path (Encoder) — downsampling with Conv + Pool
@@ -1540,9 +1568,9 @@
   - Skip Connections — concatenating encoder features to decoder
   - Why skip connections help — preserving spatial detail for precise segmentation
 
-### Day 141 — Segmentation Metrics & Loss Functions
+### Day 144 — Segmentation Metrics & Loss Functions
 - **Tasks (3-4h):** Dice Coefficient math, Jaccard Index (IoU), Binary Cross-Entropy + Dice Loss combination
-- **Output:** `141_dice_loss_metrics.ipynb`
+- **Output:** `144_dice_loss_metrics.ipynb`
 - **Topics:**
   - Dice Coefficient — 2|A∩B| / (|A| + |B|), overlap similarity
   - Jaccard Index (IoU) — |A∩B| / |A∪B|, intersection over union
@@ -1550,9 +1578,9 @@
   - Dice Loss — 1 - Dice Coefficient, differentiable segmentation loss
   - Combined BCE + Dice Loss — leveraging both loss functions
 
-### Day 142 — Vision Transformers (ViT) Intuition
+### Day 145 — Vision Transformers (ViT) Intuition
 - **Tasks (3-4h):** Shifting from Convolution to Self-Attention, patch embeddings, positional encodings in images
-- **Output:** `142_vit_intuition.md`
+- **Output:** `145_vit_intuition.md`
 - **Topics:**
   - From Convolution to Self-Attention — paradigm shift in vision
   - Patch embeddings — dividing image into non-overlapping patches
@@ -1560,9 +1588,9 @@
   - Why Transformers for vision — global receptive field from layer 1
   - ViT vs CNN comparison — data efficiency and scalability tradeoffs
 
-### Day 143 — Vision Transformer (ViT) Architecture
+### Day 146 — Vision Transformer (ViT) Architecture
 - **Tasks (3-4h):** Image patch extraction (16×16), linear projection, Transformer encoder blocks, [CLS] token for CV
-- **Output:** `143_vit_architecture.ipynb`
+- **Output:** `146_vit_architecture.ipynb`
 - **Topics:**
   - Image patch extraction — splitting image into 16×16 patches
   - Linear projection — flattening and projecting patches to embeddings
@@ -1570,9 +1598,9 @@
   - [CLS] token — classification token prepended to patch sequence
   - ViT classification head — MLP on [CLS] token output
 
-### Day 144 — Multimodal Vision-Language Models
+### Day 147 — Multimodal Vision-Language Models
 - **Tasks (3-4h):** CLIP (Contrastive Language-Image Pre-training) architecture, zero-shot image classification
-- **Output:** `144_clip_multimodal.ipynb`
+- **Output:** `147_clip_multimodal.ipynb`
 - **Topics:**
   - CLIP architecture — dual encoder (Image + Text) with contrastive learning
   - Contrastive pre-training — matching image-text pairs
@@ -1580,9 +1608,9 @@
   - Text-guided image understanding — natural language as classifier
   - CLIP applications — image search, visual QA, content moderation
 
-### Day 145 — Practical OpenCV Edge & Contour Lab
+### Day 148 — Practical OpenCV Edge & Contour Lab
 - **Tasks (3-4h):** Canny Edge Detection, Sobel filters, finding & drawing contours, morphological operations
-- **Output:** `145_opencv_contours_lab.ipynb`
+- **Output:** `148_opencv_contours_lab.ipynb`
 - **Topics:**
   - Canny Edge Detection — multi-stage edge detection algorithm
   - Sobel filters — gradient-based edge detection (horizontal/vertical)
@@ -1590,9 +1618,9 @@
   - Contour drawing — cv2.drawContours for visualization
   - Morphological operations — erosion, dilation, opening, closing
 
-### Day 146 — PyTorch Image Classification Pipeline
+### Day 149 — PyTorch Image Classification Pipeline
 - **Tasks (3-4h):** Complete production script for training PyTorch vision model on custom image dataset
-- **Output:** `146_pytorch_image_classifier.py`
+- **Output:** `149_pytorch_image_classifier.py`
 - **Topics:**
   - Complete PyTorch image classification pipeline — end-to-end script
   - Custom image dataset loading — ImageFolder / custom Dataset
@@ -1600,9 +1628,9 @@
   - Evaluation on test set — accuracy, per-class metrics
   - Model saving and inference — deployment-ready code
 
-### Day 147 — Fine-Tuning Pretrained Vision Models
+### Day 150 — Fine-Tuning Pretrained Vision Models
 - **Tasks (3-4h):** Fine-tuning timm (PyTorch Image Models) library models (e.g., ConvNeXt, Swin Transformer)
-- **Output:** `147_timm_fine_tuning.py`
+- **Output:** `150_timm_fine_tuning.py`
 - **Topics:**
   - timm library — PyTorch Image Models collection
   - ConvNeXt — modernized CNN with Transformer-inspired design
@@ -1610,9 +1638,9 @@
   - Fine-tuning pretrained timm models — transfer learning pipeline
   - Model selection from timm — choosing architecture for task
 
-### Day 148 — Object Detection Inference Lab
+### Day 151 — Object Detection Inference Lab
 - **Tasks (3-4h):** Running real-time YOLOv8 bounding box inference on video streams and static images
-- **Output:** `148_yolo_inference_lab.py`
+- **Output:** `151_yolo_inference_lab.py`
 - **Topics:**
   - YOLOv8 inference on images — model.predict() with confidence threshold
   - YOLOv8 inference on video — frame-by-frame detection pipeline
@@ -1620,9 +1648,9 @@
   - Real-time detection — processing video stream at high FPS
   - Post-processing — NMS, confidence filtering, class filtering
 
-### Day 149 — U-Net Segmentation Lab
+### Day 152 — U-Net Segmentation Lab
 - **Tasks (3-4h):** Implementing and training U-Net model for medical or satellite image binary segmentation
-- **Output:** `149_unet_segmentation_lab.py`
+- **Output:** `152_unet_segmentation_lab.py`
 - **Topics:**
   - U-Net implementation in PyTorch — encoder-decoder model code
   - Training U-Net for binary segmentation — medical or satellite images
@@ -1630,895 +1658,961 @@
   - Training loop — Dice Loss optimization
   - Segmentation prediction visualization — overlay masks on images
 
-### Day 150 — [PROJECT 3] CV System Planning
+### Day 153 — [PROJECT 3] CV System Planning
 - **Tasks (3-4h):** Scoping CV project (e.g., Custom Defect Detection using YOLOv8 or Medical Image U-Net)
 - **Output:** `Project_3/01_scoping.md`
 
-### Day 151 — [PROJECT 3] Data Pipeline & Annotations
+### Day 154 — [PROJECT 3] Data Pipeline & Annotations
 - **Tasks (3-4h):** Dataset preparation, labeling via Roboflow/Label Studio, applying Albumentations pipeline
 - **Output:** `Project_3/src/dataset.py`
 
-### Day 152 — [PROJECT 3] Model Baseline Training
+### Day 155 — [PROJECT 3] Model Baseline Training
 - **Tasks (3-4h):** Training baseline model, verifying loss convergence, logging experiment parameters
 - **Output:** `Project_3/src/train_baseline.py`
 
-### Day 153 — [PROJECT 3] Model Fine-Tuning
+### Day 156 — [PROJECT 3] Model Fine-Tuning
 - **Tasks (3-4h):** Fine-tuning model backbone, hyperparameter search, optimizing anchor/input resolution
 - **Output:** `Project_3/src/train_advanced.py`
 
-### Day 154 — [PROJECT 3] Quantitative Evaluation
+### Day 157 — [PROJECT 3] Quantitative Evaluation
 - **Tasks (3-4h):** Computing mAP scores, Confusion Matrix, IoU distribution plots across validation set
 - **Output:** `Project_3/02_evaluation.ipynb`
 
-### Day 155 — [PROJECT 3] Grad-CAM & Error Diagnostics
+### Day 158 — [PROJECT 3] Grad-CAM & Error Diagnostics
 - **Tasks (3-4h):** Visualizing Grad-CAM attention heatmaps to debug misclassifications and false positives
 - **Output:** `Project_3/03_gradcam_diagnostics.ipynb`
 
-### Day 156 — [PROJECT 3] Real-Time Inference Module
+### Day 159 — [PROJECT 3] Real-Time Inference Module
 - **Tasks (3-4h):** Building low-latency OpenCV inference pipeline with bounding box/mask overlay drawing
 - **Output:** `Project_3/src/infer.py`
 
-### Day 157 — [PROJECT 3] FastAPI Service & UI
+### Day 160 — [PROJECT 3] FastAPI Service & UI
 - **Tasks (3-4h):** Wrapping model inside FastAPI app (/detect endpoint), creating Streamlit upload UI
 - **Output:** `Project_3/app/main.py`
 
-### Day 158 — [PROJECT 3] Dockerization & ONNX Export
+### Day 161 — [PROJECT 3] Dockerization & ONNX Export
 - **Tasks (3-4h):** Exporting PyTorch model to ONNX Runtime for 2-3× speedup, writing multi-stage Dockerfile
 - **Output:** `Project_3/Dockerfile`
 
-### Day 159 — [PROJECT 3] Cloud Deployment
+### Day 162 — [PROJECT 3] Cloud Deployment
 - **Tasks (3-4h):** Deploying containerized CV microservice to AWS/GCP or HuggingFace Spaces
 - **Output:** `Project_3/README.md + Live URL`
 
 > 🏆 **Project 3 Complete — Computer Vision System**
 
-### Day 160 — Computer Vision Revision
+### Day 163 — Computer Vision Revision
 - **Tasks (3-4h):** Reviewing CNN math, YOLO loss function, U-Net architecture, ViT tokenization
-- **Output:** `160_cv_revision.md`
+- **Output:** `163_cv_revision.md`
 
-### Day 161 — Computer Vision Technical Assessment
+### Day 164 — Computer Vision Technical Assessment
 - **Tasks (3-4h):** Answering 20 senior-level Computer Vision & Multimodal AI interview questions
-- **Output:** `161_cv_assessment.md`
+- **Output:** `164_cv_assessment.md`
 
 ---
 
-# 🔴 PHASE 8: Sequence Models & Recurrent Architectures (Days 162–182)
+# 🔴 PHASE 8: Sequence Models & Recommender Systems (Days 165–189)
 
 ---
 
-### Day 162 — Sequential Data & Recurrent Concept
+### Day 165 — Sequential Data & Recurrent Concept
 - **Tasks (3-4h):** Tabular vs Image vs Sequential data, time unfolding intuition, hidden state (h_t) concept
-- **Output:** `162_sequence_data_intro.md`
+- **Output:** `165_sequence_data_intro.md`
 
-### Day 163 — Vanilla Recurrent Neural Network (RNN)
+### Day 166 — Vanilla Recurrent Neural Network (RNN)
 - **Tasks (3-4h):** RNN Forward Pass math (h_t = tanh(W_hh·h_{t-1} + W_xh·x_t + b_h)), weight sharing across time steps
-- **Output:** `163_rnn_forward_math.ipynb`
+- **Output:** `166_rnn_forward_math.ipynb`
 
-### Day 164 — Backpropagation Through Time (BPTT)
+### Day 167 — Backpropagation Through Time (BPTT)
 - **Tasks (3-4h):** Mathematical formulation of BPTT, unrolling time steps, gradient summation across sequences
-- **Output:** `164_bptt_derivation.pdf`
+- **Output:** `167_bptt_derivation.pdf`
 
-### Day 165 — Vanishing/Exploding Gradients in RNNs
+### Day 168 — Vanishing/Exploding Gradients in RNNs
 - **Tasks (3-4h):** Matrix multiplication over long sequence lengths (W^T), vanishing gradient in temporal domain
-- **Output:** `165_rnn_vanishing_gradients.ipynb`
+- **Output:** `168_rnn_vanishing_gradients.ipynb`
 
-### Day 166 — Gradient Clipping Techniques
+### Day 169 — Gradient Clipping Techniques
 - **Tasks (3-4h):** Norm-based gradient clipping math (torch.nn.utils.clip_grad_norm_) to prevent exploding gradients
-- **Output:** `166_gradient_clipping.py`
+- **Output:** `169_gradient_clipping.py`
 
-### Day 167 — Long Short-Term Memory (LSTM)
+### Day 170 — Long Short-Term Memory (LSTM)
 - **Tasks (3-4h):** Cell State (C_t) highway concept, resolving long-term dependency vanishing gradients
-- **Output:** `167_lstm_intuition.md`
+- **Output:** `170_lstm_intuition.md`
 
-### Day 168 — LSTM Gate Mechanics & Math
+### Day 171 — LSTM Gate Mechanics & Math
 - **Tasks (3-4h):** Mathematical equations of Forget Gate (f_t), Input Gate (i_t), Candidate (C̃_t), Output Gate (o_t)
-- **Output:** `168_lstm_gates_math.ipynb`
+- **Output:** `171_lstm_gates_math.ipynb`
 
-### Day 169 — Gated Recurrent Unit (GRU)
+### Day 172 — Gated Recurrent Unit (GRU)
 - **Tasks (3-4h):** GRU architecture: Reset Gate (r_t), Update Gate (z_t), parameter efficiency compared to LSTM
-- **Output:** `169_gru_architecture.ipynb`
+- **Output:** `172_gru_architecture.ipynb`
 
-### Day 170 — Bidirectional RNNs & Deep Stacked RNNs
+### Day 173 — Bidirectional RNNs & Deep Stacked RNNs
 - **Tasks (3-4h):** Forward vs Backward hidden states concatenation, stacking multiple recurrent layers
-- **Output:** `170_bidirectional_rnn.ipynb`
+- **Output:** `173_bidirectional_rnn.ipynb`
 
-### Day 171 — PyTorch Sequence Processing
+### Day 174 — PyTorch Sequence Processing
 - **Tasks (3-4h):** Variable sequence lengths, torch.nn.utils.rnn.pack_padded_sequence & pad_packed_sequence
-- **Output:** `171_packed_sequences.py`
+- **Output:** `174_packed_sequences.py`
 
-### Day 172 — Sequence-to-Sequence (Seq2Seq)
+### Day 175 — Sequence-to-Sequence (Seq2Seq)
 - **Tasks (3-4h):** Encoder-Decoder architecture for sequence generation (Machine Translation, Text Summarization)
-- **Output:** `172_seq2seq_architecture.ipynb`
+- **Output:** `175_seq2seq_architecture.ipynb`
 
-### Day 173 — Teacher Forcing Technique
+### Day 176 — Teacher Forcing Technique
 - **Tasks (3-4h):** Teacher forcing during training vs autoregressive decoding during inference, exposure bias problem
-- **Output:** `173_teacher_forcing.ipynb`
+- **Output:** `176_teacher_forcing.ipynb`
 
-### Day 174 — Attention Mechanism Intuition
+### Day 177 — Attention Mechanism Intuition
 - **Tasks (3-4h):** Bottleneck problem in fixed-length encoder vectors, Bahdanau (Additive) & Luong (Multiplicative) attention
-- **Output:** `174_attention_intuition.md`
+- **Output:** `177_attention_intuition.md`
 
-### Day 175 — Attention Implementation from Scratch
+### Day 178 — Attention Implementation from Scratch
 - **Tasks (3-4h):** Implementing Luong Attention score calculation in PyTorch
-- **Output:** `175_attention_scratch.py`
+- **Output:** `178_attention_scratch.py`
 
-### Day 176 — Sequence Architecture Comparison
+### Day 179 — Sequence Architecture Comparison
 - **Tasks (3-4h):** Benchmark comparison: Vanilla RNN vs LSTM vs GRU vs Bidirectional LSTM on time series/text
-- **Output:** `176_sequence_benchmark.ipynb`
+- **Output:** `179_sequence_benchmark.ipynb`
 
-### Day 177 — Sequence Model Project Planning
+### Day 180 — Sequence Model Project Planning
 - **Tasks (3-4h):** Scoping sequence project (e.g., Time-Series Forecasting or Sentiment Analysis)
-- **Output:** `177_project_scoping.md`
+- **Output:** `180_project_scoping.md`
 
-### Day 178 — Sequence Dataset Pipeline & Windowing
+### Day 181 — Sequence Dataset Pipeline & Windowing
 - **Tasks (3-4h):** Creating sliding window datasets for sequential data, sequence padding, PyTorch DataLoader setup
-- **Output:** `178_sequence_pipeline.py`
+- **Output:** `181_sequence_pipeline.py`
 
-### Day 179 — Sequence Model Training & Loss Check
+### Day 182 — Sequence Model Training & Loss Check
 - **Tasks (3-4h):** Training Bidirectional LSTM / GRU model, tracking validation loss, preventing sequence overfitting
-- **Output:** `179_train_sequence_model.py`
+- **Output:** `182_train_sequence_model.py`
 
-### Day 180 — Sequence Model Evaluation
+### Day 183 — Sequence Model Evaluation
 - **Tasks (3-4h):** Evaluating sequence predictions (RMSE, MAE for TS or F1-Score for text), visualization
-- **Output:** `180_sequence_evaluation.ipynb`
+- **Output:** `183_sequence_evaluation.ipynb`
 
-### Day 181 — Sequence Model API & Streamlit Serving
+### Day 184 — Sequence Model API & Streamlit Serving
 - **Tasks (3-4h):** Packaging sequence inference logic inside FastAPI endpoint and Streamlit interactive web app
-- **Output:** `181_app_serve.py`
+- **Output:** `184_app_serve.py`
 
-### Day 182 — Sequence Models Revision
+### Day 185 — Sequence Models Revision
 - **Tasks (3-4h):** Reviewing LSTM gate math, GRU equations, BPTT, packed sequences, and attention alignment
-- **Output:** `182_sequence_revision.md`
+- **Output:** `185_sequence_revision.md`
 
 ---
 
-# 🟤 PHASE 9: NLP & Transformer Ecosystem (Days 183–231)
+# 🟤 PHASE 9: NLP & Transformer Ecosystem (Days 190–238)
 
 ---
 
-### Day 183 — Natural Language Processing Pipeline
+### Day 186 — Recommender Systems: Collaborative Filtering
+- **Tasks (3-4h):** User-based & Item-based Collaborative Filtering, similarity metrics (Cosine, Pearson correlation), user-item interaction matrix
+- **Output:** `186_collaborative_filtering.ipynb`
+- **Topics:**
+  - Collaborative Filtering intuition — leveraging collective user preferences
+  - User-based Collaborative Filtering — finding similar users to recommend items
+  - Item-based Collaborative Filtering — finding items similar to user's liked items
+  - Similarity metrics — Cosine Similarity, Pearson Correlation Coefficient, Jaccard Index
+  - User-Item interaction matrix — explicit (ratings) vs implicit (clicks, views) data
+  - Sparsity & cold-start challenges in collaborative filtering
+
+### Day 187 — Matrix Factorization Techniques (SVD & ALS)
+- **Tasks (3-4h):** Singular Value Decomposition (SVD), Alternating Least Squares (ALS) for implicit feedback, matrix factorization math for recommendations
+- **Output:** `187_matrix_factorization_svd_als.ipynb`
+- **Topics:**
+  - Matrix Factorization concept — decomposing user-item matrix into latent factor matrices
+  - Singular Value Decomposition (SVD) — mathematical formulation and dimensionality reduction
+  - Truncated SVD / Funk SVD — handling unobserved entries in sparse rating matrices
+  - Alternating Least Squares (ALS) — optimizing user and item matrices alternately
+  - Implicit feedback modeling — confidence weighting and ALS for implicit datasets
+  - Learning latent features — interpreting user preference and item characteristic vectors
+
+### Day 188 — Content-Based & Hybrid Recommender Systems
+- **Tasks (3-4h):** Content-based filtering using feature profiles & TF-IDF/embeddings, hybrid recommender architecture (switching, feature combination)
+- **Output:** `188_content_hybrid_recommenders.ipynb`
+- **Topics:**
+  - Content-based filtering — recommending items with similar attributes/features
+  - Item profile building — TF-IDF vectors, categorical attributes, text embeddings
+  - User profile construction — aggregating feature profiles of user-interacted items
+  - Hybrid recommender systems — combining collaborative filtering and content-based approaches
+  - Hybrid architecture designs — weighted, switching, mixed, feature combination hybrids
+  - Mitigating cold-start problem using content signals for new items/users
+
+### Day 189 — Recommender Systems Evaluation Metrics
+- **Tasks (3-4h):** Offline evaluation metrics: Precision@K, Recall@K, Mean Average Precision (MAP@K), Normalized Discounted Cumulative Gain (NDCG)
+- **Output:** `189_recommender_eval_metrics.ipynb`
+- **Topics:**
+  - Recommender evaluation paradigm — top-K recommendation evaluation
+  - Precision@K & Recall@K — measuring proportion of relevant items in top-K recommendations
+  - Mean Average Precision (MAP@K) — evaluating rank-aware recommendation accuracy
+  - Cumulative Gain (CG) & Discounted Cumulative Gain (DCG) — position-weighted relevance
+  - Normalized Discounted Cumulative Gain (NDCG) — DCG normalized by Ideal DCG (IDCG)
+  - Beyond accuracy metrics — coverage, diversity, novelty, and serendipity
+
+### Day 190 — Natural Language Processing Pipeline
 - **Tasks (3-4h):** Text cleaning: lowercasing, regex filtering, stopword removal, stemming (Porter) vs lemmatization (WordNet)
-- **Output:** `183_nlp_pipeline_cleaning.ipynb`
+- **Output:** `190_nlp_pipeline_cleaning.ipynb`
 
-### Day 184 — Text Tokenization Fundamentals
+### Day 191 — Text Tokenization Fundamentals
 - **Tasks (3-4h):** Character-level vs Word-level vs Subword-level tokenization concepts, vocabulary building
-- **Output:** `184_tokenization_basics.ipynb`
+- **Output:** `191_tokenization_basics.ipynb`
 
-### Day 185 — Bag-of-Words (BoW) Representation
+### Day 192 — Bag-of-Words (BoW) Representation
 - **Tasks (3-4h):** Vector Space Model, Document-Term Matrix (DTM), CountVectorizer implementation, sparsity issues
-- **Output:** `185_bag_of_words.ipynb`
+- **Output:** `192_bag_of_words.ipynb`
 
-### Day 186 — N-Grams Language Modeling
+### Day 193 — N-Grams Language Modeling
 - **Tasks (3-4h):** Unigrams, Bigrams, Trigrams, capturing local word order context, vocabulary explosion challenges
-- **Output:** `186_ngrams_representation.ipynb`
+- **Output:** `193_ngrams_representation.ipynb`
 
-### Day 187 — Term Frequency-Inverse Document Frequency
+### Day 194 — Term Frequency-Inverse Document Frequency
 - **Tasks (3-4h):** TF-IDF mathematical formula, inverse document frequency weighting
-- **Output:** `187_tfidf_from_scratch.ipynb`
+- **Output:** `194_tfidf_from_scratch.ipynb`
 
-### Day 188 — Classical Text Classification Lab
+### Day 195 — Classical Text Classification Lab
 - **Tasks (3-4h):** Building baseline text classification using TF-IDF + Multinomial Naive Bayes & Logistic Regression
-- **Output:** `188_classical_nlp_lab.ipynb`
+- **Output:** `195_classical_nlp_lab.ipynb`
 
-### Day 189 — Word Embeddings Intuition
+### Day 196 — Word Embeddings Intuition
 - **Tasks (3-4h):** Discrete sparse vectors vs continuous dense vector spaces, distributed representations
-- **Output:** `189_word_embeddings_intro.md`
+- **Output:** `196_word_embeddings_intro.md`
 
-### Day 190 — Word2Vec Architecture (CBOW)
+### Day 197 — Word2Vec Architecture (CBOW)
 - **Tasks (3-4h):** Continuous Bag-of-Words architecture: predicting target word from context words
-- **Output:** `190_word2vec_cbow.ipynb`
+- **Output:** `197_word2vec_cbow.ipynb`
 
-### Day 191 — Word2Vec Architecture (Skip-gram)
+### Day 198 — Word2Vec Architecture (Skip-gram)
 - **Tasks (3-4h):** Skip-gram: predicting context words from target word, Negative Sampling optimization math
-- **Output:** `191_word2vec_skipgram.ipynb`
+- **Output:** `198_word2vec_skipgram.ipynb`
 
-### Day 192 — Global Vectors for Word Representation
+### Day 199 — Global Vectors for Word Representation
 - **Tasks (3-4h):** GloVe mathematical objective, matrix factorization on global co-occurrence statistics
-- **Output:** `192_glove_embeddings.ipynb`
+- **Output:** `199_glove_embeddings.ipynb`
 
-### Day 193 — Embedding Visualization & Analogy Lab
+### Day 200 — Embedding Visualization & Analogy Lab
 - **Tasks (3-4h):** Loading pretrained Word2Vec/GloVe, vector arithmetic ("King - Man + Woman = Queen")
-- **Output:** `193_embedding_visualizations.ipynb`
+- **Output:** `200_embedding_visualizations.ipynb`
 
-### Day 194 — NLP Performance Evaluation Metrics
+### Day 201 — NLP Performance Evaluation Metrics
 - **Tasks (3-4h):** Perplexity, BLEU score, ROUGE-1/2/L, Exact Match (EM)
-- **Output:** `194_nlp_metrics_eval.ipynb`
+- **Output:** `201_nlp_metrics_eval.ipynb`
 
-### Day 195 — Self-Attention Mechanics (Q, K, V)
+### Day 202 — Self-Attention Mechanics (Q, K, V)
 - **Tasks (3-4h):** Queries, Keys, Values abstraction intuition, Linear transformations of input vectors
-- **Output:** `195_self_attention_qkv.md`
+- **Output:** `202_self_attention_qkv.md`
 
-### Day 196 — Scaled Dot-Product Attention Math
+### Day 203 — Scaled Dot-Product Attention Math
 - **Tasks (3-4h):** Attention(Q,K,V) = softmax(QK^T/√d_k)V, scaling factor importance
-- **Output:** `196_scaled_dot_product_math.ipynb`
+- **Output:** `203_scaled_dot_product_math.ipynb`
 
-### Day 197 — Multi-Head Attention (MHA) Architecture
+### Day 204 — Multi-Head Attention (MHA) Architecture
 - **Tasks (3-4h):** Parallel attention heads, projecting to multiple subspaces, concatenating & linear output
-- **Output:** `197_multihead_attention.ipynb`
+- **Output:** `204_multihead_attention.ipynb`
 
-### Day 198 — Positional Encoding Mechanics
+### Day 205 — Positional Encoding Mechanics
 - **Tasks (3-4h):** Sinusoidal Positional Encoding formulas, injecting spatial position into non-recurrent models
-- **Output:** `198_positional_encoding.ipynb`
+- **Output:** `205_positional_encoding.ipynb`
 
-### Day 199 — Transformer Encoder Architecture
+### Day 206 — Transformer Encoder Architecture
 - **Tasks (3-4h):** LayerNorm (Pre-LN vs Post-LN), Residual Connections, FFN, complete Encoder block
-- **Output:** `199_transformer_encoder.ipynb`
+- **Output:** `206_transformer_encoder.ipynb`
 
-### Day 200 — Transformer Decoder Architecture
+### Day 207 — Transformer Decoder Architecture
 - **Tasks (3-4h):** Masked Multi-Head Attention (causal masking), Cross-Attention block
-- **Output:** `200_transformer_decoder.ipynb`
+- **Output:** `207_transformer_decoder.ipynb`
 
-### Day 201 — Full Encoder-Decoder Transformer
+### Day 208 — Full Encoder-Decoder Transformer
 - **Tasks (3-4h):** Complete "Attention Is All You Need" architecture
-- **Output:** `201_full_transformer_arch.ipynb`
+- **Output:** `208_full_transformer_arch.ipynb`
 
-### Day 202 — Bidirectional Encoder Representations (BERT)
+### Day 209 — Bidirectional Encoder Representations (BERT)
 - **Tasks (3-4h):** BERT architecture (Encoder-only), MLM & NSP pretraining objectives
-- **Output:** `202_bert_architecture.md`
+- **Output:** `209_bert_architecture.md`
 
-### Day 203 — Masked Language Modeling (MLM) Deep Dive
+### Day 210 — Masked Language Modeling (MLM) Deep Dive
 - **Tasks (3-4h):** 15% token masking strategy, fine-tuning BERT for classification
-- **Output:** `203_mlm_deepdive.ipynb`
+- **Output:** `210_mlm_deepdive.ipynb`
 
-### Day 204 — Generative Pre-trained Transformer (GPT)
+### Day 211 — Generative Pre-trained Transformer (GPT)
 - **Tasks (3-4h):** GPT architecture (Decoder-only), autoregressive causal language modeling, zero/few-shot
-- **Output:** `204_gpt_autoregressive.md`
+- **Output:** `211_gpt_autoregressive.md`
 
-### Day 205 — Modern Subword Tokenizers
+### Day 212 — Modern Subword Tokenizers
 - **Tasks (3-4h):** BPE, WordPiece (BERT), SentencePiece (Unigram) algorithms step-by-step
-- **Output:** `205_subword_tokenizers.ipynb`
+- **Output:** `212_subword_tokenizers.ipynb`
 
-### Day 206 — Hugging Face Ecosystem Overview
+### Day 213 — Hugging Face Ecosystem Overview
 - **Tasks (3-4h):** transformers, datasets, tokenizers, accelerate, and Hugging Face Hub workflow
-- **Output:** `206_hf_ecosystem_overview.py`
+- **Output:** `213_hf_ecosystem_overview.py`
 
-### Day 207 — Hugging Face Datasets & Tokenizers
+### Day 214 — Hugging Face Datasets & Tokenizers
 - **Tasks (3-4h):** Loading datasets, fast tokenization via AutoTokenizer, dynamic padding
-- **Output:** `207_hf_datasets_tokenizers.py`
+- **Output:** `214_hf_datasets_tokenizers.py`
 
-### Day 208 — Transformer Fine-Tuning Classification
+### Day 215 — Transformer Fine-Tuning Classification
 - **Tasks (3-4h):** Fine-tuning AutoModelForSequenceClassification using HF Trainer API & PyTorch
-- **Output:** `208_transformer_classification.py`
+- **Output:** `215_transformer_classification.py`
 
-### Day 209 — Named Entity Recognition (NER)
+### Day 216 — Named Entity Recognition (NER)
 - **Tasks (3-4h):** Token classification, BIO tagging scheme, fine-tuning BERT for NER
-- **Output:** `209_ner_token_classification.py`
+- **Output:** `216_ner_token_classification.py`
 
-### Day 210 — Question Answering with BERT
+### Day 217 — Question Answering with BERT
 - **Tasks (3-4h):** Extractive QA, predicting start and end token logits over context paragraphs
-- **Output:** `210_extractive_qa_bert.py`
+- **Output:** `217_extractive_qa_bert.py`
 
-### Day 211 — Text Summarization (BART / T5)
+### Day 218 — Text Summarization (BART / T5)
 - **Tasks (3-4h):** Sequence-to-sequence fine-tuning for abstractive summarization
-- **Output:** `211_abstractive_summarization.py`
+- **Output:** `218_abstractive_summarization.py`
 
-### Day 212 — Text Generation Decoding Parameters
+### Day 219 — Text Generation Decoding Parameters
 - **Tasks (3-4h):** Greedy search, Beam search, Temperature scaling, Top-k sampling, Top-p (Nucleus) sampling
-- **Output:** `212_generation_decoding_params.py`
+- **Output:** `219_generation_decoding_params.py`
 
-### Day 213 — NLP Evaluation Metrics Lab
+### Day 220 — NLP Evaluation Metrics Lab
 - **Tasks (3-4h):** Hands-on evaluation lab computing ROUGE scores using evaluate library
-- **Output:** `213_nlp_evaluation_lab.py`
+- **Output:** `220_nlp_evaluation_lab.py`
 
-### Day 214 — Building Transformer Encoder from Scratch
+### Day 221 — Building Transformer Encoder from Scratch
 - **Tasks (3-4h):** Coding complete Transformer Encoder layer in pure PyTorch without nn.Transformer
-- **Output:** `214_transformer_from_scratch.py`
+- **Output:** `221_transformer_from_scratch.py`
 
-### Day 215 — Fine-Tuning BERT for Sentiment Analysis
+### Day 222 — Fine-Tuning BERT for Sentiment Analysis
 - **Tasks (3-4h):** Complete script fine-tuning bert-base-uncased on IMDB / Customer Reviews dataset
-- **Output:** `215_bert_sentiment_fine_tune.py`
+- **Output:** `222_bert_sentiment_fine_tune.py`
 
-### Day 216 — Local GPT-2 Inference & Text Generation
+### Day 223 — Local GPT-2 Inference & Text Generation
 - **Tasks (3-4h):** Loading pretrained GPT-2, experimenting with temperature, top-p, repetition penalties
-- **Output:** `216_gpt2_inference_lab.py`
+- **Output:** `223_gpt2_inference_lab.py`
 
-### Day 217 — Self-Supervised Pretraining Principles
+### Day 224 — Self-Supervised Pretraining Principles
 - **Tasks (3-4h):** Masked Autoencoders (MAE), denoising objectives, pretraining cost vs fine-tuning efficiency
-- **Output:** `217_pretraining_concepts.md`
+- **Output:** `224_pretraining_concepts.md`
 
-### Day 218 — Contrastive Learning in NLP
+### Day 225 — Contrastive Learning in NLP
 - **Tasks (3-4h):** SimCSE, learning high-quality sentence vectors
-- **Output:** `218_contrastive_nlp.ipynb`
+- **Output:** `225_contrastive_nlp.ipynb`
 
-### Day 219 — [PROJECT 4] Transformer NLP Setup
+### Day 226 — [PROJECT 4] Transformer NLP Setup
 - **Tasks (3-4h):** Scoping NLP project (Multi-label Intent Classification or Domain-Specific NER)
 - **Output:** `Project_4/01_scoping.md`
 
-### Day 220 — [PROJECT 4] Data Pipeline & Tokenization
+### Day 227 — [PROJECT 4] Data Pipeline & Tokenization
 - **Tasks (3-4h):** Dataset cleaning, tokenization with AutoTokenizer, creating splits
 - **Output:** `Project_4/src/dataset.py`
 
-### Day 221 — [PROJECT 4] Baseline Classical NLP
+### Day 228 — [PROJECT 4] Baseline Classical NLP
 - **Tasks (3-4h):** Training TF-IDF + Logistic Regression baseline
 - **Output:** `Project_4/src/baseline.py`
 
-### Day 222 — [PROJECT 4] Transformer Fine-Tuning
+### Day 229 — [PROJECT 4] Transformer Fine-Tuning
 - **Tasks (3-4h):** Fine-tuning RoBERTa/DeBERTa using Trainer API with WandB tracking
 - **Output:** `Project_4/src/train.py`
 
-### Day 223 — [PROJECT 4] Quantitative Evaluation
+### Day 230 — [PROJECT 4] Quantitative Evaluation
 - **Tasks (3-4h):** Per-class Precision, Recall, F1-Score, confusion matrix analysis
 - **Output:** `Project_4/02_evaluation.ipynb`
 
-### Day 224 — [PROJECT 4] Error Diagnostics & Analysis
+### Day 231 — [PROJECT 4] Error Diagnostics & Analysis
 - **Tasks (3-4h):** Diagnostic analysis on misclassified text samples, edge cases
 - **Output:** `Project_4/03_error_analysis.ipynb`
 
-### Day 225 — [PROJECT 4] FastAPI & Streamlit UI
+### Day 232 — [PROJECT 4] FastAPI & Streamlit UI
 - **Tasks (3-4h):** Building production FastAPI REST endpoint with batch inference & Streamlit UI
 - **Output:** `Project_4/app/main.py`
 
-### Day 226 — [PROJECT 4] Containerization & Cloud Deploy
+### Day 233 — [PROJECT 4] Containerization & Cloud Deploy
 - **Tasks (3-4h):** Writing multi-stage Dockerfile, deploying NLP microservice
 - **Output:** `Project_4/Dockerfile + Live URL`
 
 > 🏆 **Project 4 Complete — Transformer NLP Application**
 
-### Day 227 — NLP Foundations Revision
-- **Output:** `227_nlp_foundations_revision.md`
+### Day 234 — NLP Foundations Revision
+- **Output:** `234_nlp_foundations_revision.md`
 
-### Day 228 — Transformer Architecture Revision
-- **Output:** `228_transformer_revision.md`
+### Day 235 — Transformer Architecture Revision
+- **Output:** `235_transformer_revision.md`
 
-### Day 229 — NLP & Transformers Interview Drills
-- **Output:** `229_nlp_interview_drills.md`
+### Day 236 — NLP & Transformers Interview Drills
+- **Output:** `236_nlp_interview_drills.md`
 
-### Day 230 — NLP Comprehensive Knowledge Assessment
-- **Output:** `230_nlp_assessment_results.md`
+### Day 237 — NLP Comprehensive Knowledge Assessment
+- **Output:** `237_nlp_assessment_results.md`
 
-### Day 231 — Buffer & Skills Reinforcement Day
-- **Output:** `231_buffer_reinforcement.md`
-
----
-
-# ⚙️ PHASE 10: MLOps & Data Engineering Essentials (Days 232–259)
+### Day 238 — Buffer & Skills Reinforcement Day
+- **Output:** `238_buffer_reinforcement.md`
 
 ---
 
-### Day 232 — Advanced Git & GitHub Collaboration
+# ⚙️ PHASE 10: MLOps & Data Engineering Essentials (Days 239–267)
+
+---
+
+### Day 239 — Advanced Git & GitHub Collaboration
 - **Tasks (3-4h):** Git branching strategies (GitFlow), rebase vs merge, interactive rebase, merge conflicts
-- **Output:** `232_git_workflow_guide.md`
+- **Output:** `239_git_workflow_guide.md`
 
-### Day 233 — SQL Essentials for Data Engineering
+### Day 240 — SQL Essentials for Data Engineering
 - **Tasks (3-4h):** SELECT, WHERE, GROUP BY, HAVING, ORDER BY, aggregate functions
-- **Output:** `233_sql_essentials.sql`
+- **Output:** `240_sql_essentials.sql`
 
-### Day 234 — Advanced SQL (Joins, CTEs, Windows)
+### Day 241 — Advanced SQL (Joins, CTEs, Windows)
 - **Tasks (3-4h):** INNER/LEFT/RIGHT/FULL JOINs, CTEs, Window Functions (ROW_NUMBER, RANK, LEAD/LAG)
-- **Output:** `234_advanced_sql_queries.sql`
+- **Output:** `241_advanced_sql_queries.sql`
 
-### Day 235 — Data Validation & Schema Integrity
+### Day 242 — Data Validation & Schema Integrity
 - **Tasks (3-4h):** Data quality checks, schema enforcement using Great Expectations or Pydantic
-- **Output:** `235_data_validation.py`
+- **Output:** `242_data_validation.py`
 
-### Day 236 — RESTful API Architecture Principles
+### Day 243 — RESTful API Architecture Principles
 - **Tasks (3-4h):** REST constraints, HTTP methods, status codes, request/response headers
-- **Output:** `236_rest_api_principles.md`
+- **Output:** `243_rest_api_principles.md`
 
-### Day 237 — Production Web Framework (FastAPI)
+### Day 244 — Production Web Framework (FastAPI)
 - **Tasks (3-4h):** FastAPI fundamentals, path/query parameters, request body schemas, Swagger docs
-- **Output:** `237_fastapi_basics.py`
+- **Output:** `244_fastapi_basics.py`
 
-### Day 238 — Data Validation with Pydantic
+### Day 245 — Data Validation with Pydantic
 - **Tasks (3-4h):** Pydantic BaseModel schemas, field validation, custom validators, type hints
-- **Output:** `238_pydantic_validation.py`
+- **Output:** `245_pydantic_validation.py`
 
-### Day 239 — High-Performance Model Serving
+### Day 246 — High-Performance Model Serving
 - **Tasks (3-4h):** Loading models at startup (lifespan), async endpoints, batching
-- **Output:** `239_fastapi_model_serving.py`
+- **Output:** `246_fastapi_model_serving.py`
 
-### Day 240 — Automated Unit Testing with pytest
+### Day 247 — Automated Unit Testing with pytest
 - **Tasks (3-4h):** Unit tests, assertions, fixtures (@pytest.fixture), mocking (unittest.mock)
-- **Output:** `240_pytest_suite.py`
+- **Output:** `247_pytest_suite.py`
 
-### Day 241 — Production Logging & Configuration
+### Day 248 — Production Logging & Configuration
 - **Tasks (3-4h):** Structured logging (loguru), environment variables (python-dotenv), config management
-- **Output:** `241_logging_config.py`
+- **Output:** `248_logging_config.py`
 
-### Day 242 — Docker Fundamentals & Containerization
+### Day 249 — Docker Fundamentals & Containerization
 - **Tasks (3-4h):** Containers vs VMs, Docker architecture, essential commands (build, run, ps, exec, stop)
-- **Output:** `242_docker_basics.sh`
+- **Output:** `249_docker_basics.sh`
 
-### Day 243 — Dockerizing Machine Learning Applications
+### Day 250 — Dockerizing Machine Learning Applications
 - **Tasks (3-4h):** Writing efficient Dockerfile: base image, WORKDIR, requirements.txt, CMD
-- **Output:** `243_Dockerfile_ml`
+- **Output:** `250_Dockerfile_ml`
 
-### Day 244 — Multi-Container Apps with Docker Compose
+### Day 251 — Multi-Container Apps with Docker Compose
 - **Tasks (3-4h):** docker-compose.yml syntax, services (API + Web UI + DB), networks, volumes
-- **Output:** `244_docker_compose.yml`
+- **Output:** `251_docker_compose.yml`
 
-### Day 245 — ML Experiment Tracking (MLflow)
+### Day 252 — ML Experiment Tracking (MLflow)
 - **Tasks (3-4h):** mlflow.log_param, mlflow.log_metric, mlflow.log_artifact, MLflow UI server
-- **Output:** `245_mlflow_tracking.py`
+- **Output:** `252_mlflow_tracking.py`
 
-### Day 246 — MLflow Model Registry & Lifecycle
+### Day 253 — MLflow Model Registry & Lifecycle
 - **Tasks (3-4h):** Registering models, stage transitions (Staging → Production → Archived)
-- **Output:** `246_mlflow_registry.py`
+- **Output:** `253_mlflow_registry.py`
 
-### Day 247 — Data Version Control (DVC)
+### Day 254 — Data Version Control (DVC)
 - **Tasks (3-4h):** dvc init, dvc add, remote storage (S3/GCP/local), Git + DVC synergy
-- **Output:** `247_dvc_setup.sh`
+- **Output:** `254_dvc_setup.sh`
 
-### Day 248 — Reproducible Pipelines with DVC
+### Day 255 — Reproducible Pipelines with DVC
 - **Tasks (3-4h):** dvc.yaml pipeline stages, dependency graphs, dvc repro
-- **Output:** `248_dvc.yaml`
+- **Output:** `255_dvc.yaml`
 
-### Day 249 — Continuous Integration / CD Concepts
+### Day 256 — Continuous Integration / CD Concepts
 - **Tasks (3-4h):** CI/CD principles, GitHub Actions architecture: workflows, jobs, steps, runners
-- **Output:** `249_cicd_concepts.md`
+- **Output:** `256_cicd_concepts.md`
 
-### Day 250 — Automated CI Workflow (GitHub Actions)
+### Day 257 — Automated CI Workflow (GitHub Actions)
 - **Tasks (3-4h):** Writing .github/workflows/ci.yml: linting (flake8/black), pytest on PR
-- **Output:** `250_ci_workflow.yml`
+- **Output:** `257_ci_workflow.yml`
 
-### Day 251 — Production Model Monitoring
+### Day 258 — Production Model Monitoring
 - **Tasks (3-4h):** Operational vs ML performance metrics, monitoring latency, throughput, error rates
-- **Output:** `251_model_monitoring_intro.md`
+- **Output:** `258_model_monitoring_intro.md`
 
-### Day 252 — Data Drift & Concept Drift Detection
+### Day 259 — A/B Testing & Experimentation Design
+- **Tasks (3-4h):** Statistical significance testing, sample size calculation, online vs offline evaluation, hypothesis testing for ML model comparisons
+- **Output:** `259_ab_testing_experimentation.ipynb`
+- **Topics:**
+  - A/B Testing fundamentals — split testing control vs treatment models in production
+  - Hypothesis testing for ML models — null hypothesis (H₀), alternative hypothesis (H₁)
+  - Statistical significance tests — two-sample t-test, Z-test, Chi-Square test
+  - Sample size determination — power analysis, significance level (α), statistical power (1-β), minimum detectable effect (MDE)
+  - Online vs Offline evaluation — metrics alignment (offline loss/F1 vs online CTR/conversion)
+  - Guardrail metrics, variance reduction techniques (CUPED), and preventing p-hacking
+
+### Day 260 — Data Drift & Concept Drift Detection
 - **Tasks (3-4h):** KS test, PSI, drift detection reports using Evidently AI
-- **Output:** `252_drift_detection.py`
+- **Output:** `260_drift_detection.py`
 
-### Day 253 — Cloud Deployment Architecture
+### Day 261 — Cloud Deployment Architecture
 - **Tasks (3-4h):** AWS EC2, S3, ECS / GCP Cloud Run, serverless container deployment
-- **Output:** `253_cloud_architecture.md`
+- **Output:** `261_cloud_architecture.md`
 
-### Day 254 — [PROJECT 5] MLOps Pipeline Setup
+### Day 262 — [PROJECT 5] MLOps Pipeline Setup
 - **Tasks (3-4h):** Scoping MLOps project: Git repo, DVC data tracking & MLflow server
 - **Output:** `Project_5/01_setup.sh`
 
-### Day 255 — [PROJECT 5] DVC Reproducible Pipeline
+### Day 263 — [PROJECT 5] DVC Reproducible Pipeline
 - **Output:** `Project_5/dvc.yaml`
 
-### Day 256 — [PROJECT 5] Experiment Tracking & Registry
+### Day 264 — [PROJECT 5] Experiment Tracking & Registry
 - **Output:** `Project_5/src/train.py`
 
-### Day 257 — [PROJECT 5] Containerization & Testing
+### Day 265 — [PROJECT 5] Containerization & Testing
 - **Output:** `Project_5/Dockerfile`
 
-### Day 258 — [PROJECT 5] CI/CD & Drift Monitoring
+### Day 266 — [PROJECT 5] CI/CD & Drift Monitoring
 - **Output:** `Project_5/.github/workflows/cd.yml`
 
 > 🏆 **Project 5 Complete — Production MLOps Pipeline**
 
-### Day 259 — MLOps & Engineering Revision
-- **Output:** `259_mlops_revision.md`
+### Day 267 — MLOps & Engineering Revision
+- **Output:** `267_mlops_revision.md`
 
 ---
 
-# ✨ PHASE 11: Generative AI, RAG & LLM Fine-Tuning (Days 260–308)
+# ✨ PHASE 11: Generative AI, RAG & LLM Fine-Tuning (Days 268–316)
 
 ---
 
-### Day 260 — Large Language Model (LLM) Foundations
+### Day 268 — Large Language Model (LLM) Foundations
 - **Tasks (3-4h):** Evolution from BERT/GPT to modern LLMs, Decoder-only dominance, emergent abilities
-- **Output:** `260_llm_foundations.md`
+- **Output:** `268_llm_foundations.md`
 
-### Day 261 — Pretraining & Compute Scaling Laws
+### Day 269 — Pretraining & Compute Scaling Laws
 - **Tasks (3-4h):** Pretraining datasets, Chinchilla scaling laws (20× tokens per parameter)
-- **Output:** `261_scaling_laws.md`
+- **Output:** `269_scaling_laws.md`
 
-### Day 262 — Modern LLM Tokenization Deep Dive
+### Day 270 — Modern LLM Tokenization Deep Dive
 - **Tasks (3-4h):** BPE, tiktoken library, handling special tokens
-- **Output:** `262_llm_tokenization.md`
+- **Output:** `270_llm_tokenization.md`
 
-### Day 263 — Context Windows & Positional Embeddings
+### Day 271 — Context Windows & Positional Embeddings
 - **Tasks (3-4h):** Absolute vs Relative positional encodings, RoPE, ALiBi, extending context windows
-- **Output:** `263_rope_context_windows.md`
+- **Output:** `271_rope_context_windows.md`
 
-### Day 264 — Key-Value (KV) Cache & Inference
+### Day 272 — Key-Value (KV) Cache & Inference
 - **Tasks (3-4h):** KV Cache mechanics, PagedAttention (vLLM)
-- **Output:** `264_kv_cache_mechanics.ipynb`
+- **Output:** `272_kv_cache_mechanics.ipynb`
 
-### Day 265 — Prompt Engineering Fundamentals
+### Day 273 — Prompt Engineering Fundamentals
 - **Tasks (3-4h):** System/User/Assistant messages, Zero-Shot, Few-Shot, Chain-of-Thought (CoT)
-- **Output:** `265_prompt_engineering.py`
+- **Output:** `273_prompt_engineering.py`
 
-### Day 266 — Advanced Prompting Techniques
+### Day 274 — Advanced Prompting Techniques
 - **Tasks (3-4h):** Tree-of-Thoughts (ToT), Self-Consistency, prompt chaining
-- **Output:** `266_advanced_prompting.py`
+- **Output:** `274_advanced_prompting.py`
 
-### Day 267 — Structured Output Generation
+### Day 275 — Structured Output Generation
 - **Tasks (3-4h):** Enforcing JSON output, Pydantic function parameters, instructor library
-- **Output:** `267_structured_outputs.py`
+- **Output:** `275_structured_outputs.py`
 
-### Day 268 — Systematic Prompt Evaluation Framework
+### Day 276 — Systematic Prompt Evaluation Framework
 - **Tasks (3-4h):** Prompt test suites, evaluating consistency, latency, correctness
-- **Output:** `268_prompt_evaluation.py`
+- **Output:** `276_prompt_evaluation.py`
 
-### Day 269 — Vector Embeddings for Generative AI
+### Day 277 — Vector Embeddings for Generative AI
 - **Tasks (3-4h):** Text embeddings, OpenAI vs sentence-transformers (BGE)
-- **Output:** `269_vector_embeddings.ipynb`
+- **Output:** `277_vector_embeddings.ipynb`
 
-### Day 270 — Vector Similarity Search Mathematics
+### Day 278 — Vector Similarity Search Mathematics
 - **Tasks (3-4h):** Euclidean Distance vs Cosine Similarity vs Dot Product math
-- **Output:** `270_similarity_metrics_math.ipynb`
+- **Output:** `278_similarity_metrics_math.ipynb`
 
-### Day 271 — Vector Indexing Algorithms (HNSW)
+### Day 279 — Vector Indexing Algorithms (HNSW)
 - **Tasks (3-4h):** Exact Search vs ANN: HNSW graph
-- **Output:** `271_hnsw_indexing_concepts.md`
+- **Output:** `279_hnsw_indexing_concepts.md`
 
-### Day 272 — Local Vector Search (FAISS)
+### Day 280 — Local Vector Search (FAISS)
 - **Tasks (3-4h):** IndexFlatL2, IndexIVFFlat, indexing & querying
-- **Output:** `272_faiss_vector_db.py`
+- **Output:** `280_faiss_vector_db.py`
 
-### Day 273 — Production Vector Databases (Chroma/Qdrant)
+### Day 281 — Production Vector Databases (Chroma/Qdrant)
 - **Tasks (3-4h):** Creating collections, adding document chunks + metadata, similarity queries
-- **Output:** `273_chroma_qdrant_lab.py`
+- **Output:** `281_chroma_qdrant_lab.py`
 
-### Day 274 — Retrieval-Augmented Generation (RAG)
+### Day 282 — Retrieval-Augmented Generation (RAG)
 - **Tasks (3-4h):** RAG architecture overview: overcoming hallucinations, knowledge cutoffs
-- **Output:** `274_rag_architecture_overview.md`
+- **Output:** `282_rag_architecture_overview.md`
 
-### Day 275 — Document Ingestion & ETL Pipelines
+### Day 283 — Document Ingestion & ETL Pipelines
 - **Tasks (3-4h):** Parsing PDFs, Markdown, HTML using Unstructured, PyPDF, LlamaIndex
-- **Output:** `275_document_ingestion.py`
+- **Output:** `283_document_ingestion.py`
 
-### Day 276 — Document Chunking Strategies
+### Day 284 — Document Chunking Strategies
 - **Tasks (3-4h):** Fixed-size vs Recursive Character vs Semantic chunking
-- **Output:** `276_chunking_strategies.py`
+- **Output:** `284_chunking_strategies.py`
 
-### Day 277 — Vector Retrieval & Context Injection
+### Day 285 — Vector Retrieval & Context Injection
 - **Tasks (3-4h):** Retrieving top-k chunks, constructing context-augmented prompt
-- **Output:** `277_vector_retrieval_injection.py`
+- **Output:** `285_vector_retrieval_injection.py`
 
-### Day 278 — End-to-End Basic RAG Pipeline
+### Day 286 — End-to-End Basic RAG Pipeline
 - **Tasks (3-4h):** Complete naive RAG: Ingest → Chunk → Embed → Store → Retrieve → Generate
-- **Output:** `278_basic_rag_pipeline.py`
+- **Output:** `286_basic_rag_pipeline.py`
 
-### Day 279 — Hybrid Search Architecture
+### Day 287 — Hybrid Search Architecture
 - **Tasks (3-4h):** BM25 + Dense Vector Search using Reciprocal Rank Fusion (RRF)
-- **Output:** `279_hybrid_search_bm25.py`
+- **Output:** `287_hybrid_search_bm25.py`
 
-### Day 280 — Query Transformation & Expansion
+### Day 288 — Query Transformation & Expansion
 - **Tasks (3-4h):** Query Rewriting, Multi-Query Generation
-- **Output:** `280_query_transformations.py`
+- **Output:** `288_query_transformations.py`
 
-### Day 281 — Hypothetical Document Embeddings (HyDE)
+### Day 289 — Hypothetical Document Embeddings (HyDE)
 - **Tasks (3-4h):** Generating hypothetical answer document via LLM for vector retrieval
-- **Output:** `281_hyde_retrieval.py`
+- **Output:** `289_hyde_retrieval.py`
 
-### Day 282 — Two-Stage Retrieval with Cross-Encoders
+### Day 290 — Two-Stage Retrieval with Cross-Encoders
 - **Tasks (3-4h):** Bi-Encoder (fast retrieval) + Cross-Encoder Reranking (Cohere/BGE-Reranker)
-- **Output:** `282_cross_encoder_reranking.py`
+- **Output:** `290_cross_encoder_reranking.py`
 
-### Day 283 — Contextual Compression & Summarization
+### Day 291 — Contextual Compression & Summarization
 - **Tasks (3-4h):** Filtering irrelevant sentences from retrieved chunks before prompt injection
-- **Output:** `283_contextual_compression.py`
+- **Output:** `291_contextual_compression.py`
 
-### Day 284 — Advanced Production RAG Pipeline
+### Day 292 — Advanced Production RAG Pipeline
 - **Tasks (3-4h):** Combining Hybrid Search + Query Rewriting + Cross-Encoder Reranking
-- **Output:** `284_advanced_rag_pipeline.py`
+- **Output:** `292_advanced_rag_pipeline.py`
 
-### Day 285 — RAG Evaluation Frameworks
+### Day 293 — RAG Evaluation Frameworks
 - **Tasks (3-4h):** Context Precision, Context Recall, Faithfulness, Answer Relevance
-- **Output:** `285_rag_evaluation_intro.md`
+- **Output:** `293_rag_evaluation_intro.md`
 
-### Day 286 — Automated RAG Evaluation with RAGAS
+### Day 294 — Automated RAG Evaluation with RAGAS
 - **Tasks (3-4h):** Running RAGAS evaluation library, computing quantitative scores
-- **Output:** `286_ragas_evaluation_lab.py`
+- **Output:** `294_ragas_evaluation_lab.py`
 
-### Day 287 — Prompt Injection & Guardrails
+### Day 295 — Prompt Injection & Guardrails
 - **Tasks (3-4h):** Defending against Prompt Injection, NeMo Guardrails / Llama Guard
-- **Output:** `287_prompt_security_guardrails.py`
+- **Output:** `295_prompt_security_guardrails.py`
 
-### Day 288 — LLM Safety, Moderation & PII Masking
+### Day 296 — LLM Safety, Moderation & PII Masking
 - **Tasks (3-4h):** OpenAI Moderation API, PII detection & masking using Presidio
-- **Output:** `288_pii_masking_moderation.py`
+- **Output:** `296_pii_masking_moderation.py`
 
-### Day 289 — Decision Matrix: RAG vs Fine-Tuning
+### Day 297 — Decision Matrix: RAG vs Fine-Tuning
 - **Tasks (3-4h):** When to use Prompt Engineering vs RAG vs Fine-Tuning vs Training from Scratch
-- **Output:** `289_rag_vs_finetuning_matrix.md`
+- **Output:** `297_rag_vs_finetuning_matrix.md`
 
-### Day 290 — Parameter-Efficient Fine-Tuning (PEFT)
+### Day 298 — Parameter-Efficient Fine-Tuning (PEFT)
 - **Tasks (3-4h):** Full Fine-Tuning bottlenecks vs PEFT (Adapters, Prefix Tuning, LoRA)
-- **Output:** `290_peft_concepts.md`
+- **Output:** `298_peft_concepts.md`
 
-### Day 291 — Low-Rank Adaptation (LoRA) Mathematics
+### Day 299 — Low-Rank Adaptation (LoRA) Mathematics
 - **Tasks (3-4h):** W = W₀ + (α/r)·B·A, rank decomposition, alpha scaling
-- **Output:** `291_lora_math_derivation.pdf`
+- **Output:** `299_lora_math_derivation.pdf`
 
-### Day 292 — Quantized LoRA (QLoRA) & Quantization
+### Day 300 — Quantized LoRA (QLoRA) & Quantization
 - **Tasks (3-4h):** 4-bit NF4, Double Quantization, Paged Optimizers, QLoRA architecture
-- **Output:** `292_qlora_quantization.md`
+- **Output:** `300_qlora_quantization.md`
 
-### Day 293 — Model Quantization Techniques (GGUF/AWQ)
+### Day 301 — Model Quantization Techniques (GGUF/AWQ)
 - **Tasks (3-4h):** PTQ: FP16 → INT8 → INT4, GGUF format, AWQ, GPTQ concepts
-- **Output:** `293_quantization_gguf_awq.md`
+- **Output:** `301_quantization_gguf_awq.md`
 
-### Day 294 — QLoRA Fine-Tuning Hands-On Lab
+### Day 302 — QLoRA Fine-Tuning Hands-On Lab
 - **Tasks (3-4h):** Fine-tuning Llama-3 / Mistral 7B using peft, bitsandbytes, TRL SFTTrainer
-- **Output:** `294_qlora_finetuning_lab.py`
+- **Output:** `302_qlora_finetuning_lab.py`
 
-### Day 295 — LLM API Integration & Function Calling
+### Day 303 — LLM API Integration & Function Calling
 - **Tasks (3-4h):** OpenAI / Anthropic API, function JSON schemas, execution loop
-- **Output:** `295_function_calling_loop.py`
+- **Output:** `303_function_calling_loop.py`
 
-### Day 296 — Structured Function Calling Workflows
+### Day 304 — Structured Function Calling Workflows
 - **Tasks (3-4h):** Parsing complex tool outputs, multi-tool selection, parameter validation
-- **Output:** `296_structured_function_calling.py`
+- **Output:** `304_structured_function_calling.py`
 
-### Day 297 — Streaming Tokens in Web Applications
+### Day 305 — Streaming Tokens in Web Applications
 - **Tasks (3-4h):** Server-Sent Events (SSE), streaming LLM responses in FastAPI & Streamlit
-- **Output:** `297_streaming_fastapi.py`
+- **Output:** `305_streaming_fastapi.py`
 
-### Day 298 — Semantic Caching for LLM Queries
+### Day 306 — Semantic Caching for LLM Queries
 - **Tasks (3-4h):** GPTCache / Redis semantic cache for cost & latency reduction
-- **Output:** `298_semantic_caching.py`
+- **Output:** `306_semantic_caching.py`
 
-### Day 299 — [PROJECT 6] Advanced RAG System Setup
+### Day 307 — [PROJECT 6] Advanced RAG System Setup
 - **Output:** `Project_6/01_scoping.md`
 
-### Day 300 — [PROJECT 6] Ingestion & Vector Pipeline
+### Day 308 — [PROJECT 6] Ingestion & Vector Pipeline
 - **Output:** `Project_6/src/ingest.py`
 
-### Day 301 — [PROJECT 6] Advanced Retrieval & Rerank
+### Day 309 — [PROJECT 6] Advanced Retrieval & Rerank
 - **Output:** `Project_6/src/retriever.py`
 
-### Day 302 — [PROJECT 6] Generation & Guardrails
+### Day 310 — [PROJECT 6] Generation & Guardrails
 - **Output:** `Project_6/src/generator.py`
 
-### Day 303 — [PROJECT 6] RAGAS Systematic Evaluation
+### Day 311 — [PROJECT 6] RAGAS Systematic Evaluation
 - **Output:** `Project_6/02_ragas_eval.ipynb`
 
-### Day 304 — [PROJECT 6] Observability Integration
+### Day 312 — [PROJECT 6] Observability Integration
 - **Output:** `Project_6/src/observability.py`
 
-### Day 305 — [PROJECT 6] FastAPI Backend & Streaming UI
+### Day 313 — [PROJECT 6] FastAPI Backend & Streaming UI
 - **Output:** `Project_6/app/main.py`
 
-### Day 306 — [PROJECT 6] Dockerization & Deployment
+### Day 314 — [PROJECT 6] Dockerization & Deployment
 - **Output:** `Project_6/Dockerfile + Live URL`
 
-### Day 307 — [PROJECT 6] Production Observability Audit
+### Day 315 — [PROJECT 6] Production Observability Audit
 - **Output:** `Project_6/README.md`
 
 > 🏆 **Project 6 Complete — Advanced Production RAG System**
 
-### Day 308 — Generative AI & RAG Phase Revision
-- **Output:** `308_genai_revision.md`
+### Day 316 — Generative AI & RAG Phase Revision
+- **Output:** `316_genai_revision.md`
 
 ---
 
-# 🤖 PHASE 12: Agentic AI Systems & Multi-Agent Workflows (Days 309–336)
+# 🤖 PHASE 12: Agentic AI Systems & Multi-Agent Workflows (Days 317–344)
 
 ---
 
-### Day 309 — Agentic AI Fundamentals
+### Day 317 — Agentic AI Fundamentals
 - **Tasks (3-4h):** Chains vs Autonomous Agents, Perception-Reasoning-Action loop, agent autonomy spectrum
-- **Output:** `309_agentic_ai_intro.md`
+- **Output:** `317_agentic_ai_intro.md`
 
-### Day 310 — Tool Calling & Execution Mechanics
+### Day 318 — Tool Calling & Execution Mechanics
 - **Tasks (3-4h):** Agent tool bindings, translating NL into tool arguments, execution sandboxing
-- **Output:** `310_tool_calling_mechanics.py`
+- **Output:** `318_tool_calling_mechanics.py`
 
-### Day 311 — Tool Schema Design & Error Handling
+### Day 319 — Tool Schema Design & Error Handling
 - **Tasks (3-4h):** Pydantic tool schemas, error feedback loops to LLM for self-correction
-- **Output:** `311_tool_schema_design.py`
+- **Output:** `319_tool_schema_design.py`
 
-### Day 312 — ReAct Reasoning Framework
+### Day 320 — ReAct Reasoning Framework
 - **Tasks (3-4h):** Reason-Act: Thought → Action → Observation execution loops
-- **Output:** `312_react_agent_from_scratch.py`
+- **Output:** `320_react_agent_from_scratch.py`
 
-### Day 313 — Planning & Goal Decomposition
+### Day 321 — Planning & Goal Decomposition
 - **Tasks (3-4h):** Task Decomposition, Sub-goal Generation, Refinement & Reflection
-- **Output:** `313_plan_and_solve_agent.py`
+- **Output:** `321_plan_and_solve_agent.py`
 
-### Day 314 — Agent Memory Systems
+### Day 322 — Agent Memory Systems
 - **Tasks (3-4h):** Short-Term (Context Window) vs Long-Term Memory (Vector DB / Key-Value Store)
-- **Output:** `314_agent_memory_systems.py`
+- **Output:** `322_agent_memory_systems.py`
 
-### Day 315 — Stateful Agent Graphs (LangGraph)
+### Day 323 — Stateful Agent Graphs (LangGraph)
 - **Tasks (3-4h):** Why DAGs fail for complex agents: Cyclic graphs, LangGraph state machines
-- **Output:** `315_langgraph_concepts.md`
+- **Output:** `323_langgraph_concepts.md`
 
-### Day 316 — LangGraph Architecture
+### Day 324 — LangGraph Architecture
 - **Tasks (3-4h):** StateGraph, TypedDict State, Nodes, Edges, START and END
-- **Output:** `316_langgraph_basics.py`
+- **Output:** `324_langgraph_basics.py`
 
-### Day 317 — Conditional Routing in Graphs
+### Day 325 — Conditional Routing in Graphs
 - **Tasks (3-4h):** add_conditional_edges, Router functions, dynamic state-based branching
-- **Output:** `317_langgraph_routing.py`
+- **Output:** `325_langgraph_routing.py`
 
-### Day 318 — Graph State Persistence & Checkpoints
+### Day 326 — Graph State Persistence & Checkpoints
 - **Tasks (3-4h):** MemorySaver checkpointer, thread-based tracking, time-travel debugging
-- **Output:** `318_langgraph_persistence.py`
+- **Output:** `326_langgraph_persistence.py`
 
-### Day 319 — Human-in-the-Loop (HITL) Workflows
+### Day 327 — Human-in-the-Loop (HITL) Workflows
 - **Tasks (3-4h):** Graph interrupt nodes (interrupt_before), human approval for sensitive tools
-- **Output:** `319_langgraph_hitl.py`
+- **Output:** `327_langgraph_hitl.py`
 
-### Day 320 — Parallel Node Execution & Subgraphs
+### Day 328 — Parallel Node Execution & Subgraphs
 - **Tasks (3-4h):** Parallel branches (asyncio), nesting subgraphs within parent graphs
-- **Output:** `320_parallel_subgraphs.py`
+- **Output:** `328_parallel_subgraphs.py`
 
-### Day 321 — Agent Error Recovery & Fallbacks
+### Day 329 — Agent Error Recovery & Fallbacks
 - **Tasks (3-4h):** Circuit breakers, max iteration limits, infinite loop prevention, fallback routing
-- **Output:** `321_agent_error_handling.py`
+- **Output:** `329_agent_error_handling.py`
 
-### Day 322 — Multi-Agent Systems Architecture
+### Day 330 — Multi-Agent Systems Architecture
 - **Tasks (3-4h):** Single Agent bottlenecks vs Multi-Agent Specialization, message routing
-- **Output:** `322_multi_agent_architectures.md`
+- **Output:** `330_multi_agent_architectures.md`
 
-### Day 323 — Multi-Agent Supervisor Pattern
+### Day 331 — Multi-Agent Supervisor Pattern
 - **Tasks (3-4h):** Supervisor / Router pattern: orchestration agent delegating to worker agents
-- **Output:** `323_supervisor_multi_agent.py`
+- **Output:** `331_supervisor_multi_agent.py`
 
-### Day 324 — Model Context Protocol (MCP)
+### Day 332 — Model Context Protocol (MCP)
 - **Tasks (3-4h):** MCP standards, Host-Client-Server relationship
-- **Output:** `324_mcp_fundamentals.md`
+- **Output:** `332_mcp_fundamentals.md`
 
-### Day 325 — Model Context Protocol (MCP) Integration
+### Day 333 — Model Context Protocol (MCP) Integration
 - **Tasks (3-4h):** Building custom MCP Server, connecting to LangGraph Client
-- **Output:** `325_mcp_server_client.py`
+- **Output:** `333_mcp_server_client.py`
 
-### Day 326 — Agent Systematic Evaluation
+### Day 334 — Agent Systematic Evaluation
 - **Tasks (3-4h):** Goal Completion Rate, Tool Selection Accuracy, Trajectory Efficiency
-- **Output:** `326_agent_evaluation_metrics.md`
+- **Output:** `334_agent_evaluation_metrics.md`
 
-### Day 327 — LLM-as-a-Judge Evaluation
+### Day 335 — LLM-as-a-Judge Evaluation
 - **Tasks (3-4h):** Automated evaluation using strong LLM as judge to rate agent trajectories
-- **Output:** `327_llm_as_judge_eval.py`
+- **Output:** `335_llm_as_judge_eval.py`
 
-### Day 328 — Agent Security & Action Guardrails
+### Day 336 — Agent Security & Action Guardrails
 - **Tasks (3-4h):** Sandboxing code execution, preventing prompt injection tool hijack, rate limiting
-- **Output:** `328_agent_security_sandboxing.py`
+- **Output:** `336_agent_security_sandboxing.py`
 
-### Day 329 — [PROJECT 7] Agentic AI System Setup
+### Day 337 — [PROJECT 7] Agentic AI System Setup
 - **Output:** `Project_7/01_scoping.md`
 
-### Day 330 — [PROJECT 7] Tool Suite & Sandbox Build
+### Day 338 — [PROJECT 7] Tool Suite & Sandbox Build
 - **Output:** `Project_7/src/tools.py`
 
-### Day 331 — [PROJECT 7] LangGraph Workflow Construction
+### Day 339 — [PROJECT 7] LangGraph Workflow Construction
 - **Output:** `Project_7/src/agent.py`
 
-### Day 332 — [PROJECT 7] HITL & Multi-Agent Orchestration
+### Day 340 — [PROJECT 7] HITL & Multi-Agent Orchestration
 - **Output:** `Project_7/src/graph_advanced.py`
 
-### Day 333 — [PROJECT 7] MCP Integration
+### Day 341 — [PROJECT 7] MCP Integration
 - **Output:** `Project_7/src/mcp_integration.py`
 
-### Day 334 — [PROJECT 7] Agent Trajectory Evaluation
+### Day 342 — [PROJECT 7] Agent Trajectory Evaluation
 - **Output:** `Project_7/02_trajectory_eval.ipynb`
 
-### Day 335 — [PROJECT 7] Production FastAPI & UI Deploy
+### Day 343 — [PROJECT 7] Production FastAPI & UI Deploy
 - **Output:** `Project_7/app/main.py`
 
 > 🏆 **Project 7 Complete — Production Agentic AI System**
 
-### Day 336 — Agentic AI Systems Revision
-- **Output:** `336_agentic_ai_revision.md`
+### Day 344 — Agentic AI Systems Revision
+- **Output:** `344_agentic_ai_revision.md`
 
 ---
 
-# 🧠 PHASE 13: Reinforcement Learning Fundamentals (Days 337–350)
+# 🧠 PHASE 13: Reinforcement Learning Fundamentals (Days 345–358)
 
 ---
 
-### Day 337 — Reinforcement Learning Fundamentals
+### Day 345 — Reinforcement Learning Fundamentals
 - **Tasks (3-4h):** Agent, Environment, State (S), Action (A), Reward (R), Policy (π), Return (G_t), Discount (γ)
-- **Output:** `337_rl_concepts_intro.md`
+- **Output:** `345_rl_concepts_intro.md`
 
-### Day 338 — Markov Decision Processes (MDP)
+### Day 346 — Markov Decision Processes (MDP)
 - **Tasks (3-4h):** Markov Property, State Transition Probability Matrix, MDP formulation
-- **Output:** `338_mdp_formulation.md`
+- **Output:** `346_mdp_formulation.md`
 
-### Day 339 — Bellman Equations Intuition
+### Day 347 — Bellman Equations Intuition
 - **Tasks (3-4h):** Value Function V(s), Action-Value Q(s,a), Bellman Expectation & Optimality Equations
-- **Output:** `339_bellman_equations_math.pdf`
+- **Output:** `347_bellman_equations_math.pdf`
 
-### Day 340 — Dynamic Programming Concepts
+### Day 348 — Dynamic Programming Concepts
 - **Tasks (3-4h):** Policy Evaluation, Policy Iteration, Value Iteration (Gridworld)
-- **Output:** `340_dynamic_programming_rl.ipynb`
+- **Output:** `348_dynamic_programming_rl.ipynb`
 
-### Day 341 — Monte Carlo Methods for RL
+### Day 349 — Monte Carlo Methods for RL
 - **Tasks (3-4h):** Model-free RL, First-visit vs Every-visit MC, Monte Carlo Control
-- **Output:** `341_monte_carlo_rl.ipynb`
+- **Output:** `349_monte_carlo_rl.ipynb`
 
-### Day 342 — Temporal-Difference (TD) Learning
+### Day 350 — Temporal-Difference (TD) Learning
 - **Tasks (3-4h):** TD Error δ_t = R_{t+1} + γ·V(S_{t+1}) - V(S_t), TD(0) vs Monte Carlo
-- **Output:** `342_td_learning_math.ipynb`
+- **Output:** `350_td_learning_math.ipynb`
 
-### Day 343 — Q-Learning Algorithm (Off-Policy)
+### Day 351 — Q-Learning Algorithm (Off-Policy)
 - **Tasks (3-4h):** Q(S,A) ← Q(S,A) + α[R + γ·max_a Q(S',a) - Q(S,A)], Q-Table
-- **Output:** `343_q_learning_scratch.py`
+- **Output:** `351_q_learning_scratch.py`
 
-### Day 344 — SARSA Algorithm (On-Policy)
+### Day 352 — SARSA Algorithm (On-Policy)
 - **Tasks (3-4h):** SARSA update rule, On-policy vs Off-policy comparison
-- **Output:** `344_sarsa_scratch.py`
+- **Output:** `352_sarsa_scratch.py`
 
-### Day 345 — Exploration vs Exploitation
+### Day 353 — Exploration vs Exploitation
 - **Tasks (3-4h):** ε-Greedy, Decaying ε, Upper Confidence Bound (UCB)
-- **Output:** `345_exploration_vs_exploitation.py`
+- **Output:** `353_exploration_vs_exploitation.py`
 
-### Day 346 — Gymnasium Environment Workflow
+### Day 354 — Gymnasium Environment Workflow
 - **Tasks (3-4h):** env.reset(), env.step(action), observation/action spaces
-- **Output:** `346_gymnasium_workflow.py`
+- **Output:** `354_gymnasium_workflow.py`
 
-### Day 347 — Deep Q-Networks (DQN) Intuition
+### Day 355 — Deep Q-Networks (DQN) Intuition
 - **Tasks (3-4h):** Scaling Q-Learning with Neural Networks, Replay Buffer, Target Net
-- **Output:** `347_dqn_architecture_concepts.md`
+- **Output:** `355_dqn_architecture_concepts.md`
 
-### Day 348 — DQN Implementation Guided Lab
+### Day 356 — DQN Implementation Guided Lab
 - **Tasks (3-4h):** DQN in PyTorch to solve CartPole-v1
-- **Output:** `348_dqn_cartpole_pytorch.py`
+- **Output:** `356_dqn_cartpole_pytorch.py`
 
-### Day 349 — Policy Gradients & PPO Overview
+### Day 357 — Policy Gradients & PPO Overview
 - **Tasks (3-4h):** Value-based vs Policy-based RL, REINFORCE, PPO intuition
-- **Output:** `349_policy_gradients_ppo.md`
+- **Output:** `357_policy_gradients_ppo.md`
 
-### Day 350 — RL Mini-Project & Phase Revision
+### Day 358 — RL Mini-Project & Phase Revision
 - **Tasks (3-4h):** Training RL agent on Gymnasium, logging reward curves, RL interview Q&A
-- **Output:** `350_rl_miniproject_revision.ipynb`
+- **Output:** `358_rl_miniproject_revision.ipynb`
 
 ---
 
-# 🚀 PHASE 14: LLMOps, Production Capstone & Career Readiness (Days 351–365)
+# 🚀 PHASE 14: LLMOps, Production Capstone & Career Readiness (Days 359–374)
 
 ---
 
-### Day 351 — LLM Observability Platforms
+### Day 359 — LLM Observability Platforms
 - **Tasks (3-4h):** Production tracing with Langfuse / Arize Phoenix — latency, token costs, traces
-- **Output:** `351_langfuse_observability.py`
+- **Output:** `359_langfuse_observability.py`
 
-### Day 352 — Prompt Versioning & Experimentation
+### Day 360 — Prompt Versioning & Experimentation
 - **Tasks (3-4h):** Prompt templates as code, version control, performance tracking
-- **Output:** `352_prompt_version_tracking.py`
+- **Output:** `360_prompt_version_tracking.py`
 
-### Day 353 — Production Vector DB Scaling
+### Day 361 — Production Vector DB Scaling
 - **Tasks (3-4h):** Sharding, HNSW tuning, memory management for millions of vectors
-- **Output:** `353_vector_db_scaling_guide.md`
+- **Output:** `361_vector_db_scaling_guide.md`
 
-### Day 354 — Latency & Cost Optimization
+### Day 362 — Latency & Cost Optimization
 - **Tasks (3-4h):** Token optimization, model size selection (8B vs 70B), batch vs streaming
-- **Output:** `354_cost_latency_optimization.md`
+- **Output:** `362_cost_latency_optimization.md`
 
-### Day 355 — Production Caching & Rate Limiting
+### Day 363 — Production Caching & Rate Limiting
 - **Tasks (3-4h):** Redis-backed rate limiting, multi-level caching (Exact + Semantic)
-- **Output:** `355_rate_limiting_caching.py`
+- **Output:** `363_rate_limiting_caching.py`
 
-### Day 356 — Fallback & Retry Strategies
+### Day 364 — Fallback & Retry Strategies
 - **Tasks (3-4h):** Exponential backoff, fallback cascades (Primary → Backup → Local Model)
-- **Output:** `356_resilient_llm_fallbacks.py`
+- **Output:** `364_resilient_llm_fallbacks.py`
 
-### Day 357 — Production Evaluation Pipelines
+### Day 365 — Production Evaluation Pipelines
 - **Tasks (3-4h):** CI/CD evaluation: LLM-as-a-Judge and regression tests on PRs
-- **Output:** `357_prod_eval_pipeline.py`
+- **Output:** `365_prod_eval_pipeline.py`
 
-### Day 358 — Security, Secrets & Access Control
+### Day 366 — Security, Secrets & Access Control
 - **Tasks (3-4h):** API key rotation, RBAC, secret vaults, data privacy compliance
-- **Output:** `358_production_security.md`
+- **Output:** `366_production_security.md`
 
-### Day 359 — [FINAL CAPSTONE] Architecture Design
+### Day 367 — Responsible AI — Bias & Fairness
+- **Tasks (3-4h):** Fairness metrics (demographic parity, equalized odds), bias detection in training data, model cards documentation
+- **Output:** `367_responsible_ai_fairness.ipynb`
+- **Topics:**
+  - Responsible AI principles — fairness, accountability, transparency, ethics
+  - Fairness metrics — Demographic Parity, Equalized Odds, Equal Opportunity, Disparate Impact Ratio
+  - Bias detection & mitigation — pre-processing (reweighing), in-processing (fair constraints), post-processing (threshold adjustment)
+  - Data bias auditing — representation bias, historical bias, measurement bias in datasets
+  - Model Cards — standardized documentation for model capabilities, limitations, and evaluation metrics
+  - Compliance & governance — AI ethics guidelines, safety auditing frameworks
+
+### Day 368 — [FINAL CAPSTONE] Architecture Design
 - **Tasks (3-4h):** System Design for Flagship Capstone (Multi-Agent + RAG + MLOps + Observability)
 - **Output:** `Capstone/01_system_architecture.png`
 
-### Day 360 — [FINAL CAPSTONE] Core System Build
+### Day 369 — [FINAL CAPSTONE] Core System Build
 - **Tasks (3-4h):** Implementing core AI engines, data pipelines, vector DBs, LangGraph graphs, tools
 - **Output:** `Capstone/src/core_engine.py`
 
-### Day 361 — [FINAL CAPSTONE] Evaluation & Safety
+### Day 370 — [FINAL CAPSTONE] Evaluation & Safety
 - **Tasks (3-4h):** RAGAS evaluation, LLM-as-judge, NeMo Guardrails, PII masking
 - **Output:** `Capstone/src/safety_eval.py`
 
-### Day 362 — [FINAL CAPSTONE] E2E Cloud Deployment
+### Day 371 — [FINAL CAPSTONE] E2E Cloud Deployment
 - **Tasks (3-4h):** Docker Compose multi-service stack, cloud deployment, Langfuse observability
 - **Output:** `Capstone/docker-compose.yml + Live URL`
 
 > 🏆 **Project 8 Complete — Enterprise Production AI System (Flagship Capstone)**
 
-### Day 363 — Portfolio Optimization & GitHub Polish
+### Day 372 — Portfolio Optimization & GitHub Polish
 - **Tasks (3-4h):** Auditing GitHub profile, polishing READMEs with architecture diagrams & Loom demos
-- **Output:** `363_portfolio_audit.md`
+- **Output:** `372_portfolio_audit.md`
 
-### Day 364 — Master Technical Interview Review
+### Day 373 — Master Technical Interview Review
 - **Tasks (3-4h):** Comprehensive review: ML math, Deep Learning, PyTorch, Transformers, System Design, LLM Engineering
-- **Output:** `364_master_interview_cheat_sheet.md`
+- **Output:** `373_master_interview_cheat_sheet.md`
 
-### Day 365 — Final Mock Interview & Skills Audit
+### Day 374 — Final Mock Interview & Skills Audit
 - **Tasks (3-4h):** Comprehensive 3-hour technical mock interview, auditing 1-year progress against industry standards
-- **Output:** `365_final_skills_audit_completed.md`
+- **Output:** `374_final_skills_audit_completed.md`
 
 ---
 
@@ -2549,5 +2643,5 @@
 
 ---
 
-> **🎯 End of 365-Day AI/ML Engineer Master Roadmap — Final Merged Version**
-> **Sahil Kumar (Yd) — BTech CSE (AI/ML), DAV University, Jalandhar**
+> **🎯 End of 365-Day AI/ML Engineer Master Roadmap**
+> **Sahil Kumar (Sky) — BTech CSE (AI/ML), DAV University, Jalandhar**

@@ -341,12 +341,19 @@ elif app_mode == "Model Analytics & Specs":
     
     st.markdown("""
     ### 🏗️ Pipeline Components
+<<<<<<< HEAD
     1. **Data Cleaner**: Standardizes numerical fields (`TotalCharges`), handles missing values.
     2. **ColumnTransformer**:
        - `StandardScaler()` on numerical columns (`SeniorCitizen`, `tenure`, `MonthlyCharges`, `TotalCharges`).
        - `OneHotEncoder(drop='first', handle_unknown='ignore')` on categorical columns.
     3. **SMOTE**: Oversamples minority class (Churn=1) to address class imbalance.
     4. **Classifier**: `XGBClassifier(n_estimators=100, learning_rate=0.1, max_depth=3)`.
+=======
+    1. **ColumnTransformer (Preprocessor)**:
+       - `StandardScaler()` on numerical columns (`tenure`, `MonthlyCharges`, `TotalCharges`).
+       - `OneHotEncoder(handle_unknown='ignore')` on categorical columns (`gender`, `SeniorCitizen`, `Partner`, `Dependents`, `PhoneService`, `MultipleLines`, `InternetService`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, `StreamingMovies`, `Contract`, `PaperlessBilling`, `PaymentMethod`).
+    2. **Classifier**: Tuned `XGBClassifier` via `RandomizedSearchCV` (best params: `n_estimators=200`, `max_depth=5`, `learning_rate=0.05`).
+>>>>>>> 7a994c5 (chore: clean roadmap structure, sync day ranges with master curriculum, remove tracking and merge notes)
     """)
     
     if model is not None:
