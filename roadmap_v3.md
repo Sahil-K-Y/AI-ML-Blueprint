@@ -1230,7 +1230,8 @@
   - Representation quality — cluster separation in latent space
   - Comparison with PCA — non-linear vs linear representations
 
-### Day 111 — Docker Fundamentals
+### Day 111 — Docker Fundamentals (Pre-Project Intro)
+> 📌 **Intro-level only** — Production Docker (multi-stage builds, Docker Compose, image optimization) is covered in depth in Phase 10 (Days 249–251)
 - **Tasks (3-4h):** Containers vs VMs, Docker architecture, essential commands (build, run, ps, exec, stop)
 - **Output:** `111_docker_basics.sh`
 - **Topics:**
@@ -1240,7 +1241,8 @@
   - Dockerfile basics — FROM, WORKDIR, COPY, RUN, CMD, EXPOSE
   - Container lifecycle — created, running, paused, stopped, exited
 
-### Day 112 — FastAPI Fundamentals
+### Day 112 — FastAPI Fundamentals (Pre-Project Intro)
+> 📌 **Intro-level only** — Production FastAPI (async endpoints, lifespan, model serving, batching) is covered in depth in Phase 10 (Days 244–246)
 - **Tasks (3-4h):** Path/query parameters, request body schemas, Swagger docs
 - **Output:** `112_fastapi_basics.py`
 - **Topics:**
@@ -1659,44 +1661,104 @@
   - Segmentation prediction visualization — overlay masks on images
 
 ### Day 153 — [PROJECT 3] CV System Planning
-- **Tasks (3-4h):** Scoping CV project (e.g., Custom Defect Detection using YOLOv8 or Medical Image U-Net)
+- **Tasks (3-4h):** Scoping CV project (YOLOv8 object detection OR U-Net segmentation), defining success metrics, dataset sourcing
 - **Output:** `Project_3/01_scoping.md`
+- **Topics:**
+  - PROJECT 3 — Choose task: YOLOv8 detection (defects, objects) OR U-Net segmentation (medical, satellite)
+  - Dataset sourcing — Roboflow public datasets, Kaggle CV, or self-annotated images
+  - Success metric definition — mAP@50 target (detection) or Dice Score target (segmentation)
+  - Repository structure — src/, data/, models/, app/ folder scaffolding
+  - Technology stack — YOLOv8/PyTorch + Albumentations + ONNX + FastAPI + Docker
 
 ### Day 154 — [PROJECT 3] Data Pipeline & Annotations
-- **Tasks (3-4h):** Dataset preparation, labeling via Roboflow/Label Studio, applying Albumentations pipeline
+- **Tasks (3-4h):** Dataset preparation, annotation via Roboflow/Label Studio, building Albumentations augmentation pipeline
 - **Output:** `Project_3/src/dataset.py`
+- **Topics:**
+  - PROJECT 3 — Annotation tooling setup (Roboflow or Label Studio)
+  - Bounding box / mask annotation — YOLO .txt format or mask PNG format
+  - Albumentations pipeline — spatial transforms (flip, rotate, crop) + color jitter
+  - Train/val/test split strategy — 70/20/10 with class balance verification
+  - Dataset integrity check — class distribution histogram, annotation count per class
 
 ### Day 155 — [PROJECT 3] Model Baseline Training
-- **Tasks (3-4h):** Training baseline model, verifying loss convergence, logging experiment parameters
+- **Tasks (3-4h):** Training baseline pretrained model, verifying loss convergence, logging to WandB
 - **Output:** `Project_3/src/train_baseline.py`
+- **Topics:**
+  - PROJECT 3 — Baseline: YOLOv8n pretrained OR U-Net with ImageNet encoder
+  - WandB logging — box/seg loss curves, mAP/Dice per epoch
+  - Loss convergence verification — checking box loss, class loss, DFL loss (YOLO)
+  - Overfitting diagnosis — train vs validation metric gap
+  - Baseline metric recording — document mAP@50 or Dice as benchmark reference
 
 ### Day 156 — [PROJECT 3] Model Fine-Tuning
-- **Tasks (3-4h):** Fine-tuning model backbone, hyperparameter search, optimizing anchor/input resolution
+- **Tasks (3-4h):** Fine-tuning backbone layers, Optuna hyperparameter search (lr, batch, imgsz), anchor optimization
 - **Output:** `Project_3/src/train_advanced.py`
+- **Topics:**
+  - PROJECT 3 — Selective backbone unfreezing (freeze N layers, train rest)
+  - Optuna hyperparameter search — learning rate, batch size, input resolution
+  - Anchor optimization (YOLO) — re-clustering anchor sizes for custom dataset objects
+  - Differential learning rates — lower LR for backbone, higher for head
+  - Improvement tracking — % gain over baseline mAP@50 or Dice score
 
 ### Day 157 — [PROJECT 3] Quantitative Evaluation
-- **Tasks (3-4h):** Computing mAP scores, Confusion Matrix, IoU distribution plots across validation set
+- **Tasks (3-4h):** Computing mAP@50, mAP@50-95, per-class precision/recall, IoU distribution plots
 - **Output:** `Project_3/02_evaluation.ipynb`
+- **Topics:**
+  - PROJECT 3 — mAP@50 and mAP@50-95 computation on held-out test set
+  - Per-class precision, recall, F1 breakdown — identifying weak classes
+  - Confusion matrix heatmap — TP, FP, FN distribution per class
+  - IoU distribution histogram — quality of overlap across all detections
+  - Failure mode identification — low-confidence predictions, missed objects
 
 ### Day 158 — [PROJECT 3] Grad-CAM & Error Diagnostics
-- **Tasks (3-4h):** Visualizing Grad-CAM attention heatmaps to debug misclassifications and false positives
+- **Tasks (3-4h):** Grad-CAM heatmaps via pytorch-grad-cam, FP/FN diagnostic analysis
 - **Output:** `Project_3/03_gradcam_diagnostics.ipynb`
+- **Topics:**
+  - PROJECT 3 — Grad-CAM visualization (pytorch-grad-cam library)
+  - Attention region analysis — is model focusing on correct object region?
+  - False Positive diagnosis — what background patterns trigger incorrect detections?
+  - False Negative diagnosis — what causes missed ground truth objects?
+  - Data/annotation fix recommendations — based on systematic error patterns
 
 ### Day 159 — [PROJECT 3] Real-Time Inference Module
-- **Tasks (3-4h):** Building low-latency OpenCV inference pipeline with bounding box/mask overlay drawing
+- **Tasks (3-4h):** OpenCV video inference pipeline, bounding box/mask overlay drawing, FPS benchmarking
 - **Output:** `Project_3/src/infer.py`
+- **Topics:**
+  - PROJECT 3 — OpenCV video capture pipeline (cv2.VideoCapture)
+  - Frame-by-frame inference — model.predict() per frame with confidence threshold
+  - Bounding box drawing — cv2.rectangle + cv2.putText for class labels
+  - FPS counter implementation — measuring real-time throughput
+  - Confidence and NMS filtering — suppressing low-quality detections
 
 ### Day 160 — [PROJECT 3] FastAPI Service & UI
-- **Tasks (3-4h):** Wrapping model inside FastAPI app (/detect endpoint), creating Streamlit upload UI
+- **Tasks (3-4h):** FastAPI /detect endpoint (image upload), Streamlit upload UI with annotated result display
 - **Output:** `Project_3/app/main.py`
+- **Topics:**
+  - PROJECT 3 — FastAPI /detect endpoint accepting multipart/form-data image upload
+  - Image decoding — bytes → NumPy array → model inference
+  - JSON response schema — bounding boxes (x1,y1,x2,y2), class label, confidence score
+  - Streamlit UI — file uploader widget, POST to backend, display annotated result image
+  - API testing — Swagger UI (/docs) and curl/httpx verification
 
 ### Day 161 — [PROJECT 3] Dockerization & ONNX Export
-- **Tasks (3-4h):** Exporting PyTorch model to ONNX Runtime for 2-3× speedup, writing multi-stage Dockerfile
+- **Tasks (3-4h):** ONNX model export, ONNX Runtime inference (2-3× speedup), multi-stage Dockerfile
 - **Output:** `Project_3/Dockerfile`
+- **Topics:**
+  - PROJECT 3 — ONNX export: model.export(format='onnx') or torch.onnx.export()
+  - ONNX Runtime inference — replacing PyTorch with ort.InferenceSession for serving
+  - Latency benchmark — PyTorch CPU vs ONNX CPU inference time comparison
+  - Multi-stage Dockerfile — builder stage (install deps) + slim runtime stage
+  - Docker image size optimization — .dockerignore, minimal base image, no dev packages
 
 ### Day 162 — [PROJECT 3] Cloud Deployment
-- **Tasks (3-4h):** Deploying containerized CV microservice to AWS/GCP or HuggingFace Spaces
+- **Tasks (3-4h):** Deploy containerized CV service to HuggingFace Spaces or Render, record demo video, write README
 - **Output:** `Project_3/README.md + Live URL`
+- **Topics:**
+  - PROJECT 3 — Platform selection: HuggingFace Spaces (Docker SDK, free tier) or Render
+  - Docker push and deploy — docker push to registry + platform deployment config
+  - Demo video recording — 2-3 min Loom walkthrough of live detection system
+  - README.md — architecture diagram, dataset description, mAP results, live demo link
+  - GitHub portfolio polish — repo description, topics/tags, screenshot in README
 
 > 🏆 **Project 3 Complete — Computer Vision System**
 
@@ -1798,12 +1860,6 @@
 - **Tasks (3-4h):** Reviewing LSTM gate math, GRU equations, BPTT, packed sequences, and attention alignment
 - **Output:** `185_sequence_revision.md`
 
----
-
-# 🟤 PHASE 9: NLP & Transformer Ecosystem (Days 190–238)
-
----
-
 ### Day 186 — Recommender Systems: Collaborative Filtering
 - **Tasks (3-4h):** User-based & Item-based Collaborative Filtering, similarity metrics (Cosine, Pearson correlation), user-item interaction matrix
 - **Output:** `186_collaborative_filtering.ipynb`
@@ -1847,6 +1903,12 @@
   - Cumulative Gain (CG) & Discounted Cumulative Gain (DCG) — position-weighted relevance
   - Normalized Discounted Cumulative Gain (NDCG) — DCG normalized by Ideal DCG (IDCG)
   - Beyond accuracy metrics — coverage, diversity, novelty, and serendipity
+
+---
+
+# 🟤 PHASE 9: NLP & Transformer Ecosystem (Days 190–238)
+
+---
 
 ### Day 190 — Natural Language Processing Pipeline
 - **Tasks (3-4h):** Text cleaning: lowercasing, regex filtering, stopword removal, stemming (Porter) vs lemmatization (WordNet)
@@ -1993,36 +2055,84 @@
 - **Output:** `225_contrastive_nlp.ipynb`
 
 ### Day 226 — [PROJECT 4] Transformer NLP Setup
-- **Tasks (3-4h):** Scoping NLP project (Multi-label Intent Classification or Domain-Specific NER)
+- **Tasks (3-4h):** Scoping NLP project (Multi-label Intent Classification or Domain-Specific NER), dataset sourcing
 - **Output:** `Project_4/01_scoping.md`
+- **Topics:**
+  - PROJECT 4 — Choose task: Multi-label classification OR domain-specific NER
+  - Dataset sourcing — HuggingFace datasets, Kaggle NLP, or scraped domain text
+  - Baseline metric target — macro F1 for classification, entity-level F1 for NER
+  - Pretrained model selection — RoBERTa-base vs DeBERTa-v3-small (tradeoff: accuracy vs speed)
+  - Repository structure — src/, data/, models/, app/ scaffolding
 
 ### Day 227 — [PROJECT 4] Data Pipeline & Tokenization
-- **Tasks (3-4h):** Dataset cleaning, tokenization with AutoTokenizer, creating splits
+- **Tasks (3-4h):** Dataset cleaning, AutoTokenizer tokenization with dynamic padding, train/val/test splits
 - **Output:** `Project_4/src/dataset.py`
+- **Topics:**
+  - PROJECT 4 — Text cleaning pipeline (lowercasing, regex, deduplication)
+  - AutoTokenizer — fast tokenization with truncation and max_length
+  - Dynamic padding — DataCollatorWithPadding for efficient batch padding
+  - Label encoding — multi-label binarizer or BIO tagging for NER
+  - HuggingFace datasets format — converting to Dataset/DatasetDict with splits
 
 ### Day 228 — [PROJECT 4] Baseline Classical NLP
-- **Tasks (3-4h):** Training TF-IDF + Logistic Regression baseline
+- **Tasks (3-4h):** TF-IDF + Logistic Regression baseline, establishing minimum performance bar
 - **Output:** `Project_4/src/baseline.py`
+- **Topics:**
+  - PROJECT 4 — TF-IDF vectorization (unigrams + bigrams, max_features=50000)
+  - Logistic Regression / SVM baseline training
+  - Baseline metric recording — macro F1 as reference for transformer comparison
+  - Error analysis on baseline — which classes/entities are hardest?
+  - Why baseline matters — quantifying transformer's actual improvement
 
 ### Day 229 — [PROJECT 4] Transformer Fine-Tuning
-- **Tasks (3-4h):** Fine-tuning RoBERTa/DeBERTa using Trainer API with WandB tracking
+- **Tasks (3-4h):** Fine-tuning RoBERTa/DeBERTa using HuggingFace Trainer API with WandB experiment tracking
 - **Output:** `Project_4/src/train.py`
+- **Topics:**
+  - PROJECT 4 — AutoModelForSequenceClassification or AutoModelForTokenClassification
+  - TrainingArguments — learning rate (2e-5), warmup ratio, weight decay, eval strategy
+  - WandB integration — logging loss, F1, learning rate per step
+  - Early stopping callback — EarlyStoppingCallback on eval F1
+  - Gradient checkpointing — reducing VRAM usage for larger models
 
 ### Day 230 — [PROJECT 4] Quantitative Evaluation
-- **Tasks (3-4h):** Per-class Precision, Recall, F1-Score, confusion matrix analysis
+- **Tasks (3-4h):** Per-class Precision, Recall, F1-Score, confusion matrix, baseline vs transformer comparison
 - **Output:** `Project_4/02_evaluation.ipynb`
+- **Topics:**
+  - PROJECT 4 — seqeval library for NER entity-level F1 evaluation
+  - Per-class F1 breakdown — identifying low-performing classes/entities
+  - Confusion matrix heatmap — classification errors visualization
+  - Baseline vs transformer comparison table — F1 delta quantification
+  - Calibration check — are predicted probabilities well-calibrated?
 
 ### Day 231 — [PROJECT 4] Error Diagnostics & Analysis
-- **Tasks (3-4h):** Diagnostic analysis on misclassified text samples, edge cases
+- **Tasks (3-4h):** Systematic misclassification analysis, edge case identification, confidence score analysis
 - **Output:** `Project_4/03_error_analysis.ipynb`
+- **Topics:**
+  - PROJECT 4 — Sorting misclassified samples by prediction confidence
+  - Confusion pattern analysis — common co-confused class pairs
+  - Text length analysis — do errors correlate with short/long inputs?
+  - OOD (out-of-distribution) text detection — unusual vocabulary in errors
+  - Targeted fix strategies — data augmentation or label correction recommendations
 
 ### Day 232 — [PROJECT 4] FastAPI & Streamlit UI
-- **Tasks (3-4h):** Building production FastAPI REST endpoint with batch inference & Streamlit UI
+- **Tasks (3-4h):** Production FastAPI /predict endpoint with batch inference support, Streamlit interactive UI
 - **Output:** `Project_4/app/main.py`
+- **Topics:**
+  - PROJECT 4 — FastAPI /predict endpoint with Pydantic request/response schemas
+  - Batch inference support — accepting list of texts in single request
+  - Model loading at startup — lifespan event for efficient initialization
+  - Streamlit UI — text input box, submit button, prediction result with confidence
+  - Error handling — graceful response for empty/too-long inputs
 
 ### Day 233 — [PROJECT 4] Containerization & Cloud Deploy
-- **Tasks (3-4h):** Writing multi-stage Dockerfile, deploying NLP microservice
+- **Tasks (3-4h):** Multi-stage Dockerfile, deploying NLP microservice, demo recording, README
 - **Output:** `Project_4/Dockerfile + Live URL`
+- **Topics:**
+  - PROJECT 4 — Multi-stage Dockerfile (model download stage + slim runtime stage)
+  - HuggingFace model caching — embedding model weights in image vs downloading at startup
+  - Cloud deployment — HuggingFace Spaces (Docker) or Render free tier
+  - README.md — task description, model card, F1 results table, live demo link
+  - Portfolio presentation — architecture diagram, WandB training curves screenshot
 
 > 🏆 **Project 4 Complete — Transformer NLP Application**
 
@@ -2067,9 +2177,9 @@
 - **Tasks (3-4h):** REST constraints, HTTP methods, status codes, request/response headers
 - **Output:** `243_rest_api_principles.md`
 
-### Day 244 — Production Web Framework (FastAPI)
-- **Tasks (3-4h):** FastAPI fundamentals, path/query parameters, request body schemas, Swagger docs
-- **Output:** `244_fastapi_basics.py`
+### Day 244 — Production FastAPI — Async Endpoints, Middleware & Lifespan
+- **Tasks (3-4h):** Async endpoints, middleware (CORS, logging), background tasks, exception handlers, lifespan model loading (builds on Day 112 intro)
+- **Output:** `244_fastapi_production.py`
 
 ### Day 245 — Data Validation with Pydantic
 - **Tasks (3-4h):** Pydantic BaseModel schemas, field validation, custom validators, type hints
@@ -2087,9 +2197,9 @@
 - **Tasks (3-4h):** Structured logging (loguru), environment variables (python-dotenv), config management
 - **Output:** `248_logging_config.py`
 
-### Day 249 — Docker Fundamentals & Containerization
-- **Tasks (3-4h):** Containers vs VMs, Docker architecture, essential commands (build, run, ps, exec, stop)
-- **Output:** `249_docker_basics.sh`
+### Day 249 — Production Docker — Multi-Stage Builds & Image Optimization
+- **Tasks (3-4h):** Multi-stage Dockerfiles for lean production images, layer caching strategy, .dockerignore, building ML app containers (builds on Day 111 intro)
+- **Output:** `249_docker_production.sh`
 
 ### Day 250 — Dockerizing Machine Learning Applications
 - **Tasks (3-4h):** Writing efficient Dockerfile: base image, WORKDIR, requirements.txt, CMD
@@ -2147,20 +2257,54 @@
 - **Output:** `261_cloud_architecture.md`
 
 ### Day 262 — [PROJECT 5] MLOps Pipeline Setup
-- **Tasks (3-4h):** Scoping MLOps project: Git repo, DVC data tracking & MLflow server
+- **Tasks (3-4h):** Scoping MLOps project, initializing Git repo with DVC, setting up local MLflow tracking server
 - **Output:** `Project_5/01_setup.sh`
+- **Topics:**
+  - PROJECT 5 — Choose a tabular/NLP model to wrap in full MLOps pipeline
+  - Git repo initialization — branching strategy, .gitignore for data/models
+  - DVC init — setting up DVC with local or S3 remote storage
+  - MLflow server startup — mlflow server --host 0.0.0.0 --port 5000
+  - Project structure — src/, data/, models/, .github/workflows/ scaffolding
 
 ### Day 263 — [PROJECT 5] DVC Reproducible Pipeline
+- **Tasks (3-4h):** Defining dvc.yaml pipeline stages (prepare → train → evaluate), dvc repro verification
 - **Output:** `Project_5/dvc.yaml`
+- **Topics:**
+  - PROJECT 5 — dvc.yaml stage definitions: cmd, deps, params, outs
+  - Pipeline stages: data_prepare → feature_engineer → train → evaluate
+  - params.yaml — externalizing hyperparameters for reproducibility
+  - dvc repro — running full pipeline, caching intermediate outputs
+  - dvc dag — visualizing pipeline dependency graph
 
 ### Day 264 — [PROJECT 5] Experiment Tracking & Registry
+- **Tasks (3-4h):** MLflow logging (params, metrics, artifacts), registering best model to MLflow Model Registry
 - **Output:** `Project_5/src/train.py`
+- **Topics:**
+  - PROJECT 5 — mlflow.start_run() context for experiment logging
+  - Logging params — mlflow.log_params(hyperparameters dict)
+  - Logging metrics — mlflow.log_metric() per epoch or final score
+  - Artifact logging — mlflow.log_artifact() for model file and plots
+  - Model Registry — registering model, transitioning to Staging → Production
 
 ### Day 265 — [PROJECT 5] Containerization & Testing
+- **Tasks (3-4h):** Multi-stage Dockerfile for ML service, pytest suite for pipeline functions
 - **Output:** `Project_5/Dockerfile`
+- **Topics:**
+  - PROJECT 5 — Multi-stage Dockerfile for lean ML serving container
+  - pytest test suite — testing preprocessing transforms, inference outputs
+  - Test coverage — preprocessing, model loading, prediction shape checks
+  - docker build + docker run — local container verification
+  - Environment reproducibility — requirements.txt pinned versions
 
 ### Day 266 — [PROJECT 5] CI/CD & Drift Monitoring
+- **Tasks (3-4h):** GitHub Actions CI (lint + test on PR), Evidently AI drift report on validation data
 - **Output:** `Project_5/.github/workflows/cd.yml`
+- **Topics:**
+  - PROJECT 5 — GitHub Actions workflow: trigger on PR to main
+  - CI pipeline steps — checkout → install deps → flake8 lint → pytest
+  - CD pipeline — build Docker image → push to registry → deploy
+  - Evidently AI drift report — data drift + target drift detection on new batches
+  - Drift alert threshold — flagging when PSI or KS-test exceeds threshold
 
 > 🏆 **Project 5 Complete — Production MLOps Pipeline**
 
@@ -2476,6 +2620,7 @@
 ---
 
 # 🧠 PHASE 13: Reinforcement Learning Fundamentals (Days 345–358)
+> ⚡ **Scope Note:** This is an **awareness-level introduction** to RL — enough to discuss MDP, Q-Learning, DQN, and RLHF confidently in interviews and understand LLM fine-tuning context. For production game/robotics RL, extend this phase independently beyond the roadmap.
 
 ---
 
@@ -2639,7 +2784,7 @@
 | 17 | 2\ |A∩B\| / (\|A\| + \|B\|)` | Dice Coefficient |
 | 18 | `exp(zᵢ) / Σexp(zⱼ)` | Softmax Function |
 | 19 | `W = W₀ + (α/r)·B·A` | LoRA Weight Update |
-| 20 | `exp(zᵢ) / Σexp(zⱼ)` | Softmax Function |
+| 20 | `G_t = R_{t+1} + γ·G_{t+1}` | RL Discounted Return |
 
 ---
 
